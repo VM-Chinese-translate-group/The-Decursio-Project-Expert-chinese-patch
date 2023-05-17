@@ -1,0 +1,13 @@
+{
+  "item.wateringcans.watering_can_basic": "Basic Watering Can",
+  "item.wateringcans.watering_can_copper": "Copper Watering Can",
+  "item.wateringcans.watering_can_quartz": "Quartz Watering Can",
+  "item.wateringcans.watering_can_diamond": "Diamond Watering Can",
+  "item.wateringcans.watering_can_ender": "Ender Watering Can",
+  "item.wateringcans.watering_can_aquamarine": "Aquamarine Watering Can",
+
+  "tooltip.wateringcans.water": "Water: %s/%s",
+  "tooltip.wateringcans.radius": "Radius: %s",
+  "tooltip.wateringcans.harvest": "Autoharvest",
+  "tooltip.wateringcans.chance": "Chance per second: %s%%"
+}

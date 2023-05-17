@@ -1,7 +1,7 @@
 # Modpack Name 汉化补丁
 CurseForge|Modrinth|Modpack Version|Status
 :-|:-|:-|:-
-[ModpackName]()|[ModpackName]()|Version|*Active*|
+[The Decursio Project - Expert](https://www.curseforge.com/minecraft/modpacks/decursio-project)|[无]()|r1.0.5|*Active*|
 # 译者
 查看贡献者列表以获得完整译者名单
 # 鸣谢

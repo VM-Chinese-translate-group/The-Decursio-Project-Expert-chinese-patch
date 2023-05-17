@@ -1,0 +1,1274 @@
+{
+	id: "267F74AA195250B5"
+	group: "52BC1523CD35BD71"
+	order_index: 1
+	filename: "arcane_1"
+	title: "{chapters.arcane_1.title}"
+	icon: "eidolon:crucible"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{chapters.arcane_1.quests1.title}"
+			icon: "quark:purple_candle"
+			x: -10.0d
+			y: 3.0d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests1.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests1.description1}"
+				""
+				"{chapters.arcane_1.quests1.description2}"
+				""
+				"{chapters.arcane_1.quests1.description3}"
+				""
+				"{chapters.arcane_1.quests1.description4}"
+				"{chapters.arcane_1.quests1.description5}"
+			]
+			dependencies: ["6EC2AAB1C3022A4E"]
+			id: "2456A6DB1ADA4325"
+			tasks: [{
+				id: "153E78E2D5339E96"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests1.tasks.title}"
+				icon: "eidolon:codex"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 7.0d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests2.subtitle}"
+			dependencies: [
+				"6EC2AAB1C3022A4E"
+				"20565A3484CED967"
+			]
+			id: "3BC1CFB22EDA4D74"
+			tasks: [{
+				id: "4263C9DB02B11425"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests3.title}"
+			x: -5.5d
+			y: 7.0d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests3.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests3.description1}"
+				""
+				"{chapters.arcane_1.quests3.description2}"
+				""
+				"{chapters.arcane_1.quests3.description3}"
+				""
+				"{chapters.arcane_1.quests3.description4}"
+				""
+				"{chapters.arcane_1.quests3.description5}"
+				""
+				"{chapters.arcane_1.quests3.description6}"
+				""
+				"{chapters.arcane_1.quests3.description7}"
+				""
+				"{chapters.arcane_1.quests3.description8}"
+				""
+				"{chapters.arcane_1.quests3.description9}"
+			]
+			dependencies: [
+				"3BC1CFB22EDA4D74"
+				"20565A3484CED967"
+			]
+			id: "2045087C068870F6"
+			tasks: [{
+				id: "19B637F8DBADC266"
+				type: "item"
+				item: "decursiomod:crucible"
+			}]
+			rewards: [{
+				id: "24A17BA3B61424DF"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests4.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests4.description1}"
+				""
+				"{chapters.arcane_1.quests4.description2}"
+				""
+				"{chapters.arcane_1.quests4.description3}"
+				""
+				"{chapters.arcane_1.quests4.description4}"
+			]
+			dependencies: ["3BC1CFB22EDA4D74"]
+			id: "077199D0B5C0CEDD"
+			tasks: [
+				{
+					id: "3604073606808091"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "26BCCE6B839E4A33"
+					type: "item"
+					item: "eidolon:stone_hand"
+				}
+			]
+		}
+		{
+			title: "{chapters.arcane_1.quests5.title}"
+			icon: "eidolon:straw_effigy"
+			x: -8.5d
+			y: 4.0d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests5.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests5.description1}"
+				""
+				"{chapters.arcane_1.quests5.description2}"
+			]
+			dependencies: ["6EC2AAB1C3022A4E"]
+			id: "062676BF5584EBAF"
+			tasks: [
+				{
+					id: "0982225C707334B8"
+					type: "item"
+					item: "eidolon:straw_effigy"
+				}
+				{
+					id: "6B87D9C3F21659CD"
+					type: "item"
+					item: "eidolon:wooden_altar"
+					count: 6L
+				}
+			]
+		}
+		{
+			title: "{chapters.arcane_1.quests6.title}"
+			x: -4.0d
+			y: 4.5d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests6.subtitle}"
+			dependencies: ["077199D0B5C0CEDD"]
+			id: "25F5B4F662D9D463"
+			tasks: [{
+				id: "7293339A967A2199"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+			rewards: [{
+				id: "500E408365F9FB60"
+				type: "loot"
+				table_id: 5206766833681472091L
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests7.title}"
+			icon: "minecraft:rotten_flesh"
+			x: 0.5d
+			y: 7.0d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests7.subtitle}"
+			dependencies: ["077199D0B5C0CEDD"]
+			hide: true
+			id: "6C9CAADFE5A90425"
+			tasks: [{
+				id: "4C2E1029C17163E5"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests7.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests8.title}"
+			icon: {
+				id: "minecraft:carrot_on_a_stick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests8.subtitle}"
+			dependencies: ["077199D0B5C0CEDD"]
+			hide: true
+			id: "7D14BCF66D2DB5A3"
+			tasks: [{
+				id: "1EF9A6D7AB645D5E"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests8.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests9.title}"
+			icon: {
+				id: "minecraft:shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 9.5d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests9.subtitle}"
+			dependencies: ["077199D0B5C0CEDD"]
+			hide: true
+			id: "4637154018BEA850"
+			tasks: [{
+				id: "4C880FC7F635A490"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests9.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests10.title}"
+			icon: "minecraft:emerald"
+			x: -0.5d
+			y: 9.0d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests10.subtitle}"
+			dependencies: ["077199D0B5C0CEDD"]
+			hide: true
+			id: "7BED423E12729F77"
+			tasks: [{
+				id: "031F1C00809104AE"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests10.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests11.title}"
+			icon: "minecraft:sunflower"
+			x: 0.0d
+			y: 8.0d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests11.subtitle}"
+			dependencies: ["077199D0B5C0CEDD"]
+			hide: true
+			id: "066D9FF41D5AC16D"
+			tasks: [{
+				id: "3553D7A3E8FEC7C4"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests11.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests12.title}"
+			icon: "minecraft:black_dye"
+			x: -1.5d
+			y: 4.5d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests12.subtitle}"
+			dependencies: ["077199D0B5C0CEDD"]
+			hide: true
+			id: "26DB2FC033FCD6DD"
+			tasks: [{
+				id: "74B616662D15F760"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests12.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests13.title}"
+			icon: "minecraft:golden_apple"
+			x: 0.0d
+			y: 6.0d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests13.subtitle}"
+			dependencies: ["077199D0B5C0CEDD"]
+			hide: true
+			id: "4D1DC1162086FA25"
+			tasks: [{
+				id: "17388FD9C49533C8"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests13.tasks.title}"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 10.0d
+			shape: "diamond"
+			subtitle: "{chapters.arcane_1.quests14.subtitle}"
+			dependencies: ["39FF7B69E755AC45"]
+			hide: false
+			id: "52FD71220EF8CF35"
+			tasks: [{
+				id: "084EA5D4CBF556FD"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+			rewards: [
+				{
+					id: "65292845F0531745"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+				{
+					id: "1A6FDAE7036987FA"
+					type: "item"
+					item: "eidolon:zombie_heart"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "{chapters.arcane_1.quests15.subtitle}"
+			dependencies: [
+				"2045087C068870F6"
+				"25F5B4F662D9D463"
+			]
+			size: 1.5d
+			id: "54A9CA62C88CA53A"
+			tasks: [{
+				id: "6618856211E26444"
+				type: "item"
+				item: "eidolon:arcane_gold_ingot"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 10.0d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests16.subtitle}"
+			dependencies: ["3BC1CFB22EDA4D74"]
+			id: "2672CC97E79EB5DE"
+			tasks: [{
+				id: "73BAC545213CE338"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests17.title}"
+			icon: "eidolon:goblet"
+			x: -8.5d
+			y: 2.0d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests17.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests17.description1}"
+				""
+				"{chapters.arcane_1.quests17.description2}"
+				""
+				"{chapters.arcane_1.quests17.description3}"
+				""
+				"{chapters.arcane_1.quests17.description4}"
+				""
+				"{chapters.arcane_1.quests17.description5}"
+				""
+				"{chapters.arcane_1.quests1.description3}"
+				""
+				"{chapters.arcane_1.quests17.description7}"
+				""
+				"{chapters.arcane_1.quests17.description8}"
+				""
+				"{chapters.arcane_1.quests17.description9}"
+				""
+				"{chapters.arcane_1.quests17.description10}"
+			]
+			dependencies: [
+				"54A9CA62C88CA53A"
+				"7FB44F8893DD2EDA"
+			]
+			id: "670E9235F59D0482"
+			tasks: [{
+				id: "190701363BCF2DA2"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+			rewards: [{
+				id: "683126830BE99956"
+				type: "loot"
+				table_id: 5206766833681472091L
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests18.title}"
+			icon: "eidolon:unholy_symbol"
+			x: -8.5d
+			y: 1.0d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests18.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests18.description1}"
+				"{chapters.arcane_1.quests18.description2}"
+				"{chapters.arcane_1.quests18.description3}"
+				""
+				"{chapters.arcane_1.quests18.description4}"
+				""
+				"{chapters.arcane_1.quests18.description5}"
+				""
+				"{chapters.arcane_1.quests17.description9}"
+				""
+				"{chapters.arcane_1.quests18.description7}"
+			]
+			dependencies: ["420788C63E156433"]
+			id: "08BEA27B64FD36C4"
+			tasks: [{
+				id: "7A69BD0F928FF600"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+			rewards: [{
+				id: "5EE867DE6B793988"
+				type: "loot"
+				table_id: 5206766833681472091L
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests19.title}"
+			x: -7.0d
+			y: 1.0d
+			shape: "diamond"
+			subtitle: "{chapters.arcane_1.quests19.subtitle}"
+			hide_dependency_lines: false
+			dependencies: [
+				"08BEA27B64FD36C4"
+				"133FDA76CD0F6764"
+				"0492A1CDFB26CAE1"
+			]
+			size: 2.0d
+			id: "35A42F33FE263878"
+			tasks: [{
+				id: "1E4BF62320216E7D"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "360B35A976312B4A"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+				{
+					id: "0BF83657D8B80616"
+					type: "item"
+					item: "eidolon:wraith_heart"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "{chapters.arcane_1.quests20.title}"
+			icon: "minecraft:wither_skeleton_skull"
+			x: -7.0d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests20.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests20.description1}"
+				"{chapters.arcane_1.quests18.description2}"
+				"{chapters.arcane_1.quests20.description3}"
+				""
+				"{chapters.arcane_1.quests20.description4}"
+				""
+				"{chapters.arcane_1.quests20.description5}"
+				"{chapters.arcane_1.quests20.description6}"
+				"{chapters.arcane_1.quests20.description7}"
+				""
+				"{chapters.arcane_1.quests20.description8}"
+				""
+				"{chapters.arcane_1.quests20.description9}"
+				""
+				"{chapters.arcane_1.quests20.description10}"
+			]
+			dependencies: ["062676BF5584EBAF"]
+			id: "7E34CC523DAA6101"
+			tasks: [{
+				id: "72D9E514F968A425"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests20.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests21.title}"
+			icon: "minecraft:wither_rose"
+			x: -7.0d
+			y: 3.0d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests21.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests21.description1}"
+				""
+				"{chapters.arcane_1.quests21.description2}"
+				""
+				"{chapters.arcane_1.quests21.description3}"
+				""
+				"{chapters.arcane_1.quests21.description4}"
+				"{chapters.arcane_1.quests21.description5}"
+				"{chapters.arcane_1.quests21.description6}"
+				""
+				"{chapters.arcane_1.quests21.description7}"
+				""
+				"{chapters.arcane_1.quests21.description8}"
+				""
+				"{chapters.arcane_1.quests21.description9}"
+			]
+			dependencies: ["062676BF5584EBAF"]
+			id: "5C31F2197CB4FD40"
+			tasks: [{
+				id: "0C520EBB567FB905"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests21.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests22.title}"
+			icon: {
+				id: "eidolon:warlock_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -8.5d
+			y: 3.0d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests22.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests22.description1}"
+				""
+				"{chapters.arcane_1.quests22.description2}"
+				""
+				"{chapters.arcane_1.quests22.description3}"
+				""
+				"{chapters.arcane_1.quests1.description3}"
+				""
+				"{chapters.arcane_1.quests22.description5}"
+				""
+				"{chapters.arcane_1.quests22.description6}"
+				""
+				"{chapters.arcane_1.quests22.description7}"
+			]
+			dependencies: [
+				"062676BF5584EBAF"
+				"2456A6DB1ADA4325"
+			]
+			id: "3F0D14B22A5EB455"
+			tasks: [{
+				id: "64D922B5C9B51804"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests22.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests23.title}"
+			icon: "quark:red_candle"
+			x: -10.0d
+			y: 2.0d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests23.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests23.description1}"
+				""
+				"{chapters.arcane_1.quests23.description2}"
+				""
+				"{chapters.arcane_1.quests1.description3}"
+			]
+			dependencies: ["3F0D14B22A5EB455"]
+			id: "7FB44F8893DD2EDA"
+			tasks: [{
+				id: "167FC25FDF3D34B8"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests23.title}"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests24.title}"
+			icon: "quark:pink_candle"
+			x: -10.0d
+			y: 1.0d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests24.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests24.description1}"
+				""
+				"{chapters.arcane_1.quests24.description2}"
+				""
+				"{chapters.arcane_1.quests1.description3}"
+			]
+			dependencies: ["670E9235F59D0482"]
+			id: "420788C63E156433"
+			tasks: [{
+				id: "355DF8EAF91EDAAB"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests24.title}"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 10.0d
+			shape: "diamond"
+			subtitle: "{chapters.arcane_1.quests25.subtitle}"
+			dependencies: ["39FF7B69E755AC45"]
+			id: "03E1A8C6F933631D"
+			tasks: [{
+				id: "558E496268511DF9"
+				type: "item"
+				item: "eidolon:shadow_gem"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "{chapters.arcane_1.quests26.subtitle}"
+			dependencies: ["08BEA27B64FD36C4"]
+			id: "5BE9A7D51A671963"
+			tasks: [{
+				id: "29DE87061C821C47"
+				type: "item"
+				item: "eidolon:wicked_weave"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests27.title}"
+			icon: "eidolon:codex"
+			x: -10.0d
+			y: 5.5d
+			shape: "square"
+			subtitle: "{chapters.arcane_1.quests27.subtitle}"
+			dependencies: ["3073595C53701173"]
+			size: 1.5d
+			id: "6EC2AAB1C3022A4E"
+			tasks: [{
+				id: "0F6FD1B3516126DE"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests27.tasks.title}"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			shape: "diamond"
+			subtitle: "{chapters.arcane_1.quests28.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests28.description1}"
+				""
+				"{chapters.arcane_1.quests28.description2}"
+			]
+			dependencies: ["077199D0B5C0CEDD"]
+			id: "0492A1CDFB26CAE1"
+			tasks: [{
+				id: "1AF7C9964A50482A"
+				type: "item"
+				item: "eidolon:necrotic_focus"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests29.title}"
+			icon: "minecraft:gunpowder"
+			x: -7.0d
+			y: 9.0d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests29.subtitle}"
+			dependencies: ["39FF7B69E755AC45"]
+			id: "1144E4662B06D336"
+			tasks: [{
+				id: "38DD6B7C681E414C"
+				type: "item"
+				item: "eidolon:sulfur"
+				count: 2L
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests30.title}"
+			icon: "minecraft:leather"
+			x: -4.0d
+			y: 9.0d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests30.subtitle}"
+			dependencies: ["39FF7B69E755AC45"]
+			id: "2827864A806E7C9A"
+			tasks: [{
+				id: "3B0F6F43F77C37A3"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests30.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests31.title}"
+			x: -11.5d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests31.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests31.description1}"
+				""
+				"{chapters.arcane_1.quests31.description2}"
+				""
+				"{chapters.arcane_1.quests17.description9}"
+				""
+				"{chapters.arcane_1.quests31.description4}"
+			]
+			dependencies: ["420788C63E156433"]
+			hide: true
+			id: "21378F7407807CD1"
+			tasks: [{
+				id: "0C7EF1454B16FF47"
+				type: "item"
+				item: "hexblades:elemental_core"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests32.title}"
+			icon: "quark:yellow_candle"
+			x: -11.5d
+			y: 5.5d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests32.subtitle}"
+			dependencies: ["6EC2AAB1C3022A4E"]
+			id: "64E6FC921A976B54"
+			tasks: [{
+				id: "3500E32AC8369D66"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests32.tasks.title}"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			subtitle: "{chapters.arcane_1.quests33.subtitle}"
+			dependencies: ["25F5B4F662D9D463"]
+			id: "3CAC453CACF9E802"
+			tasks: [{
+				id: "6C4D11F527961AD6"
+				type: "item"
+				item: "hexblades:soul_candy"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests34.title}"
+			icon: "eidolon:unholy_effigy"
+			x: -9.0d
+			y: -0.5d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests34.subtitle}"
+			dependencies: ["08BEA27B64FD36C4"]
+			id: "2701C525448FFD03"
+			tasks: [
+				{
+					id: "47C4859A8E3F4F1E"
+					type: "item"
+					item: "eidolon:unholy_effigy"
+				}
+				{
+					id: "124A7791E0061315"
+					type: "item"
+					item: "eidolon:stone_altar"
+					count: 6L
+				}
+			]
+		}
+		{
+			title: "{chapters.arcane_1.quests35.title}"
+			icon: {
+				id: "artifacts:villager_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -10.0d
+			y: -0.5d
+			subtitle: "{chapters.arcane_1.quests35.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests35.description1}"
+				""
+				"{chapters.arcane_1.quests17.description9}"
+				""
+				"{chapters.arcane_1.quests35.description3}"
+			]
+			dependencies: ["2701C525448FFD03"]
+			id: "5EF6C7AE5CE56681"
+			tasks: [{
+				id: "6922BAC56696C7E7"
+				type: "kill"
+				title: "{chapters.arcane_1.quests35.tasks.title}"
+				entity: "minecraft:villager"
+				value: 1L
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests36.title}"
+			icon: "quark:blue_candle"
+			x: -10.0d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests36.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests36.description1}"
+				""
+				"{chapters.arcane_1.quests36.description2}"
+				""
+				"{chapters.arcane_1.quests36.description3}"
+			]
+			dependencies: ["5EF6C7AE5CE56681"]
+			id: "76C57E75255CD8BE"
+			tasks: [{
+				id: "7DE488D7206219C3"
+				type: "checkmark"
+				title: "{chapters.arcane_1.quests36.title}"
+			}]
+		}
+		{
+			title: "{chapters.arcane_1.quests37.title}"
+			icon: "hexblades:elemental_soul_2"
+			x: -10.0d
+			y: -4.0d
+			shape: "gear"
+			subtitle: "{chapters.arcane_1.quests37.subtitle}"
+			description: [
+				"{chapters.arcane_1.quests37.description1}"
+				""
+				"{chapters.arcane_1.quests37.description2}"
+				""
+				"{chapters.arcane_1.quests37.description3}"
+			]
+			dependencies: ["3370640F28711037"]
+			size: 1.5d
+			id: "570BA5FA1822BCF8"
+			tasks: [{
+				id: "0F70AEE3C32B55AF"
+				type: "kill"
+				title: "{chapters.arcane_1.quests37.tasks.title}"
+				icon: "hexblades:elemental_soul_2"
+				entity: "hexblades:fire_elemental"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3BC176005C90E041"
+					type: "item"
+					item: "hexblades:elemental_soul"
+				}
+				{
+					id: "35ECE2C686BD2BD1"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
+		}
+		{
+			title: "{chapters.arcane_1.quests38.title}"
+			icon: {
+				id: "hexblades:flame_sword_2"
+				Count: 1b
+				tag: {
+					awakened: 1b
+					AS_Amulet_Holder: [I;
+						-2094091943
+						-458931240
+						-1905311744
+						-792705749
+					]
+					Damage: 0
+					hexSwordDamage: 9.1d
+				}
+			}
+			x: -11.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "They can be upgraded. Left Click for more info"
+			description: [
+				"The Mind Sign will be required for this task. Focus your attention towards obtaining that."
+				""
+				"After unlocking The Mind Sign you'll have to use your current Hexblade and defeat mobs until new knowledge will be grated to you."
+				""
+				"To see your progress, you can use this command:"
+				""
+				"/hexblades devotion <player_name> get blade"
+				""
+				"Ps: Lever 30 needs to be reached."
+			]
+			dependencies: [
+				"21378F7407807CD1"
+				"76C57E75255CD8BE"
+			]
+			id: "4208F96060C4D34C"
+			tasks: [{
+				id: "1619C7F37ED46CB7"
+				type: "checkmark"
+				title: "{chapters.arcane_4.quests17.tasks.title}"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -2.5d
+			subtitle: "You can find its recipe in the Ars Ecclesia. Left Click for more info"
+			description: [
+				"Great, you've chanelled enough power into your weapon and now you can upgrade it."
+				""
+				"To do so, you'll need a more powerful core then the previous one. Now, where could you get one..?"
+				""
+				"Luckly, you can make it yourself. Press \"U\" on some Nether Quartz to see the Brazier Recipe. You'll need a Shadow Gem, a Lava Bucket and some other things."
+			]
+			dependencies: [
+				"4208F96060C4D34C"
+				"2DCD7BF831E21744"
+			]
+			id: "05C961BD28334ADE"
+			tasks: [{
+				id: "273835535B68B2EC"
+				type: "item"
+				item: "hexblades:fire_core"
+			}]
+		}
+		{
+			title: "Summoning an Elemental - Chant"
+			icon: "hexblades:fire_pedestal"
+			x: -11.5d
+			y: -4.0d
+			subtitle: "Hard Difficulty Required - Beware, the Fire Temple. Left Click for more info"
+			description: [
+				"Throughout the Nether, you might find some strange temples which have hieroglyphs on their walls resambling the Magmatic Core you obtained previously."
+				""
+				"In the temple's main room, you'll find a pedestal. By placing the Magmatic Core on it and performing the Elemental Pedestal Activation Chant, which will summon a Fire Elemental."
+				""
+				"Be aware. This will be a mini-boss fight. You might wanna prepare yourself before anything else."
+				""
+				"{chapters.arcane_1.quests1.description3}"
+				""
+				"{chapters.arcane_1.quests17.description9}"
+				""
+				"{image:kubejs:textures/eidolon/chant_elemental_pedestal_activation_example.png width:200 height:100 align:1}"
+				""
+				"Picture of the Fire Elemental Tample:"
+				""
+				"{image:kubejs:textures/eidolon/fire_tample_example.png width:110 height:100 align:1 fit:true}"
+			]
+			dependencies: ["05C961BD28334ADE"]
+			id: "3370640F28711037"
+			tasks: [{
+				id: "5700174B955859FB"
+				type: "checkmark"
+				title: "Use the Elemental Pedestals Activation chant on the Fire Pedestal"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "Use Crying Obsidian to make the Vanilla Enchanting Table"
+			dependencies: [
+				"37C65B0CE8EB26DD"
+				"2C6FB2BD60174B44"
+				"754A702F2CA77E02"
+				"079148BF286C8D56"
+			]
+			id: "0D2CDF37851BE110"
+			tasks: [{
+				id: "7AA18A9DD963E160"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [
+				{
+					id: "73A222F95403DBC8"
+					type: "item"
+					item: "eidolon:zombie_heart"
+				}
+				{
+					id: "2A212651C6484646"
+					type: "item"
+					item: "eidolon:wraith_heart"
+				}
+			]
+		}
+		{
+			title: "Onions are cruel"
+			x: -1.0d
+			y: 1.0d
+			subtitle: "Crying Obsidian can either be found in the world, or crafted using a ritual. Tip, press \"U\" on an Onion to see the recipe which is made in a Brazier"
+			dependencies: ["0492A1CDFB26CAE1"]
+			id: "37C65B0CE8EB26DD"
+			tasks: [{
+				id: "1FFA212552942517"
+				type: "item"
+				item: "minecraft:crying_obsidian"
+			}]
+		}
+		{
+			title: "Crimson Weave"
+			x: -8.0d
+			y: -2.5d
+			subtitle: "Engineering of dark magic at its best. Left Click for more info"
+			description: [
+				"Great! You found a way to get your hands on the power of that Sigil."
+				""
+				"This fabric is two times stronger then that Wicked Weave you've learned about previously."
+				""
+				"Using it, you should be able to come up with some sort of protecting costume."
+				""
+				"IMPORTANT: This recipe has to be execute ONE BY ONE, at a time."
+				""
+				"{chapters.arcane_2.quests6.description4}"
+				""
+				"{image:kubejs:textures/eidolon/crimson_weave_recipe-min.png width:100 height:150 align:1}"
+				""
+				"You'll need a Sanguine Crystal which will not be consumed by the recipe."
+			]
+			dependencies: [
+				"1D09DA0333072189"
+				"2DCD7BF831E21744"
+			]
+			id: "578276668C01721B"
+			tasks: [{
+				id: "37C7664BD36E245A"
+				type: "item"
+				item: "sanguinearsenal:crimson_weave"
+			}]
+		}
+		{
+			title: "Shadow Infused Ingot"
+			x: -5.5d
+			y: -0.5d
+			subtitle: "The Shadow Infused Ingot is quite an impressive alloy. Made out of pewter, arcane gold and some other ingredients, it is able to provide great amounts of protection to its owner. However, the armor made out of this thing might not be that accesible at this point"
+			dependencies: ["54A9CA62C88CA53A"]
+			id: "615658B27FCE3AB0"
+			tasks: [{
+				id: "5EF6D45FE0B018BF"
+				type: "item"
+				item: "sanguinearsenal:shadow_ingot"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 8.0d
+			subtitle: "The End is not available to you yet, however, you can obtain this powder infused with small amounts of it. You might be able to find a use for it"
+			dependencies: ["39FF7B69E755AC45"]
+			id: "16151F22321F2F09"
+			tasks: [{
+				id: "2C4D443DD69BD826"
+				type: "item"
+				item: "eidolon:ender_calx"
+			}]
+		}
+		{
+			title: "Unused potential - Chant"
+			x: -10.0d
+			y: -2.5d
+			subtitle: "Children of The Dark Lord. Left Click for more info"
+			description: [
+				"You finally reached the point where you have the trust of The Dark Lord."
+				""
+				"This Sigil represents the trust and faith that they have in you. At the same time, it holds very large amounts of power, too large for you, to be precise. But we believe that this will not stop you, now will it? We're sure you'll find a use for this thing. Meanwhile, how do you get it exactly?"
+				""
+				"Use the \"Blessing of Darkness\" on a Shadow Gem to obtain The Sigil of The Dark Lord."
+				""
+				"{chapters.arcane_1.quests17.description9}"
+				""
+				"{image:kubejs:textures/eidolon/blessing_of_darkness_example.png width:170 height:100 align:1}"
+			]
+			dependencies: ["76C57E75255CD8BE"]
+			id: "1D09DA0333072189"
+			tasks: [{
+				id: "2882DAB937AF3648"
+				type: "item"
+				item: "sanguinearsenal:sigil_of_the_dark_lord"
+			}]
+		}
+		{
+			title: "The Messanger of Darkness"
+			icon: "twilightforest:carminite"
+			x: -5.5d
+			y: -2.5d
+			shape: "heart"
+			subtitle: "All the blood I'll ever use. Left Click for more info"
+			description: [
+				"If you're reading this, it means you are ready to embrace the role of The Dark Lord's messanger."
+				""
+				"Finishing this quest will grant access to a powerful set of armor."
+				""
+				"We're congratulating you for reaching this point."
+			]
+			dependencies: [
+				"578276668C01721B"
+				"615658B27FCE3AB0"
+			]
+			size: 1.5d
+			id: "7DFB99444DF72CF8"
+			tasks: [{
+				id: "0FCE60CB4BD9BF60"
+				type: "checkmark"
+				title: "I am ready."
+			}]
+			rewards: [{
+				id: "2411A563D9ECC8D8"
+				type: "loot"
+				table_id: 5206766833681472091L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 8.0d
+			subtitle: "Similar to the Calx of End, the Refined Crimson is a fine powder, infused with the essence of The Nether"
+			dependencies: ["39FF7B69E755AC45"]
+			id: "377DDDF081820BFB"
+			tasks: [{
+				id: "6041A1B2C18BF290"
+				type: "item"
+				item: "eidolon:crimson_essence"
+			}]
+		}
+		{
+			title: "Upgrading the altar - lighting"
+			icon: "eidolon:candle"
+			x: -7.0d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "Candles? Lamps? Give 'em to me! Left Click for more info"
+			description: [
+				"Again. similar to the skulls and the herbs, lighting can be used to upgrade the altar and attract The Dark Lord's attention faster."
+				""
+				"Torch: 1 power"
+				"Lamp: 1 power, 1 capacity"
+				"Candle: 2 power"
+				"Candlestick: 2 power"
+				""
+				"Below, you can see an example of how lighting should be placed on the altar:"
+				""
+				"{image:kubejs:textures/eidolon/example8.png width:250 height:200 align:1 fit:true}"
+				""
+				"Multiple light sources, will NOT stack."
+			]
+			dependencies: ["062676BF5584EBAF"]
+			id: "2CC50BD51745AF87"
+			tasks: [{
+				id: "1959D2F9314BBC9F"
+				type: "checkmark"
+				title: "Make a candle/torch/lamp and place it on the altar"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.0d
+			shape: "square"
+			subtitle: "Can stone be alive? Thats the question of the day. Left Click for more info"
+			description: [
+				"This smooth stone seems to have a strange linger to it, its like it is speaking to you."
+				""
+				"Through the use of other mystical arts, you might be able to give it life in the future, but for now, it just looks awesome, so go ahead, build with it!"
+			]
+			dependencies: ["2045087C068870F6"]
+			id: "43AF274C38EE94E5"
+			tasks: [{
+				id: "2A5502BEB76E0C52"
+				type: "item"
+				item: "eidolon:smooth_stone_bricks"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			subtitle: "Although you have no idea what this shard really is, or what it does, you might be able to get your hands on it if you manage to give a Gold Nugget to a Curbuncle. Additionally, you might find this Shard in some dungeons"
+			dependencies: ["0DDA2FB169318B04"]
+			size: 1.5d
+			id: "3DF741B59720CC46"
+			tasks: [{
+				id: "4F9FA4AB4131FE56"
+				type: "item"
+				item: "ars_nouveau:carbuncle_shards"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			subtitle: "Lastly, here's the Sylph Shard. This one can be obtained by growing a Tree near a Sylph"
+			dependencies: ["0DDA2FB169318B04"]
+			size: 1.5d
+			id: "71CEE2F143CE8BD0"
+			tasks: [{
+				id: "7D39347F2FDDC735"
+				type: "item"
+				item: "ars_nouveau:sylph_shards"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			subtitle: "The way you cna obtain this Shard is unknown at the moment. However you might have some luck finding this shard in some dungeons"
+			dependencies: ["0DDA2FB169318B04"]
+			size: 1.5d
+			id: "72088266D75E60F3"
+			tasks: [{
+				id: "3E671E7D047B36D1"
+				type: "item"
+				item: "ars_nouveau:wixie_shards"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			subtitle: "Another Shard, same story. You have no idea what to do whit it, however, you should be able to obtain it by giving a Wilden Horn to a Drygmy. Later you might find a use for this item"
+			dependencies: ["0DDA2FB169318B04"]
+			size: 1.5d
+			id: "1EC6B6890FFF5733"
+			tasks: [{
+				id: "62E049B5B367F1DB"
+				type: "item"
+				item: "ars_nouveau:drygmy_shard"
+			}]
+		}
+		{
+			title: "Upgradin' tHe pOt!"
+			x: -5.5d
+			y: 8.0d
+			shape: "square"
+			subtitle: "Using a Soul Campfire as a heat source for the Crucible, you can access new recipes"
+			dependencies: [
+				"2045087C068870F6"
+				"6AA23A5FB3C37C90"
+			]
+			id: "39FF7B69E755AC45"
+			tasks: [{
+				id: "2DCD7BF831E21744"
+				type: "item"
+				item: "minecraft:soul_campfire"
+			}]
+		}
+		{
+			x: -12.5d
+			y: 5.5d
+			shape: "gear"
+			subtitle: "Alchemy? Now? O..ok. Left Click for more info"
+			description: [
+				"With The Nether being locked, you might feel the need for some potions."
+				""
+				"Using an external heat source, as replacement for the blaze powder, and some Sprouting Fungus as replacement for the nether wart, you should be able to brew some potions."
+				"{chapters.arcane_1.quests18.description2}"
+				"This station has to be placed untop a heated Crucible filled with water."
+			]
+			dependencies: ["3BB14AF24B4C0261"]
+			hide: true
+			id: "6662E74DD2B8E1B4"
+			tasks: [{
+				id: "150AE0EC46919738"
+				type: "item"
+				item: "eidolon:wooden_brewing_stand"
+			}]
+			rewards: [{
+				id: "50AF466575D462E5"
+				type: "item"
+				item: "eidolon:fungus_sprouts"
+				count: 2
+			}]
+		}
+	]
+}
