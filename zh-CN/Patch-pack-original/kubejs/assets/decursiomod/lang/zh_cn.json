@@ -67,8 +67,8 @@
   "item.decursiomod.unfinished_item_terminal": "物品终端半成品",
   "item.decursiomod.unfinished_crafting_terminal": "合成终端半成品",
   "block.decursiomod.crucible": "坩埚",
-  "item.decursiomod.arcane_frame": "Arcane Frame",
-  "block.decursiomod.alfheim_flux_ore": "Alfheim Flux Ore",
+  "item.decursiomod.arcane_frame": "奥术框架",
+  "block.decursiomod.alfheim_flux_ore": "亚尔夫海姆通量粉尘矿",
   "block.decursiomod.uru_block": "乌鲁块",
   "item.decursiomod.alfheim_flux": "亚尔夫海姆通量粉尘",
   "item.decursiomod.uru_ingot": "乌鲁锭",
@@ -110,6 +110,6 @@
   "item.decursiomod.little_deadpine": "小型枯萎松木",
   "item.decursiomod.the_crown_of_darkness": "黑暗之冠",
   "item.decursiomod.ravens_feather": "渡鸦羽毛",
-  "item.decursiomod.trans_flag": "Trans Flag",
+  "item.decursiomod.trans_flag": "跨界标志",
   "item.decursiomod.me_unstable_core.tooltip": "%s%s%s"
 }
