@@ -10,12 +10,12 @@
   "primutils.jei.basin.fluidAmount": "%smb",
   "primutils.jei.basin.stirAmount": "Stir %s Times",
   "itemGroup.primutils": "Primitive Utils",
-  "block.primutils.millstone": "Millstone",
-  "primutils.tooltip.millstone": "Right click with an item to add item. Right click with empty hand to rotate. Sneak right click to take item out. All sides support hopper/pipes insertion.",
-  "block.primutils.drying_rack": "Drying Rack",
-  "primutils.tooltip.drying_rack": "Right click with an item to add item. Sneak right click to take item out. Items will be dried overtime. All sides support hopper/pipes insertion.",
-  "block.primutils.chopping_block": "Chopping Block",
+  "block.primutils.millstone": "石磨",
+  "primutils.tooltip.millstone": "右键单击添加物品。空手右键单击使其转动。 潜行右键单击可取出物品。所有方方向都支持漏斗或管道作为输入端。",
+  "block.primutils.drying_rack": "晾干架",
+  "primutils.tooltip.drying_rack": "右键单击添加物品。 潜行右键单击可取出物品。物品将会在一段时间后被晾干。所有方方向都支持漏斗或管道作为输入端。",
+  "block.primutils.chopping_block": "劈柴墩",
   "primutils.tooltip.chopping_block": "Right click with an item to add item. Sneak right click to take item out. Right click with an axe to chop. All sides support hopper/pipes insertion.",
-  "block.primutils.basin": "Wooden Basin",
+  "block.primutils.basin": "木盆",
   "primutils.tooltip.basin": "Right click with an item to add item. Sneak right click to take item out. Max 4 items can be added. Right click with fluid containers to add/remove fluid. All sides support hopper/pipes insertion for items and fluids."
 }
