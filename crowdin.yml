@@ -2,4 +2,13 @@ files:
   - source: /Patch-pack-original/kubejs/assets/
     ignore:
       - /Patch-pack-original/kubejs/assets/kubejs/textures
+      - /Patch-pack-original/kubejs/assets/alexsmobs
     translation: '%original_path%/zh_cn.json'
+  - source: /Patch-pack-original/kubejs/data
+    translation: '%original_path%/%original_file_name%'
+  - source: /Patch-pack-original/config
+    ignore:
+      - fancymenu
+      - ftbquests
+      - thitemstages
+    translation: '%original_path%/%original_file_name%'
