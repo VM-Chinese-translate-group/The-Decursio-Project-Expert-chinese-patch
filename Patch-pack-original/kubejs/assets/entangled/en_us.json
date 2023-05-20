@@ -1,0 +1,5 @@
+{
+  "config.jade.plugin_entangled.entangled_block_component": "Entangled Block", 
+  "entangled.block.block": "Entangled Block",
+  "entangled.item.item": "Entangled Binder"
+}
