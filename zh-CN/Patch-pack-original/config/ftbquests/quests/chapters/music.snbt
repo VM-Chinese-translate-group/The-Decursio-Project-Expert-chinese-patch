@@ -1,0 +1,287 @@
+{
+	id: "0FDA4AF364CAC4A3"
+	group: "70E732380FC79639"
+	order_index: 3
+	filename: "music"
+	title: "{chapters.music.title}"
+	icon: "xercamusic:guitar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.5d
+			y: -5.0d
+			subtitle: "{chapters.music.quests1.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "12DAFC1D0FF672E9"
+			tasks: [{
+				id: "4A0DD85B04395506"
+				type: "item"
+				item: "xercamusic:guitar"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			subtitle: "{chapters.music.quests2.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "408B168D4C07D827"
+			tasks: [{
+				id: "1068AC5010ECD0E4"
+				type: "item"
+				item: "xercamusic:lyre"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "{chapters.music.quests3.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "30E02C0CE04689D7"
+			tasks: [{
+				id: "760827372A8951B3"
+				type: "item"
+				item: "xercamusic:banjo"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			subtitle: "{chapters.music.quests4.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "0486619F6E07A9CE"
+			tasks: [{
+				id: "390EE2CC9B133B9A"
+				type: "item"
+				item: "xercamusic:drum"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			subtitle: "{chapters.music.quests5.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "5ED0E0855B41258E"
+			tasks: [{
+				id: "4404CEEFA8F70D52"
+				type: "item"
+				item: "xercamusic:cymbal"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			subtitle: "{chapters.music.quests6.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "26F4F4D26387D93D"
+			tasks: [{
+				id: "36DAEA3AE2E74038"
+				type: "item"
+				item: "xercamusic:drum_kit"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			subtitle: "{chapters.music.quests7.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "03E410F2394D7DFB"
+			tasks: [{
+				id: "0F915DB06762C177"
+				type: "item"
+				item: "xercamusic:xylophone"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			subtitle: "{chapters.music.quests8.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "2883913E8BA05712"
+			tasks: [{
+				id: "2F80F4D4F18B7AE9"
+				type: "item"
+				item: "xercamusic:tubular_bell"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			subtitle: "{chapters.music.quests9.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "043432F300073E92"
+			tasks: [{
+				id: "55E460F1DF2C05F6"
+				type: "item"
+				item: "xercamusic:sansula"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "{chapters.music.quests10.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "5BBEE49493B8B401"
+			tasks: [{
+				id: "224D6E86F0EF22E0"
+				type: "item"
+				item: "xercamusic:violin"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			subtitle: "{chapters.music.quests11.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "1619733A3A4C86E3"
+			tasks: [{
+				id: "427A11F16EE22A5B"
+				type: "item"
+				item: "xercamusic:cello"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			subtitle: "{chapters.music.quests12.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "7C0F4F7DB9E21E0B"
+			tasks: [{
+				id: "2AE43E84CE84D2BE"
+				type: "item"
+				item: "xercamusic:flute"
+			}]
+		}
+		{
+			title: "{chapters.music.quests13.title}"
+			icon: "xercamusic:god"
+			x: 4.5d
+			y: 1.0d
+			subtitle: "{chapters.music.quests13.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "12E02641133067A4"
+			tasks: [{
+				id: "0B1FAD84908F687A"
+				type: "checkmark"
+				title: "{chapters.music.quests13.tasks.title}"
+			}]
+			rewards: [{
+				id: "5E08EA03DF860C63"
+				type: "item"
+				item: "xercamusic:god"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			subtitle: "{chapters.music.quests14.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "603A36DDD546C202"
+			tasks: [{
+				id: "6C06DFAC4F449DBF"
+				type: "item"
+				item: "xercamusic:piano"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			subtitle: "{chapters.music.quests15.subtitle}"
+			description: [
+				"{chapters.music.quests15.description1}"
+				""
+				"{chapters.music.quests15.description2}"
+				""
+				"{chapters.music.quests15.description3}"
+				""
+				"{chapters.music.quests15.description4}"
+				""
+				"{chapters.music.quests15.description5}"
+				""
+				"{chapters.music.quests15.description6}"
+				""
+				"{chapters.music.quests15.description7}"
+			]
+			dependencies: ["0DDA2FB169318B04"]
+			id: "51915D42C15532E7"
+			tasks: [{
+				id: "60CB2FA18910260B"
+				type: "item"
+				item: "xercamusic:music_sheet"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			subtitle: "{chapters.music.quests16.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "316E4D5C1869BB0D"
+			tasks: [{
+				id: "6B9757042E94A0B5"
+				type: "item"
+				item: "xercamusic:music_box"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			subtitle: "{chapters.music.quests17.subtitle}"
+			description: ["{chapters.music.quests17.description}"]
+			dependencies: ["0DDA2FB169318B04"]
+			id: "0894CD1DE9CBE492"
+			tasks: [{
+				id: "49A4A015326ADF73"
+				type: "item"
+				item: "xercamusic:metronome"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			subtitle: "{chapters.music.quests18.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "60C553C31F23671E"
+			tasks: [{
+				id: "28516714701F93E8"
+				type: "item"
+				item: "xercamusic:oboe"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "{chapters.music.quests19.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "725683B05B37E398"
+			tasks: [{
+				id: "27F444DF512BB21E"
+				type: "item"
+				item: "xercamusic:redstone_guitar"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			subtitle: "{chapters.music.quests20.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "11C50D9B092ACC41"
+			tasks: [{
+				id: "27F19868DD2AA1CD"
+				type: "item"
+				item: "xercamusic:french_horn"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			subtitle: "{chapters.music.quests21.subtitle}"
+			dependencies: ["51915D42C15532E7"]
+			id: "2B03F3C35F13FDD6"
+			tasks: [{
+				id: "4EBFB6614205B954"
+				type: "item"
+				item: "xercamusic:bass_guitar"
+			}]
+		}
+	]
+}

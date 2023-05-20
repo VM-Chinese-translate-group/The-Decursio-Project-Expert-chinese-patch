@@ -1,0 +1,228 @@
+{
+	id: "7AD2EAF62A54E7FC"
+	group: "227FB27389135A7A"
+	order_index: 1
+	filename: "optional_challenges"
+	title: "{chapters.optional_challenges.title}"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{chapters.optional_challenges.quests1.title}"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{chapters.optional_challenges.quests1.subtitle}"
+			description: [
+				"{chapters.optional_challenges.quests1.description1}"
+				""
+				"{chapters.optional_challenges.quests1.description2}"
+			]
+			dependencies: ["466242CC140468C5"]
+			id: "60FE564C79D326E1"
+			tasks: [{
+				id: "7C9B2783B41D3D2F"
+				type: "checkmark"
+				title: "{chapters.optional_challenges.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.optional_challenges.quests2.title}"
+			icon: "emendatusenigmatica:diamond_crystal"
+			x: 3.0d
+			y: -2.5d
+			subtitle: "{chapters.optional_challenges.quests2.subtitle}"
+			dependencies: ["60FE564C79D326E1"]
+			id: "4588B102F038498A"
+			tasks: [{
+				id: "477A5A72DA0501B3"
+				type: "checkmark"
+				title: "{chapters.optional_challenges.quests2.tasks.title}"
+			}]
+			rewards: [{
+				id: "010DA643A4CB1C0C"
+				type: "loot"
+				table_id: 3966812906621148304L
+			}]
+		}
+		{
+			title: "{chapters.optional_challenges.quests3.title}"
+			icon: "powah:uraninite"
+			x: 1.0d
+			y: 3.0d
+			subtitle: "{chapters.optional_challenges.quests3.subtitle}"
+			dependencies: ["60FE564C79D326E1"]
+			id: "0ED4AAC3C39C383D"
+			tasks: [{
+				id: "69E225ED52E46DA8"
+				type: "checkmark"
+				title: "{chapters.optional_challenges.quests2.tasks.title}"
+			}]
+			rewards: [{
+				id: "61C8C8373F887AA5"
+				type: "loot"
+				table_id: 3966812906621148304L
+			}]
+		}
+		{
+			title: "{chapters.optional_challenges.quests4.title}"
+			icon: "mekanism:radioactive_waste_barrel"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "{chapters.optional_challenges.quests4.subtitle}"
+			dependencies: ["60FE564C79D326E1"]
+			id: "7213B10A51500CDB"
+			tasks: [{
+				id: "27B8D324FD13D8B6"
+				type: "checkmark"
+				title: "{chapters.optional_challenges.quests2.tasks.title}"
+			}]
+			rewards: [{
+				id: "0B10AA3B1C98B695"
+				type: "loot"
+				table_id: 3966812906621148304L
+			}]
+		}
+		{
+			title: "{chapters.optional_challenges.quests5.title}"
+			icon: "farmersdelight:ratatouille"
+			x: -3.0d
+			y: -2.5d
+			subtitle: "{chapters.optional_challenges.quests5.subtitle}"
+			dependencies: ["60FE564C79D326E1"]
+			id: "5441397882B70253"
+			tasks: [{
+				id: "48A3A78919ED9199"
+				type: "checkmark"
+				title: "{chapters.optional_challenges.quests2.tasks.title}"
+			}]
+			rewards: [{
+				id: "7FBAED4EA5E7847D"
+				type: "loot"
+				table_id: 3966812906621148304L
+			}]
+		}
+		{
+			title: "{chapters.optional_challenges.quests6.title}"
+			icon: "minecraft:nether_star"
+			x: -2.5d
+			y: 2.0d
+			subtitle: "{chapters.optional_challenges.quests6.subtitle}"
+			dependencies: ["60FE564C79D326E1"]
+			id: "68D5E0B9DAAB951A"
+			tasks: [{
+				id: "411F46C8C3515274"
+				type: "checkmark"
+				title: "{chapters.optional_challenges.quests2.tasks.title}"
+			}]
+			rewards: [{
+				id: "03930B67D7591197"
+				type: "loot"
+				table_id: 3966812906621148304L
+			}]
+		}
+		{
+			title: "{chapters.optional_challenges.quests7.title}"
+			icon: "botania:fabulous_pool"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "{chapters.optional_challenges.quests7.subtitle}"
+			dependencies: ["60FE564C79D326E1"]
+			id: "2223701DC7B67A4B"
+			tasks: [{
+				id: "7706C681223D29F3"
+				type: "checkmark"
+				title: "{chapters.optional_challenges.quests2.tasks.title}"
+			}]
+			rewards: [{
+				id: "71F4905D114FEC25"
+				type: "loot"
+				table_id: 3966812906621148304L
+			}]
+		}
+		{
+			title: "{chapters.optional_challenges.quests8.title}"
+			icon: "alexsmobs:guster_eye"
+			x: -1.0d
+			y: 3.0d
+			subtitle: "{chapters.optional_challenges.quests8.subtitle}"
+			dependencies: ["60FE564C79D326E1"]
+			id: "1D636E333D4D38DB"
+			tasks: [{
+				id: "6BB18D4B95F845DE"
+				type: "checkmark"
+				title: "{chapters.optional_challenges.quests2.tasks.title}"
+			}]
+			rewards: [{
+				id: "01B6D87982E51A2A"
+				type: "loot"
+				table_id: 3966812906621148304L
+			}]
+		}
+		{
+			title: "{chapters.optional_challenges.quests9.title}"
+			icon: {
+				id: "artifacts:superstitious_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: 2.0d
+			subtitle: "{chapters.optional_challenges.quests9.subtitle}"
+			dependencies: ["60FE564C79D326E1"]
+			id: "62F86D823AFFADA1"
+			tasks: [{
+				id: "78A93E998EF3811D"
+				type: "advancement"
+				advancement: "hats:hats/variants_100"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1D33C01278853607"
+				type: "loot"
+				table_id: 3966812906621148304L
+			}]
+		}
+		{
+			title: "{chapters.optional_challenges.quests10.title}"
+			icon: "projecte:red_matter"
+			x: -1.0d
+			y: -3.5d
+			subtitle: "{chapters.optional_challenges.quests10.subtitle}"
+			dependencies: ["60FE564C79D326E1"]
+			id: "69EA1B97D9C82DA5"
+			tasks: [{
+				id: "5A064BF0A11D89A2"
+				type: "checkmark"
+				title: "{chapters.optional_challenges.quests2.tasks.title}"
+			}]
+			rewards: [{
+				id: "0A1107C02610FC19"
+				type: "loot"
+				table_id: 3966812906621148304L
+			}]
+		}
+		{
+			title: "{chapters.optional_challenges.quests11.title}"
+			icon: "draconicevolution:reactor_core"
+			x: 1.0d
+			y: -3.5d
+			subtitle: "{chapters.optional_challenges.quests11.subtitle}"
+			dependencies: ["60FE564C79D326E1"]
+			id: "518434F97773059D"
+			tasks: [{
+				id: "3F66D7BD26448206"
+				type: "checkmark"
+				title: "{chapters.optional_challenges.quests2.tasks.title}"
+			}]
+			rewards: [{
+				id: "6FA1CEC50C57AA20"
+				type: "loot"
+				table_id: 3966812906621148304L
+			}]
+		}
+	]
+}

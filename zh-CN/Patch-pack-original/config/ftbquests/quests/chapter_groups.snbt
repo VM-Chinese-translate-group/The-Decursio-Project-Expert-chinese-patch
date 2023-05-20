@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{ id: "38E0BE3B64EF67A2", title: "{chapter_groups.chapter1.title}" }
+		{ id: "1390A8D800379122", title: "{chapter_groups.chapter2.title}" }
+		{ id: "70E732380FC79639", title: "{chapter_groups.chapter3.title}" }
+		{ id: "52BC1523CD35BD71", title: "{chapter_groups.chapter4.title}" }
+		{ id: "532DAB84AB301350", title: "{chapter_groups.chapter5.title}" }
+		{ id: "11592D5C828EEDBF", title: "{chapter_groups.chapter6.title}" }
+		{ id: "08EB5BB8DBF33B74", title: "{chapter_groups.chapter7.title}" }
+		{ id: "227FB27389135A7A", title: "{chapter_groups.chapter8.title}" }
+	]
+}

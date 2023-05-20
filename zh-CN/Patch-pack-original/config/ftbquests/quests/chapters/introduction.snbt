@@ -1,0 +1,826 @@
+{
+	id: "21C936A259B79851"
+	group: "38E0BE3B64EF67A2"
+	order_index: 0
+	filename: "introduction"
+	title: "{chapters.introduction.title}"
+	icon: "artifacts:crystal_heart"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{chapters.introduction.quests1.title}"
+			icon: "ftbquests:book"
+			x: -3.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "{chapters.introduction.quests1.subtitle}"
+			description: [
+				"{chapters.introduction.quests1.description1}"
+				""
+				"{chapters.introduction.quests1.description2}"
+				""
+				"{chapters.introduction.quests1.description3}"
+				""
+				"{chapters.introduction.quests1.description4}"
+				""
+				"{chapters.introduction.quests1.description5}"
+				""
+				"{chapters.introduction.quests1.description6}"
+				"{chapters.arcane_1.quests18.description2}"
+				"{chapters.introduction.quests1.description8}"
+				""
+				"{chapters.introduction.quests1.description9}"
+				""
+				"{chapters.introduction.quests1.description10}"
+				""
+				"{chapters.introduction.quests1.description11}"
+				""
+				"{chapters.introduction.quests1.description12}"
+				""
+				"{chapters.introduction.quests1.description13}"
+				""
+				"{chapters.introduction.quests1.description14}"
+				""
+				"{chapters.introduction.quests1.description15}"
+				""
+				"{chapters.introduction.quests1.description16}"
+				""
+				"{chapters.introduction.quests1.description17}"
+			]
+			dependencies: ["71C0BE4D047B47BC"]
+			id: "3AB71A814633A2B8"
+			tasks: [{
+				id: "37049F9C99E387DB"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests2.title}"
+			icon: {
+				id: "botania:black_hole_talisman"
+				Count: 1b
+				tag: { }
+			}
+			x: 2.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "{chapters.introduction.quests2.subtitle}"
+			description: [
+				"{chapters.introduction.quests2.description1}"
+				""
+				"{chapters.introduction.quests2.description2}"
+				""
+				"{chapters.introduction.quests2.description3}"
+				""
+				"{chapters.introduction.quests2.description4}"
+				""
+				"{chapters.introduction.quests2.description5}"
+				""
+				"{chapters.introduction.quests2.description6}"
+			]
+			dependencies: ["5EBF0B4AC9EBAF9D"]
+			id: "74CBD18069836DA8"
+			tasks: [{
+				id: "11D55AF0CD7FA3B0"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests3.title}"
+			icon: {
+				id: "artifacts:crystal_heart"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.5d
+			y: -1.0d
+			shape: "heart"
+			subtitle: "{chapters.introduction.quests3.subtitle}"
+			description: [
+				"{chapters.introduction.quests3.description1}"
+				""
+				"{chapters.introduction.quests3.description2}"
+				""
+				"{chapters.introduction.quests3.description3}"
+				""
+				"{chapters.introduction.quests3.description4}"
+				"{chapters.introduction.quests3.description5}"
+				"{chapters.introduction.quests3.description6}"
+				"{chapters.introduction.quests3.description7}"
+				""
+				"{chapters.introduction.quests3.description8}"
+				""
+				""
+				"{chapters.introduction.quests3.description9}"
+				""
+				"{chapters.introduction.quests3.description10}"
+				""
+				"{chapters.introduction.quests3.description11}"
+			]
+			hide_dependency_lines: true
+			size: 2.0d
+			id: "71C0BE4D047B47BC"
+			tasks: [{
+				id: "383276005926C75F"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests4.title}"
+			icon: "emendatusenigmatica:lumium_gear"
+			x: 3.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "{chapters.introduction.quests4.subtitle}"
+			description: ["{chapters.introduction.quests4.description}"]
+			dependencies: ["74CBD18069836DA8"]
+			id: "64C556784CE573F2"
+			tasks: [{
+				id: "1381BD294535F9FC"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests5.title}"
+			icon: "ars_nouveau:dominion_wand"
+			x: 4.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "{chapters.introduction.quests5.subtitle}"
+			description: ["{chapters.introduction.quests5.description}"]
+			dependencies: ["64C556784CE573F2"]
+			id: "7C4A09DB82968E56"
+			tasks: [{
+				id: "70CE4C1BFF57550D"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests6.title}"
+			icon: {
+				id: "twilightforest:fiery_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: 1.0d
+			subtitle: "{chapters.introduction.quests6.subtitle}"
+			description: ["{chapters.introduction.quests6.description}"]
+			optional: true
+			id: "1F2C8891DFC1D176"
+			tasks: [{
+				id: "10C21F961929F25C"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests7.title}"
+			icon: "appliedenergistics2:controller"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "{chapters.introduction.quests7.subtitle}"
+			description: ["{chapters.introduction.quests7.description}"]
+			optional: true
+			id: "5401675D80FFFB6A"
+			tasks: [{
+				id: "290052CE4A7C753A"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests8.title}"
+			icon: {
+				id: "mekanism:mekasuit_bodyarmor"
+				Count: 1b
+				tag: {
+					HideFlags: 2
+				}
+			}
+			x: 1.0d
+			y: 1.0d
+			subtitle: "{chapters.introduction.quests8.subtitle}"
+			description: ["{chapters.introduction.quests8.description}"]
+			optional: true
+			id: "7A33273E5BBD10B0"
+			tasks: [{
+				id: "3AC8A43AE0926FE2"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests9.title}"
+			icon: "mythicbotany:mjoellnir"
+			x: 2.0d
+			y: 1.0d
+			subtitle: "{chapters.introduction.quests9.subtitle}"
+			description: ["{chapters.introduction.quests9.description}"]
+			optional: true
+			id: "156B18F969D86AA1"
+			tasks: [{
+				id: "3F57F8331008DEB9"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests10.title}"
+			icon: {
+				id: "farmersdelight:skillet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.0d
+			y: 2.0d
+			subtitle: "{chapters.introduction.quests10.subtitle}"
+			description: ["{chapters.introduction.quests10.description}"]
+			optional: true
+			id: "3AB411D84BE96DDB"
+			tasks: [{
+				id: "1C06971B3D153667"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests11.title}"
+			icon: {
+				id: "relics:stellar_catalyst"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: 2.0d
+			subtitle: "{chapters.introduction.quests11.subtitle}"
+			description: [
+				"{chapters.introduction.quests11.description1}"
+				""
+				"{chapters.introduction.quests11.description2}"
+				""
+				"{chapters.introduction.quests11.description3}"
+			]
+			optional: true
+			id: "1670ED5573458FAD"
+			tasks: [{
+				id: "7787324D01D5831D"
+				type: "checkmark"
+				title: "{chapters.arcane_2.quests35.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests12.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -0.5d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "{chapters.introduction.quests12.subtitle}"
+			description: [
+				"{chapters.introduction.quests12.description1}"
+				""
+				"{chapters.introduction.quests12.description2}"
+				""
+				"{chapters.introduction.quests12.description3}"
+				""
+				"{chapters.introduction.quests12.description4}"
+				"{chapters.arcane_1.quests18.description2}"
+				"{chapters.introduction.quests12.description6}"
+			]
+			optional: true
+			id: "6804F0CB13B7B664"
+			tasks: [{
+				id: "2EE7696D13AA19F2"
+				type: "checkmark"
+				title: "{chapters.arcane_4.quests17.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests13.title}"
+			icon: "xercamusic:guitar"
+			x: 3.0d
+			y: 2.0d
+			subtitle: "{chapters.introduction.quests13.subtitle}"
+			optional: true
+			id: "5972655F415ED630"
+			tasks: [{
+				id: "486BB1A1AF79AEC9"
+				type: "checkmark"
+				title: "{chapters.arcane_4.quests17.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests14.title}"
+			icon: "doggytalents:doggy_charm"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "{chapters.introduction.quests14.subtitle}"
+			description: [
+				"{chapters.introduction.quests14.description1}"
+				""
+				"{chapters.introduction.quests14.description2}"
+			]
+			optional: true
+			id: "4C5435D77C8BEA7E"
+			tasks: [{
+				id: "14E3881A3A113AD5"
+				type: "checkmark"
+				title: "{chapters.arcane_4.quests17.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests15.title}"
+			icon: "minecolonies:supplycampdeployer"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "{chapters.introduction.quests15.subtitle}"
+			description: ["{chapters.introduction.quests15.description}"]
+			optional: true
+			id: "2E8A465BD14E4A9D"
+			tasks: [{
+				id: "5FDFE23D8A9DFD62"
+				type: "checkmark"
+				title: "{chapters.arcane_4.quests17.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests16.title}"
+			icon: {
+				id: "eidolon:top_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "{chapters.introduction.quests16.subtitle}"
+			optional: true
+			id: "21484825C29E5E2B"
+			tasks: [{
+				id: "3520DC35EE719531"
+				type: "checkmark"
+				title: "{chapters.arcane_4.quests17.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests17.title}"
+			icon: "minecraft:player_head"
+			x: -1.5d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "{chapters.introduction.quests17.subtitle}"
+			description: [
+				"{chapters.introduction.quests17.description1}"
+				""
+				"{chapters.introduction.quests17.description2}"
+				"{chapters.introduction.quests17.description3}"
+				"{chapters.introduction.quests17.description4}"
+				""
+				"{chapters.introduction.quests17.description5}"
+				""
+				"{chapters.introduction.quests17.description6}"
+			]
+			optional: true
+			id: "24B1CF988287282C"
+			tasks: [{
+				id: "6779468DA69FE19E"
+				type: "checkmark"
+				title: "{chapters.arcane_4.quests17.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests18.title}"
+			icon: "minecraft:diamond_block"
+			x: 6.5d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "{chapters.introduction.quests18.subtitle}"
+			description: [
+				"{chapters.introduction.quests18.description1}"
+				""
+				"{chapters.introduction.quests18.description2}"
+				""
+				"{chapters.introduction.quests18.description3}"
+				""
+				"{chapters.introduction.quests18.description4}"
+				""
+				"{chapters.introduction.quests18.description5}"
+				"{chapters.introduction.quests18.description6}"
+				"{chapters.introduction.quests18.description7}"
+				"{chapters.introduction.quests18.description8}"
+				""
+				"{chapters.introduction.quests18.description9}"
+				""
+				"{chapters.introduction.quests18.description10}"
+				"{chapters.introduction.quests18.description11}"
+				"{chapters.introduction.quests18.description12}"
+				"{chapters.introduction.quests18.description13}"
+				""
+				"{chapters.introduction.quests18.description14}"
+				""
+				"{chapters.introduction.quests18.description15}"
+				"{chapters.introduction.quests18.description16}"
+				"{chapters.introduction.quests18.description17}"
+				"{chapters.introduction.quests18.description18}"
+				"{chapters.introduction.quests18.description19}"
+				""
+				"{chapters.introduction.quests18.description20}"
+				""
+				"{chapters.introduction.quests18.description21}"
+				"{chapters.introduction.quests18.description22}"
+				"{chapters.introduction.quests18.description23}"
+				""
+				"{chapters.introduction.quests18.description24}"
+				""
+				"{chapters.introduction.quests18.description25}"
+				""
+				"{chapters.introduction.quests18.description26}"
+				""
+				"{chapters.introduction.quests18.description27}"
+				""
+				"{chapters.introduction.quests18.description28}"
+				"{chapters.introduction.quests18.description29}"
+				"{chapters.introduction.quests18.description30}"
+			]
+			dependencies: ["7C4A09DB82968E56"]
+			size: 2.0d
+			id: "430FADD2ACF0EE6F"
+			tasks: [{
+				id: "0D68260BAEC1AC17"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests19.title}"
+			icon: "twilightforest:magic_map"
+			x: 1.5d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "{chapters.introduction.quests19.subtitle}"
+			description: [
+				"{chapters.introduction.quests19.description1}"
+				""
+				"{chapters.introduction.quests19.description2}"
+				"{chapters.introduction.quests19.description3}"
+				""
+				"{chapters.introduction.quests19.description4}"
+				""
+				"{chapters.introduction.quests19.description5}"
+				""
+				"{chapters.introduction.quests19.description6}"
+			]
+			optional: true
+			id: "5D0D594E69E5E552"
+			tasks: [{
+				id: "7969BAECED6016DC"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests20.title}"
+			icon: "doggytalents:throw_bone"
+			x: 1.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "{chapters.introduction.quests20.subtitle}"
+			description: [
+				"{chapters.introduction.quests20.description1}"
+				""
+				"{chapters.introduction.quests20.description2}"
+				""
+				"{chapters.introduction.quests20.description3}"
+				""
+				"{chapters.introduction.quests20.description4}"
+				""
+				"{chapters.introduction.quests20.description5}"
+			]
+			dependencies: ["03DAB868F9989418"]
+			id: "5EBF0B4AC9EBAF9D"
+			tasks: [{
+				id: "3E40D4F008AAD397"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests21.title}"
+			icon: "minecraft:bee_nest"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "{chapters.introduction.quests21.subtitle}"
+			description: ["{chapters.introduction.quests21.description}"]
+			optional: true
+			id: "156AAF1377E6EC1A"
+			tasks: [{
+				id: "76B25AD0EEE2FC4B"
+				type: "checkmark"
+				title: "{chapters.arcane_4.quests17.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests22.title}"
+			icon: "minecraft:redstone_torch"
+			x: -0.5d
+			y: -3.5d
+			shape: "gear"
+			subtitle: "{chapters.introduction.quests22.subtitle}"
+			description: [
+				"{chapters.introduction.quests22.description1}"
+				""
+				"{chapters.introduction.quests22.description2}"
+				"{chapters.introduction.quests22.description3}"
+				"{chapters.introduction.quests22.description4}"
+				"{chapters.introduction.quests22.description5}"
+				""
+				"{chapters.introduction.quests22.description6}"
+				"{chapters.introduction.quests22.description7}"
+			]
+			optional: true
+			id: "7AF8114545A5EC9D"
+			tasks: [{
+				id: "3EF847CCAC5CB07E"
+				type: "checkmark"
+				title: "{chapters.atum_2.quests16.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests23.title}"
+			icon: {
+				id: "atum:eyes_of_atem"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "{chapters.introduction.quests23.subtitle}"
+			description: [
+				"{chapters.introduction.quests23.description1}"
+				""
+				"{chapters.introduction.quests23.description2}"
+				"{chapters.introduction.quests23.description3}"
+				"{chapters.introduction.quests23.description4}"
+				"{chapters.introduction.quests23.description5}"
+				"{chapters.introduction.quests23.description6}"
+				"{chapters.introduction.quests23.description7}"
+				"{chapters.introduction.quests23.description8}"
+				""
+				"{chapters.introduction.quests23.description9}"
+				""
+				"{chapters.introduction.quests23.description10}"
+				""
+				"{chapters.introduction.quests23.description11}"
+				""
+				"{chapters.introduction.quests23.description12}"
+			]
+			dependencies: ["3AB71A814633A2B8"]
+			id: "2EAD55CBE9A8573E"
+			tasks: [{
+				id: "08BE5C724046CB0D"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests24.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -1.5d
+			y: -3.5d
+			shape: "gear"
+			subtitle: "{chapters.introduction.quests24.subtitle}"
+			description: [
+				"{chapters.introduction.quests24.description1}"
+				""
+				"{chapters.introduction.quests24.description2}"
+				""
+				"{chapters.introduction.quests24.description3}"
+				""
+				"{chapters.introduction.quests24.description4}"
+				""
+				"{chapters.introduction.quests24.description5}"
+				""
+				"{chapters.introduction.quests24.description6}"
+				""
+				"{chapters.introduction.quests24.description7}"
+			]
+			optional: true
+			id: "6D9F55F947430394"
+			tasks: [{
+				id: "40B8C86677AC07E3"
+				type: "checkmark"
+				title: "{chapters.atum_2.quests16.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests25.title}"
+			icon: {
+				id: "decursiomod:flint_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: -3.5d
+			shape: "gear"
+			subtitle: "{chapters.introduction.quests25.subtitle}"
+			description: [
+				"{chapters.introduction.quests25.description1}"
+				""
+				"{chapters.introduction.quests25.description2}"
+			]
+			optional: true
+			id: "12A275FE700E8DC9"
+			tasks: [{
+				id: "221DCAD13562EBAD"
+				type: "checkmark"
+				title: "{chapters.atum_2.quests16.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests26.title}"
+			icon: {
+				id: "doubleslabs:vertical_slab"
+				Count: 1b
+				tag: {
+					item: {
+						id: "minecraft:oak_slab"
+						Count: 1b
+					}
+				}
+			}
+			x: 2.5d
+			y: -3.5d
+			shape: "gear"
+			subtitle: "{chapters.introduction.quests26.subtitle}"
+			description: [
+				"{chapters.introduction.quests26.description1}"
+				""
+				"{chapters.introduction.quests26.description2}"
+				""
+				"{chapters.introduction.quests26.description3}"
+			]
+			optional: true
+			id: "6B7789C1CDFF9236"
+			tasks: [{
+				id: "1BCFCCBB76D2A4CA"
+				type: "checkmark"
+				title: "{chapters.atum_2.quests16.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests27.title}"
+			icon: "minecraft:clock"
+			x: -0.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "{chapters.introduction.quests27.subtitle}"
+			description: [
+				"{chapters.introduction.quests27.description1}"
+				""
+				"{chapters.introduction.quests27.description2}"
+				""
+				"{chapters.introduction.quests27.description3}"
+				"{chapters.introduction.quests27.description4}"
+				"{chapters.introduction.quests27.description5}"
+				""
+				"{chapters.introduction.quests27.description6}"
+				""
+				"{chapters.introduction.quests27.description7}"
+				""
+				"{chapters.introduction.quests27.description8}"
+				""
+				"{chapters.introduction.quests27.description9}"
+				""
+				"{chapters.introduction.quests27.description10}"
+				""
+				"{chapters.introduction.quests27.description11}"
+			]
+			dependencies: ["5C5C0DCF3920B839"]
+			id: "5C3AEDA602F4A6D1"
+			tasks: [{
+				id: "3D385870FC4853A4"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests28.title}"
+			icon: "eidolon:zombie_heart"
+			x: -1.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "{chapters.introduction.quests28.subtitle}"
+			description: [
+				"{chapters.introduction.quests28.description1}"
+				""
+				"{chapters.introduction.quests28.description2}"
+				""
+				"{chapters.introduction.quests28.description3}"
+				""
+				"{chapters.introduction.quests28.description4}"
+			]
+			dependencies: ["2EAD55CBE9A8573E"]
+			id: "5C5C0DCF3920B839"
+			tasks: [{
+				id: "21CEE8B83136797D"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests29.title}"
+			icon: "quark:birch_chest"
+			x: 0.5d
+			y: -3.5d
+			shape: "gear"
+			subtitle: "{chapters.introduction.quests29.subtitle}"
+			optional: true
+			id: "6241AF25C8725E21"
+			tasks: [{
+				id: "36AFCCAEA2BEF782"
+				type: "checkmark"
+				title: "{chapters.atum_2.quests16.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests30.title}"
+			icon: "minecraft:emerald"
+			x: 0.5d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "{chapters.introduction.quests30.subtitle}"
+			optional: true
+			id: "113E2AE59C0495BE"
+			tasks: [{
+				id: "45C81DED5D8559FE"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.introduction.quests31.title}"
+			icon: {
+				id: "relics:infinity_ham"
+				Count: 1b
+				tag: {
+					pieces: 3
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "{chapters.introduction.quests31.subtitle}"
+			description: [
+				"{chapters.introduction.quests31.description1}"
+				""
+				"{chapters.introduction.quests31.description2}"
+				"{chapters.introduction.quests31.description3}"
+				"{chapters.introduction.quests31.description4}"
+				"{chapters.introduction.quests31.description5}"
+				"{chapters.introduction.quests31.description6}"
+				"{chapters.introduction.quests31.description7}"
+				""
+				"{chapters.introduction.quests31.description8}"
+				""
+				"{chapters.introduction.quests31.description9}"
+			]
+			dependencies: ["5C3AEDA602F4A6D1"]
+			id: "03DAB868F9989418"
+			tasks: [{
+				id: "4ADE9057AFDB1D02"
+				type: "checkmark"
+				title: "{chapters.introduction.quests1.tasks.title}"
+			}]
+		}
+	]
+}
