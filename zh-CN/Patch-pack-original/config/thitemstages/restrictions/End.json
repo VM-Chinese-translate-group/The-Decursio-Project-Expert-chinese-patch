@@ -1,8 +1,0 @@
-{
-    "Restriction Data": {
-        "stage": "end",
-        "dimensionList": [
-            "minecraft:the_end"
-        ]
-    }
-}

@@ -778,7 +778,7 @@
     },
     "Settings": {
         "advancedTooltips": "ALWAYS",
-        "itemTitle": "Unknown Item",
+        "itemTitle": "未知物品",
         "pickupDelay": 40,
         "hideInJEI": true,
         "canPickup": true,
