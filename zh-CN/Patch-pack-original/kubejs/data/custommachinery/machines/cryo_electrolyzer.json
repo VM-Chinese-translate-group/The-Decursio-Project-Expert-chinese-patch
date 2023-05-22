@@ -1,5 +1,5 @@
 {
-  "name": "Cryo-Electrolyzer",
+  "name": "低温电解机",
   "appearance": {
     "resistance": 9,
     "idle": {
@@ -18,12 +18,12 @@
   },
   "tooltips": [
     {
-      "text": "Used to produce Liquid Oxygen",
+      "text": "用于生产液氧",
       "color": "yellow",
       "bold": true
     },
     {
-      "text": "Water and Blizz Powder will be required",
+      "text": "水和暴雪粉是必需的",
       "color": "yellow"
     }
   ],
