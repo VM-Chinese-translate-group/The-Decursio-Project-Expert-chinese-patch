@@ -1,5 +1,5 @@
 {
-  "name": "Crystal Growth Unit",
+  "name": "水晶生长装置",
   "appearance": {
     "resistance": 9,
     "idle": {
@@ -18,12 +18,12 @@
   },
   "tooltips": [
     {
-      "text": "Used to produce Pure Quartz Crystals at a moderate speed",
+      "text": "用于以中等速度生产高纯赛特斯石英水晶",
       "color": "yellow",
       "bold": true
     },
     {
-      "text": "20 minutes - can't be reduced; use Crystal Growth Accelerators for a faster production",
+      "text": "20 分钟，不能再少了；使用晶体催生器来加速生产",
       "color": "yellow"
     }
   ],
