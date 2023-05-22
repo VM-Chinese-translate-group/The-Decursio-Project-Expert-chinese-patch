@@ -1,5 +1,5 @@
 {
-  "name": "Metal Compressor",
+  "name": "金属压缩机",
   "appearance": {
     "resistance": 9,
     "idle": {
@@ -18,12 +18,12 @@
   },
   "tooltips": [
     {
-      "text": "Used to compress metals into dense plates",
+      "text": "用于将金属压缩成致密板",
       "color": "yellow",
       "bold": true
     },
     {
-      "text": "Steel Ingots, Desh Ingots and Silicone Ingots can be processed",
+      "text": "钢锭、戴斯锭和硅锭可以被加工",
       "color": "yellow"
     }
   ],
