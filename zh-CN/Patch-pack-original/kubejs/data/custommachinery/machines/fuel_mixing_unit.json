@@ -1,5 +1,5 @@
 {
-  "name": "Fuel Mixing Unit",
+  "name": "燃料混合装置",
   "appearance": {
     "resistance": 9,
     "idle": {
@@ -18,12 +18,12 @@
   },
   "tooltips": [
     {
-      "text": "Used to produce Rocket Fuel",
+      "text": "用于生产火箭燃料",
       "color": "yellow",
       "bold": true
     },
     {
-      "text": "Liquid Oxygen, Refined Fuel and Gasoline will be required",
+      "text": "液氧、精炼油和汽油将是必需的",
       "color": "yellow"
     }
   ],
