@@ -1,0 +1,12 @@
+{
+  "item.wateringcans.watering_can_basic": "基础洒水壶",
+  "item.wateringcans.watering_can_copper": "铜水罐头",
+  "item.wateringcans.watering_can_quartz": "石英洒水壶",
+  "item.wateringcans.watering_can_diamond": "钻石洒水壶",
+  "item.wateringcans.watering_can_ender": "末影洒水壶",
+  "item.wateringcans.watering_can_aquamarine": "海蓝宝石洒水壶",
+  "tooltip.wateringcans.water": "容量:%s%s",
+  "tooltip.wateringcans.radius": "范围:%s",
+  "tooltip.wateringcans.harvest": "自动收获",
+  "tooltip.wateringcans.chance": "每秒几率:%s%%"
+}
