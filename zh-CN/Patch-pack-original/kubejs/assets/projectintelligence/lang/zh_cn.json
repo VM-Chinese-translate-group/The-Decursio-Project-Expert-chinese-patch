@@ -76,7 +76,7 @@
     "pi.style.sub_elements.info": "Used by windows such as the style editor and configuration window which have separately configurable internal components.",
     "pi.style.sub_elements.prop": "Sub Elements",
     "pi.style.small_bar.prop": "Compact",
-    "pi.style.icon.prop": "Icon",
+    "pi.style.icon.prop": "图标",
     "//default presets": "",
     "pi.style.builtin": "(Builtin)",
     "pi.style.default.vanilla": "Vanilla",
