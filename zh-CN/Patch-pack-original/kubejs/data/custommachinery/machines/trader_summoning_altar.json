@@ -1,5 +1,5 @@
 {
-  "name": "Trader Summoning Altar",
+  "name": "商人召唤祭坛",
   "appearance": {
     "resistance": 9,
     "idle": {
@@ -18,16 +18,16 @@
   },
   "tooltips": [
     {
-      "text": "Used to summon a Wandering Trader",
+      "text": "用于召唤游商",
       "color": "yellow",
       "bold": true
     },
     {
-      "text": "This Altar will require a structure to work properly",
+      "text": "此祭坛需要一个结构才能发挥作用",
       "color": "yellow"
     },
     {
-      "text": "Place it down and check the Altar's uses in JEI to see the structure",
+      "text": "放下后并在JEI中查看祭坛需要的结构",
       "color": "yellow"
     }
   ],

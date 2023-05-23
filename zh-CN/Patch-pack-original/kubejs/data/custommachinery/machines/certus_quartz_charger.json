@@ -1,5 +1,5 @@
 {
-  "name": "Certus Quartz Charger",
+  "name": "赛特斯石英充能器",
   "appearance": {
     "resistance": 9,
     "idle": {
@@ -18,12 +18,12 @@
   },
   "tooltips": [
     {
-      "text": "Used to charge regular Certus Quartz",
+      "text": "用于充能普通赛特斯石英",
       "color": "yellow",
       "bold": true
     },
     {
-      "text": "This machine can accept 4 Acceleration Cards max",
+      "text": "机器最多接受 4 张加速卡",
       "color": "yellow"
     }
   ],
