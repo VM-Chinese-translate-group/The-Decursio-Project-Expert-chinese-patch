@@ -1,0 +1,840 @@
+{
+	id: "4D3E521122B9FC2F"
+	group: "532DAB84AB301350"
+	order_index: 2
+	filename: "storage_2"
+	title: "{chapters.storage_2.title}"
+	icon: "prettypipes:item_terminal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -3.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests1.subtitle}"
+			description: [
+				"{chapters.storage_2.quests1.description1}"
+				""
+				"{chapters.storage_2.quests1.description2}"
+			]
+			dependencies: ["317181A56CEF7C70"]
+			size: 1.5d
+			id: "1912B03B18D40D1D"
+			tasks: [{
+				id: "74637303CAD82B9B"
+				type: "item"
+				item: "prettypipes:pipe"
+				count: 8L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests2.subtitle}"
+			description: [
+				"{chapters.storage_2.quests2.description1}"
+				""
+				"{chapters.storage_2.quests2.description2}"
+				""
+				"{chapters.storage_2.quests2.description3}"
+				""
+				"{chapters.storage_2.quests2.description4}"
+				""
+				"{chapters.storage_2.quests2.description5}"
+				""
+				"{chapters.storage_2.quests2.description6}"
+				""
+				"{chapters.storage_2.quests2.description7}"
+				""
+				"{chapters.storage_2.quests2.description8}"
+				""
+				"{chapters.storage_2.quests2.description9}"
+				""
+				"{chapters.storage_2.quests2.description10}"
+				""
+				"{chapters.storage_2.quests2.description11}"
+				""
+				"{chapters.storage_2.quests2.description12}"
+				""
+				"{chapters.storage_2.quests2.description13}"
+				""
+				"{chapters.storage_2.quests2.description14}"
+			]
+			dependencies: [
+				"1912B03B18D40D1D"
+				"7B959027BE4234D8"
+			]
+			size: 1.5d
+			id: "526134260FAFD727"
+			tasks: [{
+				id: "2F6E8FBF60B4CB3E"
+				type: "item"
+				item: "prettypipes:item_terminal"
+			}]
+			rewards: [{
+				id: "60767F850C66856A"
+				type: "loot"
+				table_id: 5206766833681472091L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests3.subtitle}"
+			description: [
+				"{chapters.storage_2.quests3.description1}"
+				""
+				"{chapters.storage_2.quests3.description2}"
+				""
+				"{chapters.storage_2.quests3.description3}"
+				""
+				"{chapters.storage_2.quests3.description4}"
+				""
+				"{chapters.storage_2.quests3.description5}"
+			]
+			dependencies: [
+				"526134260FAFD727"
+				"275FE11C673E522D"
+			]
+			size: 1.5d
+			id: "0B8E2DA9B43167E0"
+			tasks: [{
+				id: "6308EA57F185265B"
+				type: "item"
+				item: "prettypipes:crafting_terminal"
+			}]
+			rewards: [{
+				id: "0D24151B6C4B9423"
+				type: "loot"
+				table_id: 8587500481418189075L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -9.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests4.subtitle}"
+			dependencies: [
+				"1EFC36C4EDF9C7EB"
+				"2E3880C1F6D082FA"
+			]
+			id: "1E4FF1C53D3430E8"
+			tasks: [{
+				id: "18852A28B69D674F"
+				type: "item"
+				item: "prettypipes:high_crafting_module"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests5.subtitle}"
+			dependencies: ["6CFF430CA12BC369"]
+			id: "54F90B99AFBE0BA3"
+			tasks: [{
+				id: "524F864BE26E502B"
+				type: "item"
+				item: "prettypipes:high_speed_module"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests6.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["61069757CDBB386B"]
+			id: "7C98D6E0B58B9265"
+			tasks: [{
+				id: "63F07CB40E88A1C1"
+				type: "item"
+				item: "prettypipes:redstone_module"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests7.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["61069757CDBB386B"]
+			id: "2C0A6FF55BBBD846"
+			tasks: [{
+				id: "1CF451FACA14D1A7"
+				type: "item"
+				item: "prettypipes:stack_size_module"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests8.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["61069757CDBB386B"]
+			id: "02276C25C768FE78"
+			tasks: [{
+				id: "27F65709FFC3384D"
+				type: "item"
+				item: "prettypipes:low_low_priority_module"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests9.subtitle}"
+			dependencies: ["4B580F0070FAF409"]
+			id: "34705FDD871C4B67"
+			tasks: [{
+				id: "6D810971DC37CED2"
+				type: "item"
+				item: "prettypipes:high_low_priority_module"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests10.subtitle}"
+			dependencies: ["02276C25C768FE78"]
+			id: "4B580F0070FAF409"
+			tasks: [{
+				id: "190CDE131D67BE66"
+				type: "item"
+				item: "prettypipes:medium_low_priority_module"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests11.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["61069757CDBB386B"]
+			id: "1C95FD0867A2D69C"
+			tasks: [{
+				id: "4124C53B69976600"
+				type: "item"
+				item: "prettypipes:low_high_priority_module"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests12.subtitle}"
+			dependencies: ["1C95FD0867A2D69C"]
+			id: "7EA0B2EE9CDD9C73"
+			tasks: [{
+				id: "5FAE9942A88D2145"
+				type: "item"
+				item: "prettypipes:medium_high_priority_module"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests13.subtitle}"
+			dependencies: ["7EA0B2EE9CDD9C73"]
+			id: "45996F94DA59F608"
+			tasks: [{
+				id: "1B78472BCBA0E4F4"
+				type: "item"
+				item: "prettypipes:high_high_priority_module"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests14.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["61069757CDBB386B"]
+			id: "77F12FBA8982D481"
+			tasks: [{
+				id: "2CE53908390B6353"
+				type: "item"
+				item: "prettypipes:low_extraction_module"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests15.subtitle}"
+			dependencies: ["77F12FBA8982D481"]
+			id: "2363E53ADC604EC7"
+			tasks: [{
+				id: "50A51596BCF43079"
+				type: "item"
+				item: "prettypipes:medium_extraction_module"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests16.subtitle}"
+			dependencies: ["2363E53ADC604EC7"]
+			id: "2EC98866789E450F"
+			tasks: [{
+				id: "21E063B362E685DB"
+				type: "item"
+				item: "prettypipes:high_extraction_module"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests17.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["61069757CDBB386B"]
+			id: "2AAFDC6E74747378"
+			tasks: [{
+				id: "6A5D95C5B689AF08"
+				type: "item"
+				item: "prettypipes:low_retrieval_module"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests18.subtitle}"
+			dependencies: ["2AAFDC6E74747378"]
+			id: "09DDC809620AFCF5"
+			tasks: [{
+				id: "4178B52406AAE39C"
+				type: "item"
+				item: "prettypipes:medium_retrieval_module"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests19.subtitle}"
+			dependencies: ["09DDC809620AFCF5"]
+			id: "41E001269484EFEC"
+			tasks: [{
+				id: "4D9C8DB239E4171B"
+				type: "item"
+				item: "prettypipes:high_retrieval_module"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests20.subtitle}"
+			description: [
+				"{chapters.storage_2.quests20.description1}"
+				""
+				"{chapters.storage_2.quests20.description2}"
+				""
+				"{chapters.storage_2.quests20.description3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61069757CDBB386B"]
+			id: "7AD6C299B230A830"
+			tasks: [{
+				id: "4DD0D21A4495AFB1"
+				type: "item"
+				item: "prettypipes:low_filter_module"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests21.subtitle}"
+			dependencies: ["7AD6C299B230A830"]
+			id: "05A2269C64054454"
+			tasks: [{
+				id: "5607AA3D83CFD037"
+				type: "item"
+				item: "prettypipes:medium_filter_module"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests22.subtitle}"
+			dependencies: ["05A2269C64054454"]
+			id: "420512A12E7BD752"
+			tasks: [{
+				id: "7630D8800BAE4A36"
+				type: "item"
+				item: "prettypipes:high_filter_module"
+			}]
+		}
+		{
+			title: "{chapters.storage_2.quests23.title}"
+			icon: "prettypipes:pipe_frame"
+			x: -1.0d
+			y: -3.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests23.subtitle}"
+			description: [
+				"{chapters.storage_2.quests23.description1}"
+				""
+				"{chapters.storage_2.quests23.description2}"
+				""
+				"{chapters.storage_2.quests23.description3}"
+				""
+				"{chapters.storage_2.quests23.description4}"
+				""
+				"{chapters.storage_2.quests23.description5}"
+			]
+			dependencies: ["606DD326CCAB7FB2"]
+			size: 1.5d
+			id: "317181A56CEF7C70"
+			tasks: [{
+				id: "0F0506B37D76568F"
+				type: "checkmark"
+				title: "{chapters.storage_2.quests23.tasks.title}"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			subtitle: "{chapters.storage_2.quests24.subtitle}"
+			description: [
+				"{chapters.storage_2.quests24.description1}"
+				""
+				"{chapters.storage_2.quests24.description2}"
+				""
+				"{chapters.storage_2.quests24.description3}"
+			]
+			dependencies: [
+				"59DF5370DD2EAE51"
+				"2E3880C1F6D082FA"
+			]
+			id: "61069757CDBB386B"
+			tasks: [{
+				id: "0EFA60204AC79B00"
+				type: "item"
+				item: "prettypipes:blank_module"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests25.subtitle}"
+			dependencies: ["69DA94D714E296AC"]
+			id: "2874AD40A40240FC"
+			tasks: [{
+				id: "48A577C46DDC0A90"
+				type: "item"
+				item: "immersiveengineering:reinforced_crate"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests26.subtitle}"
+			dependencies: ["5F68C4D92EF20E09"]
+			id: "2B2BF49903C16BBC"
+			tasks: [{
+				id: "4A4729CA7708E538"
+				type: "item"
+				item: "create:adjustable_crate"
+			}]
+		}
+		{
+			title: "{chapters.storage_2.quests27.title}"
+			x: 2.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests27.subtitle}"
+			description: [
+				"{chapters.storage_2.quests27.description1}"
+				""
+				"{chapters.storage_2.quests27.description2}"
+			]
+			dependencies: ["59DF5370DD2EAE51"]
+			id: "57AC69C355FD9677"
+			tasks: [
+				{
+					id: "67C8061A619BC88E"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 34L
+				}
+				{
+					id: "05D222C135F2F253"
+					type: "item"
+					item: "immersiveengineering:treated_fence"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "{chapters.storage_2.quests28.title}"
+			x: 1.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests28.subtitle}"
+			description: [
+				"{chapters.storage_2.quests28.description1}"
+				""
+				"{chapters.storage_2.quests28.description2}"
+				""
+				"{chapters.storage_2.quests28.description3}"
+			]
+			dependencies: ["59DF5370DD2EAE51"]
+			id: "18D81EDA2C78EF5E"
+			tasks: [
+				{
+					id: "5EB30DD46D6708ED"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 50L
+				}
+				{
+					id: "46544FAB85939875"
+					type: "item"
+					item: "immersiveengineering:treated_fence"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests29.subtitle}"
+			dependencies: ["59DF5370DD2EAE51"]
+			id: "339788904F451471"
+			tasks: [{
+				id: "7F3A4BC0ACCA0E72"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests30.subtitle}"
+			description: [
+				"{chapters.storage_2.quests30.description1}"
+				""
+				"{chapters.storage_2.quests30.description2}"
+				""
+				"{chapters.storage_2.quests30.description3}"
+				""
+				"{chapters.storage_2.quests30.description4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61069757CDBB386B"]
+			id: "0C1F9A71F1B44ECE"
+			tasks: [{
+				id: "28C1A534D9C3B359"
+				type: "item"
+				item: "prettypipes:low_speed_module"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests31.subtitle}"
+			dependencies: ["0C1F9A71F1B44ECE"]
+			id: "6CFF430CA12BC369"
+			tasks: [{
+				id: "12A167BDC0E5D3D7"
+				type: "item"
+				item: "prettypipes:medium_speed_module"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests32.subtitle}"
+			description: [
+				"{chapters.storage_2.quests32.description1}"
+				""
+				"{chapters.storage_2.quests32.description2}"
+				""
+				"{chapters.storage_2.quests32.description3}"
+				""
+				"{chapters.storage_2.quests32.description4}"
+				""
+				"{chapters.storage_2.quests32.description5}"
+				""
+				"{chapters.storage_2.quests32.description6}"
+				""
+				"{chapters.storage_2.quests32.description7}"
+				""
+				"{chapters.storage_2.quests32.description8}"
+				""
+				"{chapters.storage_2.quests32.description9}"
+				""
+				"{chapters.storage_2.quests32.description10}"
+				""
+				"{chapters.storage_2.quests32.description11}"
+				""
+				"{chapters.storage_2.quests32.description12}"
+				""
+				"{chapters.storage_2.quests32.description13}"
+				""
+				"{chapters.storage_2.quests32.description14}"
+				"{chapters.storage_2.quests32.description15}"
+				"{chapters.storage_2.quests32.description16}"
+				""
+				"{chapters.storage_2.quests32.description17}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61069757CDBB386B"]
+			id: "7F6A0D0E88409222"
+			tasks: [{
+				id: "301BB1CE17AA1807"
+				type: "item"
+				item: "prettypipes:low_crafting_module"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests33.subtitle}"
+			dependencies: [
+				"7F6A0D0E88409222"
+				"2E3880C1F6D082FA"
+			]
+			id: "1EFC36C4EDF9C7EB"
+			tasks: [{
+				id: "2F2653EA8F1E32B0"
+				type: "item"
+				item: "prettypipes:medium_crafting_module"
+			}]
+		}
+		{
+			title: "{chapters.storage_2.quests34.title}"
+			x: -0.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests34.subtitle}"
+			dependencies: ["59DF5370DD2EAE51"]
+			id: "78EFBF772AA91E6E"
+			tasks: [{
+				id: "07C6D8AE6DD17362"
+				type: "item"
+				item: "create:brown_toolbox"
+			}]
+		}
+		{
+			title: "{chapters.storage_2.quests35.title}"
+			x: 4.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests35.subtitle}"
+			dependencies: ["59DF5370DD2EAE51"]
+			id: "48B30B04BE1BBC45"
+			tasks: [{
+				id: "228ABEF3401AE3C0"
+				type: "item"
+				item: {
+					id: "immersiveengineering:toolbox"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 23
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -11.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests36.subtitle}"
+			dependencies: ["6E6272D607C825A5"]
+			id: "22731B5D372A1C18"
+			tasks: [{
+				id: "2551F81AA047B460"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -11.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests37.subtitle}"
+			dependencies: [
+				"48148EE28276AB64"
+				"6E6272D607C825A5"
+				"22731B5D372A1C18"
+			]
+			id: "3D04491730811B96"
+			tasks: [{
+				id: "4AA57CB89B6972DE"
+				type: "item"
+				item: {
+					id: "botania:mana_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -11.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests38.subtitle}"
+			dependencies: ["3D04491730811B96"]
+			id: "6CFFBD03F401EB98"
+			tasks: [{
+				id: "2585CDCAA9CF4095"
+				type: "item"
+				item: {
+					id: "botania:mana_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests39.subtitle}"
+			dependencies: [
+				"3F2B399F6E3190E4"
+				"1F1994D8C11FAB3D"
+			]
+			id: "0081118B49CE15D9"
+			tasks: [{
+				id: "7EADEC3A3A0E931E"
+				type: "item"
+				item: "immersiveengineering:powerpack"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests40.subtitle}"
+			dependencies: [
+				"0081118B49CE15D9"
+				"59DF5370DD2EAE51"
+			]
+			id: "1FEC310512D4775A"
+			tasks: [{
+				id: "2DB1C4116908E809"
+				type: "item"
+				item: "sophisticatedbackpacks:battery_upgrade"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests41.subtitle}"
+			hide_dependency_lines: true
+			dependencies: [
+				"339788904F451471"
+				"5F68C4D92EF20E09"
+			]
+			id: "6EC70A81B6197D03"
+			tasks: [{
+				id: "07189033DC3904B2"
+				type: "item"
+				item: "sophisticatedbackpacks:tank_upgrade"
+			}]
+		}
+		{
+			title: "{chapters.storage_2.quests42.title}"
+			x: 3.0d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests42.subtitle}"
+			dependencies: ["59DF5370DD2EAE51"]
+			id: "37CCDDD8AD037DD0"
+			tasks: [{
+				id: "06F151F8AEA6B0BA"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.339285714285715d
+			shape: "heart"
+			subtitle: "{chapters.storage_2.quests43.subtitle}"
+			description: ["{chapters.storage_2.quests43.description}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"54F90B99AFBE0BA3"
+				"10D3BBDC4C911B81"
+				"7B959027BE4234D8"
+				"79CD250CE08D8C5A"
+				"56017FCF2D7819F8"
+			]
+			id: "778E872EA5D13A96"
+			tasks: [{
+				id: "181019A5C8A847A7"
+				type: "item"
+				item: "prettypipes:pressurizer"
+			}]
+			rewards: [{
+				id: "70712B0906A8F419"
+				type: "loot"
+				table_id: 8587500481418189075L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests44.subtitle}"
+			dependencies: [
+				"22D8E166626FA608"
+				"79BB64427280F8AE"
+			]
+			id: "7AE0751DD7654912"
+			tasks: [{
+				id: "095C754FCED0C8AE"
+				type: "item"
+				item: "immersiveengineering:metal_barrel"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -12.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_2.quests45.subtitle}"
+			dependencies: [
+				"371A70521F7AE65E"
+				"655AB81DE00B783B"
+				"3D75721DA9392AA5"
+				"40205D351BE13B77"
+			]
+			id: "61640A55E9877F54"
+			tasks: [{
+				id: "772BA51B2A29EAA2"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+		}
+	]
+}

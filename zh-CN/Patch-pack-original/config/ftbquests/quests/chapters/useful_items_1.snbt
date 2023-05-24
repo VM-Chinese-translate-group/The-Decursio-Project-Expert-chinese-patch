@@ -1,0 +1,2013 @@
+{
+	id: "15E7226C9D836DC4"
+	group: "52BC1523CD35BD71"
+	order_index: 5
+	filename: "useful_items_1"
+	title: "{chapters.useful_items_1.title}"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 6.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests1.subtitle}"
+			description: [
+				"{chapters.useful_items_1.quests1.description1}"
+				""
+				"{chapters.useful_items_1.quests1.description2}"
+				""
+				"{chapters.useful_items_1.quests1.description3}"
+			]
+			dependencies: [
+				"52FD71220EF8CF35"
+				"077199D0B5C0CEDD"
+				"0492A1CDFB26CAE1"
+			]
+			id: "0DA9BDB6A722B7E9"
+			tasks: [{
+				id: "659A9DE4578F3E5B"
+				type: "item"
+				item: "eidolon:sanguine_amulet"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests2.subtitle}"
+			dependencies: [
+				"52FD71220EF8CF35"
+				"2672CC97E79EB5DE"
+			]
+			id: "087B1B92CEDED717"
+			tasks: [{
+				id: "54721005EAF66068"
+				type: "item"
+				item: "eidolon:gravity_belt"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests3.subtitle}"
+			dependencies: [
+				"25F5B4F662D9D463"
+				"2672CC97E79EB5DE"
+			]
+			id: "2C4E12EE5E69BA90"
+			tasks: [{
+				id: "07EBDB7D79CC0FA6"
+				type: "item"
+				item: "eidolon:resolute_belt"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests4.subtitle}"
+			dependencies: [
+				"25F5B4F662D9D463"
+				"2672CC97E79EB5DE"
+			]
+			id: "2D6E763682EEB06C"
+			tasks: [{
+				id: "68DE325168ADFB6C"
+				type: "item"
+				item: "eidolon:void_amulet"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests5.subtitle}"
+			dependencies: [
+				"52FD71220EF8CF35"
+				"2672CC97E79EB5DE"
+			]
+			id: "6022F575AE5E2B4A"
+			tasks: [{
+				id: "38D1E2F7499DBA7B"
+				type: "item"
+				item: "eidolon:glass_hand"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests6.subtitle}"
+			dependencies: [
+				"52FD71220EF8CF35"
+				"2672CC97E79EB5DE"
+			]
+			id: "2C22847674044544"
+			tasks: [{
+				id: "68E8D073E8ED97F1"
+				type: "item"
+				item: "eidolon:warded_mail"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests7.subtitle}"
+			dependencies: [
+				"25F5B4F662D9D463"
+				"2672CC97E79EB5DE"
+			]
+			id: "23C9019C5779336E"
+			tasks: [{
+				id: "6324A3F4D3A95FC3"
+				type: "item"
+				item: "eidolon:mind_shielding_plate"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			subtitle: "{chapters.useful_items_1.quests8.subtitle}"
+			dependencies: ["6F6302D94B7809B6"]
+			id: "1C0CA44D8AA9DB62"
+			tasks: [{
+				id: "71282C66FCAF355F"
+				type: "item"
+				item: "supplementaries:cage"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests9.title}"
+			x: 10.5d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests9.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "3A57EC377E478D10"
+			tasks: [{
+				id: "4C34D24FE778A356"
+				type: "item"
+				item: "supplementaries:bamboo_spikes"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests10.subtitle}"
+			description: ["{chapters.useful_items_1.quests10.description}"]
+			dependencies: ["6F6302D94B7809B6"]
+			id: "4F1813D5F7F42976"
+			tasks: [{
+				id: "3BA295761D5EEC53"
+				type: "item"
+				item: "supplementaries:faucet"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			subtitle: "{chapters.useful_items_1.quests11.subtitle}"
+			dependencies: ["55F6BEA66FDEAE94"]
+			id: "0438F48FD9838797"
+			tasks: [{
+				id: "5C701E7EB40FCFF0"
+				type: "item"
+				item: "supplementaries:bellows"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 7.5d
+			subtitle: "{chapters.useful_items_1.quests12.subtitle}"
+			description: [
+				"{chapters.useful_items_1.quests12.description1}"
+				"{chapters.arcane_1.quests18.description2}"
+				"{chapters.useful_items_1.quests12.description3}"
+				"{chapters.useful_items_1.quests12.description4}"
+				"{chapters.useful_items_1.quests12.description5}"
+			]
+			dependencies: ["0DDA2FB169318B04"]
+			id: "62B803AC13F69440"
+			tasks: [{
+				id: "7AA1F5EA2707E2AA"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+			rewards: [{
+				id: "0CF99A3706365F3D"
+				type: "loot"
+				table_id: 5206766833681472091L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			subtitle: "{chapters.useful_items_1.quests13.subtitle}"
+			dependencies: ["153EBA0E05C07D6D"]
+			id: "29988895A88E153E"
+			tasks: [{
+				id: "751C27234A8C178C"
+				type: "item"
+				item: "supplementaries:planter"
+			}]
+			rewards: [
+				{
+					id: "237145E5DF9DA044"
+					type: "item"
+					item: "supplementaries:planter"
+					count: 30
+				}
+				{
+					id: "4B854044EEC90E33"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			subtitle: "{chapters.useful_items_1.quests14.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "4706DE2D645BB353"
+			tasks: [{
+				id: "6D696B5978FAEB80"
+				type: "item"
+				item: "supplementaries:crank"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			subtitle: "{chapters.useful_items_1.quests15.subtitle}"
+			dependencies: ["5C4E567B0E9BBC87"]
+			id: "70D5E1AEC76A2D49"
+			tasks: [{
+				id: "7A1472A39F08F7DC"
+				type: "item"
+				item: "supplementaries:cog_block"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			subtitle: "{chapters.useful_items_1.quests16.subtitle}"
+			dependencies: ["5C4E567B0E9BBC87"]
+			id: "2BF586605FFEBB7B"
+			tasks: [{
+				id: "0EABF075156CA6AB"
+				type: "item"
+				item: "supplementaries:clock_block"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			subtitle: "{chapters.useful_items_1.quests17.subtitle}"
+			dependencies: ["6F6302D94B7809B6"]
+			id: "7DD4925DE7BAA98B"
+			tasks: [{
+				id: "08FB43ACFEE02140"
+				type: "item"
+				item: "supplementaries:spring_launcher"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			subtitle: "{chapters.useful_items_1.quests18.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "4FE2D72F8D1491D0"
+			tasks: [{
+				id: "08CC48C3F5B6DA2F"
+				type: "item"
+				item: "supplementaries:pedestal"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests19.subtitle}"
+			dependencies: [
+				"5BE9A7D51A671963"
+				"2672CC97E79EB5DE"
+				"52FD71220EF8CF35"
+			]
+			id: "03EB8065C7A62656"
+			tasks: [{
+				id: "1D5EFD6270AF2D57"
+				type: "item"
+				item: "eidolon:prestigious_palm"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			shape: "circle"
+			subtitle: "{chapters.useful_items_1.quests20.subtitle}"
+			dependencies: ["6F6302D94B7809B6"]
+			id: "1C3E07B549ADB6CC"
+			tasks: [{
+				id: "548F320B84B5ED94"
+				type: "item"
+				item: "charm:bat_bucket"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			subtitle: "{chapters.useful_items_1.quests21.subtitle}"
+			dependencies: ["67EAA2A3900A3889"]
+			id: "0C60D80DC5FA03C0"
+			tasks: [{
+				id: "328389F9B1B1C6FD"
+				type: "item"
+				item: "farmersdelight:rope"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests22.title}"
+			x: 9.0d
+			y: 5.0d
+			subtitle: "{chapters.useful_items_1.quests22.subtitle}"
+			dependencies: ["0C60D80DC5FA03C0"]
+			id: "475F525C37DE86A4"
+			tasks: [
+				{
+					id: "076AAB1D45FB9568"
+					type: "item"
+					item: "farmersdelight:safety_net"
+				}
+				{
+					id: "1AADE62FDC089BB7"
+					type: "item"
+					item: "minecraft:lead"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			subtitle: "{chapters.useful_items_1.quests23.subtitle}"
+			dependencies: ["6F6302D94B7809B6"]
+			id: "09142354FA8E0A4B"
+			tasks: [{
+				id: "652235CD6F23C38D"
+				type: "item"
+				item: "camera:camera"
+			}]
+			rewards: [{
+				id: "48224D11C126EB2F"
+				type: "item"
+				item: "minecraft:paper"
+				count: 32
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			subtitle: "{chapters.useful_items_1.quests24.subtitle}"
+			dependencies: ["55F6BEA66FDEAE94"]
+			id: "798C5C1D56D80FFC"
+			tasks: [{
+				id: "306275808967C201"
+				type: "item"
+				item: "camera:album"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			subtitle: "{chapters.useful_items_1.quests25.subtitle}"
+			dependencies: ["55F6BEA66FDEAE94"]
+			id: "4DA1E5D04E49B7A5"
+			tasks: [{
+				id: "4571AFA329F3CE43"
+				type: "item"
+				item: "camera:image_frame"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			shape: "heart"
+			subtitle: "{chapters.useful_items_1.quests26.subtitle}"
+			description: [
+				"{chapters.useful_items_1.quests26.description1}"
+				""
+				"{chapters.useful_items_1.quests26.description2}"
+			]
+			dependencies: ["4F5315A98ABA996E"]
+			id: "78877D1E8F84071A"
+			tasks: [{
+				id: "34796324D5D2E7A6"
+				type: "item"
+				item: "quark:bottled_cloud"
+			}]
+			rewards: [{
+				id: "7DDBDD69B0BA0A00"
+				type: "loot"
+				table_id: 5206766833681472091L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests27.subtitle}"
+			dependencies: ["6EC2AAB1C3022A4E"]
+			id: "4DADD43D191C1091"
+			tasks: [{
+				id: "7B63713945807359"
+				type: "item"
+				item: "eidolon:enchanted_ash"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			shape: "heart"
+			subtitle: "{chapters.useful_items_1.quests28.subtitle}"
+			hide_dependency_lines: true
+			dependencies: [
+				"20565A3484CED967"
+				"1C0CA44D8AA9DB62"
+			]
+			id: "0808192C70B533E9"
+			tasks: [{
+				id: "1359286D005B518F"
+				type: "item"
+				item: "tconstruct:piggy_backpack"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.0d
+			subtitle: "{chapters.useful_items_1.quests29.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "063D4C55795DB83C"
+			tasks: [
+				{
+					id: "7AF7FB9993428BD7"
+					type: "item"
+					item: "tconstruct:flint_shuriken"
+				}
+				{
+					id: "667611D634AE17C1"
+					type: "item"
+					item: "tconstruct:quartz_shuriken"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			subtitle: "{chapters.useful_items_1.quests30.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "6C7FD6B3D51E06F8"
+			tasks: [{
+				id: "71769338BFCF0623"
+				type: "item"
+				item: "tconstruct:glow_ball"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			subtitle: "{chapters.useful_items_1.quests31.subtitle}"
+			dependencies: ["4F5315A98ABA996E"]
+			id: "72664E493D4953C9"
+			tasks: [{
+				id: "0F2C177C47E2D950"
+				type: "item"
+				item: "tconstruct:clear_item_frame"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			subtitle: "{chapters.useful_items_1.quests32.subtitle}"
+			dependencies: ["2F7E8BAF91003DEE"]
+			id: "6A0EEBBC85667FD9"
+			tasks: [
+				{
+					id: "0B6402E8D910FA37"
+					type: "item"
+					item: "tconstruct:gold_item_frame"
+				}
+				{
+					id: "27811889F6C940F5"
+					type: "item"
+					item: "tconstruct:reversed_gold_item_frame"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			subtitle: "{chapters.useful_items_1.quests33.subtitle}"
+			dependencies: ["2F7E8BAF91003DEE"]
+			id: "3FB31E2A323761A4"
+			tasks: [{
+				id: "0236163DC5731973"
+				type: "item"
+				item: "tconstruct:diamond_item_frame"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			subtitle: "{chapters.useful_items_1.quests34.subtitle}"
+			dependencies: ["2F7E8BAF91003DEE"]
+			id: "0B2FCC4A0F801E01"
+			tasks: [{
+				id: "1A2C132A9680A433"
+				type: "item"
+				item: "tconstruct:netherite_item_frame"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 8.5d
+			subtitle: "{chapters.useful_items_1.quests35.subtitle}"
+			dependencies: ["755209504228B453"]
+			id: "038C3ED3B4FF7EF6"
+			tasks: [
+				{
+					id: "5BDFF91BC025FC7A"
+					type: "item"
+					item: "trashcans:item_trash_can"
+				}
+				{
+					id: "66E23321B81A982D"
+					type: "item"
+					item: "trashcans:liquid_trash_can"
+				}
+				{
+					id: "34F1C911E0AA00B0"
+					type: "item"
+					item: "trashcans:energy_trash_can"
+				}
+			]
+			rewards: [{
+				id: "0724CB551922CA98"
+				type: "item"
+				item: "trashcans:ultimate_trash_can"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests36.title}"
+			icon: "table_top_craft:oak_chess"
+			x: 7.0d
+			y: 7.5d
+			subtitle: "{chapters.useful_items_1.quests36.subtitle}"
+			description: [
+				"{chapters.useful_items_1.quests36.description1}"
+				""
+				"{chapters.useful_items_1.quests36.description2}"
+				"{chapters.useful_items_1.quests36.description3}"
+				""
+				"{chapters.useful_items_1.quests36.description4}"
+			]
+			dependencies: ["0DDA2FB169318B04"]
+			id: "6924809BC54896C1"
+			tasks: [{
+				id: "59DBE84207F6C50C"
+				type: "checkmark"
+				title: "{chapters.arcane_4.quests17.tasks.title}"
+			}]
+			rewards: [{
+				id: "3643010DB1DD5167"
+				type: "item"
+				item: "table_top_craft:oak_chess"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			subtitle: "{chapters.useful_items_1.quests37.subtitle}"
+			dependencies: [
+				"0DDA2FB169318B04"
+				"6AA23A5FB3C37C90"
+			]
+			id: "62E818AFCBEA7628"
+			tasks: [{
+				id: "3086D1F5501AC262"
+				type: "item"
+				item: {
+					id: "hats:hat_launcher"
+					Count: 1b
+					tag: {
+						hats_hatPart: {
+							hsbH: 0.0f
+							partCount: 0
+							clrR: 0.0f
+							count: 1
+							isNew: 0b
+							hsbS: 0.0f
+							clrG: 0.0f
+							isShowing: 1b
+							enchanted: 0b
+							clrA: 0.0f
+							clrB: 0.0f
+							name: ":random"
+							hsbB: 0.0f
+							isFavourite: 0b
+						}
+					}
+					ForgeCaps: {
+						Parent: {
+							hsbH: 0.0f
+							partCount: 0
+							clrR: 0.0f
+							count: 1
+							isNew: 0b
+							hsbS: 0.0f
+							clrG: 0.0f
+							isShowing: 1b
+							enchanted: 0b
+							clrA: 0.0f
+							clrB: 0.0f
+							name: ":random"
+							hsbB: 0.0f
+							isFavourite: 0b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6EFA7DD86BB5B26B"
+				type: "loot"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests38.title}"
+			icon: "cfm:oak_mail_box"
+			x: 9.0d
+			y: 6.5d
+			subtitle: "{chapters.useful_items_1.quests38.subtitle}"
+			description: [
+				"{chapters.useful_items_1.quests38.description1}"
+				""
+				"{chapters.useful_items_1.quests38.description2}"
+			]
+			dependencies: ["755209504228B453"]
+			id: "6D805AB123DA69D5"
+			tasks: [{
+				id: "5F1AD4CB5C4A8364"
+				type: "item"
+				item: "cfm:oak_mail_box"
+			}]
+			rewards: [{
+				id: "0DB803070155D766"
+				type: "item"
+				item: "cfm:post_box"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 8.5d
+			subtitle: "{chapters.useful_items_1.quests39.subtitle}"
+			description: ["{chapters.useful_items_1.quests39.description}"]
+			dependencies: ["153EBA0E05C07D6D"]
+			id: "03E949BFB46103AD"
+			tasks: [{
+				id: "3E8DBF78A16E5B5E"
+				type: "item"
+				item: {
+					id: "dwmh:ocarina"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests40.title}"
+			x: 4.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests40.subtitle}"
+			description: [
+				"{chapters.useful_items_1.quests40.description1}"
+				""
+				"{chapters.useful_items_1.quests40.description2}"
+				""
+				"{chapters.useful_items_1.quests40.description3}"
+				""
+				"{chapters.useful_items_1.quests40.description4}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"03E1A8C6F933631D"
+				"52FD71220EF8CF35"
+				"377DDDF081820BFB"
+			]
+			id: "3C84C058821C1CF7"
+			tasks: [{
+				id: "1E329490776B0317"
+				type: "item"
+				item: {
+					id: "sanguinearsenal:blood_flask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests41.title}"
+			x: 11.0d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests41.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "079D33BE2D4A5E2D"
+			tasks: [{
+				id: "1FEFA662E998A295"
+				type: "item"
+				item: "rats:rat_upgrade_platter"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests42.title}"
+			x: 4.0d
+			y: 4.0d
+			shape: "heart"
+			subtitle: "{chapters.useful_items_1.quests42.subtitle}"
+			dependencies: ["1903E6D4FB32518B"]
+			id: "4B04F3F0892DE298"
+			tasks: [{
+				id: "39428453FE71FA79"
+				type: "item"
+				item: "rats:rat_upgrade_demon"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests43.title}"
+			x: 11.0d
+			y: 8.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests43.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "62AB089F492FD44E"
+			tasks: [{
+				id: "34F48067557793AC"
+				type: "item"
+				item: "rats:rat_upgrade_chef"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests44.title}"
+			x: 11.0d
+			y: 3.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests44.subtitle}"
+			description: [
+				"{chapters.useful_items_1.quests44.description1}"
+				""
+				"{chapters.useful_items_1.quests44.description2}"
+				"{chapters.useful_items_1.quests44.description3}"
+				"{chapters.useful_items_1.quests44.description4}"
+				"{chapters.useful_items_1.quests44.description5}"
+				"{chapters.useful_items_1.quests44.description6}"
+				""
+				"{chapters.useful_items_1.quests44.description7}"
+				""
+				"{chapters.useful_items_1.quests44.description8}"
+				""
+				"{chapters.useful_items_1.quests44.description9}"
+			]
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "53CBFA44298242B9"
+			tasks: [
+				{
+					id: "69BDF98BA5E7434B"
+					type: "item"
+					item: "rats:rat_upgrade_crafting"
+				}
+				{
+					id: "5576109C5EFFF776"
+					type: "item"
+					item: "rats:rat_crafting_table"
+				}
+			]
+		}
+		{
+			title: "{chapters.useful_items_1.quests45.title}"
+			x: 12.0d
+			y: 3.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests45.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "72C9BF0D8B1F2B5C"
+			tasks: [{
+				id: "3C7BD84A3D4C3E44"
+				type: "item"
+				item: "rats:rat_upgrade_blacklist"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests46.title}"
+			x: 12.0d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests46.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "086A40FD6B0EB27E"
+			tasks: [{
+				id: "3F75F9229E9867F8"
+				type: "item"
+				item: "rats:rat_upgrade_whitelist"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests47.title}"
+			x: 12.0d
+			y: 7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests47.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "7D77F910E12AD85A"
+			tasks: [{
+				id: "28A8E59079141D58"
+				type: "item"
+				item: "rats:rat_upgrade_replanter"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests48.title}"
+			x: 4.0d
+			y: 7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests48.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "45A191444BDAC589"
+			tasks: [{
+				id: "3C4C0DC9F4775FE1"
+				type: "item"
+				item: "rats:rat_upgrade_flight"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests49.title}"
+			x: 4.0d
+			y: 6.5d
+			shape: "heart"
+			subtitle: "{chapters.useful_items_1.quests49.subtitle}"
+			dependencies: ["60EB1A4ADD61B30A"]
+			id: "50612DBF8BBC3C73"
+			tasks: [{
+				id: "1F5FEF0E315CF8D9"
+				type: "item"
+				item: "rats:rat_upgrade_aquatic"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests50.title}"
+			x: 11.0d
+			y: 6.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests50.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "7C64624E910DB343"
+			tasks: [{
+				id: "5767AC994A92FC3F"
+				type: "item"
+				item: "rats:rat_upgrade_lumberjack"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests51.title}"
+			x: 12.0d
+			y: 6.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests51.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "09E647B12124A3C6"
+			tasks: [{
+				id: "58BB165B741F9DF7"
+				type: "item"
+				item: "rats:rat_upgrade_breeder"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests52.title}"
+			x: 12.0d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests52.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "28C3990349F62D48"
+			tasks: [{
+				id: "151E18F065CB9C0C"
+				type: "item"
+				item: "rats:rat_upgrade_fisherman"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests53.title}"
+			x: 4.0d
+			y: 3.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests53.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "1903E6D4FB32518B"
+			tasks: [{
+				id: "17B06F49706E811B"
+				type: "item"
+				item: "rats:rat_upgrade_asbestos"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests54.title}"
+			x: 4.0d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests54.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "60EB1A4ADD61B30A"
+			tasks: [{
+				id: "23CBFFBB4332D021"
+				type: "item"
+				item: "rats:rat_upgrade_underwater"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests55.title}"
+			x: 4.0d
+			y: 8.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests55.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "22B528AA0A633199"
+			tasks: [{
+				id: "5BEF144DCD3B7592"
+				type: "item"
+				item: "rats:rat_upgrade_poison"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests56.title}"
+			x: 11.0d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests56.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "0CB36957CCEAECF8"
+			tasks: [{
+				id: "4FB7BF5399237059"
+				type: "item"
+				item: "rats:rat_upgrade_shears"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests57.title}"
+			x: 5.0d
+			y: 8.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests57.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "57582D26E044B3CF"
+			tasks: [{
+				id: "58E7E83BC0C301FD"
+				type: "item"
+				item: "rats:rat_upgrade_no_flute"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests58.title}"
+			x: 12.0d
+			y: 8.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests58.subtitle}"
+			dependencies: ["62AB089F492FD44E"]
+			id: "77DF1B7F35647C4C"
+			tasks: [{
+				id: "6EC63B313D457413"
+				type: "item"
+				item: "rats:rat_upgrade_carrat"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests59.title}"
+			x: 5.0d
+			y: 7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests59.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "0E754E187A7939E0"
+			tasks: [{
+				id: "69916CEA07E1C158"
+				type: "item"
+				item: "rats:rat_upgrade_angel"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests60.title}"
+			x: 11.0d
+			y: 7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests60.subtitle}"
+			dependencies: ["71C7535E1E3A39A3"]
+			id: "6EAC80639CFE0C19"
+			tasks: [{
+				id: "6CA518860793CB78"
+				type: "item"
+				item: "rats:rat_upgrade_undead"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests61.title}"
+			x: 5.0d
+			y: 3.0d
+			subtitle: "{chapters.useful_items_1.quests61.subtitle}"
+			dependencies: [
+				"0905B2D5C3DE9715"
+				"4EE4B646E9535ADB"
+			]
+			id: "627B045A05C9D9ED"
+			tasks: [{
+				id: "5DFE184B2CFD147D"
+				type: "item"
+				item: "rats:rat_upgrade_basic_mount"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests62.title}"
+			x: 5.0d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests62.subtitle}"
+			dependencies: ["627B045A05C9D9ED"]
+			id: "1DEDE604AC64E5D0"
+			tasks: [{
+				id: "70EA5E434FCCA213"
+				type: "item"
+				item: "rats:rat_upgrade_chicken_mount"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests63.title}"
+			x: 5.0d
+			y: 6.5d
+			shape: "heart"
+			subtitle: "{chapters.useful_items_1.quests63.subtitle}"
+			dependencies: ["60B07979665FE8BE"]
+			id: "43659DB5FABAEC29"
+			tasks: [{
+				id: "16DED1F7DC9F8072"
+				type: "item"
+				item: "rats:rat_upgrade_golem_mount"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests64.title}"
+			x: 5.0d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests64.subtitle}"
+			dependencies: ["1DEDE604AC64E5D0"]
+			id: "60B07979665FE8BE"
+			tasks: [{
+				id: "4636E3C94F126930"
+				type: "item"
+				item: "rats:rat_upgrade_beast_mount"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests65.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "6A781B824CAE9517"
+			tasks: [{
+				id: "316E10C115EEE75E"
+				type: "item"
+				item: {
+					id: "supplementaries:slingshot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests66.subtitle}"
+			dependencies: ["7C29480CE8A8FDE5"]
+			id: "427F35D7537130B3"
+			tasks: [{
+				id: "6AAC6DBF9E3F856B"
+				type: "item"
+				item: "minicoal2:minicoal"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests67.subtitle}"
+			description: [
+				"{chapters.arcane_2.quests6.description4}"
+				""
+				"{chapters.useful_items_1.quests67.description2}"
+				""
+				"{chapters.useful_items_1.quests67.description3}"
+			]
+			dependencies: [
+				"2672CC97E79EB5DE"
+				"20565A3484CED967"
+			]
+			id: "386524965EC6F480"
+			tasks: [{
+				id: "6DBCD6FE8B73D735"
+				type: "item"
+				item: "minecraft:respawn_anchor"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests68.subtitle}"
+			dependencies: ["55F6BEA66FDEAE94"]
+			id: "10F15FAA203E3DCD"
+			tasks: [{
+				id: "348CA1FECB42A8E8"
+				type: "item"
+				item: "woodenhopper:wooden_hopper"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests69.title}"
+			x: 6.5d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests69.subtitle}"
+			dependencies: ["6F6302D94B7809B6"]
+			id: "26351585DB426531"
+			tasks: [{
+				id: "00DFDA832F4C7F55"
+				type: "item"
+				item: "charm:woodcutter"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests70.subtitle}"
+			dependencies: ["2F7E8BAF91003DEE"]
+			id: "1F71EEB82F6EA397"
+			tasks: [{
+				id: "1DB81F8E7295643F"
+				type: "item"
+				item: "tconstruct:seared_chute"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests71.subtitle}"
+			dependencies: [
+				"6AA23A5FB3C37C90"
+				"2F7E8BAF91003DEE"
+			]
+			id: "73EFE0C94BA0D76B"
+			tasks: [{
+				id: "4BDE6C6E16EDF031"
+				type: "item"
+				item: "tconstruct:seared_duct"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests72.subtitle}"
+			dependencies: ["2FD041FC05D4737B"]
+			id: "7B875C1B7258D185"
+			tasks: [{
+				id: "5C2475E97D4A7E04"
+				type: "item"
+				item: "charm:netherite_nugget"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests73.subtitle}"
+			dependencies: [
+				"0905B2D5C3DE9715"
+				"6F6302D94B7809B6"
+			]
+			id: "7634B2B6633F307E"
+			tasks: [{
+				id: "08CAAB6A232CD23C"
+				type: "item"
+				item: "rats:rat_whistle"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests74.title}"
+			icon: "rats:cheese_stick"
+			x: 8.0d
+			y: 6.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests74.subtitle}"
+			description: [
+				"{chapters.useful_items_1.quests74.description1}"
+				""
+				"{chapters.useful_items_1.quests74.description2}"
+				""
+				"{chapters.useful_items_1.quests74.description3}"
+				""
+				"{chapters.useful_items_1.quests74.description4}"
+			]
+			dependencies: ["013E07B05C35CCE6"]
+			id: "3C582531A5D804DC"
+			tasks: [{
+				id: "04BC8F51A2C11164"
+				type: "checkmark"
+				title: "{chapters.atum_2.quests16.tasks.title}"
+			}]
+			rewards: [
+				{
+					id: "1DE463747EE655F1"
+					type: "item"
+					item: {
+						id: "rats:cheese_stick"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "29BA3008FA9A7B65"
+					type: "item"
+					item: {
+						id: "rats:radius_stick"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1707FAA900EBD686"
+					type: "item"
+					item: {
+						id: "rats:rat_flute"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "{chapters.useful_items_1.quests75.title}"
+			x: 8.5d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests75.subtitle}"
+			description: [
+				"{chapters.useful_items_1.quests75.description1}"
+				"{chapters.useful_items_1.quests75.description2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["20565A3484CED967"]
+			id: "2771D474BD3F31E6"
+			tasks: [{
+				id: "177D33586B794924"
+				type: "item"
+				item: "minecraft:conduit"
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests76.title}"
+			x: 8.0d
+			y: 0.0d
+			subtitle: "{chapters.useful_items_1.quests76.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "78E0746D7CBB28F3"
+			tasks: [
+				{
+					id: "1BA52EA1E2155E3A"
+					type: "item"
+					item: "thermal:slime_tnt"
+				}
+				{
+					id: "407CF1E80D32ABD5"
+					type: "item"
+					item: "thermal:redstone_tnt"
+				}
+				{
+					id: "0E292DF03E7E4314"
+					type: "item"
+					item: "thermal:glowstone_tnt"
+				}
+				{
+					id: "2CE42EFD1487E171"
+					type: "item"
+					item: "thermal:ender_tnt"
+				}
+				{
+					id: "4F9D16DE00F13537"
+					type: "item"
+					item: "thermal:earth_tnt"
+				}
+				{
+					id: "143A30FD33C33D56"
+					type: "item"
+					item: "thermal:fire_tnt"
+				}
+				{
+					id: "2AA855A7D6A76270"
+					type: "item"
+					item: "thermal:ice_tnt"
+				}
+				{
+					id: "54D7A33D93929362"
+					type: "item"
+					item: "thermal:lightning_tnt"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests77.subtitle}"
+			dependencies: ["6F6302D94B7809B6"]
+			id: "5DD9618A302C6147"
+			tasks: [{
+				id: "69D67B89123D3190"
+				type: "item"
+				item: "thermal:detonator"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests78.subtitle}"
+			dependencies: ["6F6302D94B7809B6"]
+			id: "6BE99F80A5509B49"
+			tasks: [
+				{
+					id: "48A88E0E22EC4C98"
+					type: "item"
+					item: "thermal:explosive_grenade"
+				}
+				{
+					id: "4FF5B2F31A52536E"
+					type: "item"
+					item: "thermal:slime_grenade"
+				}
+				{
+					id: "37246F09C385A409"
+					type: "item"
+					item: "thermal:redstone_grenade"
+				}
+				{
+					id: "133F08C762D345E0"
+					type: "item"
+					item: "thermal:glowstone_grenade"
+				}
+				{
+					id: "1195686F1AE1395A"
+					type: "item"
+					item: "thermal:ender_grenade"
+				}
+				{
+					id: "75C8D3553C55D8A8"
+					type: "item"
+					item: "thermal:earth_grenade"
+				}
+				{
+					id: "07FE30CE3464F07D"
+					type: "item"
+					item: "thermal:fire_grenade"
+				}
+				{
+					id: "3639BBEBF1DDA34D"
+					type: "item"
+					item: "thermal:ice_grenade"
+				}
+				{
+					id: "008841D24B859CBC"
+					type: "item"
+					item: "thermal:lightning_grenade"
+				}
+			]
+		}
+		{
+			title: "{chapters.useful_items_1.quests79.title}"
+			x: 7.0d
+			y: -9.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests79.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "12E91937FC15A637"
+			tasks: [{
+				id: "674743121D2DE478"
+				type: "item"
+				item: "aquaculture:worm_farm"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests80.subtitle}"
+			dependencies: ["6F6302D94B7809B6"]
+			id: "22A62ABF59112AE9"
+			tasks: [{
+				id: "2E358FF7515C5B1B"
+				type: "item"
+				item: "aquaculture:tackle_box"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 12.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests81.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "65F48D209F77EA38"
+			tasks: [{
+				id: "7DB7B637157B4CE1"
+				type: "item"
+				item: {
+					id: "wateringcans:watering_can_basic"
+					Count: 1b
+					tag: {
+						data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 12.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests82.subtitle}"
+			dependencies: ["65F48D209F77EA38"]
+			id: "64042FF1EF125E95"
+			tasks: [{
+				id: "0597833B149E4D31"
+				type: "item"
+				item: {
+					id: "wateringcans:watering_can_copper"
+					Count: 1b
+					tag: {
+						data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 12.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests83.subtitle}"
+			dependencies: ["64042FF1EF125E95"]
+			id: "6FDAE5E7C4830205"
+			tasks: [{
+				id: "5E56BA2955F480EA"
+				type: "item"
+				item: {
+					id: "wateringcans:watering_can_quartz"
+					Count: 1b
+					tag: {
+						data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 12.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests84.subtitle}"
+			dependencies: ["6FDAE5E7C4830205"]
+			id: "37D7B3CF6C88CC14"
+			tasks: [{
+				id: "0C772895C7D3C4CF"
+				type: "item"
+				item: {
+					id: "wateringcans:watering_can_diamond"
+					Count: 1b
+					tag: {
+						data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests85.subtitle}"
+			dependencies: ["6F6302D94B7809B6"]
+			id: "65D865D1705E4CFE"
+			tasks: [{
+				id: "464B24E0F8453FDA"
+				type: "item"
+				item: "aquaculture:iron_hook"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests86.subtitle}"
+			dependencies: ["65D865D1705E4CFE"]
+			id: "702C580DC5B418B3"
+			tasks: [{
+				id: "63368D433E745A3F"
+				type: "item"
+				item: "aquaculture:gold_hook"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests87.subtitle}"
+			dependencies: ["65D865D1705E4CFE"]
+			id: "0441B3A3778E2AC2"
+			tasks: [{
+				id: "5198A816842399B5"
+				type: "item"
+				item: "aquaculture:diamond_hook"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests88.subtitle}"
+			dependencies: ["65D865D1705E4CFE"]
+			id: "6A2C13D1D65858F6"
+			tasks: [{
+				id: "307327F7CFB5A29B"
+				type: "item"
+				item: "aquaculture:light_hook"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests89.subtitle}"
+			dependencies: ["65D865D1705E4CFE"]
+			id: "3C6D4E17FEB75473"
+			tasks: [{
+				id: "18A25A321735FD2B"
+				type: "item"
+				item: "aquaculture:heavy_hook"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests90.subtitle}"
+			dependencies: ["65D865D1705E4CFE"]
+			id: "49F04149D270BC65"
+			tasks: [{
+				id: "18C2E4DF8FADC95C"
+				type: "item"
+				item: "aquaculture:double_hook"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests91.subtitle}"
+			dependencies: ["65D865D1705E4CFE"]
+			id: "02C346D162CE41E4"
+			tasks: [{
+				id: "7C405A94A05F6F1F"
+				type: "item"
+				item: "aquaculture:redstone_hook"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests92.subtitle}"
+			dependencies: ["65D865D1705E4CFE"]
+			id: "0DEC1E32F10AF0D3"
+			tasks: [{
+				id: "0F29FADF5C4B7106"
+				type: "item"
+				item: "aquaculture:note_hook"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests93.subtitle}"
+			dependencies: ["65D865D1705E4CFE"]
+			id: "01FA802A72E6CFBF"
+			tasks: [{
+				id: "072AB6DCB85D4E91"
+				type: "item"
+				item: "aquaculture:nether_star_hook"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -10.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests94.subtitle}"
+			dependencies: ["34DE05218D6A3ACA"]
+			id: "4FF7776304E6276B"
+			tasks: [{
+				id: "1B096063C0E4DF2A"
+				type: "item"
+				item: {
+					id: "aquaculture:iron_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -10.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests95.subtitle}"
+			dependencies: ["34DE05218D6A3ACA"]
+			id: "531EC8B038B7CDCA"
+			tasks: [{
+				id: "4536992D804F9608"
+				type: "item"
+				item: {
+					id: "aquaculture:gold_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -10.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests96.subtitle}"
+			dependencies: ["34DE05218D6A3ACA"]
+			id: "29E479207B62BA57"
+			tasks: [{
+				id: "685D94A9BC7194B6"
+				type: "item"
+				item: {
+					id: "aquaculture:diamond_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -10.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests97.subtitle}"
+			dependencies: ["34DE05218D6A3ACA"]
+			id: "5C7A1C040156CCC0"
+			tasks: [{
+				id: "6E28448FD8DB6C7A"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -9.5d
+			subtitle: "{chapters.useful_items_1.quests98.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["12E91937FC15A637"]
+			id: "64DD0B921EDE4995"
+			tasks: [{
+				id: "179F52EB096329DA"
+				type: "item"
+				item: {
+					id: "aquaculture:worm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.5d
+			subtitle: "{chapters.useful_items_1.quests99.subtitle}"
+			hide_dependency_lines: true
+			dependencies: [
+				"4FF7776304E6276B"
+				"531EC8B038B7CDCA"
+				"29E479207B62BA57"
+				"5C7A1C040156CCC0"
+			]
+			dependency_requirement: "one_completed"
+			id: "6409CEB5960E2035"
+			tasks: [{
+				id: "7C1CD37FDE7EDFC2"
+				type: "item"
+				item: {
+					id: "aquaculture:minnow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 11.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests100.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "3EE2B749DB28A779"
+			tasks: [
+				{
+					id: "31D32BC0404047E4"
+					type: "item"
+					item: "farmersdelight:organic_compost"
+				}
+				{
+					id: "6AEF5BDE19FF0EAE"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+				}
+			]
+			rewards: [{
+				id: "1726DA6D8D3E3FC9"
+				type: "item"
+				item: "supplementaries:planter_rich"
+				count: 12
+			}]
+		}
+		{
+			x: 5.5d
+			y: 11.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests101.subtitle}"
+			dependencies: ["6F6302D94B7809B6"]
+			id: "4F918C48AAE33020"
+			tasks: [{
+				id: "21AD02A2C2E03C78"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 11.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests102.subtitle}"
+			dependencies: ["6F6302D94B7809B6"]
+			id: "52272682FDA6D3FC"
+			tasks: [{
+				id: "71478F0810FF9DC3"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 11.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests103.subtitle}"
+			dependencies: ["6F6302D94B7809B6"]
+			id: "6C3651681299D852"
+			tasks: [{
+				id: "130FC3698BEFA8BB"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 11.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests104.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "3E291BF70ACA42BD"
+			tasks: [{
+				id: "568342F110CC582A"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests105.subtitle}"
+			dependencies: ["755209504228B453"]
+			id: "518917EBFD155654"
+			tasks: [{
+				id: "0B60D14D45B907A1"
+				type: "item"
+				item: "waterstrainer:strainer_base"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -9.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests106.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "0458D775944EADE4"
+			tasks: [{
+				id: "60AD6CE468ABD656"
+				type: "item"
+				item: "waterstrainer:worm_bin"
+			}]
+			rewards: [{
+				id: "11887EB68ECC9CE9"
+				type: "item"
+				item: "waterstrainer:fertilizer"
+				count: 64
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests107.title}"
+			x: 8.0d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests107.subtitle}"
+			dependencies: ["16151F22321F2F09"]
+			id: "111AA5A89339967F"
+			tasks: [
+				{
+					id: "2ADEB08BCD8B4D62"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 546.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:bouncy"
+									level: 1s
+								}
+								{
+									name: "tconstruct:leaping"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+				{
+					id: "02700C88A6FDB8E8"
+					type: "item"
+					title: "{chapters.useful_items_1.quests107.tasks2.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:slimeslings"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 10.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests108.subtitle}"
+			dependencies: ["3073595C53701173"]
+			id: "2D6C5D4EE4AAE26C"
+			tasks: [{
+				id: "30A7719F4D84B79E"
+				type: "item"
+				item: "minecraft:composter"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 10.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests109.subtitle}"
+			dependencies: ["34DE05218D6A3ACA"]
+			id: "7107C0DA99DB17C3"
+			tasks: [{
+				id: "52237391C9F0A248"
+				type: "item"
+				item: "quark:feeding_trough"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 8.5d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests110.subtitle}"
+			dependencies: ["3BC1CFB22EDA4D74"]
+			id: "7832A2D58DC2A263"
+			tasks: [{
+				id: "4990ED57201D13EF"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{chapters.useful_items_1.quests111.title}"
+			x: 8.0d
+			y: 3.0d
+			shape: "gear"
+			subtitle: "{chapters.useful_items_1.quests111.subtitle}"
+			description: [
+				"{chapters.useful_items_1.quests111.description1}"
+				""
+				"{chapters.useful_items_1.quests111.description2}"
+				""
+				"{chapters.useful_items_1.quests111.description3}"
+				""
+				"{chapters.useful_items_1.quests111.description4}"
+				"{chapters.useful_items_1.quests111.description5}"
+				"{chapters.useful_items_1.quests111.description6}"
+			]
+			dependencies: ["0DDA2FB169318B04"]
+			id: "78040F04949F3B7F"
+			tasks: [
+				{
+					id: "237A943DD074823B"
+					type: "item"
+					item: "nomowanderer:no_soliciting_sign"
+				}
+				{
+					id: "328909B1C381FA54"
+					type: "item"
+					item: "nomowanderer:no_mo_wanderer_totem"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 5.0d
+			subtitle: "{chapters.useful_items_1.quests112.subtitle}"
+			dependencies: ["4A5D67C920BE8E6B"]
+			id: "4D773DA56008A9DC"
+			tasks: [{
+				id: "7ABB3135D9206E86"
+				type: "item"
+				item: "quark:trowel"
+			}]
+		}
+	]
+}

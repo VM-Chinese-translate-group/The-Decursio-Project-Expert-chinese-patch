@@ -1,0 +1,698 @@
+{
+	id: "243A6BBB9B0B97FE"
+	group: "52BC1523CD35BD71"
+	order_index: 2
+	filename: "storage_1"
+	title: "{chapters.storage_1.title}"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{chapters.storage_1.quests1.title}"
+			x: 11.5d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests1.subtitle}"
+			dependencies: ["755209504228B453"]
+			id: "29165736A2E17182"
+			tasks: [{
+				id: "4EDB1DA83F508581"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests2.title}"
+			x: 13.5d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests2.subtitle}"
+			dependencies: ["755209504228B453"]
+			id: "6012C7F67CF98E1F"
+			tasks: [{
+				id: "4E470823AA401363"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests3.title}"
+			x: 15.0d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests3.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6012C7F67CF98E1F"]
+			dependency_requirement: "one_completed"
+			id: "5A05CC007EB71E68"
+			tasks: [{
+				id: "55EBFE1498BACB24"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests4.title}"
+			x: 12.5d
+			y: -4.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests4.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["5A05CC007EB71E68"]
+			dependency_requirement: "one_completed"
+			id: "04E63073D7DE82EB"
+			tasks: [{
+				id: "07CAF72205ABB36A"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [{
+				id: "4E433125F66E8204"
+				type: "random"
+				table_id: 5206766833681472091L
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests5.title}"
+			x: 13.5d
+			y: -4.5d
+			subtitle: "{chapters.storage_1.quests5.subtitle}"
+			dependencies: ["04E63073D7DE82EB"]
+			id: "37755F1A60081DDF"
+			tasks: [{
+				id: "50DE307B63D29E53"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests6.title}"
+			x: 11.5d
+			y: -4.5d
+			subtitle: "{chapters.storage_1.quests6.subtitle}"
+			dependencies: ["04E63073D7DE82EB"]
+			id: "3288C1018AF4D4A8"
+			tasks: [{
+				id: "7A3403197ED069CB"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 5.0d
+			subtitle: "{chapters.storage_1.quests7.subtitle}"
+			dependencies: ["34DE05218D6A3ACA"]
+			id: "604BB93F888E2286"
+			tasks: [{
+				id: "3EA06E05D84A588A"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests8.title}"
+			x: 11.5d
+			y: 8.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests8.subtitle}"
+			dependencies: ["415D67F9764E5706"]
+			id: "61A54A6DBA780A2E"
+			tasks: [{
+				id: "66C1AB26BCBE73A2"
+				type: "item"
+				title: "{chapters.storage_1.quests8.tasks.title}"
+				item: "immersiveengineering:crate"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests9.title}"
+			x: 12.5d
+			y: 6.0d
+			subtitle: "{chapters.storage_1.quests9.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "046DA6E75F5B9F87"
+			tasks: [{
+				id: "37772479ACD36C95"
+				type: "item"
+				item: "supplementaries:item_shelf"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests10.title}"
+			x: 13.5d
+			y: 6.0d
+			subtitle: "{chapters.storage_1.quests10.subtitle}"
+			dependencies: ["4F5315A98ABA996E"]
+			id: "4CC3D20220A8D9EA"
+			tasks: [{
+				id: "1C63DECBD9C320A1"
+				type: "item"
+				item: "supplementaries:jar"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests11.title}"
+			x: 13.5d
+			y: 8.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests11.subtitle}"
+			dependencies: ["34DE05218D6A3ACA"]
+			id: "22D8E166626FA608"
+			tasks: [{
+				id: "78992EF7FE141D60"
+				type: "item"
+				item: "immersiveengineering:wooden_barrel"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests12.title}"
+			x: 12.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests12.subtitle}"
+			description: [
+				"{chapters.storage_1.quests12.description1}"
+				""
+				"{chapters.storage_1.quests12.description2}"
+			]
+			dependencies: ["755209504228B453"]
+			size: 1.5d
+			id: "100E88BCADE94600"
+			tasks: [{
+				id: "0776B0488CC2D313"
+				type: "item"
+				title: "{chapters.storage_1.quests12.tasks.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.5d
+			subtitle: "{chapters.storage_1.quests13.subtitle}"
+			dependencies: ["100E88BCADE94600"]
+			id: "03AEF84F3D266081"
+			tasks: [{
+				id: "0842EEE493DFC699"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			subtitle: "{chapters.storage_1.quests14.subtitle}"
+			dependencies: ["100E88BCADE94600"]
+			id: "6BDA8A2B39C663E7"
+			tasks: [{
+				id: "3EFAC02AE426FD2D"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			subtitle: "{chapters.storage_1.quests15.subtitle}"
+			dependencies: ["100E88BCADE94600"]
+			id: "2558912849E6C965"
+			tasks: [{
+				id: "0F5698CACD2D54BA"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			subtitle: "{chapters.storage_1.quests16.subtitle}"
+			dependencies: ["100E88BCADE94600"]
+			id: "34FB236A3E76BDB8"
+			tasks: [{
+				id: "4DDA08DD4E85B34F"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			subtitle: "{chapters.storage_1.quests17.subtitle}"
+			dependencies: ["100E88BCADE94600"]
+			id: "4473CA0677495E0E"
+			tasks: [{
+				id: "6F93C63470E08AF0"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests18.subtitle}"
+			description: [
+				"{chapters.storage_1.quests18.description1}"
+				""
+				"{chapters.storage_1.quests18.description2}"
+				""
+				"{chapters.storage_1.quests18.description3}"
+			]
+			dependencies: [
+				"100E88BCADE94600"
+				"03E1A8C6F933631D"
+			]
+			id: "694406DFAB544AB3"
+			tasks: [{
+				id: "6D5235CBCD8A8AC9"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "5114C34E3A70FB5E"
+				type: "loot"
+				table_id: 5206766833681472091L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 3.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests19.subtitle}"
+			description: [
+				"{chapters.storage_1.quests19.description1}"
+				""
+				"{chapters.storage_1.quests19.description2}"
+				""
+				"{chapters.storage_1.quests19.description3}"
+				""
+				"{chapters.storage_1.quests19.description4}"
+				""
+				"{chapters.storage_1.quests19.description5}"
+			]
+			dependencies: [
+				"100E88BCADE94600"
+				"3BC1CFB22EDA4D74"
+			]
+			id: "20A116DDF8CB187A"
+			tasks: [{
+				id: "6006F650E4764C1B"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests20.subtitle}"
+			description: [
+				"{chapters.storage_1.quests20.description1}"
+				""
+				"{chapters.storage_1.quests20.description2}"
+				""
+				"{chapters.storage_1.quests20.description3}"
+				""
+				"{chapters.storage_1.quests20.description4}"
+				""
+				"{chapters.storage_1.quests20.description5}"
+			]
+			dependencies: [
+				"54A9CA62C88CA53A"
+				"100E88BCADE94600"
+			]
+			id: "7F895626647A2BB8"
+			tasks: [{
+				id: "79D7A4D761BF0F1B"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.5d
+			subtitle: "{chapters.storage_1.quests21.subtitle}"
+			dependencies: ["100E88BCADE94600"]
+			id: "730FD75173AD5FC4"
+			tasks: [{
+				id: "3795407967003B0C"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 2.5d
+			subtitle: "{chapters.storage_1.quests22.subtitle}"
+			dependencies: ["100E88BCADE94600"]
+			id: "0DDAECFA229D5031"
+			tasks: [{
+				id: "50D115607CDB7F95"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.0d
+			subtitle: "{chapters.storage_1.quests23.subtitle}"
+			dependencies: ["100E88BCADE94600"]
+			id: "55E83B890B902EA4"
+			tasks: [{
+				id: "0CC77431BE65B9F4"
+				type: "item"
+				item: "storagedrawers:conversion_upgrade"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.5d
+			dependencies: ["100E88BCADE94600"]
+			id: "76888E00D6568B60"
+			tasks: [{
+				id: "49297EAAF0FCD141"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.5d
+			dependencies: ["100E88BCADE94600"]
+			id: "052849BE257E6AEF"
+			tasks: [{
+				id: "5EA38EC67BAAF7C3"
+				type: "item"
+				item: "storagedrawers:min_redstone_upgrade"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -0.5d
+			dependencies: ["100E88BCADE94600"]
+			id: "162EFCC1EAC116FC"
+			tasks: [{
+				id: "3541DD7C734977E2"
+				type: "item"
+				item: "storagedrawers:max_redstone_upgrade"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			subtitle: "{chapters.storage_1.quests27.subtitle}"
+			dependencies: ["100E88BCADE94600"]
+			id: "4D0C13B25C5DAD14"
+			tasks: [{
+				id: "6010CBBA9739CB2D"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests28.title}"
+			x: 14.5d
+			y: 8.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests28.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "31598370E15C3C55"
+			tasks: [{
+				id: "5EC9A4D7F4868FEB"
+				type: "item"
+				title: "{chapters.storage_1.quests28.tasks.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "charm:bookcases"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests29.subtitle}"
+			dependencies: [
+				"5BE9A7D51A671963"
+				"78BF0304E9ECD281"
+				"6F6302D94B7809B6"
+			]
+			id: "51DE14A260A76155"
+			tasks: [{
+				id: "64B896D6D0A5AAC9"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests30.subtitle}"
+			dependencies: [
+				"51DE14A260A76155"
+				"578276668C01721B"
+			]
+			id: "371A70521F7AE65E"
+			tasks: [{
+				id: "33C03481B7406AFC"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 7.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests31.subtitle}"
+			dependencies: ["755209504228B453"]
+			id: "7ADBF19337051E03"
+			tasks: [{
+				id: "5238172D46E57C93"
+				type: "item"
+				item: "tconstruct:tinkers_chest"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 7.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests32.subtitle}"
+			dependencies: ["755209504228B453"]
+			id: "0ADABFA4A38C1A6D"
+			tasks: [{
+				id: "61AACD225AEFB829"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 7.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests33.subtitle}"
+			dependencies: [
+				"60C80C15F2C90E58"
+				"755209504228B453"
+			]
+			id: "10DC6165D8894C98"
+			tasks: [{
+				id: "34CC7CEBCE894A3C"
+				type: "item"
+				item: "tconstruct:cast_chest"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests34.title}"
+			icon: "farmersdelight:oak_pantry"
+			x: 10.5d
+			y: 5.0d
+			subtitle: "{chapters.storage_1.quests34.subtitle}"
+			dependencies: ["34DE05218D6A3ACA"]
+			id: "5DD7E201D3486577"
+			tasks: [{
+				id: "1810F5E6511F83CE"
+				type: "checkmark"
+				title: "{chapters.arcane_4.quests17.tasks.title}"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests35.title}"
+			x: 12.0d
+			y: 5.0d
+			subtitle: "{chapters.storage_1.quests35.subtitle}"
+			dependencies: ["34DE05218D6A3ACA"]
+			id: "6A8DB853D19A3888"
+			tasks: [{
+				id: "5C24FDB3231C73B4"
+				type: "item"
+				title: "{chapters.storage_1.quests35.tasks.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "cfm:storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests36.subtitle}"
+			hide_dependency_lines: true
+			dependencies: [
+				"2D24EDD30E68AC17"
+				"55F6BEA66FDEAE94"
+				"4E22F16A0F02B22D"
+			]
+			id: "78BF0304E9ECD281"
+			tasks: [{
+				id: "0266AFA07DF42C88"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			title: "{chapters.storage_1.quests37.title}"
+			icon: "compressium:cobblestone_1"
+			x: 12.5d
+			y: 8.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests37.subtitle}"
+			dependencies: ["6D0A47AE3920EFBB"]
+			id: "0392F1BCD5067E90"
+			tasks: [{
+				id: "52C49D8660057940"
+				type: "checkmark"
+				title: "{chapters.atum_2.quests16.tasks.title}"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests38.subtitle}"
+			dependencies: ["755209504228B453"]
+			id: "1493F1F95E7F0B9A"
+			tasks: [{
+				id: "3DACCE592D43A7CB"
+				type: "item"
+				item: "ironchest:dirt_chest"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 8.0d
+			subtitle: "{chapters.storage_1.quests39.subtitle}"
+			dependencies: ["69B40A754150E09F"]
+			id: "415D67F9764E5706"
+			tasks: [{
+				id: "05E896568E1D43FA"
+				type: "item"
+				item: "charm:oak_crate"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 6.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests40.subtitle}"
+			dependencies: ["78992EF7FE141D60"]
+			id: "100D866AE08556A1"
+			tasks: [{
+				id: "00EAC955BD678D9F"
+				type: "item"
+				item: {
+					id: "thermal:fluid_reservoir"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 9.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests41.subtitle}"
+			description: ["{chapters.storage_1.quests41.description}"]
+			dependencies: [
+				"76F7CACBB3B85B1F"
+				"0C60D80DC5FA03C0"
+			]
+			id: "045D8E14A520D554"
+			tasks: [{
+				id: "2F67F534CA6CC615"
+				type: "item"
+				item: "supplementaries:sack"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 9.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests42.subtitle}"
+			dependencies: ["76F7CACBB3B85B1F"]
+			id: "2D24EDD30E68AC17"
+			tasks: [{
+				id: "77F215BDF9EE5901"
+				type: "item"
+				item: "farmersdelight:basket"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 10.5d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests43.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "3395C013AD4CAFC1"
+			tasks: [{
+				id: "0ED351E7CF2BBCBF"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "{chapters.storage_1.quests44.subtitle}"
+			dependencies: ["1BD61910AB0290E3"]
+			size: 1.5d
+			id: "270AF3487C5E3896"
+			tasks: [{
+				id: "04223ACADBBC6BCF"
+				type: "item"
+				item: {
+					id: "luggage:luggage"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 5.0d
+			subtitle: "{chapters.storage_1.quests45.subtitle}"
+			dependencies: ["34DE05218D6A3ACA"]
+			id: "1A468B4642EEE444"
+			tasks: [{
+				id: "4E8482B2DA9CAFDE"
+				type: "item"
+				item: "minecolonies:blockminecoloniesrack"
+			}]
+		}
+	]
+}

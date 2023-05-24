@@ -1,0 +1,1434 @@
+{
+	id: "41978F17FB904FD6"
+	group: "70E732380FC79639"
+	order_index: 0
+	filename: "relics"
+	title: "{chapters.relics.title}"
+	icon: {
+		id: "relics:stellar_catalyst"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests1.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "646F6A27C0A7278E"
+			tasks: [{
+				id: "47EE1285D4B3D0C6"
+				type: "item"
+				item: {
+					id: "artifacts:novelty_drinking_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests2.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "66F142CE1C027245"
+			tasks: [{
+				id: "588C5A097ED984ED"
+				type: "item"
+				item: {
+					id: "artifacts:power_glove"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests3.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "453FE9CB551FC930"
+			tasks: [{
+				id: "4277F089860CB44C"
+				type: "item"
+				item: {
+					id: "artifacts:digging_claws"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			shape: "heart"
+			subtitle: "{chapters.relics.quests4.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "4166BBD7F865D64D"
+			tasks: [{
+				id: "3E5C37E28E873C37"
+				type: "item"
+				item: {
+					id: "artifacts:shock_pendant"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests5.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "301FE1F0B2332521"
+			tasks: [{
+				id: "0459243434CAC9C8"
+				type: "item"
+				item: {
+					id: "artifacts:cross_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests6.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "25568C264E2BA6F7"
+			tasks: [{
+				id: "47D4C0F624294D8A"
+				type: "item"
+				item: {
+					id: "artifacts:scarf_of_invisibility"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests7.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "64F13197E2BF023C"
+			tasks: [{
+				id: "1357373EEE7D141E"
+				type: "item"
+				item: {
+					id: "artifacts:running_shoes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests8.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "2F4E1377319B72A0"
+			tasks: [{
+				id: "0B609FD9949E130C"
+				type: "item"
+				item: {
+					id: "artifacts:kitty_slippers"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			shape: "heart"
+			subtitle: "{chapters.relics.quests9.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "4001963D67E9752A"
+			tasks: [{
+				id: "34718F1FD771F7A1"
+				type: "item"
+				item: {
+					id: "artifacts:night_vision_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests10.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "7DFFD4C781C4B035"
+			tasks: [{
+				id: "78620942E2F2036E"
+				type: "item"
+				item: {
+					id: "artifacts:villager_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests11.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "36BBFA0C458A4056"
+			tasks: [{
+				id: "190AFFA21D13CD5F"
+				type: "item"
+				item: {
+					id: "artifacts:obsidian_skull"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests12.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "1C89DE2C04D93B54"
+			tasks: [{
+				id: "59E09242818C9D37"
+				type: "item"
+				item: {
+					id: "artifacts:pocket_piston"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests13.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "623107A968AE1F50"
+			tasks: [{
+				id: "46FED70435870BD1"
+				type: "item"
+				item: {
+					id: "artifacts:antidote_vessel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			shape: "heart"
+			subtitle: "{chapters.relics.quests14.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "7E9FB68E46443889"
+			tasks: [{
+				id: "309298A9777F26E9"
+				type: "item"
+				item: {
+					id: "artifacts:crystal_heart"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			subtitle: "{chapters.relics.quests15.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "55D19301B4F586E2"
+			tasks: [{
+				id: "3EC23A56425C7A5B"
+				type: "item"
+				item: "artifacts:whoopee_cushion"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests16.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "2B7BBB597DA8E2A4"
+			tasks: [{
+				id: "0CE046A24CA12145"
+				type: "item"
+				item: {
+					id: "artifacts:flippers"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests17.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "21AE19E956432CE6"
+			tasks: [{
+				id: "12D2B8E14DBFCEC2"
+				type: "item"
+				item: {
+					id: "artifacts:cloud_in_a_bottle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			shape: "heart"
+			subtitle: "{chapters.relics.quests18.subtitle}"
+			description: [
+				"{chapters.relics.quests18.description1}"
+				""
+				"{chapters.relics.quests18.description2}"
+			]
+			dependencies: ["0DDA2FB169318B04"]
+			id: "5C2EEF0D5D1CA340"
+			tasks: [
+				{
+					id: "1BFE4F3B3F12638B"
+					type: "item"
+					item: {
+						id: "artifacts:everlasting_beef"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A1BAB60F715DE0B"
+					type: "item"
+					item: {
+						id: "artifacts:eternal_steak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests19.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "70C638BA98E8EAE7"
+			tasks: [{
+				id: "1CC22241F1520C81"
+				type: "item"
+				item: {
+					id: "artifacts:flame_pendant"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests20.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "7BE34A994E9221A4"
+			tasks: [{
+				id: "569707696DDC7464"
+				type: "item"
+				item: {
+					id: "artifacts:golden_hook"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests21.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "42DB659687305B0B"
+			tasks: [{
+				id: "5D518FC1C9AC48C4"
+				type: "item"
+				item: {
+					id: "artifacts:vampiric_glove"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			subtitle: "{chapters.relics.quests22.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "03BCCF9BE71BBC63"
+			tasks: [{
+				id: "66F36753738FAA08"
+				type: "item"
+				item: {
+					id: "artifacts:umbrella"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests23.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			hide_text_until_complete: false
+			id: "40FA4757AB0949FE"
+			tasks: [{
+				id: "38731181C7BC8EDC"
+				type: "item"
+				item: {
+					id: "artifacts:plastic_drinking_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests24.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "30AF06B518BBD5EA"
+			tasks: [{
+				id: "0BAE8D349FC8D841"
+				type: "item"
+				item: {
+					id: "artifacts:fire_gauntlet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests25.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "265E352EA8177A6A"
+			tasks: [{
+				id: "7EF4B0B9DA697C4C"
+				type: "item"
+				item: {
+					id: "artifacts:feral_claws"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests26.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "403BAD53691668BE"
+			tasks: [{
+				id: "0D9F742FD902B120"
+				type: "item"
+				item: {
+					id: "artifacts:thorn_pendant"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests27.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "0DCE8F5168681DAD"
+			tasks: [{
+				id: "1EB4C80C8AF98138"
+				type: "item"
+				item: {
+					id: "artifacts:panic_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests28.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "0875AEB65C436C4B"
+			tasks: [{
+				id: "4B5FC6346A1EFB70"
+				type: "item"
+				item: {
+					id: "artifacts:lucky_scarf"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests29.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "264D5B783165765A"
+			tasks: [{
+				id: "2BCB3C3C120E1C73"
+				type: "item"
+				item: {
+					id: "artifacts:steadfast_spikes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests30.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "53B6AEF7ED1FAA24"
+			tasks: [{
+				id: "7E94E2493DA60EF0"
+				type: "item"
+				item: {
+					id: "artifacts:bunny_hoppers"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			shape: "heart"
+			subtitle: "{chapters.relics.quests31.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "70B30EA05A53B548"
+			tasks: [{
+				id: "34DF0B40E44C127A"
+				type: "item"
+				item: {
+					id: "artifacts:snorkel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests32.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "7AF02A1BF400CF24"
+			tasks: [{
+				id: "1B8D484CA8FF79D8"
+				type: "item"
+				item: {
+					id: "artifacts:superstitious_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests33.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "7FC148B55FD2D8BF"
+			tasks: [{
+				id: "0641A6A07D2CFEA3"
+				type: "item"
+				item: {
+					id: "artifacts:universal_attractor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests34.subtitle}"
+			description: [
+				"{chapters.relics.quests34.description1}"
+				""
+				"{chapters.relics.quests34.description2}"
+			]
+			dependencies: ["0DDA2FB169318B04"]
+			id: "2A19E1503DF39073"
+			tasks: [{
+				id: "56961BC3A684382D"
+				type: "item"
+				item: {
+					id: "relics:stellar_catalyst"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests35.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "51B1735045B5C68E"
+			tasks: [{
+				id: "79E5CB890055EB13"
+				type: "item"
+				item: {
+					id: "relics:holy_locket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests36.subtitle}"
+			description: [
+				"{chapters.relics.quests36.description1}"
+				""
+				"{chapters.relics.quests36.description2}"
+				""
+				"{chapters.relics.quests36.description3}"
+				""
+				"{chapters.relics.quests36.description4}"
+				""
+				"{chapters.relics.quests36.description5}"
+			]
+			dependencies: ["0DDA2FB169318B04"]
+			id: "4DA3B684A42ABDD8"
+			tasks: [{
+				id: "1D8320652ACEDC9D"
+				type: "item"
+				item: {
+					id: "relics:scarab_talisman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests37.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "66D160C4565523BF"
+			tasks: [{
+				id: "1814C26016050D2C"
+				type: "item"
+				item: {
+					id: "relics:spore_sack"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests38.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "3A3DCE7234344B79"
+			tasks: [{
+				id: "58500675237B7B65"
+				type: "item"
+				item: {
+					id: "relics:fragrant_flower"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			shape: "heart"
+			subtitle: "{chapters.relics.quests39.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "6FFB6CDDE1D62618"
+			tasks: [{
+				id: "3349241A0FBB7DB7"
+				type: "item"
+				item: {
+					id: "relics:blazing_flask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests40.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "318294A08BB548B9"
+			tasks: [{
+				id: "76021BE4699FB67F"
+				type: "item"
+				item: {
+					id: "relics:shadow_glaive"
+					Count: 1b
+					tag: {
+						Damage: 0
+						charges: 8
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests41.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "1CF4DE571DD4E895"
+			tasks: [{
+				id: "6FC23C81AA09E8D6"
+				type: "item"
+				item: {
+					id: "relics:spatial_sign"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			shape: "heart"
+			subtitle: "{chapters.relics.quests42.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "5D57871B35350BC5"
+			tasks: [{
+				id: "12E3600A14AB96D0"
+				type: "item"
+				item: {
+					id: "relics:space_dissector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests43.subtitle}"
+			description: [
+				"{chapters.relics.quests36.description1}"
+				""
+				"{chapters.relics.quests43.description2}"
+			]
+			dependencies: ["0DDA2FB169318B04"]
+			id: "24F1DF3C824A8528"
+			tasks: [{
+				id: "76E07591866FDA8A"
+				type: "item"
+				item: {
+					id: "relics:soul_devourer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			shape: "heart"
+			subtitle: "{chapters.relics.quests44.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "29B689DFBDDABF17"
+			tasks: [{
+				id: "0FA6C93C4A57612E"
+				type: "item"
+				item: {
+					id: "relics:magic_mirror"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests45.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "47E5168C3DAEC66E"
+			tasks: [{
+				id: "6FFBF93D74DCF9E5"
+				type: "item"
+				item: {
+					id: "relics:spider_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests46.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "73FE2A71313F1EF2"
+			tasks: [{
+				id: "412AB9BCE22550E4"
+				type: "item"
+				item: {
+					id: "relics:jellyfish_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests47.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "69D332F61A36E3FE"
+			tasks: [{
+				id: "2CF3DA9ECBB85B12"
+				type: "item"
+				item: {
+					id: "relics:reflection_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests48.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "40492CB7C8579916"
+			tasks: [{
+				id: "528FD2B4D38B43CE"
+				type: "item"
+				item: {
+					id: "relics:enders_hand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests49.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "57082891B2C7E163"
+			tasks: [{
+				id: "22877FEBCA3E27F4"
+				type: "item"
+				item: {
+					id: "relics:rage_glove"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests50.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "707AEF5D07C66F5C"
+			tasks: [{
+				id: "5FD9AF811903AFA8"
+				type: "item"
+				item: {
+					id: "relics:delay_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests51.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "2F3B01CD26A8B695"
+			tasks: [{
+				id: "3A0AF35D698AB45F"
+				type: "item"
+				item: {
+					id: "relics:camouflage_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests52.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "106FFDA129C4FAF0"
+			tasks: [{
+				id: "0294B74D0621D6A2"
+				type: "item"
+				item: {
+					id: "relics:bastion_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests53.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "60E3CDE80EBAAB73"
+			tasks: [{
+				id: "12FF95E31D664453"
+				type: "item"
+				item: {
+					id: "relics:elytra_booster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests54.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "15816B7C51B5CBE4"
+			tasks: [{
+				id: "0C66E1E0D591B8D8"
+				type: "item"
+				item: {
+					id: "relics:arrow_quiver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests55.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "3A762F602B94A068"
+			tasks: [{
+				id: "77C1A1A2E97B4FD3"
+				type: "item"
+				item: {
+					id: "relics:midnight_robe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests56.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "48C8AA900748A55F"
+			tasks: [{
+				id: "761BCDA617EEA239"
+				type: "item"
+				item: {
+					id: "relics:chorus_inhibitor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests57.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "4A0DF892D9CEEC14"
+			tasks: [{
+				id: "1031370791590927"
+				type: "item"
+				item: {
+					id: "relics:drowned_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests58.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "34ED2FB36F3E5EF2"
+			tasks: [{
+				id: "67728FD64C96AEF6"
+				type: "item"
+				item: {
+					id: "relics:hunter_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests59.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "2571EE7B38B8A7FF"
+			tasks: [{
+				id: "0D407F904A11FE87"
+				type: "item"
+				item: {
+					id: "relics:lucky_horseshoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests60.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "1C7A56FD9C393A3B"
+			tasks: [{
+				id: "0AC256A01A9C6C60"
+				type: "item"
+				item: {
+					id: "relics:ice_skates"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests61.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "43CA6ED7BD85F7B9"
+			tasks: [{
+				id: "68C44B38E80609EB"
+				type: "item"
+				item: {
+					id: "relics:magma_walker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests62.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "68383F1F596B6933"
+			tasks: [{
+				id: "7C8B9568B5961ED4"
+				type: "item"
+				item: {
+					id: "relics:ice_breaker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			shape: "heart"
+			subtitle: "{chapters.relics.quests63.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "3D1309F20DA08B9B"
+			tasks: [{
+				id: "596EFB8353777B57"
+				type: "item"
+				item: {
+					id: "artifacts:helium_flamingo"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			subtitle: "{chapters.relics.quests64.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "6A5D567DC8862512"
+			tasks: [{
+				id: "142F24F5EBF4DCA3"
+				type: "item"
+				item: {
+					id: "relics:old_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			shape: "heart"
+			subtitle: "{chapters.relics.quests65.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "3BC02BE05B848A3B"
+			tasks: [{
+				id: "3A5118D3491F44F1"
+				type: "item"
+				item: {
+					id: "relics:infinity_ham"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests66.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "59BC29AD3875A797"
+			tasks: [{
+				id: "71DEE4271D8CD6C5"
+				type: "item"
+				item: {
+					id: "relics:slime_heart"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests67.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "17D7C92A76DE5869"
+			tasks: [{
+				id: "5A194088A9291517"
+				type: "item"
+				item: {
+					id: "relics:out_runner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests68.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "4BF8B539C4AC3F4A"
+			tasks: [{
+				id: "5E64BC79237A62CE"
+				type: "item"
+				item: {
+					id: "relics:amphibian_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{chapters.relics.quests69.title}"
+			x: -5.5d
+			y: -3.5d
+			subtitle: "{chapters.relics.quests69.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			optional: true
+			id: "12A498FA7A9ED10B"
+			tasks: [{
+				id: "19D862DB28C9E360"
+				type: "kill"
+				title: "{chapters.relics.quests69.tasks.title}"
+				icon: "artifacts:mimic_spawn_egg"
+				entity: "artifacts:mimic"
+				value: 1L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests70.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "2BC12B227183EE2D"
+			tasks: [{
+				id: "325D85328DA2CA1F"
+				type: "item"
+				item: {
+					id: "relics:horse_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			subtitle: "{chapters.relics.quests71.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "0D881FC32A548FA8"
+			tasks: [{
+				id: "35B56C89F9E624E7"
+				type: "item"
+				item: {
+					id: "relics:leather_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests72.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "47D91EF246462E05"
+			tasks: [{
+				id: "09EF02DBE8D3ED31"
+				type: "item"
+				item: {
+					id: "relics:wool_mitten"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			shape: "gear"
+			subtitle: "{chapters.relics.quests73.subtitle}"
+			dependencies: ["0DDA2FB169318B04"]
+			id: "371DCF6943331B30"
+			tasks: [{
+				id: "3B7504C4A5448D09"
+				type: "item"
+				item: {
+					id: "relics:ghost_skin_talisman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}
