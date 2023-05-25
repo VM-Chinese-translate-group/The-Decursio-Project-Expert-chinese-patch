@@ -1,13 +1,13 @@
 {
     "item.powah.capacitor_basic": "初级电容",
     "item.powah.capacitor_basic_large": "基础电容",
-    "item.mysticalagriculture.jump_boost_iii_augment": "跳跃提升 升级",
-    "item.mysticalagriculture.speed_iii_augment>": "速度 升级",
-    "item.mysticalagriculture.pathing_aoe_iv_augment": "范围铲地 升级",
-    "item.mysticalagriculture.absorption_v_augment": "伤害吸收 升级",
-    "item.mysticalagriculture.health_boost_v_augment": "生命提升 升级",
-    "item.mysticalagriculture.strength_iii_augment": "力量 升级",
-    "item.mysticalagriculture.mining_aoe_iv_augment": "范围挖掘 升级",
-    "item.mysticalagriculture.attack_aoe_iii_augment": "范围攻击 升级",
-    "item.mysticalagriculture.tilling_aoe_iv_augment": "范围耕地 升级"
+    "item.mysticalagriculture.jump_boost_iii_augment": "跳跃提升升级",
+    "item.mysticalagriculture.speed_iii_augment>": "速度升级",
+    "item.mysticalagriculture.pathing_aoe_iv_augment": "范围铲地升级",
+    "item.mysticalagriculture.absorption_v_augment": "伤害吸收升级",
+    "item.mysticalagriculture.health_boost_v_augment": "生命提升升级",
+    "item.mysticalagriculture.strength_iii_augment": "力量升级",
+    "item.mysticalagriculture.mining_aoe_iv_augment": "范围挖掘升级",
+    "item.mysticalagriculture.attack_aoe_iii_augment": "范围攻击升级",
+    "item.mysticalagriculture.tilling_aoe_iv_augment": "范围耕地升级"
 }
