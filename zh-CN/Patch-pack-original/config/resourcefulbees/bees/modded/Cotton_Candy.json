@@ -2,7 +2,7 @@
   "flower": "quark:sugar_cane_block",
   "maxTimeInHive": 1200,
   "creator": "NoControl, Dawn Felstar",
-  "lore": "§fHive Bee\nNot because I want to be different, but because I want to be myself.",
+  "lore": "§f群居蜜蜂\n不是因为我想与众不同，而是因为我想做我自己。",
   "loreColor": "#F7A8B8",
   "hasHoneycomb": true,
   "baseLayerTexture": "cotton_candy/cotton_candy_bee",
