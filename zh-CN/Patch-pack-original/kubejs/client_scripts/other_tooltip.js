@@ -76,7 +76,7 @@ onEvent('item.tooltip', tooltip => {
     // pulse centrifuge
     tooltip.add(
         ['lazierae2:centrifuge'],
-        '这个机器不能用任何方式升级了——想要生产水晶速度更快,来制作水晶生之加速器吧~'
+        '这个机器不能用任何方式升级了——想要生产水晶速度更快，来制作水晶生之加速器吧～'
     )
     // unstable ender pearl
     tooltip.add(
