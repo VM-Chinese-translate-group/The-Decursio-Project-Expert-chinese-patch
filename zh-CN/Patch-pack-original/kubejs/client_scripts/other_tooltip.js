@@ -12,7 +12,7 @@ onEvent('item.tooltip', tooltip => {
     // create windmill sail
     tooltip.add(
         ['create:white_sail'],
-        '现在只能用于装饰,因为风车轴承已经被禁用了~'
+        '现在只能用于装饰，因为风车轴承已经被禁用了～'
     )
     // me controller frame press
     tooltip.add(
