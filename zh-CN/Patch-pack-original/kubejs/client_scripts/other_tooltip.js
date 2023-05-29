@@ -108,7 +108,7 @@ onEvent('item.tooltip', tooltip => {
     // thermal cells
     tooltip.add(
         ['thermal:energy_cell'],
-        ' 如果你想把它用于ME系统里,就别在那里傻愣愣地把它拿在手上~'
+        ' 如果你想把它用于ME系统里，就别在那里傻愣愣地把它拿在手上～'
     )
 
     tooltip.add(
