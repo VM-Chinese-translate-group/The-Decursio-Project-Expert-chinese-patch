@@ -19,7 +19,7 @@
   "thitemstages.commands.all.sender": "%s已经收到所有可以用的阶段！",
   "thitemstages.commands.clear.target": "你所有的阶段都被移除了！",
   "thitemstages.commands.clear.sender": "移除%s阶段从%s的阶段数据",
-  "thitemstages.tooltip.stage.message": "这个物品处于： ",
+  "thitemstages.tooltip.stage.message": "这个项目处于： ",
   "thitemstages.tooltip.stage.left_bracket": "[",
   "thitemstages.tooltip.stage.right_bracket": "]",
   "thitemstages.tooltip.stage.stage": "%s",
