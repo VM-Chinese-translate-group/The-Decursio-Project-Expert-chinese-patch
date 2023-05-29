@@ -113,6 +113,6 @@ onEvent('item.tooltip', tooltip => {
 
     tooltip.add(
         ['thermal:fluid_cell'],
-        '如果你想把它用于ME系统里,就别在那里傻愣愣地把它拿在手上~'
+        '如果你想把它用于ME系统里，就别在那里傻愣愣地把它拿在手上～'
     )
 })
