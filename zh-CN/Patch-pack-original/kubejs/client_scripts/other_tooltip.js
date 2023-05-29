@@ -102,7 +102,7 @@ onEvent('item.tooltip', tooltip => {
     // heart of diamond
     tooltip.add(
         ['quark:diamond_heart'],
-        '右键一个石头方块（石头、圆石、花岗岩、闪长岩或安山岩）会生成一只石精灵。这只石精灵可以用命名牌给它取名,这样它就不会消失了'
+        '右键一个石头方块（石头、圆石、花岗岩、闪长岩或安山岩）会生成一只石精灵。这只石精灵可以用命名牌给它取名，这样它就不会消失了。'
     )
     
     // thermal cells
