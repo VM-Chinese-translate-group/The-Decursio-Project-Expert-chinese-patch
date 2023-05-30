@@ -8,4 +8,5 @@ files:
     ignore:
       - fancymenu
       - ftbquests
+      - thitemstages
     translation: '%original_path%/%original_file_name%'
