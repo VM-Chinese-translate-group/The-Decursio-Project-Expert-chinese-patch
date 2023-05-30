@@ -1,7 +1,7 @@
 {
     "flower": "minecraft:netherrack",
     "creator": "Me_Ryan",
-    "lore": "独居蜜蜂",
+    "lore": "Lonely Bee",
     "maxTimeInHive": 1000,
     "hasHoneycomb": true,
     "customCombDrop": "minecraft:honeycomb",
