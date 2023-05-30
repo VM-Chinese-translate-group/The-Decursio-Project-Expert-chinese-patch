@@ -3,5 +3,4 @@ files:
     ignore:
       - /Patch-pack-original/kubejs/assets/kubejs/textures
       - /Patch-pack-original/kubejs/assets/alexsmobs
-      - /Patch-pack-original/kubejs/assets/ftbq
     translation: '%original_path%/zh_cn.json'
