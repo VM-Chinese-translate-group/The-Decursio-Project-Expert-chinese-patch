@@ -3,19 +3,29 @@
         "stage": "age_3",
         "itemList": [
             "powah:dry_ice",
-
             "sophisticatedbackpacks:netherite_backpack",
-
-            "decursiomod:uru_ingot", "decursiomod:uru_block", "decursiomod:shattered_singularity", "decursiomod:alfheim_flux",
-            "decursiomod:alfheim_flux_ore", "decursiomod:arcane_frame", "decursiomod:inscriber_master_press", "decursiomod:master_processor",
-            "decursiomod:me_unstable_core", "decursiomod:printed_master_circuit", "decursiomod:pure_skystone_block", "decursiomod:calculation_pylon",
-            "decursiomod:charging_pylon", "decursiomod:engineering_pylon", "decursiomod:logic_pylon", "decursiomod:master_pylon",
+            "decursiomod:uru_ingot",
+            "decursiomod:uru_block",
+            "decursiomod:shattered_singularity",
+            "decursiomod:alfheim_flux",
+            "decursiomod:alfheim_flux_ore",
+            "decursiomod:arcane_frame",
+            "decursiomod:inscriber_master_press",
+            "decursiomod:master_processor",
+            "decursiomod:me_unstable_core",
+            "decursiomod:printed_master_circuit",
+            "decursiomod:pure_skystone_block",
+            "decursiomod:calculation_pylon",
+            "decursiomod:charging_pylon",
+            "decursiomod:engineering_pylon",
+            "decursiomod:logic_pylon",
+            "decursiomod:master_pylon",
             "decursiomod:lumium_based_circuit",
-
-            "cookingforblockheads:heating_unit", "cookingforblockheads:ice_unit", "cookingforblockheads:preservation_chamber",
-
-            "minecraft:beacon", "minecraft:elytra",
-            
+            "cookingforblockheads:heating_unit",
+            "cookingforblockheads:ice_unit",
+            "cookingforblockheads:preservation_chamber",
+            "minecraft:beacon",
+            "minecraft:elytra",
             "botania:flight_tiara",
             "botania:elementium_boots",
             "botania:elementium_leggings",
@@ -436,6 +446,6 @@
         "checkPlayerEquipment": true,
         "usableItems": false,
         "usableBlocks": false,
-        "improvedMobsDifficulty": 100.0
+        "improvedMobsDifficulty": "100"
     }
 }
