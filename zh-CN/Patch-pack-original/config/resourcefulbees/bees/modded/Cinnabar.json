@@ -1,7 +1,7 @@
 {
     "flower": "tag:forge:ores/cinnabar",
     "creator": "Me_Ryan",
-    "lore": "群居蜜蜂",
+    "lore": "Hive Bee",
     "maxTimeInHive": 600,
     "hasHoneycomb": true,
     "baseLayerTexture": "cinnabar/cinnabar",
