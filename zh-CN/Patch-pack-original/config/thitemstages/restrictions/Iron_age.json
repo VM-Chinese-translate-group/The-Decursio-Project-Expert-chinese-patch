@@ -72,7 +72,7 @@
       "com.gizmo.luggage.LuggageMenu",
       "com.brandon3055.draconicevolution.inventory.ContainerDraconiumChest",
       "com.yuo.endless.Container.InfinityBoxContainer"
-  ]
+    ]
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
