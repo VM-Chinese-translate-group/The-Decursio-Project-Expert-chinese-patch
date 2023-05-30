@@ -3,16 +3,11 @@
         "stage": "endgame",
         "itemList": [
             "extendedcrafting:ultimate_auto_table",
-
             "botania:creative_pool",
-
             "create:creative_blaze_cake",
             "create:creative_motor",
-
             "mekanism:creative_fluid_tank",
-
             "appliedenergistics2:creative_storage_cell",
-
             "endless:infinity_helmet",
             "endless:infinity_chestplate",
             "endless:infinity_leggings",
@@ -98,6 +93,6 @@
         "checkPlayerEquipment": false,
         "usableItems": false,
         "usableBlocks": false,
-        "improvedMobsDifficulty": 500.0
+        "improvedMobsDifficulty": "500"
     }
 }
