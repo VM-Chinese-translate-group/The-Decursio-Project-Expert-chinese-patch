@@ -207,10 +207,10 @@
     "pi.intro.arrow_info.search_settings.txt": "The search settings allow you to change the scope of the search.",
     "pi.intro.arrow_info.settings.txt": "Here you can find all of the settings for PI. It should be noted that all settings for PI are in game and there is no user editable config file.",
     "pi.intro.arrow_info.minimize.txt": "Minimize/Maximize allow you to change the size of this UI.",
-    "pi.intro.arrow_info.content_tabs.txt": "TABS! Yes PI has tabs. When opening a page simply middle click or right click > Open in new tab.",
-    "pi.intro.arrow_info.content_window.txt": "This is the content window. Its where the content is!",
+    "pi.intro.arrow_info.content_tabs.txt": "标签! 是的 PI 有标签. 当打开一个页面时, 点击页面中间或者右键>在新标签中打开.",
+    "pi.intro.arrow_info.content_window.txt": "这是内容窗口。这里就是放内容的地方！",
     "//Internet Disclaimer": "",
-    "pi.internet_access_info.txt": "Please be aware as all project intelligence documentation is stored online the mod requires internet access to function correctly.",
+    "pi.internet_access_info.txt": "需要注意的是所有 PI 文档都在线上存储，模组需要联网才能正常运行。",
     "pi.internet_access_more_info.txt": "首次启动 PI 后，将下载并缓存已安装模组的所有可用文档页面。 任何图像都会根据需要下载并缓存，以减少互联网的使用。",
     "pi.internet_access_denied.txt": "请注意，PI 目前不支持在“离线模式”中运行。如果您想要在将来使用PI，您需要保证联网。"
 }
