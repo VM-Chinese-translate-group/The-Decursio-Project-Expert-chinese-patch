@@ -1,6 +1,6 @@
 {
   "flower": "tconstruct:pig_iron_block",
-  "lore": "Hive Bee",
+  "lore": "群居蜜蜂",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture": "zombie/zombie_bee",
