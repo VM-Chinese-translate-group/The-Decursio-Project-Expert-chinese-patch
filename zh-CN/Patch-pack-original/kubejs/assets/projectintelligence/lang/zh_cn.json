@@ -192,7 +192,7 @@
     "pi.info_screen.guide_intro.title": "这是什么？",
     "pi.info_screen.guide_intro.text": "This is the first launch introduction. It will walk you through some of the main features in project intelligence. If this is not your first time here then feel free to skip this intro.  Most features in PI are pretty self explanatory but there are a few less obvious features you may find useful.",
     "pi.info_screen.basic_overview.title": "概览",
-    "pi.info_screen.basic_overview.text": "Everything here should be pretty self explanatory. Hover your mouse over any of the arrows to view info about that item.",
+    "pi.info_screen.basic_overview.text": "这里的一切都应该是不言自明的。将鼠标悬停在任意箭头上以查看该物品的信息。",
     "pi.info_screen.pi_interaction.title": "普通 PI 交互",
     "pi.info_screen.pi_interaction.text": "This is just a general overview of some of the different ways you can use PI. As you have probably already figured out you can open PI by pressing %s.  PI Also has an \"Explain This\" function which allows you to press %s while hovering your mouse over an item in an inventory to view any documentation related to that item. You can also press %s to view available documentation for a block or entity you are looking at in world.  PI GUI Notes: Whenever you open the main PI UI you will return to the previous page you had open. When you open PI for the first time in a session you will get the \"Home Page\" by default this is the Project Intelligence mod page but you can change this by right clicking on a page in the page list and selecting the \"set as home page\" option.",
     "pi.info_screen.ui_style.title": "UI样式",
