@@ -1,7 +1,7 @@
 {
     "flower": "minecraft:bricks",
     "creator": "Me_Ryan",
-    "lore": "Lonely Bee",
+    "lore": "独居蜜蜂",
     "hasHoneycomb": true,
     "customCombDrop": "minecraft:honeycomb",
     "customCombBlockDrop": "minecraft:honeycomb_block",
