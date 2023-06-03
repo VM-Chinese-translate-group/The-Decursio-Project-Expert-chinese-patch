@@ -1,6 +1,6 @@
 {
   "flower": "minecraft:wither_rose",
-  "lore": "Hive Bee",
+  "lore": "群居蜜蜂",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture": "wither/wither_bee",
