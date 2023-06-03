@@ -1,7 +1,7 @@
 {
     "flower": "minecraft:sandstone",
     "creator": "Me_Ryan",
-    "lore": "Hive Bee",
+    "lore": "群居蜜蜂",
     "hasHoneycomb": true,
     "traits": [
         "desert"
