@@ -1,6 +1,6 @@
 {
   "flower": "minecraft:water",
-  "lore": "Lonely Bee",
+  "lore": "独居蜜蜂",
   "hasHoneycomb": false,
   "traits": [
     "can_swim"
