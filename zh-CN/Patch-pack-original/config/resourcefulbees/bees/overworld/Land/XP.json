@@ -1,7 +1,7 @@
 {
     "flower": "atum:nebu_block",
     "creator": "Me_Ryan",
-    "lore": "Hive Bee",
+    "lore": "群居蜜蜂",
     "maxTimeInHive": 600,
     "hasHoneycomb": true,
     "baseLayerTexture": "xp/xp",
