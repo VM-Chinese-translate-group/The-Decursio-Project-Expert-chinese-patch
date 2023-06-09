@@ -268,7 +268,7 @@
 	"chapters.arcane_2.quests20.subtitle": "魔力转换器可以将魔力转化为电力。任何精通科技的魔法师也许会发现这个有点用处。左击以获取更多信息。",
 	"chapters.arcane_2.quests20.description1": "魔力转换器把魔力转化为红石通量 （RF）。",
 	"chapters.arcane_2.quests20.description2": "魔力转换器可以通过魔力发射器发射魔力，内部缓存有 12800 魔力。 然后可以将魔力转换成 RF，再传输给其他电池、机器和电线等。其转换RF比率为1: 10。因此一个未装有透镜的寻常魔力发射器能生产 1600 RF 。同理，1满池的魔力等于 10000000 RF 。",
-	"chapters.arcane_2.quests20.description3": "However, the energy output rate of a Mana Fluxfield is limited to 64 RF/t, shared among all sides. If more mana is fed into the Mana Fluxfield than it has capacity left, any additional mana will be lost. This is particularly noticeable when using mana bursts with high capacities, such as from a Gaia Mana Spreader or a Mana Lens: Potency, and especially when only small amounts of energy are drained from the Mana Fluxfield.",
+	"chapters.arcane_2.quests20.description3": "然而，魔力转换器的能量产出只有64RF/t，由任意一面产出。 如果输入魔力转换器的魔力超过它剩余的容量，任何额外的魔力都会流失。 这一点在使用高容量的魔力容器时尤其明显，如盖亚魔力发射器或装有魔力透镜：强度。 尤其是在只有少量能源会从魔力转换器流失。",
 	"chapters.arcane_2.quests21.subtitle": "The Long Range Teleporter. Left Click for more info",
 	"chapters.arcane_2.quests21.description1": "The Celestial Gateway is used to teleport players to other Celestial Gateways.",
 	"chapters.arcane_2.quests21.description2": "When the structure is built correctly, approaching the Gateway will cause the area around the player to darken into a panoramic night sky. Celestial Gateways that can be teleported to are depicted with larger yellow stars among the starry backdrop. Sneaking or holding right-click while looking at one will teleport the player to that Gateway after a few seconds. While sneaking, a preview of the Gateway will be shown.",
