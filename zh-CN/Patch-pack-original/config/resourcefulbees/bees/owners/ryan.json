@@ -1,7 +1,7 @@
 {
     "flower": "thermal:energy_cell",
     "creator": "Me_Ryan & Me_Ryan",
-    "lore": "§fLonely Bee\nCoil gives power to coil - Only spawns in The End",
+    "lore": "§独居蜜蜂\nCoil gives power to coil - 只会在末地生成",
     "loreColor": "#FFC900",
     "hasHoneycomb": true,
     "traits": [],
