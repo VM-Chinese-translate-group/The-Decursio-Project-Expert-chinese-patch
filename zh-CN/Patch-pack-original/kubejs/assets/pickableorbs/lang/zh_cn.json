@@ -1,4 +1,4 @@
 {
-  "entity.healthorbs.normal_heart_pickup": "正常可拾取的生命恢复",
-  "entity.healthorbs.super_heart_pickup": "超级可拾取的生命恢复"
+  "entity.healthorbs.normal_heart_pickup": "拾取正常的生命恢复",
+  "entity.healthorbs.super_heart_pickup": "拾取超级的生命恢复"
 }
