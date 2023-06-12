@@ -1,21 +1,21 @@
 {
   "primutils.jei.millstone.title": "石磨",
-  "primutils.jei.millstone.chance_tooltip": "几率:%s%%",
+  "primutils.jei.millstone.chance_tooltip": "几率：%s%%",
   "primutils.jei.millstone.useAmount": "需要旋转 %s次",
   "primutils.jei.drying_rack.title": "晾干架",
-  "primutils.jei.drying_rack.duration": "持续时间:%s（游戏刻）",
+  "primutils.jei.drying_rack.duration": "持续时间：%s（游戏刻）",
   "primutils.jei.chopping_block.title": "劈柴墩",
   "primutils.jei.chopping_block.duration": "劈 %s 下",
   "primutils.jei.basin.title": "盆",
   "primutils.jei.basin.fluidAmount": "%smb",
-  "primutils.jei.basin.stirAmount": "旋转 %s 次",
+  "primutils.jei.basin.stirAmount": "搅拌 %s 次",
   "itemGroup.primutils": "原始工具",
   "block.primutils.millstone": "石磨",
-  "primutils.tooltip.millstone": "右键单击添加物品。空手右键单击使其转动。 潜行右键单击可取出物品。所有方向都支持漏斗或管道作为输入端。",
+  "primutils.tooltip.millstone": "右键点击添加物品。空手右键点击转动。 潜行右键点击可取出物品。所有方向都支持漏斗/管道输入。",
   "block.primutils.drying_rack": "晾干架",
-  "primutils.tooltip.drying_rack": "右键单击添加物品。 潜行右键单击可取出物品。物品将会在一段时间后被晾干。所有方向都支持漏斗或管道作为输入端。",
+  "primutils.tooltip.drying_rack": "右键点击添加物品。 潜行右键点击可取出物品。物品将会在一段时间后晾干。所有方向都支持漏斗/管道输入。",
   "block.primutils.chopping_block": "劈柴墩",
-  "primutils.tooltip.chopping_block": "右键单击添加物品。 潜行右键单击可取出物品。用一把斧子右键可以劈木头。所有方向都支持漏斗或管道作为输入端。",
+  "primutils.tooltip.chopping_block": "右键点击添加物品。 潜行右键点击可取出物品。用斧子右键劈木头。所有方向都支持漏斗/管道输入。",
   "block.primutils.basin": "木盆",
-  "primutils.tooltip.basin": "右键单击添加物品。右键单击取出物品。最多可添加4个物品。 右键单击装满液体的容器可以添加/移除液体。所有方向都支持漏斗或管道的输入物品和液体。"
+  "primutils.tooltip.basin": "右键点击添加物品。右键点击取出物品。最多可添加4个物品。 用容器右键点击可以添加/移除液体。所有方向都支持漏斗/管道输入物品和液体。"
 }
