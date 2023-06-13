@@ -305,7 +305,7 @@
 	"chapters.arcane_2.quests27.subtitle": "魔力无限电缆。左击以获取更多信息。",
 	"chapters.arcane_2.quests27.description1": "魔力发射器在植物魔法里用于传输魔力。",
 	"chapters.arcane_2.quests27.description2": "The direction of the Mana bursts can be manipulated by shift-right clicking on it with the Wand of the Forest. There is an alternative method of orientating the Mana Spreader, and that is to bind it to another block. To do so, shift right-click on the Mana Spreader then shift right-click on another block to automatically orient the Mana Spreader to direct its Mana bursts to that block. Mana Spreaders fire Mana in discrete bursts rather than in a continuous stream.",
-	"chapters.arcane_2.quests27.description3": "While holding the Wand of the Forest, the player will see the Mana Spreader emit small pulses in the direction it is oriented. These show how far Mana bursts will travel before some of the Mana is lost. The Mana Spreader's bursts, like the Pulse Mana Spreader's, can only travel a distance of 12 blocks before beginning to suffer some Mana loss. Mana bursts can be seen regardless of whether or not the player is holding the Wand of the Forest.",
+	"chapters.arcane_2.quests27.description3": "当手持森林法杖时，玩家将看到魔力发射器向其朝向释放小脉冲。这展示了魔力脉冲在损失一部分魔力之前能传输多远。魔力发射器的魔力脉冲，像魔力发射器（红石）一样只能在12个方块传递，然后开始遭受魔力损失。 无论玩家是否持有森林法杖, 都可以看到魔力脉冲。",
 	"chapters.arcane_2.quests27.description4": "实际上魔力脉冲和指向性激光是有不同的。一旦魔力发射器瞄准了一个可以接受魔力的物品时，它将发射一道比激光更粗更长的大脉冲。直到上一道脉冲必须已经击中方块才会发射下一道魔力脉冲。",
 	"chapters.arcane_2.quests27.description5": "魔力发射器可以用红石信号打开或关闭，而魔力发射器（红石）每接受一次红石脉冲释放一次魔力。",
 	"chapters.arcane_2.quests28.title": "水绣球",
