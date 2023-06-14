@@ -36,32 +36,32 @@ onEvent('item.tooltip', tooltip => {
     // reaper scythe
     tooltip.add(
         ['eidolon:reaper_scythe'],
-        '查看匠魂里的任意短刃镰的用途,来查看死神镰刀的配方'
+        '查看匠魂里的任意短刃镰的用途，来查看死神镰刀的配方'
     )
     // praetor scythe
     tooltip.add(
         ['sanguinearsenal:praetor_scythe'],
-        '查看幻梦模组里的死神镰刀的用途,来查看这个物品的配方'
+        '查看幻梦模组里的死神镰刀的用途，来查看这个物品的配方'
     )
     // scepter of blood
     tooltip.add(
         ['sanguinearsenal:scepter_of_blood'],
-        '看幻梦模组里的魂火魔杖的用途,来查看这个物品的配方'
+        '看幻梦模组里的魂火魔杖的用途，来查看这个物品的配方'
     )
     // blood flask
     tooltip.add(
         ['sanguinearsenal:blood_flask'],
-        '查看血染武装模组里的炖僵尸之心的用途,来查看这个物品的配方'
+        '查看血染武装模组里的炖僵尸之心的用途，来查看这个物品的配方'
     )
     // sword of sapping
     tooltip.add(
         ['eidolon:sapping_sword'],
-        '查看铁剑的用途,来查看这个物品的配方'
+        '查看铁剑的用途，来查看这个物品的配方'
     )
     // sanguine amulet
     tooltip.add(
         ['eidolon:sanguine_amulet'],
-        '查看幻梦模组里的基础护符的的用途,来查看这个物品的配方'
+        '查看幻梦模组里的基础护符的的用途，来查看这个物品的配方'
     )
     // rock crystal
     tooltip.add(
@@ -71,7 +71,7 @@ onEvent('item.tooltip', tooltip => {
     // ghast blood tear
     tooltip.add(
         ['decursiomod:ghast_blood_tear'],
-        '这个物品永远不会在制作物品的时候被消耗,就像桶一样'
+        '这个物品永远不会在制作物品的时候被消耗，就像桶一样'
     )
     // pulse centrifuge
     tooltip.add(
@@ -108,11 +108,11 @@ onEvent('item.tooltip', tooltip => {
     // thermal cells
     tooltip.add(
         ['thermal:energy_cell'],
-        ' 如果你想把它用于ME系统里,就别在那里傻愣愣地把它拿在手上'
+        ' 如果你想把它用于ME系统里，就别在那里傻愣愣地把它拿在手上'
     )
 
     tooltip.add(
         ['thermal:fluid_cell'],
-        '如果你想把它用于ME系统里,就别在那里傻愣愣地把它拿在手上'
+        '如果你想把它用于ME系统里，就别在那里傻愣愣地把它拿在手上'
     )
 })
