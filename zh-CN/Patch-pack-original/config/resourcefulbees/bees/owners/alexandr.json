@@ -1,7 +1,7 @@
 {
     "flower": "create:cogwheel",
     "creator": "alexandr & Me_Ryan",
-    "lore": "§独居蜜蜂\nSay `reinstall life`, then you're done - 只会在暮色森林生成",
+    "lore": "§fLonely Bee\nSay `reinstall life`, then you're done - Only spawns in The Twilight Forest",
     "loreColor": "#FFA2B5",
     "hasHoneycomb": true,
     "traits": [],
