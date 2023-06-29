@@ -1,8 +1,8 @@
 {
-    "block.steampowered.bronze_steam_engine": "Brass Steam Engine",
-    "block.steampowered.bronze_flywheel": "Brass Flywheel",
-    "block.steampowered.bronze_cogwheel": "Brass Cogwheel",
-    "block.steampowered.bronze_large_cogwheel": "Brass Large Cogwheel",
-    "block.steampowered.bronze_boiler": "Brass Boiler",
-    "block.steampowered.bronze_burner": "Brass Burning Chamber"
+    "block.steampowered.bronze_steam_engine": "黄铜蒸汽引擎",
+    "block.steampowered.bronze_flywheel": "黄铜飞轮",
+    "block.steampowered.bronze_cogwheel": "黄铜齿轮",
+    "block.steampowered.bronze_large_cogwheel": "黄铜大齿轮",
+    "block.steampowered.bronze_boiler": "黄铜蒸汽锅炉",
+    "block.steampowered.bronze_burner": "黄铜燃烧室"
 }

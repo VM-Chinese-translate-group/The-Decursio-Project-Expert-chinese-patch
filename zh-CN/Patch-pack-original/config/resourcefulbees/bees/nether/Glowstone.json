@@ -1,7 +1,7 @@
 {
   "flower": "minecraft:glowstone",
   "creator": "Me_Ryan",
-  "lore": "Hive Bee",
+  "lore": "群居蜜蜂",
   "maxTimeInHive": 1000,
   "hasHoneycomb": true,
   "baseLayerTexture": "glowstone/glowstone",

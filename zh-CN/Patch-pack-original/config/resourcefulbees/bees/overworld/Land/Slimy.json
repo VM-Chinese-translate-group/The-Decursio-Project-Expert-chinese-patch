@@ -1,6 +1,6 @@
 {
   "flower": "tconstruct:earth_cake",
-  "lore": "Hive Bee",
+  "lore": "群居蜜蜂",
   "hasHoneycomb": true,
   "traits": [
     "slimy"

@@ -1,11 +1,11 @@
 {
-    "augment.mysticalagriculture.jump_boost_iii": "Jump Boost",
-    "augment.mysticalagriculture.speed_iii": "Speed",
-    "augment.mysticalagriculture.pathing_aoe_iv": "Pathing AOE",
-    "augment.mysticalagriculture.absorption_v": "Absorption",
-    "augment.mysticalagriculture.health_boost_v": "Health Boost",
-    "augment.mysticalagriculture.strength_iii": "Strength",
-    "augment.mysticalagriculture.mining_aoe_iv": "Mining AOE",
-    "augment.mysticalagriculture.attack_aoe_iii": "Attack AOE",
-    "augment.mysticalagriculture.tilling_aoe_iv": "Tilling AOE"
+    "augment.mysticalagriculture.jump_boost_iii": "跳跃提升",
+    "augment.mysticalagriculture.speed_iii": "速度",
+    "augment.mysticalagriculture.pathing_aoe_iv": "范围铲地",
+    "augment.mysticalagriculture.absorption_v": "伤害吸收",
+    "augment.mysticalagriculture.health_boost_v": "生命提升",
+    "augment.mysticalagriculture.strength_iii": "力量",
+    "augment.mysticalagriculture.mining_aoe_iv": "范围挖掘",
+    "augment.mysticalagriculture.attack_aoe_iii": "范围攻击",
+    "augment.mysticalagriculture.tilling_aoe_iv": "范围耕地"
 }

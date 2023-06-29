@@ -1,5 +1,5 @@
 {
-  "name": "水晶生长单元",
+  "name": "水晶生长装置",
   "appearance": {
     "resistance": 9,
     "idle": {
@@ -18,12 +18,12 @@
   },
   "tooltips": [
     {
-      "text": "中等速度生产高纯石英水晶",
+      "text": "用于以中等速度生产高纯赛特斯石英水晶",
       "color": "yellow",
       "bold": true
     },
     {
-      "text": "20 分钟 - 不能再减小； 用晶体催生器可加速生成",
+      "text": "20 分钟，不能再少了；使用晶体催生器来加速生产",
       "color": "yellow"
     }
   ],

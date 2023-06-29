@@ -1,5 +1,5 @@
 {
-  "name": "商人召唤祭坛",
+  "name": "流浪商人召唤祭坛",
   "appearance": {
     "resistance": 9,
     "idle": {
@@ -18,16 +18,16 @@
   },
   "tooltips": [
     {
-      "text": "用于召唤游商",
+      "text": "用于召唤一个流浪商人",
       "color": "yellow",
       "bold": true
     },
     {
-      "text": "此祭坛需要一个结构才能发挥作用",
+      "text": "这个祭坛需要一个结构才能正常工作",
       "color": "yellow"
     },
     {
-      "text": "放下后并在JEI中查看祭坛需要的结构",
+      "text": "将其放下，在JEI里查看祭坛的用途以及结构",
       "color": "yellow"
     }
   ],

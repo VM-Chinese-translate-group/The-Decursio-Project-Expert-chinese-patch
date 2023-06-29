@@ -18,12 +18,12 @@
   },
   "tooltips": [
     {
-      "text": "用于充能普通赛特斯石英",
+      "text": "用于将赛特斯石英充能",
       "color": "yellow",
       "bold": true
     },
     {
-      "text": "机器最多接受 4 张加速卡",
+      "text": "这台机器最多可以接受4张加速卡",
       "color": "yellow"
     }
   ],

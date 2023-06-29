@@ -48,10 +48,8 @@
             "powah:book",
             "powah:thermoelectric_plate",
             "powah:dry_ice",
-
             "draconicevolution:info_tablet",
             "draconicevolution:draconium_dust",
-
             "industrialforegoing:material_stonework_factory",
             "industrialforegoing:resourceful_furnace",
             "industrialforegoing:fluid_extractor",
@@ -62,7 +60,6 @@
             "industrialforegoing:dissolution_chamber",
             "industrialforegoing:latex_processing_unit",
             "industrialforegoing:machine_frame_pity",
-
             "endless:infinity_head",
             "endless:infinity_chest",
             "endless:infinity_legs",
@@ -148,6 +145,6 @@
         "checkPlayerEquipment": true,
         "usableItems": false,
         "usableBlocks": false,
-        "improvedMobsDifficulty": 200.0
+        "improvedMobsDifficulty": "200"
     }
 }

@@ -1,5 +1,5 @@
 {
-  "config.jade.plugin_entangled.entangled_block_component": "Entangled Block",
-  "entangled.block.block": "Entangled Block",
-  "entangled.item.item": "Entangled Binder"
+  "config.jade.plugin_entangled.entangled_block_component": "纠缠方块",
+  "entangled.block.block": "纠缠方块",
+  "entangled.item.item": "纠缠绑定器"
 }

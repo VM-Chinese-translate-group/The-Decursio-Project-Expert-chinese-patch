@@ -1,6 +1,6 @@
 {
   "flower": "ALL",
-  "lore": "Hive Bee",
+  "lore": "群居蜜蜂",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture": "/creeper/creeper_bee",

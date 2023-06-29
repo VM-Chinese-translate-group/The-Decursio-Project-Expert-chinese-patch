@@ -1,6 +1,6 @@
 {
   "flower": "minecraft:spawner",
-  "lore": "Lonely Bee",
+  "lore": "独居蜜蜂",
   "hasHoneycomb": false,
   "traits": [],
   "maxTimeInHive": 1200,

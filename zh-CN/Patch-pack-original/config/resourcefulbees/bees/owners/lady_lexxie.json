@@ -1,7 +1,7 @@
 {
   "flower": "botania:elementium_block",
   "creator": "Lady Lexxie & Me_Ryan",
-  "lore": "§fLonely Bee\nFifty shades of purple §5<3 - Only spawns in The End",
+  "lore": "§独居蜜蜂\nFifty shades of purple §5<3 - 只会在末地生成",
   "loreColor": "#F477FE",
   "sizeModifier": "0.7",
   "hasHoneycomb": true,

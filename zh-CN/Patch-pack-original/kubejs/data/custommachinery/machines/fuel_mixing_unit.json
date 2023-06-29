@@ -1,5 +1,5 @@
 {
-  "name": "燃料混合单元",
+  "name": "燃料混合装置",
   "appearance": {
     "resistance": 9,
     "idle": {
@@ -23,7 +23,7 @@
       "bold": true
     },
     {
-      "text": "需要液态氧，精炼油以及汽油",
+      "text": "液氧、精炼油和汽油将是必需的",
       "color": "yellow"
     }
   ],

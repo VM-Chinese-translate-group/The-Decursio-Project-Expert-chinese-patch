@@ -1,8 +1,8 @@
 {
-	"entity.luggage.luggage": "Luggage",
-	"item.luggage.luggage": "Luggage",
-	"keybind.luggage.whistle": "Whistle for Luggage",
-	"subtitles.luggage.entity.luggage.eat_food": "Luggage eats food",
-	"subtitles.luggage.entity.luggage.eat_item": "Luggage eats item",
-	"subtitles.luggage.entity.player.whistle": "Player whistles"
+	"entity.luggage.luggage": "行李箱",
+	"item.luggage.luggage": "行李箱",
+	"keybind.luggage.whistle": "呼唤行李箱的口哨",
+	"subtitles.luggage.entity.luggage.eat_food": "行李箱：捡起食物",
+	"subtitles.luggage.entity.luggage.eat_item": "行李箱：捡起物品",
+	"subtitles.luggage.entity.player.whistle": "玩家：吹哨"
 }
