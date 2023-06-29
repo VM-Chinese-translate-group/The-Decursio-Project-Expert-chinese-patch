@@ -589,6 +589,6 @@
         "checkPlayerEquipment": true,
         "usableItems": false,
         "usableBlocks": false,
-        "improvedMobsDifficulty": "50"
+        "improvedMobsDifficulty": 50.0
     }
 }
