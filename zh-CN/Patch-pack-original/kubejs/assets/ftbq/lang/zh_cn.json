@@ -283,7 +283,7 @@
 	"chapters.arcane_2.quests24.title": "施法：第一部分",
 	"chapters.arcane_2.quests24.subtitle": "Psi金属太美丽了！！左键点击获取更多信息",
 	"chapters.arcane_2.quests24.description1": "术式编写台是你能够制作自定义法术的地方。尽管 Psi 允许你可以编写很多，任何你想象的到的咒语，但强烈建议你从网上，更准确地来说，Reddit学习法术 。为什么？很简单。它帮你节省了相当多的时间，你也能找到你甚至觉得不可能创造的法术。想要线上获得法术，你只需要复制它们，就像你复制任何文本一样。想要把法术导入到你的游戏中，只需要点“从剪切板导入”按钮即可复制到术式编写台中。",
-	"chapters.arcane_2.quests24.description2": "The first spell you're gonna make, is the Infusion spell. This one will allow you to turn gold ingots into psimetal ingots, and get stronger wands.",
+	"chapters.arcane_2.quests24.description2": "你即将做的第一个法术，启动式：聚变。这个可以把金锭转化成Psi金属锭，然后制作更强大的法杖。",
 	"chapters.arcane_2.quests24.description3": "Open the iscriber and search for the \"Infusion\" spell. Click on it. After that, just right-click the instriber with a Spell Node and your spell will be transfered to it. Further, you'll have to place your wand in a Rod Constructor and add the node to it. Finally, just drop some gold on the ground and right-click on it with your wand. If you make a mistake in the Inscriber, while your're making your spell, just hit the \"Delete\" key on your keyboard to remove the wrong element/elements.",
 	"chapters.arcane_2.quests24.description4": "Example of the basic infusion spell:",
 	"chapters.arcane_2.quests24.description5": "{image:kubejs:textures/psi/psimetal_spell_example.png width:100 height:100 align:1 fit:true}",
