@@ -3,7 +3,7 @@
 	group: "08EB5BB8DBF33B74"
 	order_index: 1
 	filename: "arcane_4"
-	title: "{chapters.arcane_4.title}"
+	title: "{ftbquests.chapter.arcane_4.title}"
 	icon: "projecte:collector_mk3"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,17 +12,17 @@
 			x: -4.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.0.subtitle}"
 			description: [
-				"{chapters.arcane_4.quests1.description1}"
+				"{ftbquests.chapter.arcane_4.quests.0.description.0}"
 				""
-				"{chapters.arcane_4.quests1.description2}"
+				"{ftbquests.chapter.arcane_4.quests.0.description.2}"
 				""
-				"{chapters.arcane_4.quests1.description3}"
+				"{ftbquests.chapter.arcane_4.quests.0.description.4}"
 				""
-				"{chapters.arcane_4.quests1.description4}"
+				"{ftbquests.chapter.arcane_4.quests.0.description.6}"
 				""
-				"{chapters.arcane_4.quests1.description5}"
+				"{ftbquests.chapter.arcane_4.quests.0.description.8}"
 			]
 			dependencies: [
 				"5AE4F9E81E692C43"
@@ -30,198 +30,220 @@
 				"7983AC02872A7903"
 			]
 			id: "62B77E823E7C96CE"
-			tasks: [{
-				id: "5E1D7896E2B83063"
-				type: "item"
-				item: {
-					id: "projecte:philosophers_stone"
-					Count: 1b
-					tag: { }
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "5E1D7896E2B83063"
+					type: "item"
+					item: {
+						id: "projecte:philosophers_stone"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "1995F481EFA8096B"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "1995F481EFA8096B"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: 1.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.1.subtitle}"
 			description: [
-				"{chapters.arcane_4.quests2.description1}"
+				"{ftbquests.chapter.arcane_4.quests.1.description.0}"
 				""
-				"{chapters.arcane_4.quests2.description2}"
+				"{ftbquests.chapter.arcane_4.quests.1.description.2}"
 				""
-				"{chapters.arcane_4.quests2.description3}"
+				"{ftbquests.chapter.arcane_4.quests.1.description.4}"
 				""
-				"{chapters.arcane_4.quests2.description4}"
+				"{ftbquests.chapter.arcane_4.quests.1.description.6}"
 			]
 			dependencies: [
 				"75EB00BEED4C74E3"
 				"12AC8B789FF3D939"
 			]
 			id: "3B08D8D5CDB296B0"
-			tasks: [{
-				id: "31A473E37710D2DD"
-				type: "item"
-				item: "projecte:condenser_mk1"
-			}]
+			tasks: [
+				{
+					id: "31A473E37710D2DD"
+					type: "item"
+					item: "projecte:condenser_mk1"
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "{chapters.arcane_4.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.2.subtitle}"
 			dependencies: ["3B08D8D5CDB296B0"]
 			size: 1.5d
 			id: "2045CAE403CC5EC8"
-			tasks: [{
-				id: "650E4C18F6303E20"
-				type: "item"
-				item: "projecte:condenser_mk2"
-			}]
-			rewards: [{
-				id: "4EE9752D3FC33043"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "650E4C18F6303E20"
+					type: "item"
+					item: "projecte:condenser_mk2"
+				}
+			]
+			rewards: [
+				{
+					id: "4EE9752D3FC33043"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.3.subtitle}"
 			description: [
-				"{chapters.arcane_4.quests4.description1}"
+				"{ftbquests.chapter.arcane_4.quests.3.description.0}"
 				""
-				"{chapters.arcane_4.quests4.description2}"
+				"{ftbquests.chapter.arcane_4.quests.3.description.2}"
 			]
 			dependencies: ["5E2127A7705A4A6F"]
 			id: "5377551301E8A6AA"
-			tasks: [{
-				id: "33C38A882B451214"
-				type: "item"
-				item: {
-					id: "projecte:klein_star_zwei"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "33C38A882B451214"
+					type: "item"
+					item: {
+						id: "projecte:klein_star_zwei"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 3.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.4.subtitle}"
 			dependencies: ["5377551301E8A6AA"]
 			id: "615C65FF22889C9C"
-			tasks: [{
-				id: "47C0D249A0E685CA"
-				type: "item"
-				item: {
-					id: "projecte:klein_star_drei"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "47C0D249A0E685CA"
+					type: "item"
+					item: {
+						id: "projecte:klein_star_drei"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 4.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.5.subtitle}"
 			dependencies: ["615C65FF22889C9C"]
 			id: "38AD990946255660"
-			tasks: [{
-				id: "1F360B83872FC786"
-				type: "item"
-				item: {
-					id: "projecte:klein_star_vier"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "1F360B83872FC786"
+					type: "item"
+					item: {
+						id: "projecte:klein_star_vier"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.6.subtitle}"
 			dependencies: ["38AD990946255660"]
 			id: "611AE9C752E80E39"
-			tasks: [{
-				id: "757262561B61E624"
-				type: "item"
-				item: {
-					id: "projecte:klein_star_sphere"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "757262561B61E624"
+					type: "item"
+					item: {
+						id: "projecte:klein_star_sphere"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 6.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.7.subtitle}"
 			dependencies: ["611AE9C752E80E39"]
 			id: "0C6AA092DC94E3FC"
-			tasks: [{
-				id: "0522F20B1F8F5273"
-				type: "item"
-				item: {
-					id: "projecte:klein_star_omega"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "0522F20B1F8F5273"
+					type: "item"
+					item: {
+						id: "projecte:klein_star_omega"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 2.0d
 			y: 3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.8.subtitle}"
 			description: [
-				"{chapters.arcane_4.quests9.description1}"
+				"{ftbquests.chapter.arcane_4.quests.8.description.0}"
 				""
-				"{chapters.arcane_4.quests9.description2}"
+				"{ftbquests.chapter.arcane_4.quests.8.description.2}"
 			]
 			dependencies: [
 				"5377551301E8A6AA"
 				"5AE4F9E81E692C43"
 			]
 			id: "40843985E361868D"
-			tasks: [{
-				id: "29A3EDA5D47553EB"
-				type: "item"
-				item: "projecte:collector_mk1"
-			}]
+			tasks: [
+				{
+					id: "29A3EDA5D47553EB"
+					type: "item"
+					item: "projecte:collector_mk1"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: 3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.9.subtitle}"
 			description: [
-				"{chapters.arcane_4.quests10.description1}"
+				"{ftbquests.chapter.arcane_4.quests.9.description.0}"
 				""
-				"{chapters.arcane_4.quests10.description2}"
+				"{ftbquests.chapter.arcane_4.quests.9.description.2}"
 			]
 			dependencies: [
 				"40843985E361868D"
@@ -229,21 +251,23 @@
 				"5AE4F9E81E692C43"
 			]
 			id: "14CE2B006D67AFD1"
-			tasks: [{
-				id: "4A4D1CCEA3B06ED3"
-				type: "item"
-				item: "projecte:collector_mk2"
-			}]
+			tasks: [
+				{
+					id: "4A4D1CCEA3B06ED3"
+					type: "item"
+					item: "projecte:collector_mk2"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: 3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.10.subtitle}"
 			description: [
-				"{chapters.arcane_4.quests11.description1}"
+				"{ftbquests.chapter.arcane_4.quests.10.description.0}"
 				""
-				"{chapters.arcane_4.quests11.description2}"
+				"{ftbquests.chapter.arcane_4.quests.10.description.2}"
 			]
 			dependencies: [
 				"14CE2B006D67AFD1"
@@ -251,164 +275,180 @@
 				"5AE4F9E81E692C43"
 			]
 			id: "4B644E685EEEBAA8"
-			tasks: [{
-				id: "28E14223001AAEA9"
-				type: "item"
-				item: "projecte:collector_mk3"
-			}]
+			tasks: [
+				{
+					id: "28E14223001AAEA9"
+					type: "item"
+					item: "projecte:collector_mk3"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: -3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.11.subtitle}"
 			description: [
-				"{chapters.arcane_4.quests12.description1}"
+				"{ftbquests.chapter.arcane_4.quests.11.description.0}"
 				""
-				"{chapters.arcane_4.quests12.description2}"
+				"{ftbquests.chapter.arcane_4.quests.11.description.2}"
 			]
 			dependencies: [
 				"5377551301E8A6AA"
 				"5AE4F9E81E692C43"
 			]
 			id: "6BD29B20D8E981CC"
-			tasks: [{
-				id: "5F8CB99209E70167"
-				type: "item"
-				item: "projecte:relay_mk1"
-			}]
+			tasks: [
+				{
+					id: "5F8CB99209E70167"
+					type: "item"
+					item: "projecte:relay_mk1"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_4.quests13.title}"
+			title: "{ftbquests.chapter.arcane_4.quests.12.title}"
 			x: 7.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.12.subtitle}"
 			dependencies: [
 				"21F39BEFB97FD0D6"
 				"563ACC13E46B2F13"
 				"4B644E685EEEBAA8"
 			]
 			id: "200CAD7C99709A33"
-			tasks: [{
-				id: "69466D8C1818B1F1"
-				type: "item"
-				item: "projecte:dark_matter"
-			}]
-			rewards: [{
-				id: "0A68D6C84F35A40B"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "69466D8C1818B1F1"
+					type: "item"
+					item: "projecte:dark_matter"
+				}
+			]
+			rewards: [
+				{
+					id: "0A68D6C84F35A40B"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_4.quests14.title}"
+			title: "{ftbquests.chapter.arcane_4.quests.13.title}"
 			x: 8.5d
 			y: 0.0d
 			shape: "diamond"
-			subtitle: "{chapters.arcane_4.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.13.subtitle}"
 			dependencies: [
 				"200CAD7C99709A33"
 				"21F39BEFB97FD0D6"
 			]
 			size: 2.0d
 			id: "012BA0505E1EEA5D"
-			tasks: [{
-				id: "0ED9D000FB66A704"
-				type: "item"
-				item: "projecte:red_matter"
-			}]
-			rewards: [{
-				id: "7DAA8A21BF01F7FA"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "0ED9D000FB66A704"
+					type: "item"
+					item: "projecte:red_matter"
+				}
+			]
+			rewards: [
+				{
+					id: "7DAA8A21BF01F7FA"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.14.subtitle}"
 			dependencies: [
 				"6BD29B20D8E981CC"
 				"38AD990946255660"
 				"5AE4F9E81E692C43"
 			]
 			id: "5D70C8B56CE17C67"
-			tasks: [{
-				id: "6EC62503C187E982"
-				type: "item"
-				item: "projecte:relay_mk2"
-			}]
+			tasks: [
+				{
+					id: "6EC62503C187E982"
+					type: "item"
+					item: "projecte:relay_mk2"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.15.subtitle}"
 			dependencies: [
 				"5D70C8B56CE17C67"
 				"0C6AA092DC94E3FC"
 				"5AE4F9E81E692C43"
 			]
 			id: "563ACC13E46B2F13"
-			tasks: [{
-				id: "316CD22DB471C692"
-				type: "item"
-				item: "projecte:relay_mk3"
-			}]
+			tasks: [
+				{
+					id: "316CD22DB471C692"
+					type: "item"
+					item: "projecte:relay_mk3"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_4.quests17.title}"
+			title: "{ftbquests.chapter.arcane_4.quests.16.title}"
 			icon: "mysticalagriculture:mystical_flower_essence"
 			x: 4.0d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "{chapters.arcane_4.quests17.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.16.subtitle}"
 			description: [
-				"{chapters.arcane_4.quests17.description1}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.0}"
 				""
-				"{chapters.arcane_4.quests17.description2}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.2}"
 				""
-				"{chapters.arcane_4.quests17.description3}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.4}"
 				""
-				"{chapters.arcane_4.quests17.description4}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.6}"
 				""
-				"{chapters.arcane_4.quests17.description5}"
+				"{image:kubejs:textures/projecte/powerflower_petal_final.png width:100 height:100 align:1 fit:true}"
 				""
-				"{chapters.arcane_4.quests17.description6}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.10}"
 				""
-				"{chapters.arcane_4.quests17.description7}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.12}"
 				""
-				"{chapters.arcane_4.quests17.description8}"
-				"{chapters.arcane_4.quests17.description9}"
-				"{chapters.arcane_4.quests17.description10}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.14}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.15}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.16}"
 				""
-				"{chapters.arcane_4.quests17.description11}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.18}"
 				""
-				"{chapters.arcane_4.quests17.description12}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.20}"
 				""
-				"{chapters.arcane_4.quests17.description13}"
+				"{image:kubejs:textures/projecte/powerflower_petal_1.png width:100 height:100 align:1 fit:true}"
 				""
-				"{chapters.arcane_4.quests17.description14}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.24}"
 				""
-				"{chapters.arcane_4.quests17.description15}"
+				"{image:kubejs:textures/projecte/powerflower_petal_2.png width:100 height:100 align:1 fit:true}"
 				""
-				"{chapters.arcane_4.quests17.description16}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.28}"
 				""
-				"{chapters.arcane_4.quests17.description17}"
+				"{image:kubejs:textures/projecte/powerflower_petal_3.png width:100 height:100 align:1 fit:true}"
 				""
-				"{chapters.arcane_4.quests17.description18}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.32}"
 				""
-				"{chapters.arcane_4.quests17.description19}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.34}"
 				""
-				"{chapters.arcane_4.quests17.description4}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.36}"
 				""
-				"{chapters.arcane_4.quests17.description21}"
+				"{image:kubejs:textures/projecte/powerflower_orb_final.png width:100 height:100 align:1 fit:true}"
 				""
-				"{chapters.arcane_4.quests17.description22}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.40}"
 				""
-				"{chapters.arcane_4.quests17.description23}"
+				"{ftbquests.chapter.arcane_4.quests.16.description.42}"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -417,18 +457,20 @@
 			]
 			size: 1.5d
 			id: "6C384104CB7F0370"
-			tasks: [{
-				id: "3DE553E0A6C27B36"
-				type: "checkmark"
-				title: "{chapters.arcane_4.quests17.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "3DE553E0A6C27B36"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_4.quests.16.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_4.quests18.title}"
+			title: "{ftbquests.chapter.arcane_4.quests.17.title}"
 			x: -12.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests18.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.17.subtitle}"
 			dependencies: [
 				"3EC9990D435FB994"
 				"2189BE654F45470A"
@@ -436,40 +478,44 @@
 			]
 			size: 2.0d
 			id: "268543BE27CB36E3"
-			tasks: [{
-				id: "18F42AB24C3C8517"
-				type: "item"
-				item: "mysticalagriculture:prosperity_ingot"
-			}]
+			tasks: [
+				{
+					id: "18F42AB24C3C8517"
+					type: "item"
+					item: "mysticalagriculture:prosperity_ingot"
+				}
+			]
 		}
 		{
 			x: -6.0d
 			y: -1.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests19.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.18.subtitle}"
 			dependencies: [
 				"1D781547D59DC885"
 				"6761DAF630E24995"
 				"0A574FE8A32052DE"
 			]
 			id: "1C2176A86945597E"
-			tasks: [{
-				id: "50461D4B18BCE816"
-				type: "item"
-				item: "mysticalagriculture:pink_slime_seeds"
-			}]
+			tasks: [
+				{
+					id: "50461D4B18BCE816"
+					type: "item"
+					item: "mysticalagriculture:pink_slime_seeds"
+				}
+			]
 		}
 		{
 			x: -10.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests20.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.19.subtitle}"
 			description: [
-				"{chapters.arcane_4.quests20.description1}"
+				"{ftbquests.chapter.arcane_4.quests.19.description.0}"
 				""
-				"{chapters.arcane_4.quests20.description2}"
+				"{ftbquests.chapter.arcane_4.quests.19.description.2}"
 				""
-				"{chapters.arcane_4.quests20.description3}"
+				"{ftbquests.chapter.arcane_4.quests.19.description.4}"
 			]
 			dependencies: [
 				"268543BE27CB36E3"
@@ -490,166 +536,196 @@
 					count: 8L
 				}
 			]
-			rewards: [{
-				id: "4C1F7E5C562437FD"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			rewards: [
+				{
+					id: "4C1F7E5C562437FD"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: -10.0d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests21.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.20.subtitle}"
 			dependencies: ["13CEDEFFDB89D920"]
 			id: "73D5AB177A05AFFD"
-			tasks: [{
-				id: "7CCCEC90069B9556"
-				type: "item"
-				item: "mysticalagriculture:inferium_essence"
-			}]
-			rewards: [{
-				id: "0E590FBDCD33A140"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "7CCCEC90069B9556"
+					type: "item"
+					item: "mysticalagriculture:inferium_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "0E590FBDCD33A140"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
 			x: -8.0d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests22.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.21.subtitle}"
 			dependencies: ["73D5AB177A05AFFD"]
 			id: "5B254040E2C7BB6D"
-			tasks: [{
-				id: "33D66E1FE7F91A04"
-				type: "item"
-				item: "mysticalagriculture:prudentium_essence"
-			}]
-			rewards: [{
-				id: "5B4EC74FE2F19B18"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "33D66E1FE7F91A04"
+					type: "item"
+					item: "mysticalagriculture:prudentium_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "5B4EC74FE2F19B18"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
 			x: -7.0d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests23.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.22.subtitle}"
 			dependencies: ["5B254040E2C7BB6D"]
 			id: "625A8912D0199540"
-			tasks: [{
-				id: "391D6E13E130CDA9"
-				type: "item"
-				item: "mysticalagriculture:tertium_essence"
-			}]
-			rewards: [{
-				id: "436391EAAA40716D"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "391D6E13E130CDA9"
+					type: "item"
+					item: "mysticalagriculture:tertium_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "436391EAAA40716D"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
 			x: -6.0d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests24.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.23.subtitle}"
 			dependencies: ["625A8912D0199540"]
 			id: "6761DAF630E24995"
-			tasks: [{
-				id: "2FBC190E0B2BDCD4"
-				type: "item"
-				item: "mysticalagriculture:imperium_essence"
-			}]
-			rewards: [{
-				id: "0B69F674CF48445D"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "2FBC190E0B2BDCD4"
+					type: "item"
+					item: "mysticalagriculture:imperium_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "0B69F674CF48445D"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
 			x: -5.0d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests25.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.24.subtitle}"
 			dependencies: ["6761DAF630E24995"]
 			id: "77CEF9AA1C8EC6FD"
-			tasks: [{
-				id: "55998B07048332F1"
-				type: "item"
-				item: "mysticalagriculture:supremium_essence"
-			}]
-			rewards: [{
-				id: "10689B4AD4148F3C"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "55998B07048332F1"
+					type: "item"
+					item: "mysticalagriculture:supremium_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "10689B4AD4148F3C"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: -4.0d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests26.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.25.subtitle}"
 			dependencies: ["77CEF9AA1C8EC6FD"]
 			id: "7983AC02872A7903"
-			tasks: [{
-				id: "6A5F550B2F805354"
-				type: "item"
-				item: "mysticalagradditions:insanium_essence"
-			}]
-			rewards: [{
-				id: "06622CE12233E47E"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "6A5F550B2F805354"
+					type: "item"
+					item: "mysticalagradditions:insanium_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "06622CE12233E47E"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_4.quests27.title}"
+			title: "{ftbquests.chapter.arcane_4.quests.26.title}"
 			x: -12.5d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests27.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.26.subtitle}"
 			description: [
-				"{chapters.arcane_4.quests27.description1}"
+				"{ftbquests.chapter.arcane_4.quests.26.description.0}"
 				""
-				"{chapters.arcane_4.quests27.description2}"
+				"{ftbquests.chapter.arcane_4.quests.26.description.2}"
 				""
-				"{chapters.arcane_4.quests27.description3}"
+				"{ftbquests.chapter.arcane_4.quests.26.description.4}"
 				""
-				"{chapters.arcane_4.quests27.description4}"
+				"{ftbquests.chapter.arcane_4.quests.26.description.6}"
 				""
-				"{chapters.arcane_4.quests27.description5}"
+				"{ftbquests.chapter.arcane_4.quests.26.description.8}"
 				""
-				"{chapters.arcane_4.quests27.description6}"
+				"{ftbquests.chapter.arcane_4.quests.26.description.10}"
 			]
 			dependencies: ["78ECF24A2D1EB21A"]
 			size: 2.0d
 			id: "13CEDEFFDB89D920"
-			tasks: [{
-				id: "6431BB7460FCBB4E"
-				type: "item"
-				item: "extendedcrafting:luminessence"
-			}]
+			tasks: [
+				{
+					id: "6431BB7460FCBB4E"
+					type: "item"
+					item: "extendedcrafting:luminessence"
+				}
+			]
 		}
 		{
 			x: -8.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests28.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.27.subtitle}"
 			dependencies: ["0784FAA81F918BF0"]
 			id: "0A574FE8A32052DE"
-			tasks: [{
-				id: "6AA1D35CA071828E"
-				type: "item"
-				item: "mysticalagriculture:prosperity_seed_base"
-			}]
+			tasks: [
+				{
+					id: "6AA1D35CA071828E"
+					type: "item"
+					item: "mysticalagriculture:prosperity_seed_base"
+				}
+			]
 		}
 		{
 			x: -8.0d
 			y: -1.0d
 			shape: "diamond"
-			subtitle: "{chapters.arcane_4.quests29.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.28.subtitle}"
 			dependencies: [
 				"0A574FE8A32052DE"
 				"5B254040E2C7BB6D"
@@ -657,22 +733,24 @@
 				"7C04B7C2DDAB717B"
 			]
 			id: "2E80CB94077AB4B9"
-			tasks: [{
-				id: "51148A2225BCC346"
-				type: "item"
-				item: "mysticalagriculture:uraninite_seeds"
-			}]
+			tasks: [
+				{
+					id: "51148A2225BCC346"
+					type: "item"
+					item: "mysticalagriculture:uraninite_seeds"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_4.quests30.title}"
+			title: "{ftbquests.chapter.arcane_4.quests.29.title}"
 			x: -3.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests30.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.29.subtitle}"
 			description: [
-				"{chapters.arcane_4.quests30.description1}"
+				"{ftbquests.chapter.arcane_4.quests.29.description.0}"
 				""
-				"{chapters.arcane_4.quests30.description2}"
+				"{ftbquests.chapter.arcane_4.quests.29.description.2}"
 			]
 			dependencies: ["62B77E823E7C96CE"]
 			id: "75EB00BEED4C74E3"
@@ -698,103 +776,121 @@
 			x: -1.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests31.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.30.subtitle}"
 			dependencies: ["75EB00BEED4C74E3"]
 			id: "1D8480D78DB3313C"
-			tasks: [{
-				id: "391EC0DF15725608"
-				type: "item"
-				item: "projecte:alchemical_coal"
-			}]
-			rewards: [{
-				id: "7BBAD0EFEDB2FAD1"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "391EC0DF15725608"
+					type: "item"
+					item: "projecte:alchemical_coal"
+				}
+			]
+			rewards: [
+				{
+					id: "7BBAD0EFEDB2FAD1"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests32.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.31.subtitle}"
 			dependencies: ["1D8480D78DB3313C"]
 			id: "01E0BC926197C0C2"
-			tasks: [{
-				id: "6AFE6E51D409DBB2"
-				type: "item"
-				item: "projecte:mobius_fuel"
-			}]
-			rewards: [{
-				id: "75145B21175E52D6"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "6AFE6E51D409DBB2"
+					type: "item"
+					item: "projecte:mobius_fuel"
+				}
+			]
+			rewards: [
+				{
+					id: "75145B21175E52D6"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests33.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.32.subtitle}"
 			dependencies: ["01E0BC926197C0C2"]
 			id: "5E2127A7705A4A6F"
-			tasks: [{
-				id: "4DABD9B453D24824"
-				type: "item"
-				item: "projecte:aeternalis_fuel"
-			}]
-			rewards: [{
-				id: "6E0DDA7911F2BE64"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "4DABD9B453D24824"
+					type: "item"
+					item: "projecte:aeternalis_fuel"
+				}
+			]
+			rewards: [
+				{
+					id: "6E0DDA7911F2BE64"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_4.quests34.title}"
+			title: "{ftbquests.chapter.arcane_4.quests.33.title}"
 			x: -10.0d
 			y: 2.5d
 			shape: "square"
-			subtitle: "{chapters.arcane_4.quests34.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.33.subtitle}"
 			dependencies: ["17442ADE28BA9B49"]
 			size: 2.0d
 			id: "1F1573111F7E02AF"
-			tasks: [{
-				id: "52D605A89BC4385E"
-				type: "item"
-				item: "mysticalagriculture:prosperity_gemstone"
-			}]
+			tasks: [
+				{
+					id: "52D605A89BC4385E"
+					type: "item"
+					item: "mysticalagriculture:prosperity_gemstone"
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: -1.0d
 			shape: "heart"
-			subtitle: "{chapters.arcane_4.quests35.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.34.subtitle}"
 			dependencies: ["09DC773965145FAD"]
 			id: "4F3C55E280C39BC2"
-			tasks: [{
-				id: "4591A4F4864570B6"
-				type: "item"
-				item: "mysticalagriculture:nether_star_seeds"
-			}]
+			tasks: [
+				{
+					id: "4591A4F4864570B6"
+					type: "item"
+					item: "mysticalagriculture:nether_star_seeds"
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: -3.0d
 			shape: "heart"
-			subtitle: "{chapters.arcane_4.quests36.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.35.subtitle}"
 			dependencies: ["09DC773965145FAD"]
 			id: "3897396F82F93C1B"
-			tasks: [{
-				id: "35BAF2833C9FA0EB"
-				type: "item"
-				item: "mysticalagriculture:dragon_egg_seeds"
-			}]
+			tasks: [
+				{
+					id: "35BAF2833C9FA0EB"
+					type: "item"
+					item: "mysticalagriculture:dragon_egg_seeds"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_4.quests37.title}"
+			title: "{ftbquests.chapter.arcane_4.quests.36.title}"
 			x: -3.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_4.quests37.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.36.subtitle}"
 			dependencies: ["7983AC02872A7903"]
 			id: "09DC773965145FAD"
 			tasks: [
@@ -811,57 +907,65 @@
 			]
 		}
 		{
-			title: "{chapters.arcane_4.quests38.title}"
+			title: "{ftbquests.chapter.arcane_4.quests.37.title}"
 			x: -5.0d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "{chapters.arcane_4.quests38.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.37.subtitle}"
 			dependencies: ["77CEF9AA1C8EC6FD"]
 			size: 1.5d
 			id: "1AB281AAAE7C3826"
-			tasks: [{
-				id: "6EF4B099D830B871"
-				type: "item"
-				item: "mysticalagriculture:tinkering_table"
-			}]
-			rewards: [{
-				id: "1E82C8FE946D67E6"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "6EF4B099D830B871"
+					type: "item"
+					item: "mysticalagriculture:tinkering_table"
+				}
+			]
+			rewards: [
+				{
+					id: "1E82C8FE946D67E6"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: -10.0d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_4.quests39.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.38.subtitle}"
 			dependencies: [
 				"73D5AB177A05AFFD"
 				"0A574FE8A32052DE"
 			]
 			id: "087E305FEA5F6023"
-			tasks: [{
-				id: "7078EA76003ED1A3"
-				type: "item"
-				item: "mysticalagriculture:inferium_seeds"
-			}]
+			tasks: [
+				{
+					id: "7078EA76003ED1A3"
+					type: "item"
+					item: "mysticalagriculture:inferium_seeds"
+				}
+			]
 		}
 		{
 			x: -4.0d
 			y: -3.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_4.quests40.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_4.quests.39.subtitle}"
 			dependencies: ["7983AC02872A7903"]
 			id: "602570E296D9834F"
-			tasks: [{
-				id: "6ED9BC7EF0C4FDA1"
-				type: "item"
-				item: {
-					id: "industrialforegoing:biofuel_bucket"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "6ED9BC7EF0C4FDA1"
+					type: "item"
+					item: {
+						id: "industrialforegoing:biofuel_bucket"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 	]
 }

@@ -3,7 +3,7 @@
 	group: "532DAB84AB301350"
 	order_index: 0
 	filename: "Gear_2"
-	title: "{chapters.Gear_2.title}"
+	title: "{ftbquests.chapter.Gear_2.title}"
 	icon: "create:mechanical_crafter"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,50 +12,56 @@
 			x: -5.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.0.subtitle}"
 			dependencies: ["40205D351BE13B77"]
 			size: 2.0d
 			id: "4B00B60DE355C08C"
-			tasks: [{
-				id: "6F3C9BABD832940C"
-				type: "item"
-				item: "create:andesite_alloy"
-			}]
+			tasks: [
+				{
+					id: "6F3C9BABD832940C"
+					type: "item"
+					item: "create:andesite_alloy"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests2.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.1.title}"
 			x: -2.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.1.subtitle}"
 			dependencies: ["2945E1C3ECC37B04"]
 			id: "29AEE691E6EC0A34"
-			tasks: [{
-				id: "287FA798C4EE326F"
-				type: "item"
-				item: "create:water_wheel"
-			}]
+			tasks: [
+				{
+					id: "287FA798C4EE326F"
+					type: "item"
+					item: "create:water_wheel"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests3.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.2.title}"
 			x: -2.5d
 			y: 1.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.2.subtitle}"
 			dependencies: ["2945E1C3ECC37B04"]
 			id: "4BAB2F240B771EDB"
-			tasks: [{
-				id: "517602DDCE55A10D"
-				type: "item"
-				item: "create:encased_fan"
-			}]
+			tasks: [
+				{
+					id: "517602DDCE55A10D"
+					type: "item"
+					item: "create:encased_fan"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests4.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.3.title}"
 			x: -1.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.3.subtitle}"
 			dependencies: [
 				"4BAB2F240B771EDB"
 				"29AEE691E6EC0A34"
@@ -84,46 +90,52 @@
 					item: "create:gearbox"
 				}
 			]
-			rewards: [{
-				id: "50D73E2093DD4946"
-				type: "item"
-				item: "create:gearbox"
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "50D73E2093DD4946"
+					type: "item"
+					item: "create:gearbox"
+					count: 8
+				}
+			]
 		}
 		{
 			icon: "create:mechanical_mixer"
 			x: 1.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.4.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "4D36622ECF38295D"
-			tasks: [{
-				id: "6810C65EA6D8517D"
-				type: "item"
-				item: "create:mechanical_mixer"
-			}]
+			tasks: [
+				{
+					id: "6810C65EA6D8517D"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests6.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.5.title}"
 			x: 0.0d
 			y: -4.0d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.5.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "338596C4B0C1A8E5"
-			tasks: [{
-				id: "71D680B583570783"
-				type: "item"
-				item: "create:depot"
-			}]
+			tasks: [
+				{
+					id: "71D680B583570783"
+					type: "item"
+					item: "create:depot"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.6.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"6AA23A5FB3C37C90"
@@ -131,83 +143,95 @@
 				"59DF5370DD2EAE51"
 			]
 			id: "1D2EB9C9A8910914"
-			tasks: [{
-				id: "6809C94A13E1370C"
-				type: "item"
-				item: "create:blaze_burner"
-			}]
-			rewards: [{
-				id: "197778CA6EE345A8"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "6809C94A13E1370C"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+			]
+			rewards: [
+				{
+					id: "197778CA6EE345A8"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests8.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.7.title}"
 			x: 5.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.7.subtitle}"
 			dependencies: ["46E3C1F4DB3AA8ED"]
 			id: "5F68C4D92EF20E09"
-			tasks: [{
-				id: "4EDBEE150B45885C"
-				type: "item"
-				item: "emendatusenigmatica:brass_ingot"
-			}]
+			tasks: [
+				{
+					id: "4EDBEE150B45885C"
+					type: "item"
+					item: "emendatusenigmatica:brass_ingot"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: -6.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.8.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			size: 1.5d
 			id: "69DA94D714E296AC"
-			tasks: [{
-				id: "573C71B5414898AB"
-				type: "item"
-				item: "createaddition:rolling_mill"
-			}]
-			rewards: [{
-				id: "189B41F9B2553CC7"
-				type: "item"
-				item: "emendatusenigmatica:coke_gem"
-				count: 8
-			}]
+			tasks: [
+				{
+					id: "573C71B5414898AB"
+					type: "item"
+					item: "createaddition:rolling_mill"
+				}
+			]
+			rewards: [
+				{
+					id: "189B41F9B2553CC7"
+					type: "item"
+					item: "emendatusenigmatica:coke_gem"
+					count: 8
+				}
+			]
 		}
 		{
 			x: 8.5d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.9.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests10.description1}"
+				"{ftbquests.chapter.Gear_2.quests.9.description.0}"
 				""
-				"{chapters.Gear_2.quests10.description2}"
+				"{ftbquests.chapter.Gear_2.quests.9.description.2}"
 				""
-				"{chapters.Gear_2.quests10.description3}"
+				"{ftbquests.chapter.Gear_2.quests.9.description.4}"
 				""
-				"{chapters.Gear_2.quests10.description4}"
+				"{ftbquests.chapter.Gear_2.quests.9.description.6}"
 				""
-				"{chapters.Gear_2.quests10.description5}"
+				"{image:kubejs:textures/create/mechanical_crafter_example.png width:100 height:100 align:1}"
 				""
-				"{chapters.Gear_2.quests10.description6}"
+				"{ftbquests.chapter.Gear_2.quests.9.description.10}"
 			]
 			dependencies: ["275FE11C673E522D"]
 			id: "2BA7183800B331E0"
-			tasks: [{
-				id: "7AFC5E7A39F1EEF2"
-				type: "item"
-				item: "create:mechanical_crafter"
-			}]
+			tasks: [
+				{
+					id: "7AFC5E7A39F1EEF2"
+					type: "item"
+					item: "create:mechanical_crafter"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests11.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.10.title}"
 			x: 8.5d
 			y: -3.5d
 			shape: "diamond"
-			subtitle: "{chapters.Gear_2.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.10.subtitle}"
 			dependencies: [
 				"1F1994D8C11FAB3D"
 				"2BA7183800B331E0"
@@ -216,46 +240,54 @@
 			dependency_requirement: "one_completed"
 			size: 1.5d
 			id: "0EF94371D99AC9BA"
-			tasks: [{
-				id: "78D850DF5C183263"
-				type: "item"
-				item: "steampowered:alternator"
-			}]
-			rewards: [{
-				id: "182EB87836AF8A10"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "78D850DF5C183263"
+					type: "item"
+					item: "steampowered:alternator"
+				}
+			]
+			rewards: [
+				{
+					id: "182EB87836AF8A10"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests12.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.11.title}"
 			x: 7.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.11.subtitle}"
 			dependencies: ["2BA7183800B331E0"]
 			id: "4F4EA5E52336BC7B"
-			tasks: [{
-				id: "0471E3B0C7E4FA4E"
-				type: "item"
-				item: "create:crushing_wheel"
-			}]
-			rewards: [{
-				id: "4BC3A3EB3D0E3646"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "0471E3B0C7E4FA4E"
+					type: "item"
+					item: "create:crushing_wheel"
+				}
+			]
+			rewards: [
+				{
+					id: "4BC3A3EB3D0E3646"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests13.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.12.title}"
 			x: 3.5d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.12.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests13.description1}"
+				"{ftbquests.chapter.Gear_2.quests.12.description.0}"
 				""
-				"{chapters.Gear_2.quests13.description2}"
+				"{ftbquests.chapter.Gear_2.quests.12.description.2}"
 			]
 			dependencies: [
 				"5F68C4D92EF20E09"
@@ -263,12 +295,14 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "2E3880C1F6D082FA"
-			tasks: [{
-				id: "3836154FED8CB897"
-				type: "item"
-				item: "immersiveengineering:alloybrick"
-				count: 8L
-			}]
+			tasks: [
+				{
+					id: "3836154FED8CB897"
+					type: "item"
+					item: "immersiveengineering:alloybrick"
+					count: 8L
+				}
+			]
 			rewards: [
 				{
 					id: "63393D0E191A88BC"
@@ -291,11 +325,11 @@
 			]
 		}
 		{
-			title: "{chapters.Gear_2.quests14.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.13.title}"
 			x: 9.5d
 			y: -8.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.13.subtitle}"
 			dependencies: ["1F1994D8C11FAB3D"]
 			id: "10CAC510498E8582"
 			tasks: [
@@ -315,46 +349,48 @@
 					item: "immersiveengineering:capacitor_hv"
 				}
 			]
-			rewards: [{
-				id: "7A77234EE35AE499"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			rewards: [
+				{
+					id: "7A77234EE35AE499"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests15.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.14.title}"
 			x: 8.5d
 			y: -6.5d
 			shape: "diamond"
-			subtitle: "{chapters.Gear_2.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.14.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests15.description1}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.0}"
 				""
-				"{chapters.Gear_2.quests15.description2}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.2}"
 				""
-				"{chapters.Gear_2.quests15.description3}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.4}"
 				""
-				"{chapters.Gear_2.quests15.description4}"
-				"{chapters.Gear_2.quests15.description5}"
-				"{chapters.Gear_2.quests15.description6}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.6}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.7}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.8}"
 				""
-				"{chapters.Gear_2.quests15.description7}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.10}"
 				""
-				"{chapters.Gear_2.quests15.description8}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.12}"
 				""
-				"{chapters.Gear_2.quests15.description9}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.14}"
 				""
-				"{chapters.Gear_2.quests15.description10}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.16}"
 				""
-				"{chapters.Gear_2.quests15.description11}"
-				"{chapters.Gear_2.quests15.description12}"
-				"{chapters.Gear_2.quests15.description13}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.18}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.19}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.20}"
 				""
-				"{chapters.Gear_2.quests15.description14}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.22}"
 				""
-				"{chapters.Gear_2.quests15.description15}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.24}"
 				""
-				"{chapters.Gear_2.quests15.description16}"
+				"{ftbquests.chapter.Gear_2.quests.14.description.26}"
 			]
 			dependencies: [
 				"518464A2828AA8AE"
@@ -386,69 +422,79 @@
 			x: 7.5d
 			y: -8.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.15.subtitle}"
 			dependencies: ["1F1994D8C11FAB3D"]
 			id: "263BA2874CB8F6DC"
-			tasks: [{
-				id: "50ACD8F7779DD7FD"
-				type: "item"
-				item: "createaddition:electric_motor"
-			}]
-			rewards: [{
-				id: "7DF29B2C580AF8B1"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "50ACD8F7779DD7FD"
+					type: "item"
+					item: "createaddition:electric_motor"
+				}
+			]
+			rewards: [
+				{
+					id: "7DF29B2C580AF8B1"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: 8.5d
 			y: 0.5d
 			shape: "diamond"
-			subtitle: "{chapters.Gear_2.quests17.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.16.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests17.description1}"
+				"{ftbquests.chapter.Gear_2.quests.16.description.0}"
 				""
-				"{chapters.Gear_2.quests17.description2}"
+				"{ftbquests.chapter.Gear_2.quests.16.description.2}"
 				""
-				"{chapters.Gear_2.quests17.description3}"
+				"{ftbquests.chapter.Gear_2.quests.16.description.4}"
 				""
-				"{chapters.Gear_2.quests17.description4}"
+				"{ftbquests.chapter.Gear_2.quests.16.description.6}"
 				""
-				"{chapters.Gear_2.quests17.description5}"
+				"{ftbquests.chapter.Gear_2.quests.16.description.8}"
 				""
-				"{chapters.Gear_2.quests17.description6}"
+				"{image:kubejs:textures/create/sequenced_assembly_line_example.png width:210 height:100 align:1 fit:true}"
 				""
-				"{chapters.Gear_2.quests17.description7}"
+				"{ftbquests.chapter.Gear_2.quests.16.description.12}"
 			]
 			dependencies: ["10D3BBDC4C911B81"]
 			size: 1.5d
 			id: "275FE11C673E522D"
-			tasks: [{
-				id: "1BE5020FC0466674"
-				type: "item"
-				item: "create:precision_mechanism"
-			}]
-			rewards: [{
-				id: "1A40084040882A8B"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "1BE5020FC0466674"
+					type: "item"
+					item: "create:precision_mechanism"
+				}
+			]
+			rewards: [
+				{
+					id: "1A40084040882A8B"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests18.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.17.subtitle}"
 			dependencies: ["15CD1782F17EF2BC"]
 			id: "2CBD58CB08491491"
-			tasks: [{
-				id: "08775984F02ABF38"
-				type: "item"
-				item: "computercraft:computer_normal"
-			}]
+			tasks: [
+				{
+					id: "08775984F02ABF38"
+					type: "item"
+					item: "computercraft:computer_normal"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests19.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.18.title}"
 			icon: {
 				id: "supplementaries:wrench"
 				Count: 1b
@@ -459,17 +505,19 @@
 			x: 14.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests19.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.18.subtitle}"
 			dependencies: [
 				"6B4D6FD11DFC8011"
 				"2E420B464AC031B6"
 			]
 			id: "4AADFD307A5BCF37"
-			tasks: [{
-				id: "27E77B91AC2340EC"
-				type: "checkmark"
-				title: "{chapters.Gear_2.quests19.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "27E77B91AC2340EC"
+					type: "checkmark"
+					title: "{ftbquests.chapter.Gear_2.quests.18.tasks.0.title}"
+				}
+			]
 			rewards: [
 				{
 					id: "6173E2E9079014EA"
@@ -491,21 +539,21 @@
 			]
 		}
 		{
-			title: "{chapters.Gear_2.quests20.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.19.title}"
 			x: 9.5d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests20.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.19.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests20.description1}"
+				"{ftbquests.chapter.Gear_2.quests.19.description.0}"
 				""
-				"{chapters.Gear_2.quests20.description2}"
+				"{ftbquests.chapter.Gear_2.quests.19.description.2}"
 				""
-				"{chapters.Gear_2.quests20.description3}"
+				"{ftbquests.chapter.Gear_2.quests.19.description.4}"
 				""
-				"{chapters.Gear_2.quests20.description4}"
+				"{ftbquests.chapter.Gear_2.quests.19.description.6}"
 				""
-				"{chapters.Gear_2.quests20.description5}"
+				"{ftbquests.chapter.Gear_2.quests.19.description.8}"
 			]
 			dependencies: [
 				"275FE11C673E522D"
@@ -514,39 +562,45 @@
 			]
 			size: 1.5d
 			id: "70E368152DD258AA"
-			tasks: [{
-				id: "7C488F4AFC386402"
-				type: "item"
-				item: "psi:cad_assembler"
-			}]
-			rewards: [{
-				id: "0F3320B7E14E03DE"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "7C488F4AFC386402"
+					type: "item"
+					item: "psi:cad_assembler"
+				}
+			]
+			rewards: [
+				{
+					id: "0F3320B7E14E03DE"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests21.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.20.title}"
 			icon: "emendatusenigmatica:bitumen_gem"
 			x: 18.5d
 			y: 3.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests21.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.20.subtitle}"
 			dependencies: ["4261B19707343F3D"]
 			id: "2F64EED1F5172A81"
-			tasks: [{
-				id: "7F394AE7460992AA"
-				type: "item"
-				item: "emendatusenigmatica:bitumen_gem"
-			}]
+			tasks: [
+				{
+					id: "7F394AE7460992AA"
+					type: "item"
+					item: "emendatusenigmatica:bitumen_gem"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests22.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.21.title}"
 			icon: "immersiveengineering:lightning_rod"
 			x: 8.5d
 			y: -9.0d
 			shape: "heart"
-			subtitle: "{chapters.Gear_2.quests22.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.21.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"4AADFD307A5BCF37"
@@ -597,23 +651,25 @@
 					count: 12L
 				}
 			]
-			rewards: [{
-				id: "36F8C2EA93023893"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			rewards: [
+				{
+					id: "36F8C2EA93023893"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests23.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.22.title}"
 			icon: "immersiveengineering:crusher"
 			x: 15.0d
 			y: 1.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests23.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.22.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests23.description1}"
+				"{ftbquests.chapter.Gear_2.quests.22.description.0}"
 				""
-				"{chapters.Gear_2.quests23.description2}"
+				"{ftbquests.chapter.Gear_2.quests.22.description.2}"
 			]
 			dependencies: ["4AADFD307A5BCF37"]
 			dependency_requirement: "one_completed"
@@ -649,346 +705,398 @@
 					count: 9L
 				}
 			]
-			rewards: [{
-				id: "57A7792078004412"
-				type: "item"
-				item: "emendatusenigmatica:iron_dust"
-				count: 64
-			}]
+			rewards: [
+				{
+					id: "57A7792078004412"
+					type: "item"
+					item: "emendatusenigmatica:iron_dust"
+					count: 64
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests24.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.23.title}"
 			x: 16.0d
 			y: 1.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests24.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.23.subtitle}"
 			dependencies: [
 				"48BBC2E819A1B6A5"
 				"79BB64427280F8AE"
 			]
 			id: "31A4F73AF44D70B1"
-			tasks: [{
-				id: "60C7C16A05223C9A"
-				type: "item"
-				item: "immersiveengineering:heavy_engineering"
-			}]
+			tasks: [
+				{
+					id: "60C7C16A05223C9A"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: -3.0d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests25.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.24.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "2AE34BAFE2B23647"
-			tasks: [{
-				id: "2512EB2FE81C4798"
-				type: "item"
-				item: "create:mechanical_harvester"
-			}]
+			tasks: [
+				{
+					id: "2512EB2FE81C4798"
+					type: "item"
+					item: "create:mechanical_harvester"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests26.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.25.title}"
 			icon: "create:wrench"
 			x: -4.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests26.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.25.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests26.description1}"
+				"{ftbquests.chapter.Gear_2.quests.25.description.0}"
 				""
-				"{chapters.Gear_2.quests26.description2}"
+				"{ftbquests.chapter.Gear_2.quests.25.description.2}"
 				""
-				"{chapters.Gear_2.quests26.description3}"
+				"{ftbquests.chapter.Gear_2.quests.25.description.4}"
 				""
-				"{chapters.Gear_2.quests26.description4}"
+				"{ftbquests.chapter.Gear_2.quests.25.description.6}"
 			]
 			dependencies: ["4B00B60DE355C08C"]
 			id: "2945E1C3ECC37B04"
-			tasks: [{
-				id: "3028DFC108C81EDF"
-				type: "checkmark"
-				title: "{chapters.arcane_2.quests35.tasks.title}"
-			}]
-			rewards: [{
-				id: "604ED568492B9003"
-				type: "item"
-				item: "create:wrench"
-			}]
+			tasks: [
+				{
+					id: "3028DFC108C81EDF"
+					type: "checkmark"
+					title: "{ftbquests.chapter.Gear_2.quests.25.tasks.0.title}"
+				}
+			]
+			rewards: [
+				{
+					id: "604ED568492B9003"
+					type: "item"
+					item: "create:wrench"
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests27.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.26.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "563A75C4E098C626"
-			tasks: [{
-				id: "6CDCF9F7341999DB"
-				type: "item"
-				item: "create:mechanical_saw"
-			}]
+			tasks: [
+				{
+					id: "6CDCF9F7341999DB"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests28.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.27.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "7A8A0F0639A0AEF6"
-			tasks: [{
-				id: "74CF2D22926FCA02"
-				type: "item"
-				item: "create:mechanical_plough"
-			}]
+			tasks: [
+				{
+					id: "74CF2D22926FCA02"
+					type: "item"
+					item: "create:mechanical_plough"
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests29.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.28.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "5DC733E060CE22F4"
-			tasks: [{
-				id: "57E739E3455A4387"
-				type: "item"
-				item: "create:mechanical_drill"
-			}]
+			tasks: [
+				{
+					id: "57E739E3455A4387"
+					type: "item"
+					item: "create:mechanical_drill"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests30.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.29.subtitle}"
 			dependencies: [
 				"5F68C4D92EF20E09"
 				"69DA94D714E296AC"
 			]
 			id: "10D3BBDC4C911B81"
-			tasks: [{
-				id: "3B76411C75920227"
-				type: "item"
-				item: "create:deployer"
-			}]
+			tasks: [
+				{
+					id: "3B76411C75920227"
+					type: "item"
+					item: "create:deployer"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests31.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.30.title}"
 			x: -1.0d
 			y: -0.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests31.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.30.subtitle}"
 			dependencies: ["696CC33BB96232F5"]
 			id: "21DEF23BCFEC771E"
-			tasks: [{
-				id: "258FAA8EF0BEFD1D"
-				type: "item"
-				item: "create:millstone"
-			}]
-			rewards: [{
-				id: "442D1F22A1039E69"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "258FAA8EF0BEFD1D"
+					type: "item"
+					item: "create:millstone"
+				}
+			]
+			rewards: [
+				{
+					id: "442D1F22A1039E69"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: -8.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests32.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.31.subtitle}"
 			dependencies: ["1F1994D8C11FAB3D"]
 			id: "001EA2F1F0A28848"
-			tasks: [{
-				id: "004EC4D684B95AB8"
-				type: "item"
-				item: "immersiveengineering:charging_station"
-			}]
+			tasks: [
+				{
+					id: "004EC4D684B95AB8"
+					type: "item"
+					item: "immersiveengineering:charging_station"
+				}
+			]
 		}
 		{
 			x: -1.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests33.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.32.subtitle}"
 			dependencies: ["696CC33BB96232F5"]
 			size: 1.3d
 			id: "02CFC3F8682DE852"
-			tasks: [{
-				id: "15E5F8E773F978D8"
-				type: "item"
-				item: "create:belt_connector"
-				count: 8L
-			}]
-			rewards: [{
-				id: "372C366FE3398CE3"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "15E5F8E773F978D8"
+					type: "item"
+					item: "create:belt_connector"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "372C366FE3398CE3"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests34.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.33.title}"
 			x: 6.5d
 			y: 2.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests34.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.33.subtitle}"
 			dependencies: ["5F68C4D92EF20E09"]
 			id: "7B959027BE4234D8"
-			tasks: [{
-				id: "23F08651F45512C4"
-				type: "item"
-				item: "create:mechanical_pump"
-			}]
-			rewards: [{
-				id: "01182E97BB3E1A23"
-				type: "item"
-				item: "create:fluid_pipe"
-				count: 16
-			}]
+			tasks: [
+				{
+					id: "23F08651F45512C4"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+			]
+			rewards: [
+				{
+					id: "01182E97BB3E1A23"
+					type: "item"
+					item: "create:fluid_pipe"
+					count: 16
+				}
+			]
 		}
 		{
 			x: 2.5d
 			y: 3.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests35.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.34.subtitle}"
 			dependencies: [
 				"660D24689B100167"
 				"45DF3698615734B8"
 				"5BCDBA72A5350DAA"
 			]
 			id: "5B819A05F3D7E1BE"
-			tasks: [{
-				id: "244EC523F1BDAEA6"
-				type: "item"
-				item: "create:blaze_cake"
-			}]
+			tasks: [
+				{
+					id: "244EC523F1BDAEA6"
+					type: "item"
+					item: "create:blaze_cake"
+				}
+			]
 		}
 		{
 			x: 2.5d
 			y: 4.5d
 			shape: "diamond"
-			subtitle: "{chapters.Gear_2.quests36.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.35.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests36.description1}"
+				"{ftbquests.chapter.Gear_2.quests.35.description.0}"
 				""
-				"{chapters.Gear_2.quests36.description2}"
+				"{ftbquests.chapter.Gear_2.quests.35.description.2}"
 				""
-				"{chapters.Gear_2.quests36.description3}"
+				"{ftbquests.chapter.Gear_2.quests.35.description.4}"
 				""
-				"{chapters.Gear_2.quests36.description4}"
+				"{ftbquests.chapter.Gear_2.quests.35.description.6}"
 			]
 			dependencies: ["5B819A05F3D7E1BE"]
 			id: "56017FCF2D7819F8"
-			tasks: [{
-				id: "6FD18289D04B38A2"
-				type: "item"
-				item: "create:refined_radiance"
-			}]
-			rewards: [{
-				id: "2EEF60D2487EBAEC"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "6FD18289D04B38A2"
+					type: "item"
+					item: "create:refined_radiance"
+				}
+			]
+			rewards: [
+				{
+					id: "2EEF60D2487EBAEC"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
 			x: -6.5d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests37.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.36.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests37.description1}"
+				"{ftbquests.chapter.Gear_2.quests.36.description.0}"
 				""
-				"{chapters.Gear_2.quests37.description2}"
+				"{ftbquests.chapter.Gear_2.quests.36.description.2}"
 				""
-				"{chapters.Gear_2.quests37.description3}"
+				"{ftbquests.chapter.Gear_2.quests.36.description.4}"
 				""
-				"{chapters.Gear_2.quests37.description4}"
+				"{ftbquests.chapter.Gear_2.quests.36.description.6}"
 			]
 			dependencies: ["4B00B60DE355C08C"]
 			size: 1.3d
 			id: "5545D2B127A2E922"
-			tasks: [{
-				id: "058D9C706790BA12"
-				type: "item"
-				item: "create:cart_assembler"
-			}]
-			rewards: [{
-				id: "3D486C9687E4B980"
-				type: "item"
-				item: {
-					id: "create:super_glue"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "058D9C706790BA12"
+					type: "item"
+					item: "create:cart_assembler"
+				}
+			]
+			rewards: [
+				{
+					id: "3D486C9687E4B980"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 0.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests38.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.37.subtitle}"
 			dependencies: ["696CC33BB96232F5"]
 			id: "2FB71FA74353158B"
-			tasks: [{
-				id: "612D036A2D008238"
-				type: "item"
-				item: "create:mechanical_press"
-			}]
-			rewards: [{
-				id: "503A25E8D3609C7B"
-				type: "item"
-				item: "decursiomod:unfinished_mechanical_press"
-			}]
+			tasks: [
+				{
+					id: "612D036A2D008238"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+			]
+			rewards: [
+				{
+					id: "503A25E8D3609C7B"
+					type: "item"
+					item: "decursiomod:unfinished_mechanical_press"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests39.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.38.title}"
 			x: 2.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests39.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.38.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			dependency_requirement: "one_completed"
 			id: "46E3C1F4DB3AA8ED"
-			tasks: [{
-				id: "75B02E797430BD1C"
-				type: "item"
-				item: "create:basin"
-			}]
+			tasks: [
+				{
+					id: "75B02E797430BD1C"
+					type: "item"
+					item: "create:basin"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests40.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.39.title}"
 			icon: "tconstruct:blazing_blood_bucket"
 			x: 2.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests40.subtitle}"
-			description: ["{chapters.Gear_2.quests40.description}"]
+			subtitle: "{ftbquests.chapter.Gear_2.quests.39.subtitle}"
+			description: ["{ftbquests.chapter.Gear_2.quests.39.description.0}"]
 			dependencies: ["46E3C1F4DB3AA8ED"]
 			id: "5BCDBA72A5350DAA"
-			tasks: [{
-				id: "5E081732B36A8D8A"
-				type: "item"
-				item: "botania:blaze_block"
-			}]
-			rewards: [{
-				id: "3D537A3095B3A145"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "5E081732B36A8D8A"
+					type: "item"
+					item: "botania:blaze_block"
+				}
+			]
+			rewards: [
+				{
+					id: "3D537A3095B3A145"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests41.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.40.title}"
 			icon: "immersivepetroleum:cokerunit"
 			x: 18.5d
 			y: 2.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests41.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.40.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests41.description1}"
+				"{ftbquests.chapter.Gear_2.quests.40.description.0}"
 				""
-				"{chapters.Gear_2.quests41.description2}"
+				"{ftbquests.chapter.Gear_2.quests.40.description.2}"
 				""
-				"{chapters.Gear_2.quests41.description3}"
+				"{ftbquests.chapter.Gear_2.quests.40.description.4}"
 				""
-				"{chapters.Gear_2.quests41.description4}"
+				"{ftbquests.chapter.Gear_2.quests.40.description.6}"
 			]
 			dependencies: ["2F64EED1F5172A81"]
 			id: "23380816BDBD50BA"
@@ -1088,52 +1196,58 @@
 					count: 46L
 				}
 			]
-			rewards: [{
-				id: "127F85B88AB2DD17"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			rewards: [
+				{
+					id: "127F85B88AB2DD17"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests42.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.41.title}"
 			x: 18.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "{chapters.Gear_2.quests42.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.41.subtitle}"
 			dependencies: ["23380816BDBD50BA"]
 			size: 2.0d
 			id: "19636F8D83618C41"
-			tasks: [{
-				id: "41D6976DDC315FD6"
-				type: "item"
-				item: "immersivepetroleum:petcoke"
-			}]
-			rewards: [{
-				id: "1D253D298851F2FE"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "41D6976DDC315FD6"
+					type: "item"
+					item: "immersivepetroleum:petcoke"
+				}
+			]
+			rewards: [
+				{
+					id: "1D253D298851F2FE"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests43.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.42.title}"
 			x: 9.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests43.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.42.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests43.description1}"
+				"{ftbquests.chapter.Gear_2.quests.42.description.0}"
 				""
-				"{chapters.Gear_2.quests43.description2}"
+				"{ftbquests.chapter.Gear_2.quests.42.description.2}"
 				""
-				"{chapters.Gear_2.quests43.description3}"
+				"{ftbquests.chapter.Gear_2.quests.42.description.4}"
 				""
-				"{chapters.Gear_2.quests43.description4}"
+				"{ftbquests.chapter.Gear_2.quests.42.description.6}"
 				""
-				"{chapters.Gear_2.quests43.description5}"
+				"{ftbquests.chapter.Gear_2.quests.42.description.8}"
 				""
-				"{chapters.Gear_2.quests43.description6}"
+				"{ftbquests.chapter.Gear_2.quests.42.description.10}"
 				""
-				"{chapters.Gear_2.quests43.description7}"
+				"{ftbquests.chapter.Gear_2.quests.42.description.12}"
 			]
 			dependencies: ["2BA7183800B331E0"]
 			id: "5B123ED7380C9E43"
@@ -1161,18 +1275,18 @@
 			]
 		}
 		{
-			title: "{chapters.Gear_2.quests44.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.43.title}"
 			icon: "immersivepetroleum:pumpjack"
 			x: 16.0d
 			y: 3.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests44.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.43.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests44.description1}"
+				"{ftbquests.chapter.Gear_2.quests.43.description.0}"
 				""
-				"{chapters.Gear_2.quests44.description2}"
+				"{ftbquests.chapter.Gear_2.quests.43.description.2}"
 				""
-				"{chapters.Gear_2.quests44.description3}"
+				"{ftbquests.chapter.Gear_2.quests.43.description.4}"
 			]
 			dependencies: [
 				"31A4F73AF44D70B1"
@@ -1231,20 +1345,20 @@
 			]
 		}
 		{
-			title: "{chapters.Gear_2.quests45.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.44.title}"
 			icon: "immersivepetroleum:distillationtower"
 			x: 17.0d
 			y: 3.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests45.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.44.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests45.description1}"
+				"{ftbquests.chapter.Gear_2.quests.44.description.0}"
 				""
-				"{chapters.Gear_2.quests45.description2}"
+				"{ftbquests.chapter.Gear_2.quests.44.description.2}"
 				""
-				"{chapters.Gear_2.quests45.description3}"
+				"{ftbquests.chapter.Gear_2.quests.44.description.4}"
 				""
-				"{chapters.Gear_2.quests23.description2}"
+				"{ftbquests.chapter.Gear_2.quests.44.description.6}"
 			]
 			dependencies: ["0365486E5D53E231"]
 			id: "4261B19707343F3D"
@@ -1287,22 +1401,22 @@
 			]
 		}
 		{
-			title: "{chapters.Gear_2.quests46.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.45.title}"
 			icon: "immersiveengineering:advanced_blast_furnace"
 			x: 10.5d
 			y: -6.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests46.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.45.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests46.description1}"
+				"{ftbquests.chapter.Gear_2.quests.45.description.0}"
 				""
-				"{chapters.Gear_2.quests46.description2}"
+				"{ftbquests.chapter.Gear_2.quests.45.description.2}"
 				""
-				"{chapters.Gear_2.quests46.description3}"
+				"{image:kubejs:textures/immersive/example_improved_blast_furnace.png width:120 height:130 align:1}"
 				""
-				"{chapters.Gear_2.quests46.description4}"
+				"{ftbquests.chapter.Gear_2.quests.45.description.6}"
 				""
-				"{chapters.Gear_2.quests46.description5}"
+				"{ftbquests.chapter.Gear_2.quests.45.description.8}"
 			]
 			dependencies: ["1F1994D8C11FAB3D"]
 			id: "0A2B72AC92617BE7"
@@ -1325,25 +1439,27 @@
 					count: 2L
 				}
 			]
-			rewards: [{
-				id: "1A25C1EBCA4CADC4"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			rewards: [
+				{
+					id: "1A25C1EBCA4CADC4"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: 10.5d
 			y: -1.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests47.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.46.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests47.description1}"
+				"{ftbquests.chapter.Gear_2.quests.46.description.0}"
 				""
-				"{chapters.Gear_2.quests47.description2}"
+				"{ftbquests.chapter.Gear_2.quests.46.description.2}"
 				""
-				"{chapters.Gear_2.quests47.description3}"
+				"{ftbquests.chapter.Gear_2.quests.46.description.4}"
 				""
-				"{chapters.Gear_2.quests47.description4}"
+				"{ftbquests.chapter.Gear_2.quests.46.description.6}"
 			]
 			dependencies: ["37239ADFDD7A7A86"]
 			id: "48FE312CD0271DA4"
@@ -1364,54 +1480,58 @@
 			x: 10.5d
 			y: 2.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests48.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.47.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests48.description1}"
+				"{ftbquests.chapter.Gear_2.quests.47.description.0}"
 				""
-				"{chapters.Gear_2.quests48.description2}"
+				"{ftbquests.chapter.Gear_2.quests.47.description.2}"
 				""
-				"{chapters.Gear_2.quests48.description3}"
+				"{ftbquests.chapter.Gear_2.quests.47.description.4}"
 			]
 			dependencies: ["212AEE831223DB8A"]
 			id: "5929690A5286D4C0"
-			tasks: [{
-				id: "3D0DE279C2887856"
-				type: "item"
-				item: "atum:nebu_ingot"
-			}]
+			tasks: [
+				{
+					id: "3D0DE279C2887856"
+					type: "item"
+					item: "atum:nebu_ingot"
+				}
+			]
 		}
 		{
 			x: 11.5d
 			y: 3.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests49.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.48.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests49.description1}"
+				"{ftbquests.chapter.Gear_2.quests.48.description.0}"
 				""
-				"{chapters.Gear_2.quests49.description2}"
+				"{ftbquests.chapter.Gear_2.quests.48.description.2}"
 				""
-				"{chapters.Gear_2.quests49.description3}"
+				"{ftbquests.chapter.Gear_2.quests.48.description.4}"
 				""
-				"{chapters.Gear_2.quests49.description4}"
+				"{ftbquests.chapter.Gear_2.quests.48.description.6}"
 				""
-				"{chapters.Gear_2.quests49.description5}"
+				"{ftbquests.chapter.Gear_2.quests.48.description.8}"
 				""
-				"{chapters.Gear_2.quests49.description6}"
+				"{ftbquests.chapter.Gear_2.quests.48.description.10}"
 			]
 			dependencies: ["2E420B464AC031B6"]
 			id: "463ED9A80DD9D74E"
-			tasks: [{
-				id: "3F64C8582ECBC3AF"
-				type: "item"
-				item: "immersiveengineering:sample_drill"
-			}]
+			tasks: [
+				{
+					id: "3F64C8582ECBC3AF"
+					type: "item"
+					item: "immersiveengineering:sample_drill"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests50.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.49.title}"
 			x: 12.5d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests50.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.49.subtitle}"
 			dependencies: ["5A40BDBC56A4844F"]
 			id: "7D4AA3C434A30047"
 			tasks: [
@@ -1428,16 +1548,16 @@
 			]
 		}
 		{
-			title: "{chapters.Gear_2.quests51.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.50.title}"
 			icon: "immersiveengineering:fermenter"
 			x: 13.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests51.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.50.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests51.description1}"
+				"{ftbquests.chapter.Gear_2.quests.50.description.0}"
 				""
-				"{chapters.Gear_2.quests23.description2}"
+				"{ftbquests.chapter.Gear_2.quests.50.description.2}"
 			]
 			dependencies: ["4AADFD307A5BCF37"]
 			id: "374E54B7E5B16819"
@@ -1480,16 +1600,16 @@
 			]
 		}
 		{
-			title: "{chapters.Gear_2.quests52.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.51.title}"
 			icon: "immersiveengineering:squeezer"
 			x: 14.5d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests52.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.51.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests52.description1}"
+				"{ftbquests.chapter.Gear_2.quests.51.description.0}"
 				""
-				"{chapters.Gear_2.quests23.description2}"
+				"{ftbquests.chapter.Gear_2.quests.51.description.2}"
 			]
 			dependencies: ["4AADFD307A5BCF37"]
 			id: "4B750F660C0D5E6E"
@@ -1537,16 +1657,16 @@
 			]
 		}
 		{
-			title: "{chapters.Gear_2.quests53.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.52.title}"
 			icon: "immersiveengineering:refinery"
 			x: 14.0d
 			y: -4.0d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests53.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.52.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests53.description1}"
+				"{ftbquests.chapter.Gear_2.quests.52.description.0}"
 				""
-				"{chapters.Gear_2.quests23.description2}"
+				"{ftbquests.chapter.Gear_2.quests.52.description.2}"
 			]
 			hide_dependency_lines: false
 			dependencies: [
@@ -1595,12 +1715,12 @@
 			]
 		}
 		{
-			title: "{chapters.Gear_2.quests54.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.53.title}"
 			icon: "immersivepetroleum:hydrotreater"
 			x: 17.0d
 			y: 2.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests54.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.53.subtitle}"
 			dependencies: [
 				"4261B19707343F3D"
 				"23380816BDBD50BA"
@@ -1640,7 +1760,7 @@
 			]
 		}
 		{
-			title: "{chapters.Gear_2.quests55.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.54.title}"
 			icon: {
 				id: "immersivepetroleum:gasoline_bucket"
 				Count: 1b
@@ -1649,22 +1769,24 @@
 			x: 17.0d
 			y: 4.5d
 			shape: "diamond"
-			subtitle: "{chapters.Gear_2.quests55.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.54.subtitle}"
 			dependencies: ["4261B19707343F3D"]
 			id: "39C1D97967AE69D5"
-			tasks: [{
-				id: "4E0F32E5A8568890"
-				type: "item"
-				item: "immersivepetroleum:gasoline_bucket"
-			}]
+			tasks: [
+				{
+					id: "4E0F32E5A8568890"
+					type: "item"
+					item: "immersivepetroleum:gasoline_bucket"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests56.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.55.title}"
 			icon: "immersiveengineering:arc_furnace"
 			x: 17.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests56.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.55.subtitle}"
 			dependencies: ["31A4F73AF44D70B1"]
 			dependency_requirement: "one_completed"
 			id: "316EEFCBBD0493A9"
@@ -1722,32 +1844,34 @@
 					count: 27L
 				}
 			]
-			rewards: [{
-				id: "63847878132132A7"
-				type: "item"
-				item: {
-					id: "immersiveengineering:graphite_electrode"
-					Count: 1b
-					tag: {
-						graphDmg: 0
+			rewards: [
+				{
+					id: "63847878132132A7"
+					type: "item"
+					item: {
+						id: "immersiveengineering:graphite_electrode"
+						Count: 1b
+						tag: {
+							graphDmg: 0
+						}
 					}
+					count: 3
 				}
-				count: 3
-			}]
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests57.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.56.title}"
 			icon: "immersiveengineering:metal_press"
 			x: 17.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests57.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.56.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests57.description1}"
+				"{ftbquests.chapter.Gear_2.quests.56.description.0}"
 				""
-				"{chapters.Gear_2.quests57.description2}"
+				"{ftbquests.chapter.Gear_2.quests.56.description.2}"
 				""
-				"{chapters.Gear_2.quests23.description2}"
+				"{ftbquests.chapter.Gear_2.quests.56.description.4}"
 			]
 			dependencies: ["31A4F73AF44D70B1"]
 			id: "29CE6254CDB920DA"
@@ -1782,17 +1906,17 @@
 			]
 		}
 		{
-			title: "{chapters.Gear_2.quests58.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.57.title}"
 			x: 10.5d
 			y: -8.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests58.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.57.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests58.description1}"
+				"{ftbquests.chapter.Gear_2.quests.57.description.0}"
 				""
-				"{chapters.Gear_2.quests58.description2}"
+				"{ftbquests.chapter.Gear_2.quests.57.description.2}"
 				""
-				"{chapters.Gear_2.quests58.description3}"
+				"{ftbquests.chapter.Gear_2.quests.57.description.4}"
 			]
 			dependencies: [
 				"1F1994D8C11FAB3D"
@@ -1821,82 +1945,90 @@
 			x: 4.0d
 			y: -8.0d
 			shape: "diamond"
-			subtitle: "{chapters.Gear_2.quests59.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.58.subtitle}"
 			dependencies: ["001EA2F1F0A28848"]
 			id: "15CD1782F17EF2BC"
-			tasks: [{
-				id: "54F78E7904D04B92"
-				type: "item"
-				item: {
-					id: "decursiomod:electrolysed_alloy"
-					Count: 1b
-					tag: {
-						chargedItemData: { }
+			tasks: [
+				{
+					id: "54F78E7904D04B92"
+					type: "item"
+					item: {
+						id: "decursiomod:electrolysed_alloy"
+						Count: 1b
+						tag: {
+							chargedItemData: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -5.5d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests60.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.59.subtitle}"
 			dependencies: ["2CBD58CB08491491"]
 			size: 1.5d
 			id: "0D3846475EDA5957"
-			tasks: [{
-				id: "3535A59AF5577C53"
-				type: "item"
-				item: "computercraft:turtle_normal"
-			}]
+			tasks: [
+				{
+					id: "3535A59AF5577C53"
+					type: "item"
+					item: "computercraft:turtle_normal"
+				}
+			]
 		}
 		{
 			icon: "immersiveengineering:workbench"
 			x: 10.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests61.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.60.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests61.description1}"
+				"{ftbquests.chapter.Gear_2.quests.60.description.0}"
 				""
-				"{chapters.Gear_2.quests61.description2}"
+				"{ftbquests.chapter.Gear_2.quests.60.description.2}"
 				""
-				"{chapters.Gear_2.quests61.description3}"
+				"{ftbquests.chapter.Gear_2.quests.60.description.4}"
 				""
-				"{chapters.Gear_2.quests61.description4}"
+				"{ftbquests.chapter.Gear_2.quests.60.description.6}"
 			]
 			dependencies: ["275FE11C673E522D"]
 			id: "360B0A95C0A30AF6"
-			tasks: [{
-				id: "6860C843D91EAB89"
-				type: "item"
-				item: "immersiveengineering:workbench"
-			}]
-			rewards: [{
-				id: "57C942CD48693A19"
-				type: "item"
-				item: {
-					id: "immersiveengineering:blueprint"
-					Count: 1b
-					tag: {
-						blueprint: "components"
+			tasks: [
+				{
+					id: "6860C843D91EAB89"
+					type: "item"
+					item: "immersiveengineering:workbench"
+				}
+			]
+			rewards: [
+				{
+					id: "57C942CD48693A19"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "components"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests62.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.61.title}"
 			icon: "immersiveindustry:industrial_electrolyzer"
 			x: 15.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests62.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.61.subtitle}"
 			description: [
-				"{chapters.Gear_2.quests62.description1}"
+				"{ftbquests.chapter.Gear_2.quests.61.description.0}"
 				""
-				"{chapters.Gear_2.quests62.description2}"
+				"{ftbquests.chapter.Gear_2.quests.61.description.2}"
 				""
-				"{chapters.Gear_2.quests62.description3}"
+				"{ftbquests.chapter.Gear_2.quests.61.description.4}"
 			]
 			dependencies: ["4AADFD307A5BCF37"]
 			id: "300C86B792A57B17"
@@ -1944,31 +2076,33 @@
 			]
 		}
 		{
-			title: "{chapters.Gear_2.quests63.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.62.title}"
 			icon: "emendatusenigmatica:aluminum_ingot"
 			x: 16.0d
 			y: -2.0d
 			shape: "diamond"
-			subtitle: "{chapters.Gear_2.quests63.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.62.subtitle}"
 			dependencies: [
 				"4B750F660C0D5E6E"
 				"300C86B792A57B17"
 			]
 			size: 1.5d
 			id: "79BB64427280F8AE"
-			tasks: [{
-				id: "7DC4BEE335A184A6"
-				type: "item"
-				item: "emendatusenigmatica:aluminum_dust"
-			}]
+			tasks: [
+				{
+					id: "7DC4BEE335A184A6"
+					type: "item"
+					item: "emendatusenigmatica:aluminum_dust"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests64.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.63.title}"
 			icon: "immersiveindustry:crucible"
 			x: 18.5d
 			y: 4.5d
 			shape: "heart"
-			subtitle: "{chapters.Gear_2.quests64.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.63.subtitle}"
 			dependencies: ["2F64EED1F5172A81"]
 			id: "24B5E7187C38E7C3"
 			tasks: [
@@ -1990,101 +2124,113 @@
 			x: 5.0d
 			y: 4.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests65.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.64.subtitle}"
 			dependencies: ["40205D351BE13B77"]
 			id: "66B9290869F9CBD2"
-			tasks: [{
-				id: "11D326398C74B8A6"
-				type: "item"
-				item: "create:polished_rose_quartz"
-			}]
+			tasks: [
+				{
+					id: "11D326398C74B8A6"
+					type: "item"
+					item: "create:polished_rose_quartz"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: 3.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests66.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.65.subtitle}"
 			dependencies: [
 				"66B9290869F9CBD2"
 				"5F68C4D92EF20E09"
 			]
 			id: "660D24689B100167"
-			tasks: [{
-				id: "3CE0DAE63E31DB71"
-				type: "item"
-				item: "create:spout"
-			}]
+			tasks: [
+				{
+					id: "3CE0DAE63E31DB71"
+					type: "item"
+					item: "create:spout"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests67.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.66.subtitle}"
 			dependencies: ["46E3C1F4DB3AA8ED"]
 			id: "45DF3698615734B8"
-			tasks: [{
-				id: "4DF4DEB4314C61D8"
-				type: "item"
-				item: "create:blaze_cake_base"
-			}]
+			tasks: [
+				{
+					id: "4DF4DEB4314C61D8"
+					type: "item"
+					item: "create:blaze_cake_base"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests68.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.67.title}"
 			x: 1.5d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests68.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.67.subtitle}"
 			dependencies: ["2FB71FA74353158B"]
 			size: 1.5d
 			id: "59DF5370DD2EAE51"
-			tasks: [{
-				id: "4891C489E13A6CDC"
-				type: "item"
-				item: "emendatusenigmatica:iron_plate"
-			}]
+			tasks: [
+				{
+					id: "4891C489E13A6CDC"
+					type: "item"
+					item: "emendatusenigmatica:iron_plate"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests69.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.68.title}"
 			x: 11.5d
 			y: -1.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests69.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.68.subtitle}"
 			dependencies: [
 				"48FE312CD0271DA4"
 				"5A40BDBC56A4844F"
 			]
 			id: "6B4D6FD11DFC8011"
-			tasks: [{
-				id: "729B55EAFB2FFCD6"
-				type: "item"
-				item: "immersiveengineering:rs_engineering"
-				count: 4L
-			}]
+			tasks: [
+				{
+					id: "729B55EAFB2FFCD6"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+					count: 4L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests70.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.69.title}"
 			x: 11.5d
 			y: 2.0d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests70.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.69.subtitle}"
 			dependencies: [
 				"5929690A5286D4C0"
 				"5A40BDBC56A4844F"
 			]
 			id: "2E420B464AC031B6"
-			tasks: [{
-				id: "7EEACE7A945184EC"
-				type: "item"
-				item: "immersiveengineering:light_engineering"
-				count: 4L
-			}]
+			tasks: [
+				{
+					id: "7EEACE7A945184EC"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 4L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests71.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.70.title}"
 			x: 11.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.Gear_2.quests71.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.70.subtitle}"
 			dependencies: ["360B0A95C0A30AF6"]
 			id: "5A40BDBC56A4844F"
 			tasks: [
@@ -2118,27 +2264,31 @@
 			x: 7.5d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests72.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.71.subtitle}"
 			dependencies: ["275FE11C673E522D"]
 			size: 1.5d
 			id: "6254ECCECABC32FE"
-			tasks: [{
-				id: "4D401D0F1AC7FD73"
-				type: "item"
-				item: "create:rotation_speed_controller"
-			}]
-			rewards: [{
-				id: "30A67AE5262FD73C"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "4D401D0F1AC7FD73"
+					type: "item"
+					item: "create:rotation_speed_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "30A67AE5262FD73C"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests73.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.72.title}"
 			x: -2.5d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests73.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.72.subtitle}"
 			dependencies: ["696CC33BB96232F5"]
 			id: "3A7C009D9F8ADAAF"
 			tasks: [
@@ -2163,19 +2313,21 @@
 					item: "create:adjustable_chain_gearshift"
 				}
 			]
-			rewards: [{
-				id: "77DA05C214714688"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 32
-			}]
+			rewards: [
+				{
+					id: "77DA05C214714688"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 32
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests74.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.73.title}"
 			x: 0.5d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests74.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.73.subtitle}"
 			dependencies: ["696CC33BB96232F5"]
 			id: "09E5215A91BCB203"
 			tasks: [
@@ -2190,39 +2342,45 @@
 					item: "create:stressometer"
 				}
 			]
-			rewards: [{
-				id: "26C92018B58B3153"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 32
-			}]
+			rewards: [
+				{
+					id: "26C92018B58B3153"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 32
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests75.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.74.title}"
 			x: 0.0d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests75.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.74.subtitle}"
 			dependencies: ["696CC33BB96232F5"]
 			id: "7250325D5F584C73"
-			tasks: [{
-				id: "1EEEB5ED619E8A80"
-				type: "item"
-				item: "create:rope_pulley"
-			}]
-			rewards: [{
-				id: "0B8A8F78CF6B47FC"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 16
-			}]
+			tasks: [
+				{
+					id: "1EEEB5ED619E8A80"
+					type: "item"
+					item: "create:rope_pulley"
+				}
+			]
+			rewards: [
+				{
+					id: "0B8A8F78CF6B47FC"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 16
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests76.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.75.title}"
 			x: -2.0d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests76.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.75.subtitle}"
 			dependencies: ["696CC33BB96232F5"]
 			id: "291EE76725A67938"
 			tasks: [
@@ -2238,19 +2396,21 @@
 					count: 16L
 				}
 			]
-			rewards: [{
-				id: "30492E36DCDB7745"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 32
-			}]
+			rewards: [
+				{
+					id: "30492E36DCDB7745"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 32
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests77.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.76.title}"
 			x: -4.5d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests77.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.76.subtitle}"
 			dependencies: ["4B00B60DE355C08C"]
 			size: 1.3d
 			id: "3170F77405785D9E"
@@ -2266,46 +2426,52 @@
 					item: "create:radial_chassis"
 				}
 			]
-			rewards: [{
-				id: "78544125898C35B7"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "78544125898C35B7"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 16
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -2.0d
 			shape: "diamond"
-			subtitle: "{chapters.Gear_2.quests78.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.77.subtitle}"
 			dependencies: ["5F68C4D92EF20E09"]
 			id: "5563405ECC0EF6B3"
-			tasks: [{
-				id: "11E05934BA64A768"
-				type: "item"
-				item: "createaddition:capacitor"
-			}]
+			tasks: [
+				{
+					id: "11E05934BA64A768"
+					type: "item"
+					item: "createaddition:capacitor"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -3.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests79.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.78.subtitle}"
 			dependencies: ["2E3880C1F6D082FA"]
 			id: "606DD326CCAB7FB2"
-			tasks: [{
-				id: "47627C7421C12D2D"
-				type: "item"
-				item: "prettypipes:wrench"
-			}]
+			tasks: [
+				{
+					id: "47627C7421C12D2D"
+					type: "item"
+					item: "prettypipes:wrench"
+				}
+			]
 		}
 		{
-			title: "{chapters.Gear_2.quests80.title}"
+			title: "{ftbquests.chapter.Gear_2.quests.79.title}"
 			icon: "immersiveindustry:rotary_kiln"
 			x: 15.0d
 			y: 2.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests80.subtitle}"
+			subtitle: "{ftbquests.chapter.Gear_2.quests.79.subtitle}"
 			dependencies: ["48BBC2E819A1B6A5"]
 			id: "36F63E8F2ED3348B"
 			tasks: [
@@ -2355,15 +2521,17 @@
 			x: 4.0d
 			y: 2.5d
 			shape: "gear"
-			subtitle: "{chapters.Gear_2.quests81.subtitle}"
-			description: ["{chapters.Gear_2.quests81.description}"]
+			subtitle: "{ftbquests.chapter.Gear_2.quests.80.subtitle}"
+			description: ["{ftbquests.chapter.Gear_2.quests.80.description.0}"]
 			dependencies: ["1D2EB9C9A8910914"]
 			id: "4841866E6C35BB32"
-			tasks: [{
-				id: "004D8F5DA753B190"
-				type: "item"
-				item: "decursiomod:greenhouse_glass"
-			}]
+			tasks: [
+				{
+					id: "004D8F5DA753B190"
+					type: "item"
+					item: "decursiomod:greenhouse_glass"
+				}
+			]
 			rewards: [
 				{
 					id: "3EBCF595CE3BA35D"

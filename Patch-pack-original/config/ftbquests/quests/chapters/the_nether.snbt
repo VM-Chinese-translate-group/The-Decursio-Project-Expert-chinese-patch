@@ -3,7 +3,7 @@
 	group: "1390A8D800379122"
 	order_index: 1
 	filename: "the_nether"
-	title: "{chapters.the_nether.title}"
+	title: "{ftbquests.chapter.the_nether.title}"
 	icon: "minecraft:warped_nylium"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,247 +12,275 @@
 			x: -8.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.the_nether.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.0.subtitle}"
 			dependencies: ["68F089D45356347C"]
 			id: "1BF15773438741A0"
-			tasks: [{
-				id: "6F4E008D19AD82A5"
-				type: "item"
-				item: {
-					id: "alexsmobs:blood_sprayer"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "6F4E008D19AD82A5"
+					type: "item"
+					item: {
+						id: "alexsmobs:blood_sprayer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -8.0d
 			y: -5.0d
 			shape: "gear"
-			subtitle: "{chapters.the_nether.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.1.subtitle}"
 			dependencies: [
 				"48E8DE059685D957"
 				"1BF15773438741A0"
 			]
 			id: "5CAB7AA525FB15C1"
-			tasks: [{
-				id: "47CBFE875AA1DAAD"
-				type: "item"
-				item: {
-					id: "alexsmobs:hemolymph_blaster"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "47CBFE875AA1DAAD"
+					type: "item"
+					item: {
+						id: "alexsmobs:hemolymph_blaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "{chapters.the_nether.quests3.title}"
+			title: "{ftbquests.chapter.the_nether.quests.2.title}"
 			x: -5.5d
 			y: -5.0d
 			shape: "heart"
-			subtitle: "{chapters.the_nether.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.2.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"6AA23A5FB3C37C90"
 				"68F089D45356347C"
 			]
 			id: "48E8DE059685D957"
-			tasks: [{
-				id: "052F2B4D01649A27"
-				type: "advancement"
-				title: "{chapters.the_nether.quests3.tasks.title}"
-				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "052F2B4D01649A27"
+					type: "advancement"
+					title: "{ftbquests.chapter.the_nether.quests.2.tasks.0.title}"
+					advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
+					criterion: ""
+				}
+			]
 		}
 		{
 			x: -5.5d
 			y: 1.0d
-			subtitle: "{chapters.the_nether.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.3.subtitle}"
 			dependencies: ["68F089D45356347C"]
 			id: "39BF9C9C54C4E41A"
-			tasks: [{
-				id: "4FE59CA41540CAE5"
-				type: "item"
-				item: "alexsmobs:mosquito_larva"
-			}]
+			tasks: [
+				{
+					id: "4FE59CA41540CAE5"
+					type: "item"
+					item: "alexsmobs:mosquito_larva"
+				}
+			]
 		}
 		{
-			title: "{chapters.the_nether.quests5.title}"
+			title: "{ftbquests.chapter.the_nether.quests.4.title}"
 			x: -8.0d
 			y: 1.0d
-			subtitle: "{chapters.the_nether.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.4.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["6AA23A5FB3C37C90"]
 			id: "68F089D45356347C"
-			tasks: [{
-				id: "6D949B7A718F56BC"
-				type: "advancement"
-				title: "{chapters.the_nether.quests5.tasks.title}"
-				advancement: "alexsmobs:alexsmobs/crimson_mosquito"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "6D949B7A718F56BC"
+					type: "advancement"
+					title: "{ftbquests.chapter.the_nether.quests.4.tasks.0.title}"
+					advancement: "alexsmobs:alexsmobs/crimson_mosquito"
+					criterion: ""
+				}
+			]
 		}
 		{
-			title: "{chapters.the_nether.quests6.title}"
+			title: "{ftbquests.chapter.the_nether.quests.5.title}"
 			icon: "quark:soul_bead"
 			x: -5.5d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.the_nether.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.5.subtitle}"
 			description: [
-				"{chapters.the_nether.quests6.description1}"
+				"{ftbquests.chapter.the_nether.quests.5.description.0}"
 				""
-				"{chapters.the_nether.quests6.description2}"
+				"{ftbquests.chapter.the_nether.quests.5.description.2}"
 				""
-				"{chapters.the_nether.quests6.description3}"
+				"{ftbquests.chapter.the_nether.quests.5.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["35A42F33FE263878"]
 			size: 2.0d
 			id: "13389BB26EC98AFD"
-			tasks: [{
-				id: "586364C3790DE41F"
-				type: "checkmark"
-				title: "{chapters.the_nether.quests6.tasks.title}"
-				icon: {
-					id: "eidolon:reaper_scythe"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "586364C3790DE41F"
+					type: "checkmark"
+					title: "{ftbquests.chapter.the_nether.quests.5.tasks.0.title}"
+					icon: {
+						id: "eidolon:reaper_scythe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "643BA67EBA9994F8"
-				type: "command"
-				title: "Spiritual fullfillement"
-				icon: "quark:soul_bead"
-				auto: "disabled"
-				command: "/thitemstages add @p nether"
-				player_command: false
-			}]
+			]
+			rewards: [
+				{
+					id: "643BA67EBA9994F8"
+					type: "command"
+					title: "{ftbquests.chapter.the_nether.quests.5.rewards.0.title}"
+					icon: "quark:soul_bead"
+					auto: "disabled"
+					command: "/thitemstages add @p nether"
+					player_command: false
+				}
+			]
 		}
 		{
 			icon: "minecraft:crimson_nylium"
 			x: -3.0d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.the_nether.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.6.subtitle}"
 			dependencies: ["13389BB26EC98AFD"]
 			id: "6AA23A5FB3C37C90"
-			tasks: [{
-				id: "5A9EEDB4AFB44A47"
-				type: "dimension"
-				title: "{chapters.the_nether.quests7.tasks.title}"
-				icon: "minecraft:crimson_fungus"
-				dimension: "minecraft:the_nether"
-			}]
-			rewards: [{
-				id: "1EE2D6745A7E910C"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "5A9EEDB4AFB44A47"
+					type: "dimension"
+					title: "{ftbquests.chapter.the_nether.quests.6.tasks.0.title}"
+					icon: "minecraft:crimson_fungus"
+					dimension: "minecraft:the_nether"
+				}
+			]
+			rewards: [
+				{
+					id: "1EE2D6745A7E910C"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: -4.0d
 			y: -4.0d
 			shape: "square"
-			subtitle: "{chapters.the_nether.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.7.subtitle}"
 			dependencies: ["6AA23A5FB3C37C90"]
 			id: "2FD041FC05D4737B"
-			tasks: [{
-				id: "64192226767A2893"
-				type: "advancement"
-				title: "{chapters.the_nether.quests8.tasks.title}"
-				advancement: "minecraft:nether/obtain_ancient_debris"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "64192226767A2893"
+					type: "advancement"
+					title: "{ftbquests.chapter.the_nether.quests.7.tasks.0.title}"
+					advancement: "minecraft:nether/obtain_ancient_debris"
+					criterion: ""
+				}
+			]
 		}
 		{
-			title: "{chapters.the_nether.quests9.title}"
+			title: "{ftbquests.chapter.the_nether.quests.8.title}"
 			x: -3.0d
 			y: -1.0d
 			shape: "square"
-			subtitle: "{chapters.the_nether.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.8.subtitle}"
 			dependencies: ["6AA23A5FB3C37C90"]
 			id: "258774FD4B560646"
-			tasks: [{
-				id: "4BFF74AB6E88C6E0"
-				type: "advancement"
-				advancement: "minecraft:nether/obtain_blaze_rod"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "4BFF74AB6E88C6E0"
+					type: "advancement"
+					advancement: "minecraft:nether/obtain_blaze_rod"
+					criterion: ""
+				}
+			]
 		}
 		{
-			title: "{chapters.the_nether.quests10.title}"
+			title: "{ftbquests.chapter.the_nether.quests.9.title}"
 			x: -1.0d
 			y: -2.0d
 			shape: "square"
-			subtitle: "{chapters.the_nether.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.9.subtitle}"
 			description: [
-				"{chapters.the_nether.quests10.description1}"
+				"{ftbquests.chapter.the_nether.quests.9.description.0}"
 				""
-				"{chapters.the_nether.quests10.description2}"
-				"{chapters.the_nether.quests10.description3}"
-				"{chapters.the_nether.quests10.description4}"
-				"{chapters.the_nether.quests10.description5}"
+				"{ftbquests.chapter.the_nether.quests.9.description.2}"
+				"{ftbquests.chapter.the_nether.quests.9.description.3}"
+				"{ftbquests.chapter.the_nether.quests.9.description.4}"
+				"{ftbquests.chapter.the_nether.quests.9.description.5}"
 				""
-				"{chapters.the_nether.quests10.description6}"
+				"{ftbquests.chapter.the_nether.quests.9.description.7}"
 			]
 			dependencies: ["6AA23A5FB3C37C90"]
 			id: "207082BC2A41473F"
-			tasks: [{
-				id: "59BE0828F229788F"
-				type: "item"
-				item: "minecraft:wither_skeleton_skull"
-				count: 3L
-			}]
+			tasks: [
+				{
+					id: "59BE0828F229788F"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3L
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapters.the_nether.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.10.subtitle}"
 			dependencies: ["258774FD4B560646"]
 			id: "1C0C610A966A08EC"
-			tasks: [{
-				id: "121F174F3D8244C4"
-				type: "item"
-				item: "minecraft:blaze_powder"
-			}]
+			tasks: [
+				{
+					id: "121F174F3D8244C4"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+			]
 		}
 		{
-			title: "{chapters.the_nether.quests12.title}"
+			title: "{ftbquests.chapter.the_nether.quests.11.title}"
 			icon: "minecraft:nether_star"
 			x: 1.0d
 			y: -2.0d
 			shape: "diamond"
-			subtitle: "{chapters.the_nether.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.11.subtitle}"
 			description: [
-				"{chapters.the_nether.quests12.description1}"
+				"{ftbquests.chapter.the_nether.quests.11.description.0}"
 				""
-				"{chapters.the_nether.quests12.description2}"
+				"{ftbquests.chapter.the_nether.quests.11.description.2}"
 				""
 				""
 				""
-				"{chapters.the_nether.quests12.description3}"
+				"{ftbquests.chapter.the_nether.quests.11.description.6}"
 			]
 			dependencies: ["207082BC2A41473F"]
 			size: 2.0d
 			id: "1BD61910AB0290E3"
-			tasks: [{
-				id: "5ACED7FF3F0F18AE"
-				type: "kill"
-				title: "{chapters.the_nether.quests12.tasks.title}"
-				icon: "minecraft:wither_rose"
-				entity: "minecraft:wither"
-				value: 1L
-			}]
+			tasks: [
+				{
+					id: "5ACED7FF3F0F18AE"
+					type: "kill"
+					title: "{ftbquests.chapter.the_nether.quests.11.tasks.0.title}"
+					icon: "minecraft:wither_rose"
+					entity: "minecraft:wither"
+					value: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "0A67B335A7129090"
@@ -304,49 +332,57 @@
 			x: -3.0d
 			y: 1.0d
 			shape: "square"
-			subtitle: "{chapters.the_nether.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.12.subtitle}"
 			dependencies: [
 				"663E35409B5EA827"
 				"1C0C610A966A08EC"
 			]
 			id: "49E378CCBB43F16B"
-			tasks: [{
-				id: "628136EAAC31C3B5"
-				type: "item"
-				item: "minecraft:ender_eye"
-			}]
+			tasks: [
+				{
+					id: "628136EAAC31C3B5"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "{chapters.the_nether.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.13.subtitle}"
 			dependencies: ["6AA23A5FB3C37C90"]
 			id: "754A702F2CA77E02"
-			tasks: [{
-				id: "21443F4C7FEB0D2E"
-				type: "item"
-				item: "minecraft:magma_cream"
-			}]
-			rewards: [{
-				id: "2748F9F33B845432"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "21443F4C7FEB0D2E"
+					type: "item"
+					item: "minecraft:magma_cream"
+				}
+			]
+			rewards: [
+				{
+					id: "2748F9F33B845432"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
-			title: "{chapters.the_nether.quests15.title}"
+			title: "{ftbquests.chapter.the_nether.quests.14.title}"
 			x: -2.0d
 			y: -4.0d
 			shape: "square"
-			subtitle: "{chapters.the_nether.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quests.14.subtitle}"
 			dependencies: ["6AA23A5FB3C37C90"]
 			id: "079148BF286C8D56"
-			tasks: [{
-				id: "1FAFE4608A113257"
-				type: "item"
-				item: "minecraft:soul_sand"
-			}]
+			tasks: [
+				{
+					id: "1FAFE4608A113257"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+			]
 		}
 	]
 }

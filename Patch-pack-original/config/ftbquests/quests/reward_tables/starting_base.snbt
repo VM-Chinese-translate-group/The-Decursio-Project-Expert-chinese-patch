@@ -1,11 +1,15 @@
 {
 	id: "196E23CAC1881941"
 	order_index: 4
-	title: "{reward_tables.starting_base.title}"
+	title: "{ftbquests.reward_tables.starting_base.title}"
 	icon: "minecraft:campfire"
 	loot_size: 1
 	rewards: [
-		{ item: "minecolonies:supplycampdeployer" }
-		{ item: "minecolonies:supplychestdeployer" }
+		{
+			item: "minecolonies:supplycampdeployer"
+		}
+		{
+			item: "minecolonies:supplychestdeployer"
+		}
 	]
 }
