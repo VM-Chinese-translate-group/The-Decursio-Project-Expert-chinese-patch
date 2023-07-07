@@ -1,10 +1,10 @@
 {
-    "title": {
-        "text": "Decursio Essentials",
-        "bold": true,
-        "color": "dark_purple"
-    },
-    "tip": {
-        "text": "Not good with math? Make a Calculator!"
-    }
+  "title": {
+    "text": "Decursio Essentials",
+    "bold": true,
+    "color": "dark_purple"
+  },
+  "tip": {
+    "text": "By keeping a diverse diet, you can increase your Max Health."
+  }
 }
