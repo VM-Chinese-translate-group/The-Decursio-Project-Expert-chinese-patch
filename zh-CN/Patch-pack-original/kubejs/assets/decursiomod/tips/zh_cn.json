@@ -1,10 +1,10 @@
 {
-    "title": {
-        "text": "Decursio Essentials",
-        "bold": true,
-        "color": "dark_purple"
-    },
-    "tip": {
-        "text": "Rats can be used for Auto Crafting."
-    }
+  "title": {
+    "text": "Decursio Essentials",
+    "bold": true,
+    "color": "dark_purple"
+  },
+  "tip": {
+    "text": "The Sanguine Amulet can store up to 20 points worth of health, so you can use them later."
+  }
 }
