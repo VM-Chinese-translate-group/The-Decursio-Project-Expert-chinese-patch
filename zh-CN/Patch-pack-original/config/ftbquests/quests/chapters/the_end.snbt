@@ -3,24 +3,24 @@
 	group: "1390A8D800379122"
 	order_index: 4
 	filename: "the_end"
-	title: "{chapters.the_end.title}"
+	title: "{ftbquests.chapter.the_end.title}"
 	icon: "minecraft:end_portal_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapters.the_end.quests1.title}"
+			title: "{ftbquests.chapter.the_end.quests.0.title}"
 			icon: "minecraft:ender_eye"
 			x: -1.0d
 			y: -6.5d
 			shape: "square"
-			subtitle: "{chapters.the_end.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.the_end.quests.0.subtitle}"
 			description: [
-				"{chapters.the_end.quests1.description1}"
+				"{ftbquests.chapter.the_end.quests.0.description.0}"
 				""
-				"{chapters.the_end.quests1.description2}"
+				"{ftbquests.chapter.the_end.quests.0.description.2}"
 				""
-				"{chapters.the_end.quests1.description3}"
+				"{ftbquests.chapter.the_end.quests.0.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -32,201 +32,219 @@
 			]
 			size: 2.0d
 			id: "53721C40B3F71393"
-			tasks: [{
-				id: "338ED34221FCE454"
-				type: "checkmark"
-				title: "{chapters.arcane_2.quests35.tasks.title}"
-			}]
-			rewards: [{
-				id: "387864E56300C131"
-				type: "command"
-				title: "Ender Apprentice"
-				icon: {
-					id: "mutantbeasts:endersoul_hand"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
+			tasks: [
+				{
+					id: "338ED34221FCE454"
+					type: "checkmark"
+					title: "{ftbquests.chapter.the_end.quests.0.tasks.0.title}"
 				}
-				command: "/thitemstages add @p end"
-				player_command: false
-			}]
+			]
+			rewards: [
+				{
+					id: "387864E56300C131"
+					type: "command"
+					title: "{ftbquests.chapter.the_end.quests.0.rewards.0.title}"
+					icon: {
+						id: "mutantbeasts:endersoul_hand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					command: "/thitemstages add @p end"
+					player_command: false
+				}
+			]
 		}
 		{
-			title: "{chapters.the_end.title}"
+			title: "{ftbquests.chapter.the_end.quests.1.title}"
 			icon: "minecraft:end_portal_frame"
 			x: 1.0d
 			y: -6.5d
 			shape: "square"
-			subtitle: "{chapters.the_end.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.the_end.quests.1.subtitle}"
 			dependencies: ["53721C40B3F71393"]
 			id: "3367D3C501792C05"
-			tasks: [{
-				id: "4A5E5B6DA75FB732"
-				type: "dimension"
-				title: "{chapters.the_end.quests2.tasks.title}"
-				icon: "minecraft:ender_eye"
-				dimension: "minecraft:the_end"
-			}]
+			tasks: [
+				{
+					id: "4A5E5B6DA75FB732"
+					type: "dimension"
+					title: "{ftbquests.chapter.the_end.quests.1.tasks.0.title}"
+					icon: "minecraft:ender_eye"
+					dimension: "minecraft:the_end"
+				}
+			]
 		}
 		{
-			title: "{chapters.the_end.quests3.title}"
+			title: "{ftbquests.chapter.the_end.quests.2.title}"
 			x: 2.5d
 			y: -6.5d
 			shape: "diamond"
-			subtitle: "{chapters.the_end.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.the_end.quests.2.subtitle}"
 			description: [
-				"{chapters.the_end.quests3.description1}"
+				"{ftbquests.chapter.the_end.quests.2.description.0}"
 				""
-				"{chapters.the_end.quests3.description2}"
+				"{ftbquests.chapter.the_end.quests.2.description.2}"
 				""
-				"{chapters.the_end.quests3.description3}"
-				"{chapters.the_end.quests3.description4}"
-				"{chapters.the_end.quests3.description5}"
-				"{chapters.the_end.quests3.description6}"
-				"{chapters.the_end.quests3.description7}"
-				"{chapters.the_end.quests3.description8}"
-				"{chapters.the_end.quests3.description9}"
+				"{ftbquests.chapter.the_end.quests.2.description.4}"
+				"{ftbquests.chapter.the_end.quests.2.description.5}"
+				"{ftbquests.chapter.the_end.quests.2.description.6}"
+				"{ftbquests.chapter.the_end.quests.2.description.7}"
+				"{ftbquests.chapter.the_end.quests.2.description.8}"
+				"{ftbquests.chapter.the_end.quests.2.description.9}"
+				"{ftbquests.chapter.the_end.quests.2.description.10}"
 				""
-				"{chapters.the_end.quests3.description10}"
+				"{ftbquests.chapter.the_end.quests.2.description.12}"
 				""
-				"{chapters.the_end.quests3.description11}"
+				"{ftbquests.chapter.the_end.quests.2.description.14}"
 				""
-				"{chapters.the_end.quests3.description12}"
-				"{chapters.the_end.quests3.description13}"
-				"{chapters.the_end.quests3.description14}"
-				"{chapters.the_end.quests3.description15}"
-				"{chapters.the_end.quests3.description16}"
-				"{chapters.the_end.quests3.description17}"
-				"{chapters.the_end.quests3.description18}"
-				"{chapters.the_end.quests3.description19}"
-				"{chapters.the_end.quests3.description20}"
+				"{ftbquests.chapter.the_end.quests.2.description.16}"
+				"{ftbquests.chapter.the_end.quests.2.description.17}"
+				"{ftbquests.chapter.the_end.quests.2.description.18}"
+				"{ftbquests.chapter.the_end.quests.2.description.19}"
+				"{ftbquests.chapter.the_end.quests.2.description.20}"
+				"{ftbquests.chapter.the_end.quests.2.description.21}"
+				"{ftbquests.chapter.the_end.quests.2.description.22}"
+				"{ftbquests.chapter.the_end.quests.2.description.23}"
+				"{ftbquests.chapter.the_end.quests.2.description.24}"
 				""
-				"{chapters.the_end.quests3.description21}"
+				"{ftbquests.chapter.the_end.quests.2.description.26}"
 				""
-				"{chapters.the_end.quests3.description22}"
-				"{chapters.the_end.quests3.description23}"
-				"{chapters.the_end.quests3.description24}"
+				"{ftbquests.chapter.the_end.quests.2.description.28}"
+				"{ftbquests.chapter.the_end.quests.2.description.29}"
+				"{ftbquests.chapter.the_end.quests.2.description.30}"
 				""
-				"{chapters.the_end.quests3.description25}"
+				"{ftbquests.chapter.the_end.quests.2.description.32}"
 			]
 			dependencies: ["3367D3C501792C05"]
 			size: 1.5d
 			id: "2EEF99F90F1D8B37"
-			tasks: [{
-				id: "05667D5B96122BBA"
-				type: "kill"
-				title: "{chapters.the_end.quests3.tasks.title}"
-				icon: "quark:dragon_scale"
-				entity: "minecraft:ender_dragon"
-				value: 1L
-			}]
-			rewards: [{
-				id: "68C413FFBA18C4BD"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "05667D5B96122BBA"
+					type: "kill"
+					title: "{ftbquests.chapter.the_end.quests.2.tasks.0.title}"
+					icon: "quark:dragon_scale"
+					entity: "minecraft:ender_dragon"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "68C413FFBA18C4BD"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -5.0d
-			subtitle: "{chapters.the_end.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.the_end.quests.3.subtitle}"
 			dependencies: ["420B786D7ECD0706"]
 			id: "0387679474D3A296"
-			tasks: [{
-				id: "3B782E3909434F50"
-				type: "item"
-				item: "alexsmobs:capsid"
-			}]
+			tasks: [
+				{
+					id: "3B782E3909434F50"
+					type: "item"
+					item: "alexsmobs:capsid"
+				}
+			]
 		}
 		{
-			title: "{chapters.the_end.quests5.title}"
+			title: "{ftbquests.chapter.the_end.quests.4.title}"
 			icon: "endrem:ancient_portal_frame"
 			x: 4.0d
 			y: -6.5d
 			shape: "square"
-			subtitle: "{chapters.the_end.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.the_end.quests.4.subtitle}"
 			dependencies: ["2EEF99F90F1D8B37"]
 			id: "420B786D7ECD0706"
-			tasks: [{
-				id: "79170325AE921422"
-				type: "advancement"
-				advancement: "minecraft:end/enter_end_gateway"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "79170325AE921422"
+					type: "advancement"
+					advancement: "minecraft:end/enter_end_gateway"
+					criterion: ""
+				}
+			]
 		}
 		{
-			title: "{chapters.the_end.quests6.title}"
+			title: "{ftbquests.chapter.the_end.quests.5.title}"
 			x: 4.0d
 			y: -8.0d
-			subtitle: "{chapters.the_end.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.the_end.quests.5.subtitle}"
 			dependencies: ["420B786D7ECD0706"]
 			id: "5DCDA7EDF2C6272B"
-			tasks: [{
-				id: "20D42F230D814B5A"
-				type: "advancement"
-				title: "{chapters.the_end.quests6.title}"
-				advancement: "minecraft:end/find_end_city"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "20D42F230D814B5A"
+					type: "advancement"
+					title: "{ftbquests.chapter.the_end.quests.5.tasks.0.title}"
+					advancement: "minecraft:end/find_end_city"
+					criterion: ""
+				}
+			]
 		}
 		{
-			title: "{chapters.the_end.quests7.title}"
+			title: "{ftbquests.chapter.the_end.quests.6.title}"
 			icon: "structurize:black_clay_shingle_slab"
 			x: 5.5d
 			y: -6.5d
 			shape: "square"
-			subtitle: "{chapters.the_end.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.the_end.quests.6.subtitle}"
 			description: [
-				"{chapters.the_end.quests7.description1}"
+				"{ftbquests.chapter.the_end.quests.6.description.0}"
 				""
-				"{chapters.the_end.quests7.description2}"
+				"{ftbquests.chapter.the_end.quests.6.description.2}"
 				""
-				"{chapters.the_end.quests7.description3}"
+				"{ftbquests.chapter.the_end.quests.6.description.4}"
 				""
-				"{chapters.the_end.quests7.description4}"
+				"{ftbquests.chapter.the_end.quests.6.description.6}"
 			]
 			dependencies: [
 				"420B786D7ECD0706"
 				"78ECF24A2D1EB21A"
 			]
 			id: "3767C798A2FF9D46"
-			tasks: [{
-				id: "41908E07E47E322B"
-				type: "location"
-				title: "{chapters.the_end.quests7.tasks.title}"
-				dimension: "minecraft:the_end"
-				ignore_dimension: false
-				position: [I;
-					10000
-					100
-					0
-				]
-				size: [I;
-					1
-					1
-					1
-				]
-			}]
+			tasks: [
+				{
+					id: "41908E07E47E322B"
+					type: "location"
+					title: "{ftbquests.chapter.the_end.quests.6.tasks.0.title}"
+					dimension: "minecraft:the_end"
+					ignore_dimension: false
+					position: [I;
+						10000
+						100
+						0
+					]
+					size: [I;
+						1
+						1
+						1
+					]
+				}
+			]
 		}
 		{
-			title: "The Chaos Conduit"
+			title: "{ftbquests.chapter.the_end.quests.7.title}"
 			x: 7.5d
 			y: -6.5d
 			shape: "diamond"
-			subtitle: "Master The End. Left Click for more info"
+			subtitle: "{ftbquests.chapter.the_end.quests.7.subtitle}"
 			description: [
-				"The Chaos Guardian might be the Stongest Boss Modded Minecraft has ever Seen."
+				"{ftbquests.chapter.the_end.quests.7.description.0}"
 				""
-				"The Chaos Guradian is a large Red Dragon, similar to the Ender Dragon, but much more powerful. So powerful, that it will kill a player which has A Meka-Suit with just one hit."
+				"{ftbquests.chapter.the_end.quests.7.description.2}"
 				""
-				"The attacks dealt by the Chaos Guardian will, in fact, cut through most armors, except for the Chast Pieces provided by Draconic Evolution and the Dark Matter, Red Matter and the Gem Armors from ProjectE. Since you probably don't have access to the ProjectE sets, you'll have to obtain a Chest Piece from Draconic. We recommend the Draconic one."
+				"{ftbquests.chapter.the_end.quests.7.description.4}"
 				""
-				"However, know that the Guardian has the ability to rapidly drain any RF powered Armor of its charge so it will quickly render your Chast piece useleff if you don't keep it charged."
+				"{ftbquests.chapter.the_end.quests.7.description.6}"
 				""
-				"Like the Ender Dragon, the Chaos Guardian has several Healing Crystals spread around the Island. However, unlike the regular Ender Crystals, these will keep the Guardian from receive damage entirely. They'll also be very hard to destroy. They each have several hit points. When damaged, they'll protect themselves with a shield for several seconds. You must disable all of them before you can start damaging the Guardian. A highly upgraded Draconium Chest Piece, Draconic Sword and Draconic Bow are adviced for this battle."
+				"{ftbquests.chapter.the_end.quests.7.description.8}"
 				""
-				"After defeating the Guardian, you can claim you reward. Inside of the Chaos Island, there will be an Obsidian Chamber which will be the home of a Chaos Crystal. It can be harvested only after the Guardian was defeated. Breaking the Crystal will drop several Chaos Shards. These Shards will be required to progress further."
+				"{ftbquests.chapter.the_end.quests.7.description.10}"
 			]
 			dependencies: [
 				"3767C798A2FF9D46"
@@ -234,123 +252,141 @@
 			]
 			size: 2.0d
 			id: "3BF80C7FE1F5EF78"
-			tasks: [{
-				id: "72778C394C1BDB14"
-				type: "kill"
-				title: "Defeat The Chaos Guardian"
-				icon: "quark:red_rune"
-				entity: "draconicevolution:draconic_guardian"
-				value: 1L
-			}]
-			rewards: [{
-				id: "5D6D2E1BDFFFD347"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "72778C394C1BDB14"
+					type: "kill"
+					title: "{ftbquests.chapter.the_end.quests.7.tasks.0.title}"
+					icon: "quark:red_rune"
+					entity: "draconicevolution:draconic_guardian"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5D6D2E1BDFFFD347"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -9.5d
 			shape: "gear"
-			subtitle: "Arkham Gliding: The Elytra will allow you to glide just like Batman would. Rockets can be fired in mid air for a nice boost. It can be upgraded in certain ways"
+			subtitle: "{ftbquests.chapter.the_end.quests.8.subtitle}"
 			dependencies: ["5DCDA7EDF2C6272B"]
 			id: "420F4418F0553A1B"
-			tasks: [{
-				id: "0EC4CF55CFD281AA"
-				type: "item"
-				item: {
-					id: "minecraft:elytra"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0EC4CF55CFD281AA"
+					type: "item"
+					item: {
+						id: "minecraft:elytra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "Thallasium"
+			title: "{ftbquests.chapter.the_end.quests.9.title}"
 			icon: "betterendforge:thallasium_ingot"
 			x: 2.5d
 			y: -8.0d
 			shape: "square"
-			subtitle: "Thallasium is a pretty regular Metal in the End. Obtain it to progress further into your Adventure"
+			subtitle: "{ftbquests.chapter.the_end.quests.9.subtitle}"
 			dependencies: ["2EEF99F90F1D8B37"]
 			id: "4808E688ABD2122B"
-			tasks: [{
-				id: "4FFAB70081281536"
-				type: "item"
-				item: "betterendforge:thallasium_ore"
-			}]
+			tasks: [
+				{
+					id: "4FFAB70081281536"
+					type: "item"
+					item: "betterendforge:thallasium_ore"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -4.0d
-			subtitle: "A little disgusting.. Place a Crimson Mosquito Larva in a Capsid and watch how it turns into a Mysterious Worm"
+			subtitle: "{ftbquests.chapter.the_end.quests.10.subtitle}"
 			dependencies: [
 				"0387679474D3A296"
 				"39BF9C9C54C4E41A"
 			]
 			id: "2C7E56FD4021CA97"
-			tasks: [{
-				id: "4B6C62164F53DFDF"
-				type: "item"
-				item: "alexsmobs:mysterious_worm"
-			}]
+			tasks: [
+				{
+					id: "4B6C62164F53DFDF"
+					type: "item"
+					item: "alexsmobs:mysterious_worm"
+				}
+			]
 		}
 		{
-			title: "Summoning the Void Worm"
+			title: "{ftbquests.chapter.the_end.quests.11.title}"
 			x: 4.0d
 			y: -3.0d
 			shape: "circle"
-			subtitle: "If you toss that worm in the void..then.. good luck. This action will result into a Boss Fight which you might wanna be prepared for"
+			subtitle: "{ftbquests.chapter.the_end.quests.11.subtitle}"
 			dependencies: ["2C7E56FD4021CA97"]
 			id: "1C126E1A9EF052DC"
-			tasks: [{
-				id: "5345ACF4C35E1B98"
-				type: "advancement"
-				title: "Just toss the mysterious worm in the void"
-				advancement: "alexsmobs:alexsmobs/void_worm_summon"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "5345ACF4C35E1B98"
+					type: "advancement"
+					title: "{ftbquests.chapter.the_end.quests.11.tasks.0.title}"
+					advancement: "alexsmobs:alexsmobs/void_worm_summon"
+					criterion: ""
+				}
+			]
 		}
 		{
-			title: "Proving worthy of the Void"
+			title: "{ftbquests.chapter.the_end.quests.12.title}"
 			icon: "alexsmobs:void_worm_eye"
 			x: 4.0d
 			y: -2.0d
 			shape: "heart"
-			subtitle: "Defeat the Void Worm and obtain its drops. With them, craft a Dimensional Carver which is a Pickaxe so powerful that, when it's used by holding Right-Click, will mine a portal through the space-time continuum. Passing through the Portal, will get you to your spawn point"
+			subtitle: "{ftbquests.chapter.the_end.quests.12.subtitle}"
 			dependencies: ["1C126E1A9EF052DC"]
 			id: "7452BA0DDACCC740"
-			tasks: [{
-				id: "41404B539E857677"
-				type: "item"
-				item: {
-					id: "alexsmobs:dimensional_carver"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "41404B539E857677"
+					type: "item"
+					item: {
+						id: "alexsmobs:dimensional_carver"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "6F1E6E0D386EC181"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			]
+			rewards: [
+				{
+					id: "6F1E6E0D386EC181"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
 			x: 2.5d
 			y: -5.0d
 			shape: "heart"
-			subtitle: "The Dragon Heart is one of the drops given by the Ender Dragon when it's defeated. It can be used to awaken the potential of the Draconium Ingot and advance further into Draconic Evolution"
+			subtitle: "{ftbquests.chapter.the_end.quests.13.subtitle}"
 			dependencies: ["2EEF99F90F1D8B37"]
 			id: "6ECFDBF59B0215B0"
-			tasks: [{
-				id: "648AF5FDACBDA2A8"
-				type: "item"
-				item: "draconicevolution:dragon_heart"
-			}]
+			tasks: [
+				{
+					id: "648AF5FDACBDA2A8"
+					type: "item"
+					item: "draconicevolution:dragon_heart"
+				}
+			]
 		}
 	]
 }

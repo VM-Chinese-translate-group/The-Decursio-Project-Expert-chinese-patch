@@ -3,107 +3,115 @@
 	group: "52BC1523CD35BD71"
 	order_index: 1
 	filename: "arcane_1"
-	title: "{chapters.arcane_1.title}"
+	title: "{ftbquests.chapter.arcane_1.title}"
 	icon: "eidolon:crucible"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapters.arcane_1.quests1.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.0.title}"
 			icon: "quark:purple_candle"
 			x: -10.0d
 			y: 3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.0.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests1.description1}"
+				"{ftbquests.chapter.arcane_1.quests.0.description.0}"
 				""
-				"{chapters.arcane_1.quests1.description2}"
+				"{ftbquests.chapter.arcane_1.quests.0.description.2}"
 				""
-				"{chapters.arcane_1.quests1.description3}"
+				"{ftbquests.chapter.arcane_1.quests.0.description.4}"
 				""
-				"{chapters.arcane_1.quests1.description4}"
-				"{chapters.arcane_1.quests1.description5}"
+				"{image:kubejs:textures/eidolon/example3.png width:100 height:170 align:1}"
+				"{ftbquests.chapter.arcane_1.quests.0.description.7}"
 			]
 			dependencies: ["6EC2AAB1C3022A4E"]
 			id: "2456A6DB1ADA4325"
-			tasks: [{
-				id: "153E78E2D5339E96"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests1.tasks.title}"
-				icon: "eidolon:codex"
-			}]
+			tasks: [
+				{
+					id: "153E78E2D5339E96"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.0.tasks.0.title}"
+					icon: "eidolon:codex"
+				}
+			]
 		}
 		{
 			x: -10.0d
 			y: 7.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.1.subtitle}"
 			dependencies: [
 				"6EC2AAB1C3022A4E"
 				"20565A3484CED967"
 			]
 			id: "3BC1CFB22EDA4D74"
-			tasks: [{
-				id: "4263C9DB02B11425"
-				type: "item"
-				item: "eidolon:pewter_ingot"
-			}]
+			tasks: [
+				{
+					id: "4263C9DB02B11425"
+					type: "item"
+					item: "eidolon:pewter_ingot"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests3.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.2.title}"
 			x: -5.5d
 			y: 7.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.2.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests3.description1}"
+				"{ftbquests.chapter.arcane_1.quests.2.description.0}"
 				""
-				"{chapters.arcane_1.quests3.description2}"
+				"{ftbquests.chapter.arcane_1.quests.2.description.2}"
 				""
-				"{chapters.arcane_1.quests3.description3}"
+				"{ftbquests.chapter.arcane_1.quests.2.description.4}"
 				""
-				"{chapters.arcane_1.quests3.description4}"
+				"{ftbquests.chapter.arcane_1.quests.2.description.6}"
 				""
-				"{chapters.arcane_1.quests3.description5}"
+				"{ftbquests.chapter.arcane_1.quests.2.description.8}"
 				""
-				"{chapters.arcane_1.quests3.description6}"
+				"{ftbquests.chapter.arcane_1.quests.2.description.10}"
 				""
-				"{chapters.arcane_1.quests3.description7}"
+				"{ftbquests.chapter.arcane_1.quests.2.description.12}"
 				""
-				"{chapters.arcane_1.quests3.description8}"
+				"{ftbquests.chapter.arcane_1.quests.2.description.14}"
 				""
-				"{chapters.arcane_1.quests3.description9}"
+				"{ftbquests.chapter.arcane_1.quests.2.description.16}"
 			]
 			dependencies: [
 				"3BC1CFB22EDA4D74"
 				"20565A3484CED967"
 			]
 			id: "2045087C068870F6"
-			tasks: [{
-				id: "19B637F8DBADC266"
-				type: "item"
-				item: "decursiomod:crucible"
-			}]
-			rewards: [{
-				id: "24A17BA3B61424DF"
-				type: "item"
-				item: "minecraft:campfire"
-			}]
+			tasks: [
+				{
+					id: "19B637F8DBADC266"
+					type: "item"
+					item: "decursiomod:crucible"
+				}
+			]
+			rewards: [
+				{
+					id: "24A17BA3B61424DF"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: 7.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.3.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests4.description1}"
+				"{image:kubejs:textures/eidolon/example4.png width:170 height:100 align:1}"
 				""
-				"{chapters.arcane_1.quests4.description2}"
+				"{ftbquests.chapter.arcane_1.quests.3.description.2}"
 				""
-				"{chapters.arcane_1.quests4.description3}"
+				"{ftbquests.chapter.arcane_1.quests.3.description.4}"
 				""
-				"{chapters.arcane_1.quests4.description4}"
+				"{ftbquests.chapter.arcane_1.quests.3.description.6}"
 			]
 			dependencies: ["3BC1CFB22EDA4D74"]
 			id: "077199D0B5C0CEDD"
@@ -121,16 +129,16 @@
 			]
 		}
 		{
-			title: "{chapters.arcane_1.quests5.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.4.title}"
 			icon: "eidolon:straw_effigy"
 			x: -8.5d
 			y: 4.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.4.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests5.description1}"
+				"{ftbquests.chapter.arcane_1.quests.4.description.0}"
 				""
-				"{chapters.arcane_1.quests5.description2}"
+				"{image:kubejs:textures/eidolon/example5.png width:150 height:100 align:1}"
 			]
 			dependencies: ["6EC2AAB1C3022A4E"]
 			id: "062676BF5584EBAF"
@@ -149,42 +157,48 @@
 			]
 		}
 		{
-			title: "{chapters.arcane_1.quests6.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.5.title}"
 			x: -4.0d
 			y: 4.5d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.5.subtitle}"
 			dependencies: ["077199D0B5C0CEDD"]
 			id: "25F5B4F662D9D463"
-			tasks: [{
-				id: "7293339A967A2199"
-				type: "item"
-				item: "eidolon:soul_shard"
-			}]
-			rewards: [{
-				id: "500E408365F9FB60"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "7293339A967A2199"
+					type: "item"
+					item: "eidolon:soul_shard"
+				}
+			]
+			rewards: [
+				{
+					id: "500E408365F9FB60"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests7.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.6.title}"
 			icon: "minecraft:rotten_flesh"
 			x: 0.5d
 			y: 7.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.6.subtitle}"
 			dependencies: ["077199D0B5C0CEDD"]
 			hide: true
 			id: "6C9CAADFE5A90425"
-			tasks: [{
-				id: "4C2E1029C17163E5"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests7.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "4C2E1029C17163E5"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.6.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests8.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.7.title}"
 			icon: {
 				id: "minecraft:carrot_on_a_stick"
 				Count: 1b
@@ -195,18 +209,20 @@
 			x: -0.5d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.7.subtitle}"
 			dependencies: ["077199D0B5C0CEDD"]
 			hide: true
 			id: "7D14BCF66D2DB5A3"
-			tasks: [{
-				id: "1EF9A6D7AB645D5E"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests8.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "1EF9A6D7AB645D5E"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.7.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests9.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.8.title}"
 			icon: {
 				id: "minecraft:shield"
 				Count: 1b
@@ -217,93 +233,105 @@
 			x: -1.5d
 			y: 9.5d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.8.subtitle}"
 			dependencies: ["077199D0B5C0CEDD"]
 			hide: true
 			id: "4637154018BEA850"
-			tasks: [{
-				id: "4C880FC7F635A490"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests9.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "4C880FC7F635A490"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.8.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests10.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.9.title}"
 			icon: "minecraft:emerald"
 			x: -0.5d
 			y: 9.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.9.subtitle}"
 			dependencies: ["077199D0B5C0CEDD"]
 			hide: true
 			id: "7BED423E12729F77"
-			tasks: [{
-				id: "031F1C00809104AE"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests10.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "031F1C00809104AE"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.9.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests11.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.10.title}"
 			icon: "minecraft:sunflower"
 			x: 0.0d
 			y: 8.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.10.subtitle}"
 			dependencies: ["077199D0B5C0CEDD"]
 			hide: true
 			id: "066D9FF41D5AC16D"
-			tasks: [{
-				id: "3553D7A3E8FEC7C4"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests11.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "3553D7A3E8FEC7C4"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.10.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests12.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.11.title}"
 			icon: "minecraft:black_dye"
 			x: -1.5d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.11.subtitle}"
 			dependencies: ["077199D0B5C0CEDD"]
 			hide: true
 			id: "26DB2FC033FCD6DD"
-			tasks: [{
-				id: "74B616662D15F760"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests12.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "74B616662D15F760"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.11.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests13.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.12.title}"
 			icon: "minecraft:golden_apple"
 			x: 0.0d
 			y: 6.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.12.subtitle}"
 			dependencies: ["077199D0B5C0CEDD"]
 			hide: true
 			id: "4D1DC1162086FA25"
-			tasks: [{
-				id: "17388FD9C49533C8"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests13.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "17388FD9C49533C8"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.12.tasks.0.title}"
+				}
+			]
 		}
 		{
 			x: -4.5d
 			y: 10.0d
 			shape: "diamond"
-			subtitle: "{chapters.arcane_1.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.13.subtitle}"
 			dependencies: ["39FF7B69E755AC45"]
 			hide: false
 			id: "52FD71220EF8CF35"
-			tasks: [{
-				id: "084EA5D4CBF556FD"
-				type: "item"
-				item: "eidolon:lesser_soul_gem"
-			}]
+			tasks: [
+				{
+					id: "084EA5D4CBF556FD"
+					type: "item"
+					item: "eidolon:lesser_soul_gem"
+				}
+			]
 			rewards: [
 				{
 					id: "65292845F0531745"
@@ -322,115 +350,127 @@
 			x: -5.5d
 			y: 2.0d
 			shape: "diamond"
-			subtitle: "{chapters.arcane_1.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.14.subtitle}"
 			dependencies: [
 				"2045087C068870F6"
 				"25F5B4F662D9D463"
 			]
 			size: 1.5d
 			id: "54A9CA62C88CA53A"
-			tasks: [{
-				id: "6618856211E26444"
-				type: "item"
-				item: "eidolon:arcane_gold_ingot"
-			}]
+			tasks: [
+				{
+					id: "6618856211E26444"
+					type: "item"
+					item: "eidolon:arcane_gold_ingot"
+				}
+			]
 		}
 		{
 			x: -10.0d
 			y: 10.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.15.subtitle}"
 			dependencies: ["3BC1CFB22EDA4D74"]
 			id: "2672CC97E79EB5DE"
-			tasks: [{
-				id: "73BAC545213CE338"
-				type: "item"
-				item: "eidolon:worktable"
-			}]
+			tasks: [
+				{
+					id: "73BAC545213CE338"
+					type: "item"
+					item: "eidolon:worktable"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests17.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.16.title}"
 			icon: "eidolon:goblet"
 			x: -8.5d
 			y: 2.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests17.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.16.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests17.description1}"
+				"{ftbquests.chapter.arcane_1.quests.16.description.0}"
 				""
-				"{chapters.arcane_1.quests17.description2}"
+				"{ftbquests.chapter.arcane_1.quests.16.description.2}"
 				""
-				"{chapters.arcane_1.quests17.description3}"
+				"{ftbquests.chapter.arcane_1.quests.16.description.4}"
 				""
-				"{chapters.arcane_1.quests17.description4}"
+				"{ftbquests.chapter.arcane_1.quests.16.description.6}"
 				""
-				"{chapters.arcane_1.quests17.description5}"
+				"{ftbquests.chapter.arcane_1.quests.16.description.8}"
 				""
-				"{chapters.arcane_1.quests1.description3}"
+				"{ftbquests.chapter.arcane_1.quests.16.description.10}"
 				""
-				"{chapters.arcane_1.quests17.description7}"
+				"{ftbquests.chapter.arcane_1.quests.16.description.12}"
 				""
-				"{chapters.arcane_1.quests17.description8}"
+				"{image:kubejs:textures/eidolon/example12.png width:250 height:200 align:1 fit:true}"
 				""
-				"{chapters.arcane_1.quests17.description9}"
+				"{ftbquests.chapter.arcane_1.quests.16.description.16}"
 				""
-				"{chapters.arcane_1.quests17.description10}"
+				"{image:kubejs:textures/eidolon/chant_sacrifice_animal_example.png width:200 height:100 align:1}"
 			]
 			dependencies: [
 				"54A9CA62C88CA53A"
 				"7FB44F8893DD2EDA"
 			]
 			id: "670E9235F59D0482"
-			tasks: [{
-				id: "190701363BCF2DA2"
-				type: "item"
-				item: "eidolon:goblet"
-			}]
-			rewards: [{
-				id: "683126830BE99956"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "190701363BCF2DA2"
+					type: "item"
+					item: "eidolon:goblet"
+				}
+			]
+			rewards: [
+				{
+					id: "683126830BE99956"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests18.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.17.title}"
 			icon: "eidolon:unholy_symbol"
 			x: -8.5d
 			y: 1.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests18.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.17.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests18.description1}"
-				"{chapters.arcane_1.quests18.description2}"
-				"{chapters.arcane_1.quests18.description3}"
+				"{ftbquests.chapter.arcane_1.quests.17.description.0}"
+				" "
+				"{ftbquests.chapter.arcane_1.quests.17.description.2}"
 				""
-				"{chapters.arcane_1.quests18.description4}"
+				"{ftbquests.chapter.arcane_1.quests.17.description.4}"
 				""
-				"{chapters.arcane_1.quests18.description5}"
+				"{ftbquests.chapter.arcane_1.quests.17.description.6}"
 				""
-				"{chapters.arcane_1.quests17.description9}"
+				"{ftbquests.chapter.arcane_1.quests.17.description.8}"
 				""
-				"{chapters.arcane_1.quests18.description7}"
+				"{image:kubejs:textures/eidolon/chant_touch_of_darkness_example.png width:200 height:100 align:1}"
 			]
 			dependencies: ["420788C63E156433"]
 			id: "08BEA27B64FD36C4"
-			tasks: [{
-				id: "7A69BD0F928FF600"
-				type: "item"
-				item: "eidolon:unholy_symbol"
-			}]
-			rewards: [{
-				id: "5EE867DE6B793988"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "7A69BD0F928FF600"
+					type: "item"
+					item: "eidolon:unholy_symbol"
+				}
+			]
+			rewards: [
+				{
+					id: "5EE867DE6B793988"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests19.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.18.title}"
 			x: -7.0d
 			y: 1.0d
 			shape: "diamond"
-			subtitle: "{chapters.arcane_1.quests19.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.18.subtitle}"
 			hide_dependency_lines: false
 			dependencies: [
 				"08BEA27B64FD36C4"
@@ -439,17 +479,19 @@
 			]
 			size: 2.0d
 			id: "35A42F33FE263878"
-			tasks: [{
-				id: "1E4BF62320216E7D"
-				type: "item"
-				item: {
-					id: "eidolon:reaper_scythe"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1E4BF62320216E7D"
+					type: "item"
+					item: {
+						id: "eidolon:reaper_scythe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "360B35A976312B4A"
@@ -465,71 +507,75 @@
 			]
 		}
 		{
-			title: "{chapters.arcane_1.quests20.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.19.title}"
 			icon: "minecraft:wither_skeleton_skull"
 			x: -7.0d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests20.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.19.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests20.description1}"
-				"{chapters.arcane_1.quests18.description2}"
-				"{chapters.arcane_1.quests20.description3}"
+				"{ftbquests.chapter.arcane_1.quests.19.description.0}"
+				" "
+				"{ftbquests.chapter.arcane_1.quests.19.description.2}"
 				""
-				"{chapters.arcane_1.quests20.description4}"
+				"{ftbquests.chapter.arcane_1.quests.19.description.4}"
 				""
-				"{chapters.arcane_1.quests20.description5}"
-				"{chapters.arcane_1.quests20.description6}"
-				"{chapters.arcane_1.quests20.description7}"
+				"{ftbquests.chapter.arcane_1.quests.19.description.6}"
+				"{ftbquests.chapter.arcane_1.quests.19.description.7}"
+				"{ftbquests.chapter.arcane_1.quests.19.description.8}"
 				""
-				"{chapters.arcane_1.quests20.description8}"
+				"{ftbquests.chapter.arcane_1.quests.19.description.10}"
 				""
-				"{chapters.arcane_1.quests20.description9}"
+				"{image:kubejs:textures/eidolon/example7.png width:250 height:200 align:1 fit:true}"
 				""
-				"{chapters.arcane_1.quests20.description10}"
+				"{ftbquests.chapter.arcane_1.quests.19.description.14}"
 			]
 			dependencies: ["062676BF5584EBAF"]
 			id: "7E34CC523DAA6101"
-			tasks: [{
-				id: "72D9E514F968A425"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests20.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "72D9E514F968A425"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.19.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests21.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.20.title}"
 			icon: "minecraft:wither_rose"
 			x: -7.0d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests21.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.20.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests21.description1}"
+				"{ftbquests.chapter.arcane_1.quests.20.description.0}"
 				""
-				"{chapters.arcane_1.quests21.description2}"
+				"{ftbquests.chapter.arcane_1.quests.20.description.2}"
 				""
-				"{chapters.arcane_1.quests21.description3}"
+				"{ftbquests.chapter.arcane_1.quests.20.description.4}"
 				""
-				"{chapters.arcane_1.quests21.description4}"
-				"{chapters.arcane_1.quests21.description5}"
-				"{chapters.arcane_1.quests21.description6}"
+				"{ftbquests.chapter.arcane_1.quests.20.description.6}"
+				"{ftbquests.chapter.arcane_1.quests.20.description.7}"
+				"{ftbquests.chapter.arcane_1.quests.20.description.8}"
 				""
-				"{chapters.arcane_1.quests21.description7}"
+				"{ftbquests.chapter.arcane_1.quests.20.description.10}"
 				""
-				"{chapters.arcane_1.quests21.description8}"
+				"{image:kubejs:textures/eidolon/example6.png width:250 height:200 align:1 fit:true}"
 				""
-				"{chapters.arcane_1.quests21.description9}"
+				"{ftbquests.chapter.arcane_1.quests.20.description.14}"
 			]
 			dependencies: ["062676BF5584EBAF"]
 			id: "5C31F2197CB4FD40"
-			tasks: [{
-				id: "0C520EBB567FB905"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests21.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "0C520EBB567FB905"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.20.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests22.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.21.title}"
 			icon: {
 				id: "eidolon:warlock_hat"
 				Count: 1b
@@ -540,226 +586,250 @@
 			x: -8.5d
 			y: 3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests22.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.21.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests22.description1}"
+				"{ftbquests.chapter.arcane_1.quests.21.description.0}"
 				""
-				"{chapters.arcane_1.quests22.description2}"
+				"{ftbquests.chapter.arcane_1.quests.21.description.2}"
 				""
-				"{chapters.arcane_1.quests22.description3}"
+				"{ftbquests.chapter.arcane_1.quests.21.description.4}"
 				""
-				"{chapters.arcane_1.quests1.description3}"
+				"{ftbquests.chapter.arcane_1.quests.21.description.6}"
 				""
-				"{chapters.arcane_1.quests22.description5}"
+				"{ftbquests.chapter.arcane_1.quests.21.description.8}"
 				""
-				"{chapters.arcane_1.quests22.description6}"
+				"{image:kubejs:textures/eidolon/example9.png width:170 height:100 align:1}"
 				""
-				"{chapters.arcane_1.quests22.description7}"
+				"{ftbquests.chapter.arcane_1.quests.21.description.12}"
 			]
 			dependencies: [
 				"062676BF5584EBAF"
 				"2456A6DB1ADA4325"
 			]
 			id: "3F0D14B22A5EB455"
-			tasks: [{
-				id: "64D922B5C9B51804"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests22.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "64D922B5C9B51804"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.21.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests23.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.22.title}"
 			icon: "quark:red_candle"
 			x: -10.0d
 			y: 2.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests23.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.22.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests23.description1}"
+				"{ftbquests.chapter.arcane_1.quests.22.description.0}"
 				""
-				"{chapters.arcane_1.quests23.description2}"
+				"{ftbquests.chapter.arcane_1.quests.22.description.2}"
 				""
-				"{chapters.arcane_1.quests1.description3}"
+				"{ftbquests.chapter.arcane_1.quests.22.description.4}"
 			]
 			dependencies: ["3F0D14B22A5EB455"]
 			id: "7FB44F8893DD2EDA"
-			tasks: [{
-				id: "167FC25FDF3D34B8"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests23.title}"
-			}]
+			tasks: [
+				{
+					id: "167FC25FDF3D34B8"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.22.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests24.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.23.title}"
 			icon: "quark:pink_candle"
 			x: -10.0d
 			y: 1.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests24.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.23.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests24.description1}"
+				"{ftbquests.chapter.arcane_1.quests.23.description.0}"
 				""
-				"{chapters.arcane_1.quests24.description2}"
+				"{ftbquests.chapter.arcane_1.quests.23.description.2}"
 				""
-				"{chapters.arcane_1.quests1.description3}"
+				"{ftbquests.chapter.arcane_1.quests.23.description.4}"
 			]
 			dependencies: ["670E9235F59D0482"]
 			id: "420788C63E156433"
-			tasks: [{
-				id: "355DF8EAF91EDAAB"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests24.title}"
-			}]
+			tasks: [
+				{
+					id: "355DF8EAF91EDAAB"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.23.tasks.0.title}"
+				}
+			]
 		}
 		{
 			x: -6.5d
 			y: 10.0d
 			shape: "diamond"
-			subtitle: "{chapters.arcane_1.quests25.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.24.subtitle}"
 			dependencies: ["39FF7B69E755AC45"]
 			id: "03E1A8C6F933631D"
-			tasks: [{
-				id: "558E496268511DF9"
-				type: "item"
-				item: "eidolon:shadow_gem"
-			}]
+			tasks: [
+				{
+					id: "558E496268511DF9"
+					type: "item"
+					item: "eidolon:shadow_gem"
+				}
+			]
 		}
 		{
 			x: -8.0d
 			y: -0.5d
 			shape: "circle"
-			subtitle: "{chapters.arcane_1.quests26.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.25.subtitle}"
 			dependencies: ["08BEA27B64FD36C4"]
 			id: "5BE9A7D51A671963"
-			tasks: [{
-				id: "29DE87061C821C47"
-				type: "item"
-				item: "eidolon:wicked_weave"
-			}]
+			tasks: [
+				{
+					id: "29DE87061C821C47"
+					type: "item"
+					item: "eidolon:wicked_weave"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests27.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.26.title}"
 			icon: "eidolon:codex"
 			x: -10.0d
 			y: 5.5d
 			shape: "square"
-			subtitle: "{chapters.arcane_1.quests27.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.26.subtitle}"
 			dependencies: ["3073595C53701173"]
 			size: 1.5d
 			id: "6EC2AAB1C3022A4E"
-			tasks: [{
-				id: "0F6FD1B3516126DE"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests27.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "0F6FD1B3516126DE"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.26.tasks.0.title}"
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: 1.0d
 			shape: "diamond"
-			subtitle: "{chapters.arcane_1.quests28.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.27.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests28.description1}"
+				"{ftbquests.chapter.arcane_1.quests.27.description.0}"
 				""
-				"{chapters.arcane_1.quests28.description2}"
+				"{image:kubejs:textures/eidolon/necrotic_focus_example.png width:100 height:150 align:1 fit:true}"
 			]
 			dependencies: ["077199D0B5C0CEDD"]
 			id: "0492A1CDFB26CAE1"
-			tasks: [{
-				id: "1AF7C9964A50482A"
-				type: "item"
-				item: "eidolon:necrotic_focus"
-			}]
+			tasks: [
+				{
+					id: "1AF7C9964A50482A"
+					type: "item"
+					item: "eidolon:necrotic_focus"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests29.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.28.title}"
 			icon: "minecraft:gunpowder"
 			x: -7.0d
 			y: 9.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests29.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.28.subtitle}"
 			dependencies: ["39FF7B69E755AC45"]
 			id: "1144E4662B06D336"
-			tasks: [{
-				id: "38DD6B7C681E414C"
-				type: "item"
-				item: "eidolon:sulfur"
-				count: 2L
-			}]
+			tasks: [
+				{
+					id: "38DD6B7C681E414C"
+					type: "item"
+					item: "eidolon:sulfur"
+					count: 2L
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests30.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.29.title}"
 			icon: "minecraft:leather"
 			x: -4.0d
 			y: 9.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests30.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.29.subtitle}"
 			dependencies: ["39FF7B69E755AC45"]
 			id: "2827864A806E7C9A"
-			tasks: [{
-				id: "3B0F6F43F77C37A3"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests30.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "3B0F6F43F77C37A3"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.29.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests31.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.30.title}"
 			x: -11.5d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests31.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.30.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests31.description1}"
+				"{ftbquests.chapter.arcane_1.quests.30.description.0}"
 				""
-				"{chapters.arcane_1.quests31.description2}"
+				"{ftbquests.chapter.arcane_1.quests.30.description.2}"
 				""
-				"{chapters.arcane_1.quests17.description9}"
+				"{ftbquests.chapter.arcane_1.quests.30.description.4}"
 				""
-				"{chapters.arcane_1.quests31.description4}"
+				"{image:kubejs:textures/eidolon/chant_sword_chant_example.png width:200 height:100 align:1}"
 			]
 			dependencies: ["420788C63E156433"]
 			hide: true
 			id: "21378F7407807CD1"
-			tasks: [{
-				id: "0C7EF1454B16FF47"
-				type: "item"
-				item: "hexblades:elemental_core"
-			}]
+			tasks: [
+				{
+					id: "0C7EF1454B16FF47"
+					type: "item"
+					item: "hexblades:elemental_core"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests32.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.31.title}"
 			icon: "quark:yellow_candle"
 			x: -11.5d
 			y: 5.5d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests32.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.31.subtitle}"
 			dependencies: ["6EC2AAB1C3022A4E"]
 			id: "64E6FC921A976B54"
-			tasks: [{
-				id: "3500E32AC8369D66"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests32.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "3500E32AC8369D66"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.31.tasks.0.title}"
+				}
+			]
 		}
 		{
 			x: -4.0d
 			y: 2.0d
-			subtitle: "{chapters.arcane_1.quests33.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.32.subtitle}"
 			dependencies: ["25F5B4F662D9D463"]
 			id: "3CAC453CACF9E802"
-			tasks: [{
-				id: "6C4D11F527961AD6"
-				type: "item"
-				item: "hexblades:soul_candy"
-			}]
+			tasks: [
+				{
+					id: "6C4D11F527961AD6"
+					type: "item"
+					item: "hexblades:soul_candy"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests34.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.33.title}"
 			icon: "eidolon:unholy_effigy"
 			x: -9.0d
 			y: -0.5d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests34.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.33.subtitle}"
 			dependencies: ["08BEA27B64FD36C4"]
 			id: "2701C525448FFD03"
 			tasks: [
@@ -777,7 +847,7 @@
 			]
 		}
 		{
-			title: "{chapters.arcane_1.quests35.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.34.title}"
 			icon: {
 				id: "artifacts:villager_hat"
 				Count: 1b
@@ -787,71 +857,77 @@
 			}
 			x: -10.0d
 			y: -0.5d
-			subtitle: "{chapters.arcane_1.quests35.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.34.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests35.description1}"
+				"{ftbquests.chapter.arcane_1.quests.34.description.0}"
 				""
-				"{chapters.arcane_1.quests17.description9}"
+				"{ftbquests.chapter.arcane_1.quests.34.description.2}"
 				""
-				"{chapters.arcane_1.quests35.description3}"
+				"{image:kubejs:textures/eidolon/chant_sacrifice_villager_example.png width:200 height:100 align:1}"
 			]
 			dependencies: ["2701C525448FFD03"]
 			id: "5EF6C7AE5CE56681"
-			tasks: [{
-				id: "6922BAC56696C7E7"
-				type: "kill"
-				title: "{chapters.arcane_1.quests35.tasks.title}"
-				entity: "minecraft:villager"
-				value: 1L
-			}]
+			tasks: [
+				{
+					id: "6922BAC56696C7E7"
+					type: "kill"
+					title: "{ftbquests.chapter.arcane_1.quests.34.tasks.0.title}"
+					entity: "minecraft:villager"
+					value: 1L
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests36.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.35.title}"
 			icon: "quark:blue_candle"
 			x: -10.0d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests36.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.35.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests36.description1}"
+				"{ftbquests.chapter.arcane_1.quests.35.description.0}"
 				""
-				"{chapters.arcane_1.quests36.description2}"
+				"{ftbquests.chapter.arcane_1.quests.35.description.2}"
 				""
-				"{chapters.arcane_1.quests36.description3}"
+				"{ftbquests.chapter.arcane_1.quests.35.description.4}"
 			]
 			dependencies: ["5EF6C7AE5CE56681"]
 			id: "76C57E75255CD8BE"
-			tasks: [{
-				id: "7DE488D7206219C3"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests36.title}"
-			}]
+			tasks: [
+				{
+					id: "7DE488D7206219C3"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.35.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_1.quests37.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.36.title}"
 			icon: "hexblades:elemental_soul_2"
 			x: -10.0d
 			y: -4.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_1.quests37.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.36.subtitle}"
 			description: [
-				"{chapters.arcane_1.quests37.description1}"
+				"{ftbquests.chapter.arcane_1.quests.36.description.0}"
 				""
-				"{chapters.arcane_1.quests37.description2}"
+				"{ftbquests.chapter.arcane_1.quests.36.description.2}"
 				""
-				"{chapters.arcane_1.quests37.description3}"
+				"{ftbquests.chapter.arcane_1.quests.36.description.4}"
 			]
 			dependencies: ["3370640F28711037"]
 			size: 1.5d
 			id: "570BA5FA1822BCF8"
-			tasks: [{
-				id: "0F70AEE3C32B55AF"
-				type: "kill"
-				title: "{chapters.arcane_1.quests37.tasks.title}"
-				icon: "hexblades:elemental_soul_2"
-				entity: "hexblades:fire_elemental"
-				value: 1L
-			}]
+			tasks: [
+				{
+					id: "0F70AEE3C32B55AF"
+					type: "kill"
+					title: "{ftbquests.chapter.arcane_1.quests.36.tasks.0.title}"
+					icon: "hexblades:elemental_soul_2"
+					entity: "hexblades:fire_elemental"
+					value: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "3BC176005C90E041"
@@ -866,7 +942,7 @@
 			]
 		}
 		{
-			title: "{chapters.arcane_1.quests38.title}"
+			title: "{ftbquests.chapter.arcane_1.quests.37.title}"
 			icon: {
 				id: "hexblades:flame_sword_2"
 				Count: 1b
@@ -885,87 +961,93 @@
 			x: -11.5d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "They can be upgraded. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.37.subtitle}"
 			description: [
-				"The Mind Sign will be required for this task. Focus your attention towards obtaining that."
+				"{ftbquests.chapter.arcane_1.quests.37.description.0}"
 				""
-				"After unlocking The Mind Sign you'll have to use your current Hexblade and defeat mobs until new knowledge will be grated to you."
+				"{ftbquests.chapter.arcane_1.quests.37.description.2}"
 				""
-				"To see your progress, you can use this command:"
+				"{ftbquests.chapter.arcane_1.quests.37.description.4}"
 				""
-				"/hexblades devotion <player_name> get blade"
+				"{ftbquests.chapter.arcane_1.quests.37.description.6}"
 				""
-				"Ps: Lever 30 needs to be reached."
+				"{ftbquests.chapter.arcane_1.quests.37.description.8}"
 			]
 			dependencies: [
 				"21378F7407807CD1"
 				"76C57E75255CD8BE"
 			]
 			id: "4208F96060C4D34C"
-			tasks: [{
-				id: "1619C7F37ED46CB7"
-				type: "checkmark"
-				title: "{chapters.arcane_4.quests17.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "1619C7F37ED46CB7"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.37.tasks.0.title}"
+				}
+			]
 		}
 		{
 			x: -11.5d
 			y: -2.5d
-			subtitle: "You can find its recipe in the Ars Ecclesia. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.38.subtitle}"
 			description: [
-				"Great, you've chanelled enough power into your weapon and now you can upgrade it."
+				"{ftbquests.chapter.arcane_1.quests.38.description.0}"
 				""
-				"To do so, you'll need a more powerful core then the previous one. Now, where could you get one..?"
+				"{ftbquests.chapter.arcane_1.quests.38.description.2}"
 				""
-				"Luckly, you can make it yourself. Press \"U\" on some Nether Quartz to see the Brazier Recipe. You'll need a Shadow Gem, a Lava Bucket and some other things."
+				"{ftbquests.chapter.arcane_1.quests.38.description.4}"
 			]
 			dependencies: [
 				"4208F96060C4D34C"
 				"2DCD7BF831E21744"
 			]
 			id: "05C961BD28334ADE"
-			tasks: [{
-				id: "273835535B68B2EC"
-				type: "item"
-				item: "hexblades:fire_core"
-			}]
+			tasks: [
+				{
+					id: "273835535B68B2EC"
+					type: "item"
+					item: "hexblades:fire_core"
+				}
+			]
 		}
 		{
-			title: "Summoning an Elemental - Chant"
+			title: "{ftbquests.chapter.arcane_1.quests.39.title}"
 			icon: "hexblades:fire_pedestal"
 			x: -11.5d
 			y: -4.0d
-			subtitle: "Hard Difficulty Required - Beware, the Fire Temple. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.39.subtitle}"
 			description: [
-				"Throughout the Nether, you might find some strange temples which have hieroglyphs on their walls resambling the Magmatic Core you obtained previously."
+				"{ftbquests.chapter.arcane_1.quests.39.description.0}"
 				""
-				"In the temple's main room, you'll find a pedestal. By placing the Magmatic Core on it and performing the Elemental Pedestal Activation Chant, which will summon a Fire Elemental."
+				"{ftbquests.chapter.arcane_1.quests.39.description.2}"
 				""
-				"Be aware. This will be a mini-boss fight. You might wanna prepare yourself before anything else."
+				"{ftbquests.chapter.arcane_1.quests.39.description.4}"
 				""
-				"{chapters.arcane_1.quests1.description3}"
+				"{ftbquests.chapter.arcane_1.quests.39.description.6}"
 				""
-				"{chapters.arcane_1.quests17.description9}"
+				"{ftbquests.chapter.arcane_1.quests.39.description.8}"
 				""
 				"{image:kubejs:textures/eidolon/chant_elemental_pedestal_activation_example.png width:200 height:100 align:1}"
 				""
-				"Picture of the Fire Elemental Tample:"
+				"{ftbquests.chapter.arcane_1.quests.39.description.12}"
 				""
 				"{image:kubejs:textures/eidolon/fire_tample_example.png width:110 height:100 align:1 fit:true}"
 			]
 			dependencies: ["05C961BD28334ADE"]
 			id: "3370640F28711037"
-			tasks: [{
-				id: "5700174B955859FB"
-				type: "checkmark"
-				title: "Use the Elemental Pedestals Activation chant on the Fire Pedestal"
-			}]
+			tasks: [
+				{
+					id: "5700174B955859FB"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.39.tasks.0.title}"
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "Use Crying Obsidian to make the Vanilla Enchanting Table"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.40.subtitle}"
 			dependencies: [
 				"37C65B0CE8EB26DD"
 				"2C6FB2BD60174B44"
@@ -973,11 +1055,13 @@
 				"079148BF286C8D56"
 			]
 			id: "0D2CDF37851BE110"
-			tasks: [{
-				id: "7AA18A9DD963E160"
-				type: "item"
-				item: "minecraft:enchanting_table"
-			}]
+			tasks: [
+				{
+					id: "7AA18A9DD963E160"
+					type: "item"
+					item: "minecraft:enchanting_table"
+				}
+			]
 			rewards: [
 				{
 					id: "73A222F95403DBC8"
@@ -992,111 +1076,121 @@
 			]
 		}
 		{
-			title: "Onions are cruel"
+			title: "{ftbquests.chapter.arcane_1.quests.41.title}"
 			x: -1.0d
 			y: 1.0d
-			subtitle: "Crying Obsidian can either be found in the world, or crafted using a ritual. Tip, press \"U\" on an Onion to see the recipe which is made in a Brazier"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.41.subtitle}"
 			dependencies: ["0492A1CDFB26CAE1"]
 			id: "37C65B0CE8EB26DD"
-			tasks: [{
-				id: "1FFA212552942517"
-				type: "item"
-				item: "minecraft:crying_obsidian"
-			}]
+			tasks: [
+				{
+					id: "1FFA212552942517"
+					type: "item"
+					item: "minecraft:crying_obsidian"
+				}
+			]
 		}
 		{
-			title: "Crimson Weave"
+			title: "{ftbquests.chapter.arcane_1.quests.42.title}"
 			x: -8.0d
 			y: -2.5d
-			subtitle: "Engineering of dark magic at its best. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.42.subtitle}"
 			description: [
-				"Great! You found a way to get your hands on the power of that Sigil."
+				"{ftbquests.chapter.arcane_1.quests.42.description.0}"
 				""
-				"This fabric is two times stronger then that Wicked Weave you've learned about previously."
+				"{ftbquests.chapter.arcane_1.quests.42.description.2}"
 				""
-				"Using it, you should be able to come up with some sort of protecting costume."
+				"{ftbquests.chapter.arcane_1.quests.42.description.4}"
 				""
-				"IMPORTANT: This recipe has to be execute ONE BY ONE, at a time."
+				"{ftbquests.chapter.arcane_1.quests.42.description.6}"
 				""
-				"{chapters.arcane_2.quests6.description4}"
+				"{ftbquests.chapter.arcane_1.quests.42.description.8}"
 				""
 				"{image:kubejs:textures/eidolon/crimson_weave_recipe-min.png width:100 height:150 align:1}"
 				""
-				"You'll need a Sanguine Crystal which will not be consumed by the recipe."
+				"{ftbquests.chapter.arcane_1.quests.42.description.12}"
 			]
 			dependencies: [
 				"1D09DA0333072189"
 				"2DCD7BF831E21744"
 			]
 			id: "578276668C01721B"
-			tasks: [{
-				id: "37C7664BD36E245A"
-				type: "item"
-				item: "sanguinearsenal:crimson_weave"
-			}]
+			tasks: [
+				{
+					id: "37C7664BD36E245A"
+					type: "item"
+					item: "sanguinearsenal:crimson_weave"
+				}
+			]
 		}
 		{
-			title: "Shadow Infused Ingot"
+			title: "{ftbquests.chapter.arcane_1.quests.43.title}"
 			x: -5.5d
 			y: -0.5d
-			subtitle: "The Shadow Infused Ingot is quite an impressive alloy. Made out of pewter, arcane gold and some other ingredients, it is able to provide great amounts of protection to its owner. However, the armor made out of this thing might not be that accesible at this point"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.43.subtitle}"
 			dependencies: ["54A9CA62C88CA53A"]
 			id: "615658B27FCE3AB0"
-			tasks: [{
-				id: "5EF6D45FE0B018BF"
-				type: "item"
-				item: "sanguinearsenal:shadow_ingot"
-			}]
+			tasks: [
+				{
+					id: "5EF6D45FE0B018BF"
+					type: "item"
+					item: "sanguinearsenal:shadow_ingot"
+				}
+			]
 		}
 		{
 			x: -4.0d
 			y: 8.0d
-			subtitle: "The End is not available to you yet, however, you can obtain this powder infused with small amounts of it. You might be able to find a use for it"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.44.subtitle}"
 			dependencies: ["39FF7B69E755AC45"]
 			id: "16151F22321F2F09"
-			tasks: [{
-				id: "2C4D443DD69BD826"
-				type: "item"
-				item: "eidolon:ender_calx"
-			}]
+			tasks: [
+				{
+					id: "2C4D443DD69BD826"
+					type: "item"
+					item: "eidolon:ender_calx"
+				}
+			]
 		}
 		{
-			title: "Unused potential - Chant"
+			title: "{ftbquests.chapter.arcane_1.quests.45.title}"
 			x: -10.0d
 			y: -2.5d
-			subtitle: "Children of The Dark Lord. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.45.subtitle}"
 			description: [
-				"You finally reached the point where you have the trust of The Dark Lord."
+				"{ftbquests.chapter.arcane_1.quests.45.description.0}"
 				""
-				"This Sigil represents the trust and faith that they have in you. At the same time, it holds very large amounts of power, too large for you, to be precise. But we believe that this will not stop you, now will it? We're sure you'll find a use for this thing. Meanwhile, how do you get it exactly?"
+				"{ftbquests.chapter.arcane_1.quests.45.description.2}"
 				""
-				"Use the \"Blessing of Darkness\" on a Shadow Gem to obtain The Sigil of The Dark Lord."
+				"{ftbquests.chapter.arcane_1.quests.45.description.4}"
 				""
-				"{chapters.arcane_1.quests17.description9}"
+				"{ftbquests.chapter.arcane_1.quests.45.description.6}"
 				""
 				"{image:kubejs:textures/eidolon/blessing_of_darkness_example.png width:170 height:100 align:1}"
 			]
 			dependencies: ["76C57E75255CD8BE"]
 			id: "1D09DA0333072189"
-			tasks: [{
-				id: "2882DAB937AF3648"
-				type: "item"
-				item: "sanguinearsenal:sigil_of_the_dark_lord"
-			}]
+			tasks: [
+				{
+					id: "2882DAB937AF3648"
+					type: "item"
+					item: "sanguinearsenal:sigil_of_the_dark_lord"
+				}
+			]
 		}
 		{
-			title: "The Messanger of Darkness"
+			title: "{ftbquests.chapter.arcane_1.quests.46.title}"
 			icon: "twilightforest:carminite"
 			x: -5.5d
 			y: -2.5d
 			shape: "heart"
-			subtitle: "All the blood I'll ever use. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.46.subtitle}"
 			description: [
-				"If you're reading this, it means you are ready to embrace the role of The Dark Lord's messanger."
+				"{ftbquests.chapter.arcane_1.quests.46.description.0}"
 				""
-				"Finishing this quest will grant access to a powerful set of armor."
+				"{ftbquests.chapter.arcane_1.quests.46.description.2}"
 				""
-				"We're congratulating you for reaching this point."
+				"{ftbquests.chapter.arcane_1.quests.46.description.4}"
 			]
 			dependencies: [
 				"578276668C01721B"
@@ -1104,171 +1198,195 @@
 			]
 			size: 1.5d
 			id: "7DFB99444DF72CF8"
-			tasks: [{
-				id: "0FCE60CB4BD9BF60"
-				type: "checkmark"
-				title: "I am ready."
-			}]
-			rewards: [{
-				id: "2411A563D9ECC8D8"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "0FCE60CB4BD9BF60"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.46.tasks.0.title}"
+				}
+			]
+			rewards: [
+				{
+					id: "2411A563D9ECC8D8"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: -7.0d
 			y: 8.0d
-			subtitle: "Similar to the Calx of End, the Refined Crimson is a fine powder, infused with the essence of The Nether"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.47.subtitle}"
 			dependencies: ["39FF7B69E755AC45"]
 			id: "377DDDF081820BFB"
-			tasks: [{
-				id: "6041A1B2C18BF290"
-				type: "item"
-				item: "eidolon:crimson_essence"
-			}]
+			tasks: [
+				{
+					id: "6041A1B2C18BF290"
+					type: "item"
+					item: "eidolon:crimson_essence"
+				}
+			]
 		}
 		{
-			title: "Upgrading the altar - lighting"
+			title: "{ftbquests.chapter.arcane_1.quests.48.title}"
 			icon: "eidolon:candle"
 			x: -7.0d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "Candles? Lamps? Give 'em to me! Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.48.subtitle}"
 			description: [
-				"Again. similar to the skulls and the herbs, lighting can be used to upgrade the altar and attract The Dark Lord's attention faster."
+				"{ftbquests.chapter.arcane_1.quests.48.description.0}"
 				""
-				"Torch: 1 power"
-				"Lamp: 1 power, 1 capacity"
-				"Candle: 2 power"
-				"Candlestick: 2 power"
+				"{ftbquests.chapter.arcane_1.quests.48.description.2}"
+				"{ftbquests.chapter.arcane_1.quests.48.description.3}"
+				"{ftbquests.chapter.arcane_1.quests.48.description.4}"
+				"{ftbquests.chapter.arcane_1.quests.48.description.5}"
 				""
-				"Below, you can see an example of how lighting should be placed on the altar:"
+				"{ftbquests.chapter.arcane_1.quests.48.description.7}"
 				""
 				"{image:kubejs:textures/eidolon/example8.png width:250 height:200 align:1 fit:true}"
 				""
-				"Multiple light sources, will NOT stack."
+				"{ftbquests.chapter.arcane_1.quests.48.description.11}"
 			]
 			dependencies: ["062676BF5584EBAF"]
 			id: "2CC50BD51745AF87"
-			tasks: [{
-				id: "1959D2F9314BBC9F"
-				type: "checkmark"
-				title: "Make a candle/torch/lamp and place it on the altar"
-			}]
+			tasks: [
+				{
+					id: "1959D2F9314BBC9F"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_1.quests.48.tasks.0.title}"
+				}
+			]
 		}
 		{
 			x: -5.5d
 			y: 10.0d
 			shape: "square"
-			subtitle: "Can stone be alive? Thats the question of the day. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.49.subtitle}"
 			description: [
-				"This smooth stone seems to have a strange linger to it, its like it is speaking to you."
+				"{ftbquests.chapter.arcane_1.quests.49.description.0}"
 				""
-				"Through the use of other mystical arts, you might be able to give it life in the future, but for now, it just looks awesome, so go ahead, build with it!"
+				"{ftbquests.chapter.arcane_1.quests.49.description.2}"
 			]
 			dependencies: ["2045087C068870F6"]
 			id: "43AF274C38EE94E5"
-			tasks: [{
-				id: "2A5502BEB76E0C52"
-				type: "item"
-				item: "eidolon:smooth_stone_bricks"
-			}]
+			tasks: [
+				{
+					id: "2A5502BEB76E0C52"
+					type: "item"
+					item: "eidolon:smooth_stone_bricks"
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: -0.5d
-			subtitle: "Although you have no idea what this shard really is, or what it does, you might be able to get your hands on it if you manage to give a Gold Nugget to a Curbuncle. Additionally, you might find this Shard in some dungeons"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.50.subtitle}"
 			dependencies: ["0DDA2FB169318B04"]
 			size: 1.5d
 			id: "3DF741B59720CC46"
-			tasks: [{
-				id: "4F9FA4AB4131FE56"
-				type: "item"
-				item: "ars_nouveau:carbuncle_shards"
-			}]
+			tasks: [
+				{
+					id: "4F9FA4AB4131FE56"
+					type: "item"
+					item: "ars_nouveau:carbuncle_shards"
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: -0.5d
-			subtitle: "Lastly, here's the Sylph Shard. This one can be obtained by growing a Tree near a Sylph"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.51.subtitle}"
 			dependencies: ["0DDA2FB169318B04"]
 			size: 1.5d
 			id: "71CEE2F143CE8BD0"
-			tasks: [{
-				id: "7D39347F2FDDC735"
-				type: "item"
-				item: "ars_nouveau:sylph_shards"
-			}]
+			tasks: [
+				{
+					id: "7D39347F2FDDC735"
+					type: "item"
+					item: "ars_nouveau:sylph_shards"
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: -2.5d
-			subtitle: "The way you cna obtain this Shard is unknown at the moment. However you might have some luck finding this shard in some dungeons"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.52.subtitle}"
 			dependencies: ["0DDA2FB169318B04"]
 			size: 1.5d
 			id: "72088266D75E60F3"
-			tasks: [{
-				id: "3E671E7D047B36D1"
-				type: "item"
-				item: "ars_nouveau:wixie_shards"
-			}]
+			tasks: [
+				{
+					id: "3E671E7D047B36D1"
+					type: "item"
+					item: "ars_nouveau:wixie_shards"
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: -2.5d
-			subtitle: "Another Shard, same story. You have no idea what to do whit it, however, you should be able to obtain it by giving a Wilden Horn to a Drygmy. Later you might find a use for this item"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.53.subtitle}"
 			dependencies: ["0DDA2FB169318B04"]
 			size: 1.5d
 			id: "1EC6B6890FFF5733"
-			tasks: [{
-				id: "62E049B5B367F1DB"
-				type: "item"
-				item: "ars_nouveau:drygmy_shard"
-			}]
+			tasks: [
+				{
+					id: "62E049B5B367F1DB"
+					type: "item"
+					item: "ars_nouveau:drygmy_shard"
+				}
+			]
 		}
 		{
-			title: "Upgradin' tHe pOt!"
+			title: "{ftbquests.chapter.arcane_1.quests.54.title}"
 			x: -5.5d
 			y: 8.0d
 			shape: "square"
-			subtitle: "Using a Soul Campfire as a heat source for the Crucible, you can access new recipes"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.54.subtitle}"
 			dependencies: [
 				"2045087C068870F6"
 				"6AA23A5FB3C37C90"
 			]
 			id: "39FF7B69E755AC45"
-			tasks: [{
-				id: "2DCD7BF831E21744"
-				type: "item"
-				item: "minecraft:soul_campfire"
-			}]
+			tasks: [
+				{
+					id: "2DCD7BF831E21744"
+					type: "item"
+					item: "minecraft:soul_campfire"
+				}
+			]
 		}
 		{
 			x: -12.5d
 			y: 5.5d
 			shape: "gear"
-			subtitle: "Alchemy? Now? O..ok. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_1.quests.55.subtitle}"
 			description: [
-				"With The Nether being locked, you might feel the need for some potions."
+				"{ftbquests.chapter.arcane_1.quests.55.description.0}"
 				""
-				"Using an external heat source, as replacement for the blaze powder, and some Sprouting Fungus as replacement for the nether wart, you should be able to brew some potions."
-				"{chapters.arcane_1.quests18.description2}"
-				"This station has to be placed untop a heated Crucible filled with water."
+				"{ftbquests.chapter.arcane_1.quests.55.description.2}"
+				" "
+				"{ftbquests.chapter.arcane_1.quests.55.description.4}"
 			]
 			dependencies: ["3BB14AF24B4C0261"]
 			hide: true
 			id: "6662E74DD2B8E1B4"
-			tasks: [{
-				id: "150AE0EC46919738"
-				type: "item"
-				item: "eidolon:wooden_brewing_stand"
-			}]
-			rewards: [{
-				id: "50AF466575D462E5"
-				type: "item"
-				item: "eidolon:fungus_sprouts"
-				count: 2
-			}]
+			tasks: [
+				{
+					id: "150AE0EC46919738"
+					type: "item"
+					item: "eidolon:wooden_brewing_stand"
+				}
+			]
+			rewards: [
+				{
+					id: "50AF466575D462E5"
+					type: "item"
+					item: "eidolon:fungus_sprouts"
+					count: 2
+				}
+			]
 		}
 	]
 }

@@ -3,18 +3,18 @@
 	group: "08EB5BB8DBF33B74"
 	order_index: 3
 	filename: "protection_4"
-	title: "{chapters.protection_4.title}"
+	title: "{ftbquests.chapter.protection_4.title}"
 	icon: "projecte:gem_chestplate"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapters.protection_4.quests1.title}"
+			title: "{ftbquests.chapter.protection_4.quests.0.title}"
 			icon: "projecte:rm_chestplate"
 			x: -1.0d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_4.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_4.quests.0.subtitle}"
 			dependencies: ["47A9E1E1EC810A4B"]
 			id: "11966C8BA8E71376"
 			tasks: [
@@ -57,12 +57,12 @@
 			]
 		}
 		{
-			title: "{chapters.protection_4.quests2.title}"
+			title: "{ftbquests.chapter.protection_4.quests.1.title}"
 			icon: "projecte:dm_chestplate"
 			x: -2.0d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_4.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_4.quests.1.subtitle}"
 			dependencies: ["0F691561E300905D"]
 			id: "47A9E1E1EC810A4B"
 			tasks: [
@@ -108,7 +108,7 @@
 			x: -3.5d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_4.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_4.quests.2.subtitle}"
 			dependencies: [
 				"07DC4DA638FE68C6"
 				"6E667B32C7CAAB8D"
@@ -116,96 +116,104 @@
 				"408B21AB9E52F723"
 			]
 			id: "4321906CDEC7A900"
-			tasks: [{
-				id: "25C1AEB1CF5A1DA8"
-				type: "item"
-				item: {
-					id: "draconicevolution:wyvern_chestpiece"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									1761994697
-									-1456518382
-									-1427205883
-									-1264470076
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "25C1AEB1CF5A1DA8"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_chestpiece"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1761994697
+										-1456518382
+										-1427205883
+										-1264470076
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "03F015A50D088DB3"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			]
+			rewards: [
+				{
+					id: "03F015A50D088DB3"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "Energy Shields - Part 2: The Draconic Chest Piece has 48 Module Slots available. It will also allow you to install Draconic Tiers of modules"
+			subtitle: "{ftbquests.chapter.protection_4.quests.3.subtitle}"
 			dependencies: [
 				"4321906CDEC7A900"
 				"19932FD1CAE6A98B"
 				"44EF0C161C89510B"
 			]
 			id: "6A02A2A1D71BC7BD"
-			tasks: [{
-				id: "444571CF098435D0"
-				type: "item"
-				item: {
-					id: "draconicevolution:draconic_chestpiece"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-1188788351
-									-245215420
-									-1616417125
-									-522476142
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "444571CF098435D0"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_chestpiece"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1188788351
+										-245215420
+										-1616417125
+										-522476142
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "3EB4FEBE2FDC88D8"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			]
+			rewards: [
+				{
+					id: "3EB4FEBE2FDC88D8"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
-			title: "The Gem Armor"
+			title: "{ftbquests.chapter.protection_4.quests.4.title}"
 			icon: "projecte:gem_chestplate"
 			x: 0.5d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "The Crimson Lord: Chaos Guardian? I bet you're kidding. Left Click for more info"
+			subtitle: "{ftbquests.chapter.protection_4.quests.4.subtitle}"
 			description: [
-				"The Gem Armor is one of the most advanced and expensive armors in The Decursio Project."
+				"{ftbquests.chapter.protection_4.quests.4.description.0}"
 				""
-				"It offers many offensive abilities and utilities, such as Jetpack-Like Flight (just hold down the 'Spacebar') and Creative Flight (double tap the 'Spacebar'). "
+				"{ftbquests.chapter.protection_4.quests.4.description.2}"
 				""
-				"It will also give you a permanent speed boost. The Boots can provide Step Assist if the feature's toggled through the special key. Same thing goes for the Helmet with its Night Vision feature."
+				"{ftbquests.chapter.protection_4.quests.4.description.4}"
 				""
-				"While holding 'Shift', all the nearby mobs will be repealed from you."
+				"{ftbquests.chapter.protection_4.quests.4.description.6}"
 				""
-				"We recommend using this armor with a Chest Piece from Draconic Evolution."
+				"{ftbquests.chapter.protection_4.quests.4.description.8}"
 			]
 			dependencies: [
 				"11966C8BA8E71376"
@@ -254,14 +262,16 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "7995E04956FAF31A"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			rewards: [
+				{
+					id: "7995E04956FAF31A"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
-			title: "The Supremium Armor"
+			title: "{ftbquests.chapter.protection_4.quests.5.title}"
 			icon: {
 				id: "mysticalagriculture:supremium_chestplate"
 				Count: 1b
@@ -272,7 +282,7 @@
 			x: -3.5d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "The Little Devil: The Supremium Armor is a modular set added by Mystical Agriculture. With it, you can increase your max health, have creative flight and more. All of these features will require a Tinker Table from Mystical Agriculture, and Augments"
+			subtitle: "{ftbquests.chapter.protection_4.quests.5.subtitle}"
 			dependencies: [
 				"77CEF9AA1C8EC6FD"
 				"5B16F03963346B82"
@@ -324,50 +334,56 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "7D66AFDEDE9B7B5F"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			rewards: [
+				{
+					id: "7D66AFDEDE9B7B5F"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "Energy Shields - Part 3: The Chaotic Chest Piece has 80 Module Slots available. It will also allow you to install Chaotic Tiers of modules"
+			subtitle: "{ftbquests.chapter.protection_4.quests.6.subtitle}"
 			dependencies: ["6A02A2A1D71BC7BD"]
 			id: "6D31253E625EA2F3"
-			tasks: [{
-				id: "792C3E56609FA7E3"
-				type: "item"
-				item: {
-					id: "draconicevolution:chaotic_chestpiece"
-					Count: 1b
-					tag: { }
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									625632909
-									1105936607
-									-1572707438
-									752136812
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "792C3E56609FA7E3"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_chestpiece"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										625632909
+										1105936607
+										-1572707438
+										752136812
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "4AFFCF4328F5D8E5"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "4AFFCF4328F5D8E5"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 	]
 }

@@ -3,95 +3,111 @@
 	group: "227FB27389135A7A"
 	order_index: 0
 	filename: "final_objectives"
-	title: "{chapters.final_objectives.title}"
+	title: "{ftbquests.chapter.final_objectives.title}"
 	icon: "endless:infinity_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapters.final_objectives.quests1.title}"
+			title: "{ftbquests.chapter.final_objectives.quests.0.title}"
 			x: 2.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.0.subtitle}"
 			dependencies: ["0FC3FF6F65F8B4F3"]
 			id: "4CCE1BC25C0811C0"
-			tasks: [{
-				id: "2DC7B4CE25C926E6"
-				type: "item"
-				item: "create:creative_motor"
-			}]
-			rewards: [{
-				id: "56A1522F75B0D587"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "2DC7B4CE25C926E6"
+					type: "item"
+					item: "create:creative_motor"
+				}
+			]
+			rewards: [
+				{
+					id: "56A1522F75B0D587"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.1.subtitle}"
 			dependencies: ["0FC3FF6F65F8B4F3"]
 			id: "30227AA156CDDA52"
-			tasks: [{
-				id: "24EA68E4498B6356"
-				type: "item"
-				item: {
-					id: "appliedenergistics2:creative_storage_cell"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "24EA68E4498B6356"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:creative_storage_cell"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "4EA89B7CECAFACF8"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "4EA89B7CECAFACF8"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
-			title: "{chapters.final_objectives.quests3.title}"
+			title: "{ftbquests.chapter.final_objectives.quests.2.title}"
 			x: -2.5d
 			y: 0.0d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.2.subtitle}"
 			dependencies: ["0FC3FF6F65F8B4F3"]
 			id: "2B34316C4E115AB5"
-			tasks: [{
-				id: "48A090F14169C496"
-				type: "item"
-				item: "botania:creative_pool"
-			}]
-			rewards: [{
-				id: "6F8069CCA4552ADC"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "48A090F14169C496"
+					type: "item"
+					item: "botania:creative_pool"
+				}
+			]
+			rewards: [
+				{
+					id: "6F8069CCA4552ADC"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: 1.5d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.3.subtitle}"
 			dependencies: ["0FC3FF6F65F8B4F3"]
 			size: 1.5d
 			id: "1ADD01E74F71F5AA"
-			tasks: [{
-				id: "56EDE27169504433"
-				type: "item"
-				item: "create:creative_blaze_cake"
-			}]
-			rewards: [{
-				id: "5ADD4620A16D332E"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "56EDE27169504433"
+					type: "item"
+					item: "create:creative_blaze_cake"
+				}
+			]
+			rewards: [
+				{
+					id: "5ADD4620A16D332E"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 2.5d
 			y: 0.0d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.4.subtitle}"
 			dependencies: [
 				"3CF914BD3213A5B4"
 				"44EF0C161C89510B"
@@ -99,33 +115,39 @@
 				"0FC3FF6F65F8B4F3"
 			]
 			id: "556E8DE5A5B17CEB"
-			tasks: [{
-				id: "2D950B6A61CAD4F4"
-				type: "item"
-				item: "mekanism:creative_fluid_tank"
-			}]
-			rewards: [{
-				id: "3CE99235B01249AB"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "2D950B6A61CAD4F4"
+					type: "item"
+					item: "mekanism:creative_fluid_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "3CE99235B01249AB"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: -1.5d
 			shape: "square"
-			subtitle: "{chapters.final_objectives.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.5.subtitle}"
 			dependencies: ["466242CC140468C5"]
 			size: 1.5d
 			id: "0FC3FF6F65F8B4F3"
-			tasks: [{
-				id: "743620C75AA77DE8"
-				type: "item"
-				item: "extendedcrafting:ultimate_auto_table"
-			}]
+			tasks: [
+				{
+					id: "743620C75AA77DE8"
+					type: "item"
+					item: "extendedcrafting:ultimate_auto_table"
+				}
+			]
 		}
 		{
-			title: "{chapters.final_objectives.quests7.title}"
+			title: "{ftbquests.chapter.final_objectives.quests.6.title}"
 			icon: {
 				id: "endless:infinity_chestplate"
 				Count: 1b
@@ -137,7 +159,7 @@
 			x: 0.0d
 			y: -4.5d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.6.subtitle}"
 			dependencies: [
 				"6194483D67F13589"
 				"5E8EF64468A63DF6"
@@ -195,137 +217,159 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "669E3CD01CCC4CCE"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			rewards: [
+				{
+					id: "669E3CD01CCC4CCE"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.7.subtitle}"
 			dependencies: [
 				"6194483D67F13589"
 				"466242CC140468C5"
 				"12128D56FEE5F56F"
 			]
 			id: "3AED426744699EAD"
-			tasks: [{
-				id: "0D08192DFEE2B08A"
-				type: "item"
-				item: {
-					id: "endless:infinity_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							lvl: 10s
-							id: "minecraft:looting"
-						}]
+			tasks: [
+				{
+					id: "0D08192DFEE2B08A"
+					type: "item"
+					item: {
+						id: "endless:infinity_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 10s
+									id: "minecraft:looting"
+								}
+							]
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "62750C4271FA5D25"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "62750C4271FA5D25"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.8.subtitle}"
 			dependencies: [
 				"6194483D67F13589"
 				"43C66B03495D09BE"
 				"466242CC140468C5"
 			]
 			id: "2107B3427EB4A189"
-			tasks: [{
-				id: "3AEECB576BE09A3E"
-				type: "item"
-				item: {
-					id: "endless:infinity_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							lvl: 10s
-							id: "minecraft:fortune"
-						}]
+			tasks: [
+				{
+					id: "3AEECB576BE09A3E"
+					type: "item"
+					item: {
+						id: "endless:infinity_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 10s
+									id: "minecraft:fortune"
+								}
+							]
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "20FE1D385312825E"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "20FE1D385312825E"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: 1.0d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.9.subtitle}"
 			dependencies: [
 				"6194483D67F13589"
 				"466242CC140468C5"
 				"148146B7F9B85714"
 			]
 			id: "4FA890B6A65D03FA"
-			tasks: [{
-				id: "7830A3A7223B35E9"
-				type: "item"
-				item: {
-					id: "endless:infinity_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "7830A3A7223B35E9"
+					type: "item"
+					item: {
+						id: "endless:infinity_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "1C4720CB1BCD39F7"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "1C4720CB1BCD39F7"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: 1.0d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.10.subtitle}"
 			dependencies: [
 				"6194483D67F13589"
 				"466242CC140468C5"
 				"725C0AB272179DF0"
 			]
 			id: "0BF3EE880F49A269"
-			tasks: [{
-				id: "7EA967BDEE20CD82"
-				type: "item"
-				item: {
-					id: "endless:infinity_shovel"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "7EA967BDEE20CD82"
+					type: "item"
+					item: {
+						id: "endless:infinity_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "7E964B95E194A828"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "7E964B95E194A828"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: -1.5d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.11.subtitle}"
 			dependencies: [
 				"6194483D67F13589"
 				"6B1B28DD5A248A08"
@@ -333,76 +377,88 @@
 			]
 			size: 1.5d
 			id: "17237B0B3FDA57E7"
-			tasks: [{
-				id: "455C3ECFFF7DCE9F"
-				type: "item"
-				item: {
-					id: "endless:infinity_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "455C3ECFFF7DCE9F"
+					type: "item"
+					item: {
+						id: "endless:infinity_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "5082FDF2FEF50D9C"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "5082FDF2FEF50D9C"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.12.subtitle}"
 			dependencies: [
 				"6194483D67F13589"
 				"466242CC140468C5"
 			]
 			id: "02AD448B22646859"
-			tasks: [{
-				id: "490B705353D2F7BB"
-				type: "item"
-				item: {
-					id: "endless:infinity_arrow"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "490B705353D2F7BB"
+					type: "item"
+					item: {
+						id: "endless:infinity_arrow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "7BBF21EDFEF25D2A"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "7BBF21EDFEF25D2A"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.13.subtitle}"
 			dependencies: [
 				"6194483D67F13589"
 				"466242CC140468C5"
 			]
 			id: "58EB8479C2FB1CD1"
-			tasks: [{
-				id: "22E43C7647C5AADC"
-				type: "item"
-				item: "endless:infinity_chest"
-			}]
-			rewards: [{
-				id: "12C53F7CF2CE7A49"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "22E43C7647C5AADC"
+					type: "item"
+					item: "endless:infinity_chest"
+				}
+			]
+			rewards: [
+				{
+					id: "12C53F7CF2CE7A49"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: -1.5d
 			shape: "diamond"
-			subtitle: "{chapters.final_objectives.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.final_objectives.quests.14.subtitle}"
 			dependencies: [
 				"466242CC140468C5"
 				"5B8926BB81227600"
@@ -410,22 +466,26 @@
 			]
 			size: 1.5d
 			id: "49B2E3E3E525B601"
-			tasks: [{
-				id: "4673CF8BBFEA3D54"
-				type: "item"
-				item: {
-					id: "endless:infinity_crossbow"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "4673CF8BBFEA3D54"
+					type: "item"
+					item: {
+						id: "endless:infinity_crossbow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "4F28CE26D1FA57BA"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "4F28CE26D1FA57BA"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 	]
 }

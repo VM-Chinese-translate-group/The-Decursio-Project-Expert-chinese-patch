@@ -3,7 +3,7 @@
 	group: "11592D5C828EEDBF"
 	order_index: 3
 	filename: "protection_3"
-	title: "{chapters.protection_3.title}"
+	title: "{ftbquests.chapter.protection_3.title}"
 	icon: {
 		id: "redstone_arsenal:flux_chestplate"
 		Count: 1b
@@ -19,7 +19,7 @@
 			height: 1.0d
 			rotation: 0.0d
 			image: "structurize:textures/gui/buildtool/plus_red.png"
-			hover: ["Sustaining Units"]
+			hover: ["{ftbquests.chapter.protection_3.images.0.hover.0}"]
 			click: ""
 			dev: false
 			corner: false
@@ -31,7 +31,7 @@
 			height: 1.0d
 			rotation: 0.0d
 			image: "minecraft:textures/mob_effect/speed.png"
-			hover: ["Locomotion Units"]
+			hover: ["{ftbquests.chapter.protection_3.images.1.hover.0}"]
 			click: ""
 			dev: false
 			corner: false
@@ -43,7 +43,7 @@
 			height: 1.0d
 			rotation: 0.0d
 			image: "cofh_core:textures/mob_effect/wrenched.png"
-			hover: ["Assistive Units"]
+			hover: ["{ftbquests.chapter.protection_3.images.2.hover.0}"]
 			click: ""
 			dev: false
 			corner: false
@@ -55,7 +55,7 @@
 			height: 1.0d
 			rotation: 0.0d
 			image: "thermal:textures/item/lightning_charge.png"
-			hover: ["Energy Units"]
+			hover: ["{ftbquests.chapter.protection_3.images.3.hover.0}"]
 			click: ""
 			dev: false
 			corner: false
@@ -67,7 +67,7 @@
 			height: 1.0d
 			rotation: 0.0d
 			image: "minecraft:textures/particle/bubble.png"
-			hover: ["Breathing Units"]
+			hover: ["{ftbquests.chapter.protection_3.images.4.hover.0}"]
 			click: ""
 			dev: false
 			corner: false
@@ -79,7 +79,7 @@
 			height: 1.0d
 			rotation: 0.0d
 			image: "ftblibrary:textures/icons/shield.png"
-			hover: ["Shielding Units"]
+			hover: ["{ftbquests.chapter.protection_3.images.5.hover.0}"]
 			click: ""
 			dev: false
 			corner: false
@@ -87,7 +87,7 @@
 	]
 	quests: [
 		{
-			title: "{chapters.protection_3.quests1.title}"
+			title: "{ftbquests.chapter.protection_3.quests.0.title}"
 			icon: {
 				id: "botania:elementium_chestplate"
 				Count: 1b
@@ -98,7 +98,7 @@
 			x: 0.0d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.0.subtitle}"
 			dependencies: ["12BEA0308056A4B6"]
 			id: "6E5C6826C4367E69"
 			tasks: [
@@ -149,7 +149,7 @@
 			]
 		}
 		{
-			title: "{chapters.protection_3.quests2.title}"
+			title: "{ftbquests.chapter.protection_3.quests.1.title}"
 			icon: {
 				id: "ars_nouveau:archmage_robes"
 				Count: 1b
@@ -160,7 +160,7 @@
 			x: 2.0d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.1.subtitle}"
 			dependencies: [
 				"6E5C6826C4367E69"
 				"02396D546396B926"
@@ -214,7 +214,7 @@
 			]
 		}
 		{
-			title: "{chapters.protection_3.quests3.title}"
+			title: "{ftbquests.chapter.protection_3.quests.2.title}"
 			icon: {
 				id: "mythicbotany:alfsteel_chestplate"
 				Count: 1b
@@ -225,7 +225,7 @@
 			x: 1.0d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.2.subtitle}"
 			dependencies: ["01C35754A9AEF761"]
 			id: "40E06CD2FC84DD80"
 			tasks: [
@@ -274,14 +274,16 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "31F75C4C4736AB0B"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			rewards: [
+				{
+					id: "31F75C4C4736AB0B"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
-			title: "{chapters.protection_3.quests4.title}"
+			title: "{ftbquests.chapter.protection_3.quests.3.title}"
 			icon: {
 				id: "mekanism:mekasuit_bodyarmor"
 				Count: 1b
@@ -292,7 +294,7 @@
 			x: 1.0d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.3.subtitle}"
 			dependencies: [
 				"40623128C431038D"
 				"0FE34F737BC52F81"
@@ -345,14 +347,16 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "072C3C1D52F80479"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			rewards: [
+				{
+					id: "072C3C1D52F80479"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
-			title: "{chapters.protection_3.quests5.title}"
+			title: "{ftbquests.chapter.protection_3.quests.4.title}"
 			icon: {
 				id: "redstone_arsenal:flux_chestplate"
 				Count: 1b
@@ -361,7 +365,7 @@
 			x: 1.0d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.4.subtitle}"
 			dependencies: [
 				"1FED40C0BDD7E015"
 				"2EB2C0CB138E095B"
@@ -405,251 +409,289 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "77835B5EAE724CFC"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			rewards: [
+				{
+					id: "77835B5EAE724CFC"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 3.0d
 			shape: "heart"
-			subtitle: "{chapters.protection_3.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.5.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "32487003AE77BD7F"
-			tasks: [{
-				id: "72694F8CB5BA7507"
-				type: "item"
-				item: "mekanism:module_nutritional_injection_unit"
-			}]
+			tasks: [
+				{
+					id: "72694F8CB5BA7507"
+					type: "item"
+					item: "mekanism:module_nutritional_injection_unit"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.6.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "5AA9F1A9612B9900"
-			tasks: [{
-				id: "2FAFE3CB7D90C9BA"
-				type: "item"
-				item: "mekanism:module_vision_enhancement_unit"
-			}]
+			tasks: [
+				{
+					id: "2FAFE3CB7D90C9BA"
+					type: "item"
+					item: "mekanism:module_vision_enhancement_unit"
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: 7.5d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.7.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "5E01AE177953C0B3"
-			tasks: [{
-				id: "642C03D4AD1751E3"
-				type: "item"
-				item: "mekanism:module_solar_recharging_unit"
-			}]
+			tasks: [
+				{
+					id: "642C03D4AD1751E3"
+					type: "item"
+					item: "mekanism:module_solar_recharging_unit"
+				}
+			]
 		}
 		{
 			x: -1.0d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.8.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "7979B183ADE1669E"
-			tasks: [{
-				id: "29305838301A74E2"
-				type: "item"
-				item: "mekanism:module_hydraulic_propulsion_unit"
-			}]
+			tasks: [
+				{
+					id: "29305838301A74E2"
+					type: "item"
+					item: "mekanism:module_hydraulic_propulsion_unit"
+				}
+			]
 		}
 		{
 			x: -1.0d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.9.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "207610BFFC460B22"
-			tasks: [{
-				id: "2A288B8FBC575F80"
-				type: "item"
-				item: "mekanism:module_locomotive_boosting_unit"
-			}]
+			tasks: [
+				{
+					id: "2A288B8FBC575F80"
+					type: "item"
+					item: "mekanism:module_locomotive_boosting_unit"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.10.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "458042FF669840D4"
-			tasks: [{
-				id: "661F524A16CC75EA"
-				type: "item"
-				item: "mekanism:module_dosimeter_unit"
-			}]
+			tasks: [
+				{
+					id: "661F524A16CC75EA"
+					type: "item"
+					item: "mekanism:module_dosimeter_unit"
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.11.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "2CD21A1B3E0FDA3A"
-			tasks: [{
-				id: "67F53B3F3052C0E9"
-				type: "item"
-				item: "mekanism:module_electrolytic_breathing_unit"
-			}]
+			tasks: [
+				{
+					id: "67F53B3F3052C0E9"
+					type: "item"
+					item: "mekanism:module_electrolytic_breathing_unit"
+				}
+			]
 		}
 		{
 			x: -1.0d
 			y: 3.0d
 			shape: "heart"
-			subtitle: "{chapters.protection_3.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.12.subtitle}"
 			dependencies: ["36367A18678E09A3"]
 			id: "3E19FCB680E818E7"
-			tasks: [{
-				id: "2DBBD318829E4773"
-				type: "item"
-				item: "mekanism:module_gravitational_modulating_unit"
-			}]
-			rewards: [{
-				id: "5E499B7031EF5EB5"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "2DBBD318829E4773"
+					type: "item"
+					item: "mekanism:module_gravitational_modulating_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "5E499B7031EF5EB5"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
 			x: 2.5d
 			y: 7.5d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.13.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "7B2C682EB22C930F"
-			tasks: [{
-				id: "781AF6B276D4E965"
-				type: "item"
-				item: "mekanism:module_charge_distribution_unit"
-			}]
+			tasks: [
+				{
+					id: "781AF6B276D4E965"
+					type: "item"
+					item: "mekanism:module_charge_distribution_unit"
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: 7.5d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.14.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "4A77B2459F346D6C"
-			tasks: [{
-				id: "69BDB6B68B411248"
-				type: "item"
-				item: "mekanism:module_energy_unit"
-			}]
+			tasks: [
+				{
+					id: "69BDB6B68B411248"
+					type: "item"
+					item: "mekanism:module_energy_unit"
+				}
+			]
 		}
 		{
 			x: -3.5d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.15.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "4D8B7E867AE8FA09"
-			tasks: [{
-				id: "6B329528C1BC6F2F"
-				type: "item"
-				item: "mekanism:module_radiation_shielding_unit"
-			}]
+			tasks: [
+				{
+					id: "6B329528C1BC6F2F"
+					type: "item"
+					item: "mekanism:module_radiation_shielding_unit"
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests17.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.16.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "550C59DD937B6C70"
-			tasks: [{
-				id: "4EA0289C7D7A0D0D"
-				type: "item"
-				item: "mekanism:module_magnetic_attraction_unit"
-			}]
+			tasks: [
+				{
+					id: "4EA0289C7D7A0D0D"
+					type: "item"
+					item: "mekanism:module_magnetic_attraction_unit"
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 2.5d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests18.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.17.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "2A425C7E77B92D50"
-			tasks: [{
-				id: "7B93434D13853640"
-				type: "item"
-				item: "mekanism:module_inhalation_purification_unit"
-			}]
+			tasks: [
+				{
+					id: "7B93434D13853640"
+					type: "item"
+					item: "mekanism:module_inhalation_purification_unit"
+				}
+			]
 		}
 		{
 			x: -3.5d
 			y: 2.5d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests19.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.18.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "775F25A88BFF1F4F"
-			tasks: [{
-				id: "68A6B13E08B3C148"
-				type: "item"
-				item: "mekanism:module_laser_dissipation_unit"
-			}]
+			tasks: [
+				{
+					id: "68A6B13E08B3C148"
+					type: "item"
+					item: "mekanism:module_laser_dissipation_unit"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests20.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.19.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "05F086FA4F9F2EED"
-			tasks: [{
-				id: "321459D83FD38963"
-				type: "item"
-				item: "mekanism:module_geiger_unit"
-			}]
+			tasks: [
+				{
+					id: "321459D83FD38963"
+					type: "item"
+					item: "mekanism:module_geiger_unit"
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests21.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.20.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "0E64933E18990331"
-			tasks: [{
-				id: "61BC44A87A62176C"
-				type: "item"
-				item: "mekanism:module_frost_walker_unit"
-			}]
+			tasks: [
+				{
+					id: "61BC44A87A62176C"
+					type: "item"
+					item: "mekanism:module_frost_walker_unit"
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: 7.5d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests22.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.21.subtitle}"
 			dependencies: ["20066A1C19E42D20"]
 			id: "0C5550FDF66EF90D"
-			tasks: [{
-				id: "45E9C2F5FAB1AA97"
-				type: "item"
-				item: "mekanismgenerators:module_geothermal_generator_unit"
-			}]
+			tasks: [
+				{
+					id: "45E9C2F5FAB1AA97"
+					type: "item"
+					item: "mekanismgenerators:module_geothermal_generator_unit"
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_3.quests23.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_3.quests.22.subtitle}"
 			description: [
-				"{chapters.protection_3.quests23.description1}"
+				"{ftbquests.chapter.protection_3.quests.22.description.0}"
 				""
-				"{chapters.protection_3.quests23.description2}"
+				"{ftbquests.chapter.protection_3.quests.22.description.2}"
 				""
-				"{chapters.protection_3.quests23.description3}"
+				"{ftbquests.chapter.protection_3.quests.22.description.4}"
 				""
-				"{chapters.protection_3.quests23.description4}"
+				"{ftbquests.chapter.protection_3.quests.22.description.6}"
 			]
 			dependencies: [
 				"1FED40C0BDD7E015"
@@ -657,20 +699,24 @@
 				"420F4418F0553A1B"
 			]
 			id: "32D1A3181A903103"
-			tasks: [{
-				id: "71C4231107CD8F48"
-				type: "item"
-				item: {
-					id: "redstone_arsenal:flux_elytra"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "71C4231107CD8F48"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_elytra"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "7698C4B3B600D18B"
-				type: "item"
-				item: "redstone_arsenal:flux_controller"
-			}]
+			]
+			rewards: [
+				{
+					id: "7698C4B3B600D18B"
+					type: "item"
+					item: "redstone_arsenal:flux_controller"
+				}
+			]
 		}
 	]
 }
