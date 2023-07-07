@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Decursio Essentials",
+      "bold": true,
+      "color": "dark_purple"
+    },
+    "tip": {
+      "text": "Use '/ftbbackups start' to manually start a backup before taking a leap of faith!"
+    }
+  }
