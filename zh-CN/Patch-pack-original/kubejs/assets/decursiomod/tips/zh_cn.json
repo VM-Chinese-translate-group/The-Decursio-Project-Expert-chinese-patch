@@ -1,10 +1,10 @@
 {
-  "title": {
-    "text": "Decursio Essentials",
-    "bold": true,
-    "color": "dark_purple"
-  },
-  "tip": {
-    "text": "There are lots of Alcohol types in this pack! When consumed, each one of them, will provide different benefits. For example, Vodka will provide Resistance."
-  }
+    "title": {
+        "text": "Decursio Essentials",
+        "bold": true,
+        "color": "dark_purple"
+    },
+    "tip": {
+        "text": "Make some Cider with Water and Apples. It will give you 45 seconds of Regeneration."
+    }
 }
