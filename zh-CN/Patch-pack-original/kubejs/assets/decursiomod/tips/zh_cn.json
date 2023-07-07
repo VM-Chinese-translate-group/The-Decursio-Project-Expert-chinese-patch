@@ -1,10 +1,10 @@
 {
-  "title": {
-    "text": "Decursio Essentials",
-    "bold": true,
-    "color": "dark_purple"
-  },
-  "tip": {
-    "text": "Use the Sanguine Praetor Armor to obtain access to the Blood Aura! It is a nice rage mode-like Feature."
-  }
+    "title": {
+        "text": "Decursio Essentials",
+        "bold": true,
+        "color": "dark_purple"
+    },
+    "tip": {
+        "text": "Always keep a Shield with you. Without one, your chances of dying will be high."
+    }
 }
