@@ -1,10 +1,10 @@
 {
-    "title": {
-        "text": "Decursio Essentials",
-        "bold": true,
-        "color": "dark_purple"
-    },
-    "tip": {
-        "text": "Use '/ftbbackups start' to manually start a backup before taking a leap of faith!"
-    }
+  "title": {
+    "text": "Decursio Essentials",
+    "bold": true,
+    "color": "dark_purple"
+  },
+  "tip": {
+    "text": "Regeneration is a major problem in this pack. Dealing with it will be a challenge."
+  }
 }
