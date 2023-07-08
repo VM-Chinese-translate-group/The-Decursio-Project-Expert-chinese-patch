@@ -1,10 +1,10 @@
 {
-  "title": {
-    "text": "Decursio Essentials",
-    "bold": true,
-    "color": "dark_purple"
-  },
-  "tip": {
-    "text": "Fire isn`t powerful enough anymore to open a Nether Portal, try using the Reaper`s Scythe."
-  }
+    "title": {
+        "text": "Decursio Essentials",
+        "bold": true,
+        "color": "dark_purple"
+    },
+    "tip": {
+        "text": "Use '/ftbbackups start' to manually start a backup before taking a leap of faith!"
+    }
 }
