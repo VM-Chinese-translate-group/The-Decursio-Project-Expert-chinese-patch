@@ -1,10 +1,10 @@
 {
-    "title": {
-        "text": "Decursio Essentials",
-        "bold": true,
-        "color": "dark_purple"
-    },
-    "tip": {
-        "text": "There's no regular Hoppers in the 1st Age, however, you can obtain Wooden Hoppers."
-    }
+  "title": {
+    "text": "Decursio Essentials",
+    "bold": true,
+    "color": "dark_purple"
+  },
+  "tip": {
+    "text": "Fire isn`t powerful enough anymore to open a Nether Portal, try using the Reaper`s Scythe."
+  }
 }
