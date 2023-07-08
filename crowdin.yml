@@ -3,6 +3,7 @@ files:
     ignore:
       - /Patch-pack-original/kubejs/assets/kubejs/textures
       - /Patch-pack-original/kubejs/assets/alexsmobs
+      - /Patch-pack-original/kubejs/assets/decursiomod/tips
     translation: '%original_path%/zh_cn.json'
   - source: /Patch-pack-original/config
     ignore:
