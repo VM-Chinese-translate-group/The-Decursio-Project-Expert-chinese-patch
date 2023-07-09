@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Decursio Essentials",
+      "bold": true,
+      "color": "dark_purple"
+    },
+    "tip": {
+      "text": "在信仰之跃前使用“/ftbbackups start”来手动备份！"
+    }
+  }
