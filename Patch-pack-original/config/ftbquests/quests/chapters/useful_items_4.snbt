@@ -3,7 +3,7 @@
 	group: "08EB5BB8DBF33B74"
 	order_index: 5
 	filename: "useful_items_4"
-	title: "{chapters.useful_items_4.title}"
+	title: "{ftbquests.chapter.useful_items_4.title}"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -11,1268 +11,1410 @@
 			x: 5.0d
 			y: 2.5d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.0.subtitle}"
 			dependencies: ["200CAD7C99709A33"]
 			id: "4FEC58137D6587D5"
-			tasks: [{
-				id: "72452D0F9B80AE05"
-				type: "item"
-				item: "projecte:dm_pedestal"
-			}]
+			tasks: [
+				{
+					id: "72452D0F9B80AE05"
+					type: "item"
+					item: "projecte:dm_pedestal"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: 2.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.1.subtitle}"
 			dependencies: ["62B77E823E7C96CE"]
 			id: "6D5D7BC9AEBFBDAC"
-			tasks: [{
-				id: "646DA52381BC002B"
-				type: "item"
-				item: "projecte:interdiction_torch"
-			}]
+			tasks: [
+				{
+					id: "646DA52381BC002B"
+					type: "item"
+					item: "projecte:interdiction_torch"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: 2.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.2.subtitle}"
 			dependencies: ["75EB00BEED4C74E3"]
 			id: "641C8CCE4D66897F"
-			tasks: [{
-				id: "322CD48D1325E30D"
-				type: "item"
-				item: {
-					id: "projecte:repair_talisman"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "322CD48D1325E30D"
+					type: "item"
+					item: {
+						id: "projecte:repair_talisman"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 2.5d
 			y: -3.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.3.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests4.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.3.description.0}"
 				""
-				"{chapters.useful_items_4.quests4.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.3.description.2}"
 				""
-				"{chapters.useful_items_4.quests4.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.3.description.4}"
 				""
-				"{chapters.useful_items_4.quests4.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.3.description.6}"
 			]
 			dependencies: ["43F037B226EDCF07"]
 			id: "46317A542329F356"
-			tasks: [{
-				id: "11CE691186462944"
-				type: "item"
-				item: {
-					id: "projecte:black_hole_band"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "11CE691186462944"
+					type: "item"
+					item: {
+						id: "projecte:black_hole_band"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 7.5d
 			y: -3.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.4.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests5.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.4.description.0}"
 				""
-				"{chapters.useful_items_4.quests5.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.4.description.2}"
 				""
-				"{chapters.useful_items_4.quests5.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.4.description.4}"
 			]
 			dependencies: ["43F037B226EDCF07"]
 			id: "414B03131E19C58D"
-			tasks: [{
-				id: "0562D0D1872E2BAC"
-				type: "item"
-				item: {
-					id: "projecte:archangel_smite"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "0562D0D1872E2BAC"
+					type: "item"
+					item: {
+						id: "projecte:archangel_smite"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 7.5d
 			y: -4.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.5.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests6.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.5.description.0}"
 				""
-				"{chapters.useful_items_4.quests6.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.5.description.2}"
 				""
-				"{chapters.useful_items_4.quests6.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.5.description.4}"
 				""
-				"{chapters.useful_items_4.quests6.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.5.description.6}"
 				""
-				"{chapters.useful_items_4.quests6.description5}"
+				"{ftbquests.chapter.useful_items_4.quests.5.description.8}"
 			]
 			dependencies: ["43F037B226EDCF07"]
 			id: "50272D9E075C87A5"
-			tasks: [{
-				id: "338D878E5BCC8585"
-				type: "item"
-				item: {
-					id: "projecte:harvest_goddess_band"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "338D878E5BCC8585"
+					type: "item"
+					item: {
+						id: "projecte:harvest_goddess_band"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 3.5d
 			y: -5.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.6.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests7.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.6.description.0}"
 				""
-				"{chapters.useful_items_4.quests7.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.6.description.2}"
 				""
-				"{chapters.useful_items_4.quests7.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.6.description.4}"
 				""
-				"{chapters.useful_items_4.quests7.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.6.description.6}"
 			]
 			dependencies: ["43F037B226EDCF07"]
 			id: "5075EB501B33F0DD"
-			tasks: [{
-				id: "04F84C59EA00FB27"
-				type: "item"
-				item: {
-					id: "projecte:ignition_ring"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "04F84C59EA00FB27"
+					type: "item"
+					item: {
+						id: "projecte:ignition_ring"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 6.5d
 			y: -5.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.7.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests8.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.7.description.0}"
 				""
-				"{chapters.useful_items_4.quests8.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.7.description.2}"
 				""
-				"{chapters.useful_items_4.quests8.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.7.description.4}"
 				""
-				"{chapters.useful_items_4.quests8.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.7.description.6}"
 			]
 			dependencies: ["43F037B226EDCF07"]
 			id: "11C64D9669315DFF"
-			tasks: [{
-				id: "7AE8E9DB86D1293C"
-				type: "item"
-				item: {
-					id: "projecte:zero_ring"
-					Count: 1b
-					tag: { }
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "7AE8E9DB86D1293C"
+					type: "item"
+					item: {
+						id: "projecte:zero_ring"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 2.5d
 			y: -4.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.8.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests9.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.8.description.0}"
 				""
-				"{chapters.useful_items_4.quests9.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.8.description.2}"
 				""
-				"{chapters.useful_items_4.quests9.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.8.description.4}"
 				""
-				"{chapters.useful_items_4.quests9.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.8.description.6}"
 				""
-				"{chapters.useful_items_4.quests9.description5}"
+				"{ftbquests.chapter.useful_items_4.quests.8.description.8}"
 			]
 			dependencies: ["43F037B226EDCF07"]
 			id: "69F5CABBF5083F00"
-			tasks: [{
-				id: "552FA6447926E771"
-				type: "item"
-				item: {
-					id: "projecte:swiftwolf_rending_gale"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "552FA6447926E771"
+					type: "item"
+					item: {
+						id: "projecte:swiftwolf_rending_gale"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 3.5d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.9.subtitle}"
 			dependencies: ["012BA0505E1EEA5D"]
 			id: "6F0CCBB8640CB3F6"
-			tasks: [{
-				id: "4B908BD91DADEC74"
-				type: "item"
-				item: {
-					id: "projecte:body_stone"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "4B908BD91DADEC74"
+					type: "item"
+					item: {
+						id: "projecte:body_stone"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 6.5d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.10.subtitle}"
 			dependencies: ["012BA0505E1EEA5D"]
 			id: "04230EBC75FCF4F8"
-			tasks: [{
-				id: "42A7FE97C03A5BFF"
-				type: "item"
-				item: {
-					id: "projecte:soul_stone"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "42A7FE97C03A5BFF"
+					type: "item"
+					item: {
+						id: "projecte:soul_stone"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.11.subtitle}"
 			dependencies: ["012BA0505E1EEA5D"]
 			id: "4DB2ADC122FD0B66"
-			tasks: [{
-				id: "6D689DACA43737E2"
-				type: "item"
-				item: {
-					id: "projecte:mind_stone"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "6D689DACA43737E2"
+					type: "item"
+					item: {
+						id: "projecte:mind_stone"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
 			y: -0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.12.subtitle}"
 			dependencies: [
 				"6F0CCBB8640CB3F6"
 				"04230EBC75FCF4F8"
 			]
 			id: "2535A1666F34DCB3"
-			tasks: [{
-				id: "085D9071F57B4AEE"
-				type: "item"
-				item: {
-					id: "projecte:life_stone"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "085D9071F57B4AEE"
+					type: "item"
+					item: {
+						id: "projecte:life_stone"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 2.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.13.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests14.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.13.description.0}"
 				""
-				"{chapters.useful_items_4.quests14.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.13.description.2}"
 				""
-				"{chapters.useful_items_4.quests14.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.13.description.4}"
 				""
-				"{chapters.useful_items_4.quests14.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.13.description.6}"
 				""
-				"{chapters.useful_items_4.quests14.description5}"
+				"{ftbquests.chapter.useful_items_4.quests.13.description.8}"
 				""
-				"{chapters.useful_items_4.quests14.description6}"
+				"{ftbquests.chapter.useful_items_4.quests.13.description.10}"
 				""
-				"{chapters.useful_items_4.quests14.description7}"
+				"{ftbquests.chapter.useful_items_4.quests.13.description.12}"
 			]
 			dependencies: ["200CAD7C99709A33"]
 			id: "1DDDA07FEC7F4715"
-			tasks: [{
-				id: "2D2C5B414F3A057B"
-				type: "item"
-				item: {
-					id: "projecte:volcanite_amulet"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "2D2C5B414F3A057B"
+					type: "item"
+					item: {
+						id: "projecte:volcanite_amulet"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 7.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.14.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests15.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.14.description.0}"
 				""
-				"{chapters.useful_items_4.quests15.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.14.description.2}"
 				""
-				"{chapters.useful_items_4.quests15.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.14.description.4}"
 				""
-				"{chapters.useful_items_4.quests15.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.14.description.6}"
 				""
-				"{chapters.useful_items_4.quests15.description5}"
+				"{ftbquests.chapter.useful_items_4.quests.14.description.8}"
 			]
 			dependencies: ["200CAD7C99709A33"]
 			id: "00B3F9F598B577C3"
-			tasks: [{
-				id: "4E92655BF0D3FE36"
-				type: "item"
-				item: {
-					id: "projecte:evertide_amulet"
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "4E92655BF0D3FE36"
+					type: "item"
+					item: {
+						id: "projecte:evertide_amulet"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
 			y: -5.5d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.15.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests16.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.15.description.0}"
 				""
-				"{chapters.useful_items_4.quests16.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.15.description.2}"
 				""
-				"{chapters.useful_items_4.quests16.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.15.description.4}"
 			]
 			dependencies: ["200CAD7C99709A33"]
 			id: "2DFC47EA102983DF"
-			tasks: [{
-				id: "3075B959D012D9A6"
-				type: "item"
-				item: {
-					id: "projecte:watch_of_flowing_time"
-					Count: 1b
-					tag: { }
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "3075B959D012D9A6"
+					type: "item"
+					item: {
+						id: "projecte:watch_of_flowing_time"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "5E5DAFE7553D045A"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "5E5DAFE7553D045A"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: 1.5d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests17.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.16.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests17.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.16.description.0}"
 				""
-				"{chapters.useful_items_4.quests17.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.16.description.2}"
 				""
-				"{chapters.useful_items_4.quests17.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.16.description.4}"
 				""
-				"{chapters.useful_items_4.quests17.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.16.description.6}"
 				""
-				"{chapters.useful_items_4.quests17.description5}"
+				"{ftbquests.chapter.useful_items_4.quests.16.description.8}"
 				""
-				"{chapters.useful_items_4.quests17.description6}"
+				"{ftbquests.chapter.useful_items_4.quests.16.description.10}"
 				""
-				"{chapters.useful_items_4.quests17.description7}"
+				"{ftbquests.chapter.useful_items_4.quests.16.description.12}"
 			]
 			dependencies: ["012BA0505E1EEA5D"]
 			id: "3B4062916B61E126"
-			tasks: [{
-				id: "6C62EB43315EB629"
-				type: "item"
-				item: {
-					id: "projecte:mercurial_eye"
-					Count: 1b
-					tag: { }
-					ForgeCaps: {
-						Parent: {
-							EyeInventory: [ ]
+			tasks: [
+				{
+					id: "6C62EB43315EB629"
+					type: "item"
+					item: {
+						id: "projecte:mercurial_eye"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								EyeInventory: [ ]
+							}
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 6.0d
 			y: 1.5d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests18.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.17.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests18.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.17.description.0}"
 				""
-				"{chapters.useful_items_4.quests18.description2}"
-				"{chapters.useful_items_4.quests18.description3}"
-				"{chapters.useful_items_4.quests18.description4}"
-				"{chapters.useful_items_4.quests18.description5}"
+				"{ftbquests.chapter.useful_items_4.quests.17.description.2}"
+				"{ftbquests.chapter.useful_items_4.quests.17.description.3}"
+				"{ftbquests.chapter.useful_items_4.quests.17.description.4}"
+				"{ftbquests.chapter.useful_items_4.quests.17.description.5}"
 				""
-				"{chapters.useful_items_4.quests18.description6}"
+				"{ftbquests.chapter.useful_items_4.quests.17.description.7}"
 			]
 			dependencies: ["200CAD7C99709A33"]
 			id: "726A40DB7C9D5D74"
-			tasks: [{
-				id: "2FFAD0AB4FB09C23"
-				type: "item"
-				item: {
-					id: "projecte:hyperkinetic_lens"
-					Count: 1b
-					tag: { }
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "2FFAD0AB4FB09C23"
+					type: "item"
+					item: {
+						id: "projecte:hyperkinetic_lens"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
 			y: -3.0d
-			subtitle: "{chapters.useful_items_4.quests19.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.18.subtitle}"
 			dependencies: ["4AF832B32DEBFBD1"]
 			id: "43F037B226EDCF07"
-			tasks: [{
-				id: "1B0D6745DBFCEC72"
-				type: "item"
-				item: "projecte:iron_band"
-			}]
-			rewards: [{
-				id: "6798D85D3F0CD33B"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "1B0D6745DBFCEC72"
+					type: "item"
+					item: "projecte:iron_band"
+				}
+			]
+			rewards: [
+				{
+					id: "6798D85D3F0CD33B"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 4.5d
 			y: -7.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests20.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.19.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests20.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.19.description.0}"
 				""
-				"{chapters.useful_items_4.quests20.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.19.description.2}"
 				""
-				"{chapters.useful_items_4.quests20.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.19.description.4}"
 				""
-				"{chapters.useful_items_4.quests20.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.19.description.6}"
 			]
 			dependencies: ["2EDEE17460BCCE94"]
 			id: "435999CF64F9D814"
-			tasks: [{
-				id: "10E972EC54C06BD1"
-				type: "item"
-				item: {
-					id: "draconicevolution:advanced_dislocator"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "10E972EC54C06BD1"
+					type: "item"
+					item: {
+						id: "draconicevolution:advanced_dislocator"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.5d
 			y: -7.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests21.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.20.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests21.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.20.description.0}"
 				""
-				"{chapters.useful_items_4.quests21.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.20.description.2}"
 				""
-				"{chapters.useful_items_4.quests21.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.20.description.4}"
 			]
 			dependencies: [
 				"212CBE2DA076A4E3"
 				"4C052365A9BA0155"
 			]
 			id: "542BB9CDA30B43BC"
-			tasks: [{
-				id: "2D7B67ADAF1E5CDC"
-				type: "item"
-				item: "draconicevolution:energy_transfuser"
-			}]
+			tasks: [
+				{
+					id: "2D7B67ADAF1E5CDC"
+					type: "item"
+					item: "draconicevolution:energy_transfuser"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -8.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests22.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.21.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests22.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.21.description.0}"
 				""
-				"{chapters.useful_items_4.quests22.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.21.description.2}"
 				""
-				"{chapters.useful_items_4.quests22.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.21.description.4}"
 				""
-				"{chapters.useful_items_4.quests22.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.21.description.6}"
 			]
 			dependencies: ["212CBE2DA076A4E3"]
 			id: "2391C3D4674606F1"
-			tasks: [{
-				id: "469CBB5944543D62"
-				type: "item"
-				item: "draconicevolution:grinder"
-			}]
+			tasks: [
+				{
+					id: "469CBB5944543D62"
+					type: "item"
+					item: "draconicevolution:grinder"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: -10.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests23.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.22.subtitle}"
 			dependencies: ["25AF965E6006CD4B"]
 			id: "201A02F66C39DFB9"
-			tasks: [{
-				id: "5395488E962B185B"
-				type: "item"
-				item: "draconicevolution:draconic_wireless_crystal"
-			}]
+			tasks: [
+				{
+					id: "5395488E962B185B"
+					type: "item"
+					item: "draconicevolution:draconic_wireless_crystal"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests24.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.23.title}"
 			x: 5.0d
 			y: -10.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests24.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.23.subtitle}"
 			dependencies: ["44EF0C161C89510B"]
 			id: "25AF965E6006CD4B"
-			tasks: [{
-				id: "0ADA3A965AC89248"
-				type: "item"
-				item: "draconicevolution:draconic_relay_crystal"
-			}]
+			tasks: [
+				{
+					id: "0ADA3A965AC89248"
+					type: "item"
+					item: "draconicevolution:draconic_relay_crystal"
+				}
+			]
 		}
 		{
 			x: 3.5d
 			y: -10.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests25.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.24.subtitle}"
 			dependencies: ["25AF965E6006CD4B"]
 			id: "0D0CC85BA2CECC91"
-			tasks: [{
-				id: "6EBF6F85D1C0B321"
-				type: "item"
-				item: "draconicevolution:draconic_io_crystal"
-			}]
+			tasks: [
+				{
+					id: "6EBF6F85D1C0B321"
+					type: "item"
+					item: "draconicevolution:draconic_io_crystal"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: -12.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests26.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.25.subtitle}"
 			dependencies: ["6E667B32C7CAAB8D"]
 			id: "16F3653DB9515403"
-			tasks: [{
-				id: "1E870BCB00A5BE8D"
-				type: "item"
-				item: "draconicevolution:basic_wireless_crystal"
-			}]
+			tasks: [
+				{
+					id: "1E870BCB00A5BE8D"
+					type: "item"
+					item: "draconicevolution:basic_wireless_crystal"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests27.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.26.title}"
 			x: 5.0d
 			y: -12.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests27.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.26.subtitle}"
 			dependencies: ["212CBE2DA076A4E3"]
 			id: "6E667B32C7CAAB8D"
-			tasks: [{
-				id: "753458041000A8C6"
-				type: "item"
-				item: "draconicevolution:basic_relay_crystal"
-			}]
+			tasks: [
+				{
+					id: "753458041000A8C6"
+					type: "item"
+					item: "draconicevolution:basic_relay_crystal"
+				}
+			]
 		}
 		{
 			x: 3.5d
 			y: -12.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests28.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.27.subtitle}"
 			dependencies: ["6E667B32C7CAAB8D"]
 			id: "46BE272264650B57"
-			tasks: [{
-				id: "717F600F7D7E4631"
-				type: "item"
-				item: "draconicevolution:basic_io_crystal"
-			}]
+			tasks: [
+				{
+					id: "717F600F7D7E4631"
+					type: "item"
+					item: "draconicevolution:basic_io_crystal"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: -11.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests29.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.28.subtitle}"
 			dependencies: ["5925257C9E9A2BA7"]
 			id: "7B6EC25C30BBCAFF"
-			tasks: [{
-				id: "4905FE28A0111080"
-				type: "item"
-				item: "draconicevolution:wyvern_wireless_crystal"
-			}]
+			tasks: [
+				{
+					id: "4905FE28A0111080"
+					type: "item"
+					item: "draconicevolution:wyvern_wireless_crystal"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests30.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.29.title}"
 			x: 5.0d
 			y: -11.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests30.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.29.subtitle}"
 			dependencies: ["408B21AB9E52F723"]
 			id: "5925257C9E9A2BA7"
-			tasks: [{
-				id: "7308E6814793989B"
-				type: "item"
-				item: "draconicevolution:wyvern_relay_crystal"
-			}]
+			tasks: [
+				{
+					id: "7308E6814793989B"
+					type: "item"
+					item: "draconicevolution:wyvern_relay_crystal"
+				}
+			]
 		}
 		{
 			x: 3.5d
 			y: -11.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests31.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.30.subtitle}"
 			dependencies: ["5925257C9E9A2BA7"]
 			id: "1A8DA7E162890224"
-			tasks: [{
-				id: "025E221415563620"
-				type: "item"
-				item: "draconicevolution:wyvern_io_crystal"
-			}]
+			tasks: [
+				{
+					id: "025E221415563620"
+					type: "item"
+					item: "draconicevolution:wyvern_io_crystal"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: -30.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests32.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.31.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "5580DEDE7BBA70DE"
-			tasks: [{
-				id: "00788E5A1B2A1A93"
-				type: "item"
-				item: "industrialforegoing:animal_rancher"
-			}]
+			tasks: [
+				{
+					id: "00788E5A1B2A1A93"
+					type: "item"
+					item: "industrialforegoing:animal_rancher"
+				}
+			]
 		}
 		{
 			x: 4.5d
 			y: -22.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests33.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.32.subtitle}"
 			dependencies: ["1D781547D59DC885"]
 			id: "1BA8BB5B2E7E4A87"
-			tasks: [{
-				id: "27D26A5BCB1F2251"
-				type: "item"
-				item: "industrialforegoing:meat_feeder"
-			}]
+			tasks: [
+				{
+					id: "27D26A5BCB1F2251"
+					type: "item"
+					item: "industrialforegoing:meat_feeder"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests34.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.33.title}"
 			x: 2.0d
 			y: -15.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests34.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.33.subtitle}"
 			dependencies: ["54DE4D5E044B2FA3"]
 			id: "5CA8FFAC1F32FBFE"
-			tasks: [{
-				id: "47A01CBDD35B219E"
-				type: "item"
-				item: "powah:ender_gate_starter"
-			}]
+			tasks: [
+				{
+					id: "47A01CBDD35B219E"
+					type: "item"
+					item: "powah:ender_gate_starter"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests35.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.34.title}"
 			x: 2.0d
 			y: -16.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests35.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.34.subtitle}"
 			dependencies: ["54DE4D5E044B2FA3"]
 			id: "63C3D9C799F23964"
-			tasks: [{
-				id: "6531F05773BFC4F4"
-				type: "item"
-				item: "powah:ender_cell_starter"
-			}]
+			tasks: [
+				{
+					id: "6531F05773BFC4F4"
+					type: "item"
+					item: "powah:ender_cell_starter"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests36.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.35.title}"
 			x: 2.0d
 			y: -19.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests36.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.35.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["54DE4D5E044B2FA3"]
 			id: "752AB0886AC78902"
-			tasks: [{
-				id: "6A9977DF641BB823"
-				type: "item"
-				item: "powah:energy_cell_starter"
-			}]
+			tasks: [
+				{
+					id: "6A9977DF641BB823"
+					type: "item"
+					item: "powah:energy_cell_starter"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests37.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.36.title}"
 			x: 2.0d
 			y: -17.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests37.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.36.subtitle}"
 			dependencies: ["60C43D48E5EAD4ED"]
 			id: "023151A6988B265B"
-			tasks: [{
-				id: "508A9AFB5ADE5B21"
-				type: "item"
-				item: "powah:player_transmitter_starter"
-			}]
+			tasks: [
+				{
+					id: "508A9AFB5ADE5B21"
+					type: "item"
+					item: "powah:player_transmitter_starter"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests38.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.37.title}"
 			x: 2.0d
 			y: -18.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests38.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.37.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["54DE4D5E044B2FA3"]
 			id: "5E2E6BB57088BA4D"
-			tasks: [{
-				id: "10BB286291D1A695"
-				type: "item"
-				item: "powah:energy_cable_starter"
-			}]
+			tasks: [
+				{
+					id: "10BB286291D1A695"
+					type: "item"
+					item: "powah:energy_cable_starter"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests39.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.38.title}"
 			x: 3.0d
 			y: -15.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests39.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.38.subtitle}"
 			dependencies: ["15397CFF5211DF20"]
 			id: "18E0F92794C56EF6"
-			tasks: [{
-				id: "2C52967335E7BF84"
-				type: "item"
-				item: "powah:ender_gate_basic"
-			}]
+			tasks: [
+				{
+					id: "2C52967335E7BF84"
+					type: "item"
+					item: "powah:ender_gate_basic"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests40.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.39.title}"
 			x: 4.0d
 			y: -15.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests40.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.39.subtitle}"
 			dependencies: ["1E8F3398B49A9168"]
 			id: "3D0B86097A95ED70"
-			tasks: [{
-				id: "01AB068079BFBA56"
-				type: "item"
-				item: "powah:ender_gate_hardened"
-			}]
+			tasks: [
+				{
+					id: "01AB068079BFBA56"
+					type: "item"
+					item: "powah:ender_gate_hardened"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests41.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.40.title}"
 			x: 5.0d
 			y: -15.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests41.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.40.subtitle}"
 			dependencies: ["5B16F03963346B82"]
 			id: "3E8FD2BBA38F9243"
-			tasks: [{
-				id: "38240677DAAC3CCA"
-				type: "item"
-				item: "powah:ender_gate_blazing"
-			}]
+			tasks: [
+				{
+					id: "38240677DAAC3CCA"
+					type: "item"
+					item: "powah:ender_gate_blazing"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests42.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.41.title}"
 			x: 6.0d
 			y: -15.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests42.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.41.subtitle}"
 			dependencies: ["7E2835F6ED806B99"]
 			id: "7C7EF70A7A9C6E0B"
-			tasks: [{
-				id: "0CA357B09D98FF4D"
-				type: "item"
-				item: "powah:ender_gate_niotic"
-			}]
+			tasks: [
+				{
+					id: "0CA357B09D98FF4D"
+					type: "item"
+					item: "powah:ender_gate_niotic"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests43.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.42.title}"
 			x: 7.0d
 			y: -15.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests43.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.42.subtitle}"
 			dependencies: ["332744DC107CD260"]
 			id: "3EA448A910A97A26"
-			tasks: [{
-				id: "5F3A52F45A2AAB8D"
-				type: "item"
-				item: "powah:ender_gate_spirited"
-			}]
+			tasks: [
+				{
+					id: "5F3A52F45A2AAB8D"
+					type: "item"
+					item: "powah:ender_gate_spirited"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests42.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.43.title}"
 			x: 8.0d
 			y: -15.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests44.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.43.subtitle}"
 			dependencies: ["5AE4F9E81E692C43"]
 			id: "7FF630D9138C70B8"
-			tasks: [{
-				id: "0A231E31EC94D35C"
-				type: "item"
-				item: "powah:ender_gate_nitro"
-			}]
+			tasks: [
+				{
+					id: "0A231E31EC94D35C"
+					type: "item"
+					item: "powah:ender_gate_nitro"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests45.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.44.title}"
 			x: 3.0d
 			y: -16.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests45.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.44.subtitle}"
 			dependencies: ["15397CFF5211DF20"]
 			id: "2283143C130B6D7E"
-			tasks: [{
-				id: "6002BDC1592CD77C"
-				type: "item"
-				item: "powah:ender_cell_basic"
-			}]
+			tasks: [
+				{
+					id: "6002BDC1592CD77C"
+					type: "item"
+					item: "powah:ender_cell_basic"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests46.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.45.title}"
 			x: 4.0d
 			y: -16.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests46.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.45.subtitle}"
 			dependencies: ["1E8F3398B49A9168"]
 			id: "53110EE2529AB993"
-			tasks: [{
-				id: "695EBDFB6EB019DD"
-				type: "item"
-				item: "powah:ender_cell_hardened"
-			}]
+			tasks: [
+				{
+					id: "695EBDFB6EB019DD"
+					type: "item"
+					item: "powah:ender_cell_hardened"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests47.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.46.title}"
 			x: 5.0d
 			y: -16.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests47.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.46.subtitle}"
 			dependencies: ["5B16F03963346B82"]
 			id: "4D22FE9D37FEDC46"
-			tasks: [{
-				id: "13FB43C31BCE8B17"
-				type: "item"
-				item: "powah:ender_cell_blazing"
-			}]
+			tasks: [
+				{
+					id: "13FB43C31BCE8B17"
+					type: "item"
+					item: "powah:ender_cell_blazing"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests48.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.47.title}"
 			x: 6.0d
 			y: -16.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests48.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.47.subtitle}"
 			dependencies: ["7E2835F6ED806B99"]
 			id: "282951D07C19D10A"
-			tasks: [{
-				id: "203166A2631B63C0"
-				type: "item"
-				item: "powah:ender_cell_niotic"
-			}]
+			tasks: [
+				{
+					id: "203166A2631B63C0"
+					type: "item"
+					item: "powah:ender_cell_niotic"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests49.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.48.title}"
 			x: 8.0d
 			y: -16.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests49.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.48.subtitle}"
 			dependencies: ["5AE4F9E81E692C43"]
 			id: "5B307100E4E402EE"
-			tasks: [{
-				id: "294E8931C93F9F01"
-				type: "item"
-				item: "powah:ender_cell_nitro"
-			}]
+			tasks: [
+				{
+					id: "294E8931C93F9F01"
+					type: "item"
+					item: "powah:ender_cell_nitro"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests50.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.49.title}"
 			x: 7.0d
 			y: -16.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests50.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.49.subtitle}"
 			dependencies: ["332744DC107CD260"]
 			id: "263492A213A89D11"
-			tasks: [{
-				id: "42E653BF3F410A67"
-				type: "item"
-				item: "powah:ender_cell_spirited"
-			}]
+			tasks: [
+				{
+					id: "42E653BF3F410A67"
+					type: "item"
+					item: "powah:ender_cell_spirited"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests51.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.50.title}"
 			x: 3.0d
 			y: -18.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests51.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.50.subtitle}"
 			dependencies: ["15397CFF5211DF20"]
 			id: "0C29CB78E32BA201"
-			tasks: [{
-				id: "2777352A5489FEF6"
-				type: "item"
-				item: "powah:energy_cable_basic"
-			}]
+			tasks: [
+				{
+					id: "2777352A5489FEF6"
+					type: "item"
+					item: "powah:energy_cable_basic"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests52.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.51.title}"
 			x: 4.0d
 			y: -18.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests52.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.51.subtitle}"
 			dependencies: ["1E8F3398B49A9168"]
 			id: "64EA423C590F8021"
-			tasks: [{
-				id: "7FA471F07D74E87D"
-				type: "item"
-				item: "powah:energy_cable_hardened"
-			}]
+			tasks: [
+				{
+					id: "7FA471F07D74E87D"
+					type: "item"
+					item: "powah:energy_cable_hardened"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests53.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.52.title}"
 			x: 5.0d
 			y: -18.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests53.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.52.subtitle}"
 			dependencies: ["5B16F03963346B82"]
 			id: "04DA0ACADC1ABA93"
-			tasks: [{
-				id: "51FFEA2B97917843"
-				type: "item"
-				item: "powah:energy_cable_blazing"
-			}]
+			tasks: [
+				{
+					id: "51FFEA2B97917843"
+					type: "item"
+					item: "powah:energy_cable_blazing"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests54.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.53.title}"
 			x: 6.0d
 			y: -18.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests54.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.53.subtitle}"
 			dependencies: ["7E2835F6ED806B99"]
 			id: "47469B32D5D4EAC4"
-			tasks: [{
-				id: "5C07140692FE8462"
-				type: "item"
-				item: "powah:energy_cable_niotic"
-			}]
+			tasks: [
+				{
+					id: "5C07140692FE8462"
+					type: "item"
+					item: "powah:energy_cable_niotic"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests55.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.54.title}"
 			x: 7.0d
 			y: -18.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests55.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.54.subtitle}"
 			dependencies: ["332744DC107CD260"]
 			id: "65FE6B75ADAE58C3"
-			tasks: [{
-				id: "76E63164F83127B7"
-				type: "item"
-				item: "powah:energy_cable_spirited"
-			}]
+			tasks: [
+				{
+					id: "76E63164F83127B7"
+					type: "item"
+					item: "powah:energy_cable_spirited"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests56.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.55.title}"
 			x: 8.0d
 			y: -18.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests56.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.55.subtitle}"
 			dependencies: ["5AE4F9E81E692C43"]
 			id: "32A95D5BE9569653"
-			tasks: [{
-				id: "5256A1FF2E089493"
-				type: "item"
-				item: "powah:energy_cable_nitro"
-			}]
+			tasks: [
+				{
+					id: "5256A1FF2E089493"
+					type: "item"
+					item: "powah:energy_cable_nitro"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests57.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.56.title}"
 			x: 3.0d
 			y: -19.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests57.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.56.subtitle}"
 			dependencies: ["15397CFF5211DF20"]
 			id: "45AFDAC7A2CA96C4"
-			tasks: [{
-				id: "09B45ABFDD1FA502"
-				type: "item"
-				item: "powah:energy_cell_basic"
-			}]
+			tasks: [
+				{
+					id: "09B45ABFDD1FA502"
+					type: "item"
+					item: "powah:energy_cell_basic"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests58.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.57.title}"
 			x: 4.0d
 			y: -19.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests58.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.57.subtitle}"
 			dependencies: ["1E8F3398B49A9168"]
 			id: "4FD04EE6FC9B528E"
-			tasks: [{
-				id: "30F5634C30FA0410"
-				type: "item"
-				item: "powah:energy_cell_hardened"
-			}]
+			tasks: [
+				{
+					id: "30F5634C30FA0410"
+					type: "item"
+					item: "powah:energy_cell_hardened"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests59.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.58.title}"
 			x: 5.0d
 			y: -19.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests59.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.58.subtitle}"
 			dependencies: ["5B16F03963346B82"]
 			id: "4ABA168A443FBEB5"
-			tasks: [{
-				id: "19BB75C69A49696B"
-				type: "item"
-				item: "powah:energy_cell_blazing"
-			}]
+			tasks: [
+				{
+					id: "19BB75C69A49696B"
+					type: "item"
+					item: "powah:energy_cell_blazing"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests60.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.59.title}"
 			x: 6.0d
 			y: -19.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests60.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.59.subtitle}"
 			dependencies: ["7E2835F6ED806B99"]
 			id: "54366F02097955BE"
-			tasks: [{
-				id: "6C55EDD0956E29E5"
-				type: "item"
-				item: "powah:energy_cell_niotic"
-			}]
+			tasks: [
+				{
+					id: "6C55EDD0956E29E5"
+					type: "item"
+					item: "powah:energy_cell_niotic"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests61.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.60.title}"
 			x: 7.0d
 			y: -19.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests61.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.60.subtitle}"
 			dependencies: ["332744DC107CD260"]
 			id: "67B79FE064A7B88D"
-			tasks: [{
-				id: "1AD4C54016FBA82F"
-				type: "item"
-				item: "powah:energy_cell_spirited"
-			}]
+			tasks: [
+				{
+					id: "1AD4C54016FBA82F"
+					type: "item"
+					item: "powah:energy_cell_spirited"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests62.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.61.title}"
 			x: 8.0d
 			y: -19.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests62.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.61.subtitle}"
 			dependencies: ["5AE4F9E81E692C43"]
 			id: "5443113E740E0F78"
-			tasks: [{
-				id: "4360FF66D0960876"
-				type: "item"
-				item: "powah:energy_cell_nitro"
-			}]
+			tasks: [
+				{
+					id: "4360FF66D0960876"
+					type: "item"
+					item: "powah:energy_cell_nitro"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests63.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.62.title}"
 			x: 2.0d
 			y: -20.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests63.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.62.subtitle}"
 			dependencies: ["54DE4D5E044B2FA3"]
 			id: "1998D23D260ED51F"
-			tasks: [{
-				id: "6CF9F52014D13F19"
-				type: "item"
-				item: "powah:energy_hopper_starter"
-			}]
+			tasks: [
+				{
+					id: "6CF9F52014D13F19"
+					type: "item"
+					item: "powah:energy_hopper_starter"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests64.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.63.title}"
 			x: 3.0d
 			y: -20.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests64.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.63.subtitle}"
 			dependencies: ["15397CFF5211DF20"]
 			id: "5509FC49B2CA340A"
-			tasks: [{
-				id: "0292105381907716"
-				type: "item"
-				item: "powah:energy_hopper_basic"
-			}]
+			tasks: [
+				{
+					id: "0292105381907716"
+					type: "item"
+					item: "powah:energy_hopper_basic"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests65.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.64.title}"
 			x: 4.0d
 			y: -20.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests65.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.64.subtitle}"
 			dependencies: ["1E8F3398B49A9168"]
 			id: "5AF670C0871DDBE4"
-			tasks: [{
-				id: "2FF0E8B6281FAFC5"
-				type: "item"
-				item: "powah:energy_hopper_hardened"
-			}]
+			tasks: [
+				{
+					id: "2FF0E8B6281FAFC5"
+					type: "item"
+					item: "powah:energy_hopper_hardened"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests66.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.65.title}"
 			x: 5.0d
 			y: -20.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests66.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.65.subtitle}"
 			dependencies: ["5B16F03963346B82"]
 			id: "67045F6D32CFC6FE"
-			tasks: [{
-				id: "204CD67E920882EA"
-				type: "item"
-				item: "powah:energy_hopper_blazing"
-			}]
+			tasks: [
+				{
+					id: "204CD67E920882EA"
+					type: "item"
+					item: "powah:energy_hopper_blazing"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests67.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.66.title}"
 			x: 6.0d
 			y: -20.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests67.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.66.subtitle}"
 			dependencies: ["7E2835F6ED806B99"]
 			id: "0BDF2C762AB05925"
-			tasks: [{
-				id: "4E4081DC0A97DF81"
-				type: "item"
-				item: "powah:energy_hopper_niotic"
-			}]
+			tasks: [
+				{
+					id: "4E4081DC0A97DF81"
+					type: "item"
+					item: "powah:energy_hopper_niotic"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests68.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.67.title}"
 			x: 7.0d
 			y: -20.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests68.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.67.subtitle}"
 			dependencies: ["332744DC107CD260"]
 			id: "54904E7778F50B48"
-			tasks: [{
-				id: "1DA754439414FE7B"
-				type: "item"
-				item: "powah:energy_hopper_spirited"
-			}]
+			tasks: [
+				{
+					id: "1DA754439414FE7B"
+					type: "item"
+					item: "powah:energy_hopper_spirited"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests69.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.68.title}"
 			x: 8.0d
 			y: -20.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests69.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.68.subtitle}"
 			dependencies: ["5AE4F9E81E692C43"]
 			id: "6D84B39FBBBFDE7F"
-			tasks: [{
-				id: "0C21AFCD658FA783"
-				type: "item"
-				item: "powah:energy_hopper_nitro"
-			}]
+			tasks: [
+				{
+					id: "0C21AFCD658FA783"
+					type: "item"
+					item: "powah:energy_hopper_nitro"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests70.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.69.title}"
 			x: 5.0d
 			y: -8.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests70.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.69.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests70.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.0}"
 				""
-				"{chapters.useful_items_4.quests70.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.2}"
 				""
-				"{chapters.useful_items_4.quests70.description3}"
+				"{image:kubejs:textures/draconic_evolution/draconic_worst_outcome_example.png width:100 height:100 align:1 fit:true}"
 				""
-				"{chapters.useful_items_4.quests70.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.6}"
 				""
-				"{chapters.useful_items_4.quests70.description5}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.8}"
 				""
-				"{chapters.useful_items_4.quests70.description6}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.10}"
 				""
-				"{chapters.useful_items_4.quests70.description7}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.12}"
 				""
-				"{chapters.useful_items_4.quests70.description8}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.14}"
 				""
-				"{chapters.useful_items_4.quests70.description9}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.16}"
 				""
-				"{chapters.useful_items_4.quests70.description10}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.18}"
 				""
-				"{chapters.useful_items_4.quests70.description11}"
+				"{image:kubejs:textures/draconic_evolution/draconic_rector_not_started_example.png width:100 height:100 align:1 fit:true}"
 				""
-				"{chapters.useful_items_4.quests70.description12}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.22}"
 				""
-				"{chapters.useful_items_4.quests70.description13}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.24}"
 				""
-				"{chapters.useful_items_4.quests70.description14}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.26}"
 				""
-				"{chapters.useful_items_4.quests70.description15}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.28}"
 				""
-				"{chapters.useful_items_4.quests70.description16}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.30}"
 				""
-				"{chapters.useful_items_4.quests70.description17}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.32}"
 				""
-				"{chapters.useful_items_4.quests70.description18}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.34}"
 				""
-				"{chapters.useful_items_4.quests70.description19}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.36}"
 				""
-				"{chapters.useful_items_4.quests70.description20}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.38}"
 				""
-				"{chapters.useful_items_4.quests70.description21}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.40}"
 				""
-				"{chapters.useful_items_4.quests70.description22}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.42}"
 				""
-				"{chapters.useful_items_4.quests70.description23}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.44}"
 				""
-				"{chapters.useful_items_4.quests70.description24}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.46}"
 				""
-				"{chapters.useful_items_4.quests70.description25}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.48}"
 				""
-				"{chapters.useful_items_4.quests70.description26}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.50}"
 				""
-				"{chapters.useful_items_4.quests70.description27}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.52}"
 				""
-				"{chapters.useful_items_4.quests70.description28}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.54}"
 				""
-				"{chapters.useful_items_4.quests70.description29}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.56}"
 				""
-				"{chapters.useful_items_4.quests70.description30}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.58}"
 				""
-				"{chapters.useful_items_4.quests70.description31}"
+				"{ftbquests.chapter.useful_items_4.quests.69.description.60}"
 			]
 			dependencies: [
 				"3CF914BD3213A5B4"
@@ -1308,48 +1450,56 @@
 			x: 11.0d
 			y: -11.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests71.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.70.subtitle}"
 			dependencies: ["5442ABAE0B9D9D6D"]
 			size: 2.0d
 			id: "0AD9AE280E429E9A"
-			tasks: [{
-				id: "22A8F46F5B6551AF"
-				type: "item"
-				item: "ae2wtlib:infinity_booster_card"
-			}]
-			rewards: [{
-				id: "11C4C7595E445320"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "22A8F46F5B6551AF"
+					type: "item"
+					item: "ae2wtlib:infinity_booster_card"
+				}
+			]
+			rewards: [
+				{
+					id: "11C4C7595E445320"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests72.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.71.title}"
 			x: -1.0d
 			y: -11.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests72.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.71.subtitle}"
 			dependencies: ["2FA0FBD15D84DE7A"]
 			size: 2.0d
 			id: "7F9A1499D0B78950"
-			tasks: [{
-				id: "1E4D64C08B117AA2"
-				type: "item"
-				item: "powah:binding_card_dim"
-			}]
-			rewards: [{
-				id: "20ED7602B6DD6295"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "1E4D64C08B117AA2"
+					type: "item"
+					item: "powah:binding_card_dim"
+				}
+			]
+			rewards: [
+				{
+					id: "20ED7602B6DD6295"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests73.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.72.title}"
 			icon: "mysticalagriculture:supremium_reprocessor"
 			x: 8.0d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests73.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.72.subtitle}"
 			dependencies: [
 				"73D5AB177A05AFFD"
 				"3BDAFC3E04F62B5F"
@@ -1357,733 +1507,831 @@
 			dependency_requirement: "one_completed"
 			size: 2.0d
 			id: "1A6E3790B7CFE78D"
-			tasks: [{
-				id: "67FBA48EBE1612FB"
-				type: "item"
-				item: "mysticalagriculture:inferium_reprocessor"
-			}]
+			tasks: [
+				{
+					id: "67FBA48EBE1612FB"
+					type: "item"
+					item: "mysticalagriculture:inferium_reprocessor"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests74.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.73.title}"
 			icon: "mysticalagriculture:supremium_growth_accelerator"
 			x: 5.0d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests74.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.73.subtitle}"
 			dependencies: ["73D5AB177A05AFFD"]
 			size: 2.0d
 			id: "018A3EFA0D4CF841"
-			tasks: [{
-				id: "30CDDDAFDF5C0F59"
-				type: "item"
-				item: "mysticalagriculture:inferium_growth_accelerator"
-			}]
+			tasks: [
+				{
+					id: "30CDDDAFDF5C0F59"
+					type: "item"
+					item: "mysticalagriculture:inferium_growth_accelerator"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests75.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.74.title}"
 			icon: "mysticalagriculture:supremium_furnace"
 			x: 2.0d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests75.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.74.subtitle}"
 			dependencies: ["73D5AB177A05AFFD"]
 			size: 2.0d
 			id: "21986132D003B4E9"
-			tasks: [{
-				id: "6EF1C9A716992394"
-				type: "checkmark"
-				title: "{chapters.useful_items_4.quests75.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "6EF1C9A716992394"
+					type: "checkmark"
+					title: "{ftbquests.chapter.useful_items_4.quests.74.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests76.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.75.title}"
 			x: 3.0d
 			y: -17.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests76.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.75.subtitle}"
 			dependencies: ["15397CFF5211DF20"]
 			id: "42953B4873B78A38"
-			tasks: [{
-				id: "1721805A214CCF05"
-				type: "item"
-				item: "powah:player_transmitter_basic"
-			}]
+			tasks: [
+				{
+					id: "1721805A214CCF05"
+					type: "item"
+					item: "powah:player_transmitter_basic"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests77.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.76.title}"
 			x: 4.0d
 			y: -17.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests77.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.76.subtitle}"
 			dependencies: ["1E8F3398B49A9168"]
 			id: "55BC90649BF7E64C"
-			tasks: [{
-				id: "6DB3CBDE1325211E"
-				type: "item"
-				item: "powah:player_transmitter_hardened"
-			}]
+			tasks: [
+				{
+					id: "6DB3CBDE1325211E"
+					type: "item"
+					item: "powah:player_transmitter_hardened"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests78.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.77.title}"
 			x: 5.0d
 			y: -17.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests78.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.77.subtitle}"
 			dependencies: ["5B16F03963346B82"]
 			id: "529B0526C460EBF4"
-			tasks: [{
-				id: "680DD4C843E97440"
-				type: "item"
-				item: "powah:player_transmitter_blazing"
-			}]
+			tasks: [
+				{
+					id: "680DD4C843E97440"
+					type: "item"
+					item: "powah:player_transmitter_blazing"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests79.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.78.title}"
 			x: 6.0d
 			y: -17.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests79.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.78.subtitle}"
 			dependencies: ["7E2835F6ED806B99"]
 			id: "63F2782CBD3A81F1"
-			tasks: [{
-				id: "656A165393CF3B03"
-				type: "item"
-				item: "powah:player_transmitter_niotic"
-			}]
+			tasks: [
+				{
+					id: "656A165393CF3B03"
+					type: "item"
+					item: "powah:player_transmitter_niotic"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests80.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.79.title}"
 			x: 7.0d
 			y: -17.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests80.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.79.subtitle}"
 			dependencies: ["332744DC107CD260"]
 			id: "3803C31682073F3B"
-			tasks: [{
-				id: "4D0985D59E8C82B9"
-				type: "item"
-				item: "powah:player_transmitter_spirited"
-			}]
+			tasks: [
+				{
+					id: "4D0985D59E8C82B9"
+					type: "item"
+					item: "powah:player_transmitter_spirited"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests81.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.80.title}"
 			x: 8.0d
 			y: -17.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests81.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.80.subtitle}"
 			dependencies: ["5AE4F9E81E692C43"]
 			id: "7ECEDFB5ADC2F341"
-			tasks: [{
-				id: "58BEBDF4397008AF"
-				type: "item"
-				item: "powah:player_transmitter_nitro"
-			}]
+			tasks: [
+				{
+					id: "58BEBDF4397008AF"
+					type: "item"
+					item: "powah:player_transmitter_nitro"
+				}
+			]
 		}
 		{
 			x: 3.5d
 			y: -22.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests82.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.81.subtitle}"
 			dependencies: ["5D0D81D9E51AC854"]
 			id: "783AFBFB78135D91"
-			tasks: [{
-				id: "273A97048A63FF13"
-				type: "item"
-				item: "mob_grinding_utils:nutritious_chicken_feed"
-			}]
+			tasks: [
+				{
+					id: "273A97048A63FF13"
+					type: "item"
+					item: "mob_grinding_utils:nutritious_chicken_feed"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: -22.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests83.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.82.subtitle}"
 			dependencies: ["5D0D81D9E51AC854"]
 			id: "347DD3635F634611"
-			tasks: [{
-				id: "6E26773CB8F141DD"
-				type: "item"
-				item: "mob_grinding_utils:gm_chicken_feed_cursed"
-			}]
+			tasks: [
+				{
+					id: "6E26773CB8F141DD"
+					type: "item"
+					item: "mob_grinding_utils:gm_chicken_feed_cursed"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests84.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.83.title}"
 			icon: "draconicevolution:stabilized_spawner"
 			x: 6.0d
 			y: -8.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests84.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.83.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests84.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.83.description.0}"
 				""
-				"{chapters.useful_items_4.quests84.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.83.description.2}"
 				""
-				"{chapters.useful_items_4.quests84.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.83.description.4}"
 				""
-				"{chapters.useful_items_4.quests84.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.83.description.6}"
 				""
-				"{chapters.useful_items_4.quests84.description5}"
+				"{ftbquests.chapter.useful_items_4.quests.83.description.8}"
 				""
-				"{chapters.useful_items_4.quests84.description6}"
+				"{ftbquests.chapter.useful_items_4.quests.83.description.10}"
 				""
-				"{chapters.useful_items_4.quests84.description7}"
+				"{ftbquests.chapter.useful_items_4.quests.83.description.12}"
 				""
-				"{chapters.useful_items_4.quests84.description8}"
+				"{ftbquests.chapter.useful_items_4.quests.83.description.14}"
 				""
-				"{chapters.useful_items_4.quests84.description9}"
+				"{ftbquests.chapter.useful_items_4.quests.83.description.16}"
 			]
 			dependencies: ["212CBE2DA076A4E3"]
 			id: "1E6658D92FC2CACB"
-			tasks: [{
-				id: "51AD7ADEA16F3863"
-				type: "checkmark"
-				title: "{chapters.atum_2.quests16.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "51AD7ADEA16F3863"
+					type: "checkmark"
+					title: "{ftbquests.chapter.useful_items_4.quests.83.tasks.0.title}"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests85.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.84.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests85.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.84.description.0}"
 				""
-				"{chapters.useful_items_4.quests85.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.84.description.2}"
 				""
-				"{chapters.useful_items_4.quests85.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.84.description.4}"
 				""
-				"{chapters.useful_items_4.quests85.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.84.description.6}"
 				""
-				"{chapters.useful_items_4.quests85.description5}"
+				"{ftbquests.chapter.useful_items_4.quests.84.description.8}"
 				""
-				"{chapters.useful_items_4.quests85.description6}"
+				"{ftbquests.chapter.useful_items_4.quests.84.description.10}"
 				""
-				"{chapters.useful_items_4.quests85.description7}"
+				"{ftbquests.chapter.useful_items_4.quests.84.description.12}"
 				""
-				"{chapters.useful_items_4.quests85.description8}"
+				"{ftbquests.chapter.useful_items_4.quests.84.description.14}"
 				""
-				"{chapters.useful_items_4.quests85.description9}"
+				"{ftbquests.chapter.useful_items_4.quests.84.description.16}"
 				""
-				"{chapters.useful_items_4.quests85.description10}"
+				"{ftbquests.chapter.useful_items_4.quests.84.description.18}"
 			]
 			dependencies: ["62B77E823E7C96CE"]
 			id: "0FE74D783AA9937D"
-			tasks: [{
-				id: "1E78EB082F13A581"
-				type: "item"
-				item: "projecte:transmutation_table"
-			}]
-			rewards: [{
-				id: "66B95AD36511E3C6"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			tasks: [
+				{
+					id: "1E78EB082F13A581"
+					type: "item"
+					item: "projecte:transmutation_table"
+				}
+			]
+			rewards: [
+				{
+					id: "66B95AD36511E3C6"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests86.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.85.subtitle}"
 			dependencies: [
 				"0FE74D783AA9937D"
 				"200CAD7C99709A33"
 				"3CF914BD3213A5B4"
 			]
 			id: "184CA834B598060E"
-			tasks: [{
-				id: "42AF922B7B0609C1"
-				type: "item"
-				item: "projecte:transmutation_tablet"
-			}]
+			tasks: [
+				{
+					id: "42AF922B7B0609C1"
+					type: "item"
+					item: "projecte:transmutation_tablet"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: 1.5d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests87.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.86.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests87.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.86.description.0}"
 				""
-				"{chapters.useful_items_4.quests87.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.86.description.2}"
 				""
-				"{chapters.useful_items_4.quests87.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.86.description.4}"
 				""
-				"{chapters.useful_items_4.quests87.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.86.description.6}"
 				""
-				"{chapters.useful_items_4.quests87.description5}"
+				"{ftbquests.chapter.useful_items_4.quests.86.description.8}"
 			]
 			dependencies: ["012BA0505E1EEA5D"]
 			id: "4DEB9DF8AF299B61"
-			tasks: [{
-				id: "7D59DECF9F0B4236"
-				type: "item"
-				item: {
-					id: "projecte:catalytic_lens"
-					Count: 1b
-					tag: { }
-					ForgeCaps: {
-						Parent: { }
+			tasks: [
+				{
+					id: "7D59DECF9F0B4236"
+					type: "item"
+					item: {
+						id: "projecte:catalytic_lens"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 3.0d
 			y: -30.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests88.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.87.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "4291655F3801EE1F"
-			tasks: [{
-				id: "322CBAF91F53EA27"
-				type: "item"
-				item: "industrialforegoing:hydroponic_bed"
-			}]
+			tasks: [
+				{
+					id: "322CBAF91F53EA27"
+					type: "item"
+					item: "industrialforegoing:hydroponic_bed"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -30.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests89.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.88.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "699B382D1BB1BA4A"
-			tasks: [{
-				id: "5A8D744EE432AFD2"
-				type: "item"
-				item: "industrialforegoing:plant_gatherer"
-			}]
+			tasks: [
+				{
+					id: "5A8D744EE432AFD2"
+					type: "item"
+					item: "industrialforegoing:plant_gatherer"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -30.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests90.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.89.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "28A7E058C0F605BA"
-			tasks: [{
-				id: "40350EABF16A2E0D"
-				type: "item"
-				item: "industrialforegoing:plant_sower"
-			}]
+			tasks: [
+				{
+					id: "40350EABF16A2E0D"
+					type: "item"
+					item: "industrialforegoing:plant_sower"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -30.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests91.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.90.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "7DF4AEFB0BB3D477"
-			tasks: [{
-				id: "608E29946266FB98"
-				type: "item"
-				item: "industrialforegoing:plant_fertilizer"
-			}]
+			tasks: [
+				{
+					id: "608E29946266FB98"
+					type: "item"
+					item: "industrialforegoing:plant_fertilizer"
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: -30.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests92.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.91.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "48D9387DC9821256"
-			tasks: [{
-				id: "4B93021FB51E8A8F"
-				type: "item"
-				item: "industrialforegoing:animal_feeder"
-			}]
+			tasks: [
+				{
+					id: "4B93021FB51E8A8F"
+					type: "item"
+					item: "industrialforegoing:animal_feeder"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: -26.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests93.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.92.subtitle}"
 			dependencies: ["3BDAFC3E04F62B5F"]
 			id: "6A33C6945FAAAF36"
-			tasks: [{
-				id: "09874BE49F0C8490"
-				type: "item"
-				item: "industrialforegoing:mob_crusher"
-			}]
+			tasks: [
+				{
+					id: "09874BE49F0C8490"
+					type: "item"
+					item: "industrialforegoing:mob_crusher"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: -26.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests94.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.93.subtitle}"
 			dependencies: ["3BDAFC3E04F62B5F"]
 			id: "4EF48453F9B9F7E5"
-			tasks: [{
-				id: "1EF234371443CCD5"
-				type: "item"
-				item: "industrialforegoing:mob_duplicator"
-			}]
+			tasks: [
+				{
+					id: "1EF234371443CCD5"
+					type: "item"
+					item: "industrialforegoing:mob_duplicator"
+				}
+			]
 		}
 		{
 			x: 3.5d
 			y: -24.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests95.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.94.subtitle}"
 			dependencies: ["593F074B73FF3116"]
 			id: "33B2D823E8D95473"
-			tasks: [{
-				id: "1C3BD7767801ED91"
-				type: "item"
-				item: "industrialforegoing:wither_builder"
-			}]
+			tasks: [
+				{
+					id: "1C3BD7767801ED91"
+					type: "item"
+					item: "industrialforegoing:wither_builder"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: -29.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests96.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.95.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "517192E201FB49CA"
-			tasks: [{
-				id: "24BC5A56F9B27E60"
-				type: "item"
-				item: "industrialforegoing:sewer"
-			}]
+			tasks: [
+				{
+					id: "24BC5A56F9B27E60"
+					type: "item"
+					item: "industrialforegoing:sewer"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -30.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests97.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.96.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "187D36E1B59DD77B"
-			tasks: [{
-				id: "19C7F82A8D2A4B16"
-				type: "item"
-				item: "industrialforegoing:sewage_composter"
-			}]
+			tasks: [
+				{
+					id: "19C7F82A8D2A4B16"
+					type: "item"
+					item: "industrialforegoing:sewage_composter"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -26.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests98.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.97.subtitle}"
 			dependencies: ["3BDAFC3E04F62B5F"]
 			id: "0815C3EF5C9E7F7F"
-			tasks: [{
-				id: "12FD7EEDCC9933B5"
-				type: "item"
-				item: "industrialforegoing:animal_baby_separator"
-			}]
+			tasks: [
+				{
+					id: "12FD7EEDCC9933B5"
+					type: "item"
+					item: "industrialforegoing:animal_baby_separator"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -26.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests99.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.98.subtitle}"
 			dependencies: ["3BDAFC3E04F62B5F"]
 			id: "70C0C52E8C201D25"
-			tasks: [{
-				id: "233A91B6559733F0"
-				type: "item"
-				item: "industrialforegoing:enchantment_factory"
-			}]
+			tasks: [
+				{
+					id: "233A91B6559733F0"
+					type: "item"
+					item: "industrialforegoing:enchantment_factory"
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: -24.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests100.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.99.subtitle}"
 			dependencies: ["593F074B73FF3116"]
 			id: "60053E296A153C74"
-			tasks: [{
-				id: "65C128B36A069EE4"
-				type: "item"
-				item: "industrialforegoing:infinity_charger"
-			}]
+			tasks: [
+				{
+					id: "65C128B36A069EE4"
+					type: "item"
+					item: "industrialforegoing:infinity_charger"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -26.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests101.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.100.subtitle}"
 			dependencies: ["3BDAFC3E04F62B5F"]
 			id: "4F7B5FAFB778B3A1"
-			tasks: [{
-				id: "6257473CC9B70BEA"
-				type: "item"
-				item: "industrialforegoing:enchantment_sorter"
-			}]
+			tasks: [
+				{
+					id: "6257473CC9B70BEA"
+					type: "item"
+					item: "industrialforegoing:enchantment_sorter"
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: -26.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests102.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.101.subtitle}"
 			dependencies: ["3BDAFC3E04F62B5F"]
 			id: "2781F8A50EFADCAF"
-			tasks: [{
-				id: "7B88BAAE9A30C38C"
-				type: "item"
-				item: "industrialforegoing:enchantment_applicator"
-			}]
+			tasks: [
+				{
+					id: "7B88BAAE9A30C38C"
+					type: "item"
+					item: "industrialforegoing:enchantment_applicator"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -26.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests103.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.102.subtitle}"
 			dependencies: ["3BDAFC3E04F62B5F"]
 			id: "10BF8E55F3629D36"
-			tasks: [{
-				id: "0A91EF5099605C8C"
-				type: "item"
-				item: "industrialforegoing:stasis_chamber"
-			}]
+			tasks: [
+				{
+					id: "0A91EF5099605C8C"
+					type: "item"
+					item: "industrialforegoing:stasis_chamber"
+				}
+			]
 		}
 		{
 			x: 3.5d
 			y: -25.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests104.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.103.subtitle}"
 			dependencies: ["3BDAFC3E04F62B5F"]
 			id: "0B156D87BB948B47"
-			tasks: [{
-				id: "65A8D670D7D6B507"
-				type: "item"
-				item: "industrialforegoing:enchantment_extractor"
-			}]
+			tasks: [
+				{
+					id: "65A8D670D7D6B507"
+					type: "item"
+					item: "industrialforegoing:enchantment_extractor"
+				}
+			]
 		}
 		{
 			x: 4.5d
 			y: -25.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests105.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.104.subtitle}"
 			dependencies: ["3BDAFC3E04F62B5F"]
 			id: "719F5A574DE00267"
-			tasks: [{
-				id: "645DF309BC5F0304"
-				type: "item"
-				item: "industrialforegoing:mob_detector"
-			}]
+			tasks: [
+				{
+					id: "645DF309BC5F0304"
+					type: "item"
+					item: "industrialforegoing:mob_detector"
+				}
+			]
 		}
 		{
 			x: 4.5d
 			y: -24.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests106.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.105.subtitle}"
 			dependencies: ["593F074B73FF3116"]
 			id: "05A870198627A443"
-			tasks: [{
-				id: "0117E4BF7FB74AF5"
-				type: "item"
-				item: "industrialforegoing:mechanical_dirt"
-			}]
+			tasks: [
+				{
+					id: "0117E4BF7FB74AF5"
+					type: "item"
+					item: "industrialforegoing:mechanical_dirt"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: -29.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests107.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.106.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "5CE50F14BC62B41B"
-			tasks: [{
-				id: "559BBDE03DEF22B8"
-				type: "item"
-				item: "industrialforegoing:block_breaker"
-			}]
+			tasks: [
+				{
+					id: "559BBDE03DEF22B8"
+					type: "item"
+					item: "industrialforegoing:block_breaker"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -29.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests108.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.107.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "3F60F699F5927FDE"
-			tasks: [{
-				id: "48D9110D8C90ECDD"
-				type: "item"
-				item: "industrialforegoing:marine_fisher"
-			}]
+			tasks: [
+				{
+					id: "48D9110D8C90ECDD"
+					type: "item"
+					item: "industrialforegoing:marine_fisher"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -29.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests109.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.108.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "1DFB8CAEF78B1957"
-			tasks: [{
-				id: "020C22205C26BE11"
-				type: "item"
-				item: "industrialforegoing:fluid_placer"
-			}]
+			tasks: [
+				{
+					id: "020C22205C26BE11"
+					type: "item"
+					item: "industrialforegoing:fluid_placer"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -29.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests110.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.109.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "6AF7ECB8AAA30E54"
-			tasks: [{
-				id: "74C0AECE0A3533DD"
-				type: "item"
-				item: "industrialforegoing:block_placer"
-			}]
+			tasks: [
+				{
+					id: "74C0AECE0A3533DD"
+					type: "item"
+					item: "industrialforegoing:block_placer"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: -24.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests111.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.110.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests111.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.110.description.0}"
 				""
-				"{chapters.useful_items_4.quests111.description2}"
+				"{image:kubejs:textures/industrial_foregoing/laser_ore_drill_example.png width:100 height:100 align:1 fit:true}"
 			]
 			dependencies: ["593F074B73FF3116"]
 			id: "7F2EF2C5EE4B9C97"
-			tasks: [{
-				id: "7476060C0FEF27DB"
-				type: "item"
-				item: "industrialforegoing:ore_laser_base"
-			}]
+			tasks: [
+				{
+					id: "7476060C0FEF27DB"
+					type: "item"
+					item: "industrialforegoing:ore_laser_base"
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: -29.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests112.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.111.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "5435FC2978013FBC"
-			tasks: [{
-				id: "4485E1BDE49B5B34"
-				type: "item"
-				item: "industrialforegoing:fluid_collector"
-			}]
+			tasks: [
+				{
+					id: "4485E1BDE49B5B34"
+					type: "item"
+					item: "industrialforegoing:fluid_collector"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -29.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests113.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.112.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "408B40AD0448D3CC"
-			tasks: [{
-				id: "3907391D1B6BA1CD"
-				type: "item"
-				item: "industrialforegoing:spores_recreator"
-			}]
+			tasks: [
+				{
+					id: "3907391D1B6BA1CD"
+					type: "item"
+					item: "industrialforegoing:spores_recreator"
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: -25.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests114.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.113.subtitle}"
 			dependencies: ["3BDAFC3E04F62B5F"]
 			id: "6BBA22F42717BECB"
-			tasks: [{
-				id: "2B3AB039DE4D51F2"
-				type: "item"
-				item: "industrialforegoing:potion_brewer"
-			}]
+			tasks: [
+				{
+					id: "2B3AB039DE4D51F2"
+					type: "item"
+					item: "industrialforegoing:potion_brewer"
+				}
+			]
 		}
 		{
 			x: 4.5d
 			y: -28.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests115.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.114.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "6E473E001B8F5A0F"
-			tasks: [{
-				id: "5197C14E34BEC127"
-				type: "item"
-				item: "industrialforegoing:sludge_refiner"
-			}]
+			tasks: [
+				{
+					id: "5197C14E34BEC127"
+					type: "item"
+					item: "industrialforegoing:sludge_refiner"
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: -28.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests116.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.115.subtitle}"
 			dependencies: ["72F36586FC79DCB3"]
 			id: "3DD19C7BC2478609"
-			tasks: [{
-				id: "236F767B2C781C43"
-				type: "item"
-				item: "industrialforegoing:dye_mixer"
-			}]
+			tasks: [
+				{
+					id: "236F767B2C781C43"
+					type: "item"
+					item: "industrialforegoing:dye_mixer"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: -25.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests117.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.116.subtitle}"
 			dependencies: ["3BDAFC3E04F62B5F"]
 			id: "75539585E84C5EBC"
-			tasks: [{
-				id: "5B28A80D47C7C0E5"
-				type: "item"
-				item: "industrialforegoing:laser_drill"
-			}]
+			tasks: [
+				{
+					id: "5B28A80D47C7C0E5"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: -22.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_4.quests118.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.117.subtitle}"
 			dependencies: ["6746656E8FD86EAC"]
 			id: "14B463D9C10CA27B"
-			tasks: [{
-				id: "1139DFB7DC22A780"
-				type: "item"
-				item: "industrialforegoing:mob_imprisonment_tool"
-			}]
+			tasks: [
+				{
+					id: "1139DFB7DC22A780"
+					type: "item"
+					item: "industrialforegoing:mob_imprisonment_tool"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -13.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests119.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.118.subtitle}"
 			description: [
-				"{chapters.useful_items_4.quests119.description1}"
+				"{ftbquests.chapter.useful_items_4.quests.118.description.0}"
 				""
-				"{chapters.useful_items_4.quests119.description2}"
+				"{ftbquests.chapter.useful_items_4.quests.118.description.2}"
 				""
-				"{chapters.useful_items_4.quests119.description3}"
+				"{ftbquests.chapter.useful_items_4.quests.118.description.4}"
 				""
-				"{chapters.useful_items_4.quests119.description4}"
+				"{ftbquests.chapter.useful_items_4.quests.118.description.6}"
 				""
-				"{chapters.useful_items_4.quests119.description5}"
+				"{ftbquests.chapter.useful_items_4.quests.118.description.8}"
 				""
-				"{chapters.useful_items_4.quests119.description6}"
+				"{ftbquests.chapter.useful_items_4.quests.118.description.10}"
 				""
-				"{chapters.useful_items_4.quests119.description7}"
+				"{ftbquests.chapter.useful_items_4.quests.118.description.12}"
 				""
-				"{chapters.useful_items_4.quests119.description8}"
+				"{ftbquests.chapter.useful_items_4.quests.118.description.14}"
 				""
-				"{chapters.useful_items_4.quests119.description9}"
+				"{ftbquests.chapter.useful_items_4.quests.118.description.16}"
 				""
-				"{chapters.useful_items_4.quests119.description10}"
+				"{ftbquests.chapter.useful_items_4.quests.118.description.18}"
 			]
 			dependencies: ["212CBE2DA076A4E3"]
 			id: "577425EB4766CBD3"
-			tasks: [{
-				id: "4757661D6BB1559C"
-				type: "item"
-				item: "draconicevolution:crystal_binder"
-			}]
+			tasks: [
+				{
+					id: "4757661D6BB1559C"
+					type: "item"
+					item: "draconicevolution:crystal_binder"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_4.quests120.title}"
+			title: "{ftbquests.chapter.useful_items_4.quests.119.title}"
 			x: 5.0d
 			y: -9.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_4.quests120.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_4.quests.119.subtitle}"
 			dependencies: [
 				"3CF914BD3213A5B4"
 				"78E9BFE6C47321C0"
 			]
 			id: "6417E9DC55EB03F6"
-			tasks: [{
-				id: "2BAEB0B0FCA40E50"
-				type: "item"
-				item: "energymeter:meter"
-			}]
+			tasks: [
+				{
+					id: "2BAEB0B0FCA40E50"
+					type: "item"
+					item: "energymeter:meter"
+				}
+			]
 		}
 	]
 }

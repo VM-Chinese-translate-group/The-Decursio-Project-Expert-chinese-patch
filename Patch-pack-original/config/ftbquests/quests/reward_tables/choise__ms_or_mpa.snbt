@@ -1,7 +1,7 @@
 {
 	id: "500F54F9519B0F67"
 	order_index: 5
-	title: "{reward_tables.choise__ms_or_mpa.title}"
+	title: "{ftbquests.reward_tables.choise__ms_or_mpa.title}"
 	icon: {
 		id: "botania:cosmetic_questgiver_mark"
 		Count: 1b

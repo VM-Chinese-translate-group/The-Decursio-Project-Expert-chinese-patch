@@ -3,31 +3,31 @@
 	group: "11592D5C828EEDBF"
 	order_index: 1
 	filename: "arcane_3"
-	title: "{chapters.arcane_3.title}"
+	title: "{ftbquests.chapter.arcane_3.title}"
 	icon: "ars_nouveau:enchanting_apparatus"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapters.arcane_3.quests1.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.0.title}"
 			x: -8.0d
 			y: 3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.0.subtitle}"
 			description: [
-				"{chapters.arcane_3.quests1.description1}"
+				"{ftbquests.chapter.arcane_3.quests.0.description.0}"
 				""
-				"{chapters.arcane_3.quests1.description2}"
+				"{ftbquests.chapter.arcane_3.quests.0.description.2}"
 				""
-				"{chapters.arcane_3.quests1.description3}"
+				"{ftbquests.chapter.arcane_3.quests.0.description.4}"
 				""
-				"{chapters.arcane_3.quests1.description4}"
+				"{ftbquests.chapter.arcane_3.quests.0.description.6}"
 				""
-				"{chapters.arcane_3.quests1.description5}"
+				"{ftbquests.chapter.arcane_3.quests.0.description.8}"
 				""
-				"{chapters.arcane_3.quests1.description6}"
+				"{ftbquests.chapter.arcane_3.quests.0.description.10}"
 				""
-				"{chapters.arcane_3.quests1.description7}"
+				"{ftbquests.chapter.arcane_3.quests.0.description.12}"
 			]
 			dependencies: [
 				"7EF155944458998F"
@@ -35,39 +35,41 @@
 			]
 			size: 1.5d
 			id: "055B78D658371018"
-			tasks: [{
-				id: "4B6421EB61ABFA83"
-				type: "item"
-				item: "botania:natura_pylon"
-				count: 2L
-			}]
+			tasks: [
+				{
+					id: "4B6421EB61ABFA83"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests2.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.1.title}"
 			x: -5.5d
 			y: 3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.1.subtitle}"
 			description: [
-				"{chapters.arcane_3.quests2.description1}"
+				"{ftbquests.chapter.arcane_3.quests.1.description.0}"
 				""
-				"{chapters.arcane_3.quests2.description2}"
+				"{ftbquests.chapter.arcane_3.quests.1.description.2}"
 				""
-				"{chapters.arcane_3.quests2.description3}"
+				"{ftbquests.chapter.arcane_3.quests.1.description.4}"
 				""
-				"{chapters.arcane_3.quests2.description4}"
+				"{ftbquests.chapter.arcane_3.quests.1.description.6}"
 				""
-				"{chapters.arcane_3.quests2.description5}"
+				"{image:kubejs:textures/botania/alfheim_portal_example.png width:100 height:100 align:1}"
 				""
-				"{chapters.arcane_3.quests2.description6}"
+				"{ftbquests.chapter.arcane_3.quests.1.description.10}"
 				""
-				"{chapters.arcane_3.quests2.description7}"
+				"{ftbquests.chapter.arcane_3.quests.1.description.12}"
 				""
-				"{chapters.arcane_3.quests2.description8}"
+				"{ftbquests.chapter.arcane_3.quests.1.description.14}"
 				""
-				"{chapters.arcane_3.quests2.description9}"
+				"{ftbquests.chapter.arcane_3.quests.1.description.16}"
 				""
-				"{chapters.arcane_3.quests2.description10}"
+				"{ftbquests.chapter.arcane_3.quests.1.description.18}"
 			]
 			dependencies: ["055B78D658371018"]
 			id: "028B8D773D1F3FC6"
@@ -80,7 +82,7 @@
 				{
 					id: "44D0A88502429C97"
 					type: "advancement"
-					title: "{chapters.arcane_3.quests2.tasks2.title}"
+					title: "{ftbquests.chapter.arcane_3.quests.1.tasks.1.title}"
 					advancement: "botania:main/elf_portal_open"
 					criterion: ""
 				}
@@ -93,39 +95,41 @@
 			]
 		}
 		{
-			title: "{chapters.arcane_3.quests3.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.2.title}"
 			icon: "botania:life_essence"
 			x: 3.5d
 			y: 0.5d
 			shape: "diamond"
-			subtitle: "{chapters.arcane_3.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.2.subtitle}"
 			description: [
-				"{chapters.arcane_3.quests3.description1}"
+				"{ftbquests.chapter.arcane_3.quests.2.description.0}"
 				""
-				"{chapters.arcane_3.quests3.description2}"
+				"{ftbquests.chapter.arcane_3.quests.2.description.2}"
 				""
-				"{chapters.arcane_3.quests3.description3}"
+				"{image:kubejs:textures/botania/gaia_multiblock_example.png width:100 height:100 align:1}"
 				""
-				"{chapters.arcane_3.quests3.description4}"
+				"{ftbquests.chapter.arcane_3.quests.2.description.6}"
 				""
-				"{chapters.arcane_3.quests3.description5}"
+				"{ftbquests.chapter.arcane_3.quests.2.description.8}"
 				""
-				"{chapters.arcane_3.quests3.description6}"
+				"{ftbquests.chapter.arcane_3.quests.2.description.10}"
 				""
-				"{chapters.arcane_3.quests3.description7}"
+				"{ftbquests.chapter.arcane_3.quests.2.description.12}"
 				""
-				"{chapters.arcane_3.quests3.description8}"
+				"{ftbquests.chapter.arcane_3.quests.2.description.14}"
 			]
 			dependencies: ["1F9167FA4F48280D"]
 			size: 1.5d
 			id: "398B882BA973C054"
-			tasks: [{
-				id: "790633124EB0CA7D"
-				type: "kill"
-				icon: "botania:gaia_head"
-				entity: "botania:doppleganger"
-				value: 1L
-			}]
+			tasks: [
+				{
+					id: "790633124EB0CA7D"
+					type: "kill"
+					icon: "botania:gaia_head"
+					entity: "botania:doppleganger"
+					value: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "768F80BB5456AC8B"
@@ -160,47 +164,51 @@
 			x: -3.5d
 			y: 5.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.3.subtitle}"
 			dependencies: ["028B8D773D1F3FC6"]
 			id: "12BEA0308056A4B6"
-			tasks: [{
-				id: "736890F4B7496EBE"
-				type: "item"
-				item: "botania:elementium_ingot"
-			}]
+			tasks: [
+				{
+					id: "736890F4B7496EBE"
+					type: "item"
+					item: "botania:elementium_ingot"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.4.subtitle}"
 			dependencies: [
 				"15B95D59204E8C3D"
 				"29AC4F90E065AB85"
 			]
 			dependency_requirement: "one_completed"
 			id: "1F9167FA4F48280D"
-			tasks: [{
-				id: "6264EE5C6634063B"
-				type: "item"
-				item: "minecraft:beacon"
-			}]
+			tasks: [
+				{
+					id: "6264EE5C6634063B"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: 5.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.5.subtitle}"
 			description: [
-				"{chapters.arcane_3.quests6.description1}"
+				"{ftbquests.chapter.arcane_3.quests.5.description.0}"
 				""
-				"{chapters.arcane_3.quests6.description2}"
+				"{ftbquests.chapter.arcane_3.quests.5.description.2}"
 				""
-				"{chapters.arcane_3.quests6.description3}"
+				"{ftbquests.chapter.arcane_3.quests.5.description.4}"
 				""
-				"{chapters.arcane_3.quests6.description4}"
+				"{ftbquests.chapter.arcane_3.quests.5.description.6}"
 				""
-				"{chapters.arcane_3.quests6.description5}"
+				"{image:kubejs:textures/botania/mana_infuser_platform_example.png width:100 height:100 align:1}"
 			]
 			dependencies: [
 				"12BEA0308056A4B6"
@@ -236,33 +244,37 @@
 			x: -3.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.6.subtitle}"
 			dependencies: ["028B8D773D1F3FC6"]
 			id: "0FC87F7225551D24"
-			tasks: [{
-				id: "1ACB61C51086118A"
-				type: "item"
-				item: "botania:pixie_dust"
-			}]
+			tasks: [
+				{
+					id: "1ACB61C51086118A"
+					type: "item"
+					item: "botania:pixie_dust"
+				}
+			]
 		}
 		{
 			x: -3.5d
 			y: 3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.7.subtitle}"
 			dependencies: ["028B8D773D1F3FC6"]
 			id: "45285038CC70D511"
-			tasks: [{
-				id: "2B13E715D3971E47"
-				type: "item"
-				item: "botania:dragonstone"
-			}]
+			tasks: [
+				{
+					id: "2B13E715D3971E47"
+					type: "item"
+					item: "botania:dragonstone"
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "{chapters.arcane_3.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.8.subtitle}"
 			dependencies: [
 				"21F96BD25793F2B8"
 				"45285038CC70D511"
@@ -271,70 +283,80 @@
 			]
 			size: 1.5d
 			id: "01C35754A9AEF761"
-			tasks: [{
-				id: "55136073DB99696A"
-				type: "item"
-				item: "mythicbotany:alfsteel_ingot"
-			}]
-			rewards: [{
-				id: "2AD65D384F06F48A"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "55136073DB99696A"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "2AD65D384F06F48A"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests10.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.9.title}"
 			x: 2.0d
 			y: 3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.9.subtitle}"
 			dependencies: ["7B1F8CD409804F57"]
 			id: "15B95D59204E8C3D"
-			tasks: [{
-				id: "18D3E8AB6EEFE7EC"
-				type: "item"
-				item: "botania:gaia_pylon"
-				count: 4L
-			}]
+			tasks: [
+				{
+					id: "18D3E8AB6EEFE7EC"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: 3.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.10.subtitle}"
 			dependencies: [
 				"01C35754A9AEF761"
 				"620CBC910FEB2996"
 			]
 			id: "7B1F8CD409804F57"
-			tasks: [{
-				id: "3707C00DF38130F5"
-				type: "item"
-				item: "mythicbotany:alfsteel_pylon"
-			}]
+			tasks: [
+				{
+					id: "3707C00DF38130F5"
+					type: "item"
+					item: "mythicbotany:alfsteel_pylon"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests12.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.11.title}"
 			icon: "emendatusenigmatica:arcane_gem"
 			x: -8.0d
 			y: 7.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.11.subtitle}"
 			dependencies: ["075DB9818A4FBC6C"]
 			size: 1.5d
 			id: "1D1A68C9C73CC5E2"
-			tasks: [{
-				id: "31E0C528C472A6C3"
-				type: "checkmark"
-				title: "{chapters.arcane_3.quests12.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "31E0C528C472A6C3"
+					type: "checkmark"
+					title: "{ftbquests.chapter.arcane_3.quests.11.tasks.0.title}"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests13.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.12.title}"
 			x: -6.0d
 			y: 7.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.12.subtitle}"
 			dependencies: ["1D1A68C9C73CC5E2"]
 			id: "590DF4A5716D8802"
 			tasks: [
@@ -351,40 +373,42 @@
 			]
 		}
 		{
-			title: "{chapters.arcane_3.quests14.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.13.title}"
 			x: -5.0d
 			y: 7.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.13.subtitle}"
 			description: [
-				"{chapters.arcane_3.quests14.description1}"
+				"{ftbquests.chapter.arcane_3.quests.13.description.0}"
 				""
-				"{chapters.arcane_3.quests14.description2}"
+				"{ftbquests.chapter.arcane_3.quests.13.description.2}"
 				""
-				"{chapters.arcane_3.quests14.description3}"
+				"{ftbquests.chapter.arcane_3.quests.13.description.4}"
 			]
 			dependencies: ["590DF4A5716D8802"]
 			dependency_requirement: "one_started"
 			id: "06F2CBB344BC23EF"
-			tasks: [{
-				id: "060792E318B3CFB1"
-				type: "item"
-				item: "ars_nouveau:mana_jar"
-			}]
+			tasks: [
+				{
+					id: "060792E318B3CFB1"
+					type: "item"
+					item: "ars_nouveau:mana_jar"
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: 7.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.14.subtitle}"
 			description: [
-				"{chapters.arcane_3.quests15.description1}"
+				"{ftbquests.chapter.arcane_3.quests.14.description.0}"
 				""
-				"{chapters.arcane_3.quests15.description2}"
+				"{ftbquests.chapter.arcane_3.quests.14.description.2}"
 				""
-				"{chapters.arcane_3.quests15.description3}"
+				"{ftbquests.chapter.arcane_3.quests.14.description.4}"
 				""
-				"{chapters.arcane_3.quests15.description4}"
+				"{ftbquests.chapter.arcane_3.quests.14.description.6}"
 			]
 			dependencies: [
 				"36FB6199F0B666D2"
@@ -416,84 +440,94 @@
 			x: -8.0d
 			y: 9.5d
 			shape: "gear"
-			subtitle: "{chapters.arcane_3.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.15.subtitle}"
 			dependencies: [
 				"1D1A68C9C73CC5E2"
 				"2EB2C0CB138E095B"
 			]
 			id: "02396D546396B926"
-			tasks: [{
-				id: "5DFE651CB80AAFB9"
-				type: "item"
-				item: "ars_nouveau:mana_bloom_crop"
-			}]
+			tasks: [
+				{
+					id: "5DFE651CB80AAFB9"
+					type: "item"
+					item: "ars_nouveau:mana_bloom_crop"
+				}
+			]
 		}
 		{
 			x: 3.5d
 			y: 4.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests17.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.16.subtitle}"
 			dependencies: ["398B882BA973C054"]
 			id: "51C8A2EC12659993"
-			tasks: [{
-				id: "33E4577F3DB0B12A"
-				type: "item"
-				item: "botania:gaia_ingot"
-			}]
+			tasks: [
+				{
+					id: "33E4577F3DB0B12A"
+					type: "item"
+					item: "botania:gaia_ingot"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests18.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.17.title}"
 			icon: "botania:gaia_head"
 			x: 5.0d
 			y: 4.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests18.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.17.subtitle}"
 			description: [
-				"{chapters.arcane_3.quests18.description1}"
+				"{ftbquests.chapter.arcane_3.quests.17.description.0}"
 				""
-				"{chapters.arcane_3.quests18.description2}"
+				"{ftbquests.chapter.arcane_3.quests.17.description.2}"
 				""
-				"{chapters.arcane_3.quests18.description3}"
+				"{ftbquests.chapter.arcane_3.quests.17.description.4}"
 				""
-				"{chapters.arcane_3.quests18.description4}"
+				"{ftbquests.chapter.arcane_3.quests.17.description.6}"
 			]
 			dependencies: ["51C8A2EC12659993"]
 			dependency_requirement: "one_completed"
 			id: "557278619C0AC6B0"
-			tasks: [{
-				id: "14C1A2F1FC5A07A6"
-				type: "advancement"
-				title: "{chapters.arcane_3.quests18.tasks.title}"
-				advancement: "botania:challenge/gaia_guardian_hardmode"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "091432862C200984"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "14C1A2F1FC5A07A6"
+					type: "advancement"
+					title: "{ftbquests.chapter.arcane_3.quests.17.tasks.0.title}"
+					advancement: "botania:challenge/gaia_guardian_hardmode"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "091432862C200984"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: 5.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests19.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.18.subtitle}"
 			dependencies: [
 				"557278619C0AC6B0"
 				"73E1F2B370C80359"
 			]
 			id: "76D1BAC0FB2E2F32"
-			tasks: [{
-				id: "0EC409A75474E5FC"
-				type: "item"
-				item: "mythicbotany:fimbultyr_tablet"
-			}]
+			tasks: [
+				{
+					id: "0EC409A75474E5FC"
+					type: "item"
+					item: "mythicbotany:fimbultyr_tablet"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests20.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.19.subtitle}"
 			dependencies: ["398B882BA973C054"]
 			id: "5F807F5F169B7206"
 			tasks: [
@@ -510,23 +544,23 @@
 			]
 		}
 		{
-			title: "{chapters.arcane_3.quests21.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.20.title}"
 			x: 8.0d
 			y: 7.0d
 			shape: "diamond"
-			subtitle: "{chapters.arcane_3.quests21.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.20.subtitle}"
 			description: [
-				"{chapters.arcane_3.quests21.description1}"
+				"{ftbquests.chapter.arcane_3.quests.20.description.0}"
 				""
-				"{chapters.arcane_3.quests21.description2}"
+				"{ftbquests.chapter.arcane_3.quests.20.description.2}"
 				""
-				"{chapters.arcane_3.quests21.description3}"
+				"{ftbquests.chapter.arcane_3.quests.20.description.4}"
 				""
-				"{chapters.arcane_3.quests21.description4}"
+				"{ftbquests.chapter.arcane_3.quests.20.description.6}"
 				""
-				"{chapters.arcane_3.quests21.description5}"
+				"{ftbquests.chapter.arcane_3.quests.20.description.8}"
 				""
-				"{chapters.arcane_3.quests21.description6}"
+				"{ftbquests.chapter.arcane_3.quests.20.description.10}"
 			]
 			dependencies: ["73E1F2B370C80359"]
 			size: 1.5d
@@ -543,85 +577,95 @@
 					item: "mythicbotany:master_rune_holder"
 				}
 			]
-			rewards: [{
-				id: "021C76171FBD0DB4"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			rewards: [
+				{
+					id: "021C76171FBD0DB4"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: 5.0d
 			shape: "square"
-			subtitle: "{chapters.arcane_3.quests22.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.21.subtitle}"
 			dependencies: ["5F807F5F169B7206"]
 			id: "73E1F2B370C80359"
-			tasks: [{
-				id: "48E772197026DD26"
-				type: "item"
-				item: "mythicbotany:gjallar_horn_full"
-			}]
+			tasks: [
+				{
+					id: "48E772197026DD26"
+					type: "item"
+					item: "mythicbotany:gjallar_horn_full"
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 9.5d
 			shape: "gear"
-			subtitle: "{chapters.arcane_3.quests23.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.22.subtitle}"
 			dependencies: ["5959775FC2D7BF58"]
 			id: "23166E01B7633B1B"
-			tasks: [{
-				id: "3D78270A7CC05267"
-				type: "item"
-				item: {
-					id: "mythicbotany:cursed_andwari_ring"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "3D78270A7CC05267"
+					type: "item"
+					item: {
+						id: "mythicbotany:cursed_andwari_ring"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests24.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.23.title}"
 			x: 5.0d
 			y: 7.0d
-			subtitle: "{chapters.arcane_3.quests24.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.23.subtitle}"
 			dependencies: [
 				"76D1BAC0FB2E2F32"
 				"01454647A04025DA"
 				"314036235E4C13BA"
 			]
 			id: "24815F606425F2A6"
-			tasks: [{
-				id: "1DD671160188E438"
-				type: "item"
-				item: "mythicbotany:kvasir_blood"
-			}]
+			tasks: [
+				{
+					id: "1DD671160188E438"
+					type: "item"
+					item: "mythicbotany:kvasir_blood"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests25.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.24.title}"
 			x: -5.5d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.arcane_3.quests25.subtitle}"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.24.subtitle}"
 			dependencies: ["028B8D773D1F3FC6"]
 			id: "6EDA780AFD7CE15F"
-			tasks: [{
-				id: "1FD75A7C50249606"
-				type: "item"
-				item: {
-					id: "botania:lexicon"
-					Count: 1b
-					tag: {
-						"botania:elven_unlock": 1b
+			tasks: [
+				{
+					id: "1FD75A7C50249606"
+					type: "item"
+					item: {
+						id: "botania:lexicon"
+						Count: 1b
+						tag: {
+							"botania:elven_unlock": 1b
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "Ultimate Realmful Runes"
+			title: "{ftbquests.chapter.arcane_3.quests.25.title}"
 			x: 6.5d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "When all the 9 realms get together. Try to obtain all of these runes. You'll need each one of them at least once"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.25.subtitle}"
 			dependencies: [
 				"663E35409B5EA827"
 				"7EF155944458998F"
@@ -677,95 +721,105 @@
 			]
 		}
 		{
-			title: "Growing Source"
+			title: "{ftbquests.chapter.arcane_3.quests.26.title}"
 			x: -2.5d
 			y: 6.0d
 			shape: "gear"
-			subtitle: "The Agronomical Sourcelink will produce Source from crops and trees growth. Certain plants, such as MageBlooms, Source Berry Bushes or Archwood trees will produce more Source per growing stage. After Source is produced, it will be automatically placed in any Sources Jars present in a 5x5 radius. Bonemealing crops/trees will not give any Source"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.26.subtitle}"
 			dependencies: ["0D4195630819F997"]
 			id: "36FB6199F0B666D2"
-			tasks: [{
-				id: "620D64F38DFAE643"
-				type: "item"
-				item: "ars_nouveau:mana_condenser"
-			}]
+			tasks: [
+				{
+					id: "620D64F38DFAE643"
+					type: "item"
+					item: "ars_nouveau:mana_condenser"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests25.tasks1.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.27.title}"
 			x: -2.5d
 			y: 7.0d
 			shape: "gear"
-			subtitle: "The Vitalic Sourcelink will generate healthy amounts of Source by consuming burnable items. Archwood logs will generate more Source, with Blazing Archwood logs generating the most amount of Source. Ocasionally, the Volcanic Sourcelink will turn Stone Blocks located underneath it in a 3x3 area into Magma Blocks, and the Magma Blocks, into Lava. It can also spawn Lava Lilys untop Lava. Lava Lilys are decorative blocks"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.27.subtitle}"
 			dependencies: ["0D4195630819F997"]
 			id: "5025EC6C7312E89A"
-			tasks: [{
-				id: "63A992C9EEC1595A"
-				type: "item"
-				item: "ars_nouveau:volcanic_accumulator"
-			}]
+			tasks: [
+				{
+					id: "63A992C9EEC1595A"
+					type: "item"
+					item: "ars_nouveau:volcanic_accumulator"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests25.tasks2.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.28.title}"
 			x: -2.5d
 			y: 8.0d
 			shape: "gear"
-			subtitle: "The Vitalic Sourcelink will generate Source when mobs are killed near it. It will also generate Source when nearby animals breed. Source will also be generated passively vrom the nearby baby animals. Lastly, the Vitalic Sourcelink will accelerate the growth of the neaby baby animals"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.28.subtitle}"
 			dependencies: ["0D4195630819F997"]
 			id: "19C40FAA6F50D52A"
-			tasks: [{
-				id: "5C74FF5CA16918EF"
-				type: "item"
-				item: "ars_nouveau:vitalic_sourcelink"
-			}]
+			tasks: [
+				{
+					id: "5C74FF5CA16918EF"
+					type: "item"
+					item: "ars_nouveau:vitalic_sourcelink"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests25.tasks3.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.29.title}"
 			x: 3.5d
 			y: 5.0d
 			shape: "square"
-			subtitle: "When used in its regular state, the Ritual of Summoning Wilden will spawn one of the 3 Wilden Mobs added by Ars Nouveau (Wilden Hunter, Wilden Stalker, Wilden Defender). However, when it is augmented with a Wilden Spike, a Wilden Horn and a Wilden Wing, the Ritual will summon the Wilden Chimera which is a challenging and destructive boss. When summoning the Chimera, this ritual will destroy some blocks around the Brazier"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.29.subtitle}"
 			dependencies: [
 				"51C8A2EC12659993"
 				"23BF297FF4BD920D"
 			]
 			id: "33961BEFB0C5C741"
-			tasks: [{
-				id: "320737DCA2A0A21A"
-				type: "item"
-				item: "ars_nouveau:ritual_wilden_summon"
-			}]
+			tasks: [
+				{
+					id: "320737DCA2A0A21A"
+					type: "item"
+					item: "ars_nouveau:ritual_wilden_summon"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests25.tasks4.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.30.title}"
 			icon: "ars_nouveau:wilden_wing"
 			x: 3.5d
 			y: 7.0d
 			shape: "diamond"
-			subtitle: "Fighting the abomination. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.30.subtitle}"
 			description: [
-				"The Chimera is a powerful and destructive mid-level boss. It can ressist to cold damage and a variety of Spells."
+				"{ftbquests.chapter.arcane_3.quests.30.description.0}"
 				""
-				"Unlike other bosses, the Chimera is special meaning that it has multiple phases dictated by its health bar. Each time you depleate its health bar, it will move to the next phase and will change its attack patterns."
+				"{ftbquests.chapter.arcane_3.quests.30.description.2}"
 				""
-				"Phase 1 - In this phase it will attack you using melee damage. It can also summon wolves to assist it in combat."
+				"{ftbquests.chapter.arcane_3.quests.30.description.4}"
 				""
-				"Phase 2 - In this phase, it will grow wilden spikes. It can launch them at you dealing massive amounts of damage and, also, giving you Slowness and Weakness. While launching spikes at you, it is immune to damage. It will also retain all the abilities present in the previous phase."
+				"{ftbquests.chapter.arcane_3.quests.30.description.6}"
 				""
-				"Phase 3 - In this pahse, it will grow wielding wings. These will allow it to fly into the air and launge itself at you, creating an explosion in the process. It wil also start to summon Wielden Stalkers to assist it in combat. All the abilities present in the previous phases will remain."
+				"{ftbquests.chapter.arcane_3.quests.30.description.8}"
 				""
-				"Phase 4 - In this phase, it will grow wilden horns. It will also become more agressive, will start to summon Wilden Defenders and Hunters to assist it in combat. It will also be able to cast certain negative effects on you, including Gravity which will not allow you to fly."
+				"{ftbquests.chapter.arcane_3.quests.30.description.10}"
 				""
-				"In each phase, it has 225 health points. This means that it has a total amount of 900 health points. Upon defeating it, you'll receive a Wilden Tribute."
+				"{ftbquests.chapter.arcane_3.quests.30.description.12}"
 			]
 			dependencies: ["33961BEFB0C5C741"]
 			size: 1.5d
 			id: "314036235E4C13BA"
-			tasks: [{
-				id: "522393663F948C5B"
-				type: "kill"
-				entity: "ars_nouveau:wilden_boss"
-				value: 1L
-			}]
+			tasks: [
+				{
+					id: "522393663F948C5B"
+					type: "kill"
+					entity: "ars_nouveau:wilden_boss"
+					value: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "06656E1486E8C970"
@@ -800,57 +854,63 @@
 			x: 1.0d
 			y: 5.0d
 			shape: "square"
-			subtitle: "Let's make things easier. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.31.subtitle}"
 			description: [
-				"The Ritual Brazier has mainly two uses. One of them is purely decorative, while the other is highly functional. "
+				"{ftbquests.chapter.arcane_3.quests.31.description.0}"
 				""
-				"First, you can use the Brazier as a fancy light source. Just use a light spell on the Brazier. The color of the light will depends on the color of the spell."
+				"{ftbquests.chapter.arcane_3.quests.31.description.2}"
 				""
-				"Second, the Brazier can be used to perform rituals. Each ritual requires a unique Tablet. To start a ritual, place your Tablet on the Brazier. Flames will burst. In this state, the ritual can be augmented. To augment the ritual just throw items into the Brazier. Information will be given in the top left side of your screen. More info about the possible augments will be given in the quest corespondent to each Tablet. Start the ritual by right-clicking the Brazier with an empty hand."
+				"{ftbquests.chapter.arcane_3.quests.31.description.4}"
 			]
 			dependencies: ["01C35754A9AEF761"]
 			id: "23BF297FF4BD920D"
-			tasks: [{
-				id: "028BB640CD6E8F85"
-				type: "item"
-				item: "ars_nouveau:ritual"
-			}]
+			tasks: [
+				{
+					id: "028BB640CD6E8F85"
+					type: "item"
+					item: "ars_nouveau:ritual"
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests25.tasks6.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.32.title}"
 			x: 5.0d
 			y: 8.0d
 			shape: "heart"
-			subtitle: "Reach the lands of Alfheim"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.32.subtitle}"
 			dependencies: ["24815F606425F2A6"]
 			id: "5959775FC2D7BF58"
-			tasks: [{
-				id: "1C4F7E1F54313185"
-				type: "dimension"
-				title: "Visit Alfheim"
-				icon: "botania:pixie_dust"
-				dimension: "mythicbotany:alfheim"
-			}]
-			rewards: [{
-				id: "6140F80583B278D7"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "1C4F7E1F54313185"
+					type: "dimension"
+					title: "{ftbquests.chapter.arcane_3.quests.32.tasks.0.title}"
+					icon: "botania:pixie_dust"
+					dimension: "mythicbotany:alfheim"
+				}
+			]
+			rewards: [
+				{
+					id: "6140F80583B278D7"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests25.tasks7.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.33.title}"
 			x: -1.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Welcome to the path of pride. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.33.subtitle}"
 			description: [
-				"The Rod of the Bifrost is a powerful tool which can be used to summon a very small portion of the Bifrost. If you're not familiar to the concept of the Bifrost, listen here."
+				"{ftbquests.chapter.arcane_3.quests.33.description.0}"
 				""
-				"In the Norse Mythology, the Bifrost is a burning rainbow bridge that reaches between Midgard and Asgard, the realm of the Gods."
+				"{ftbquests.chapter.arcane_3.quests.33.description.2}"
 				""
-				"Now, comming back to our Rod. You might be dissapointed to hear that it cannot sustain the full powers of the Bifrost and, at its best, it can create a rainbow bridge between your position and the block you're looking at. Mana will be required for it to work properly."
+				"{ftbquests.chapter.arcane_3.quests.33.description.4}"
 				""
-				"Now, its main use in your journey will be to obtain Bifrost Blocks. These blocks are not only beautiful, but are also extremely good at chanelling light. Given this information, you might be able to use them to build a Beacon."
+				"{ftbquests.chapter.arcane_3.quests.33.description.6}"
 			]
 			dependencies: [
 				"01C35754A9AEF761"
@@ -859,259 +919,295 @@
 				"2EB2C0CB138E095B"
 			]
 			id: "0042F13E8B47BF3F"
-			tasks: [{
-				id: "3FD39C0731ED192D"
-				type: "item"
-				item: "botania:rainbow_rod"
-			}]
+			tasks: [
+				{
+					id: "3FD39C0731ED192D"
+					type: "item"
+					item: "botania:rainbow_rod"
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Use the Bifrost blocks to contain the unstable energies produced by a Nether Star and obtain a Beacon. And yeah, this is just a fancy way of saying \"Use this to craft a Beacon\""
+			subtitle: "{ftbquests.chapter.arcane_3.quests.34.subtitle}"
 			dependencies: ["0042F13E8B47BF3F"]
 			id: "29AC4F90E065AB85"
-			tasks: [{
-				id: "0A59AFD668283164"
-				type: "item"
-				item: "botania:bifrost_perm"
-			}]
+			tasks: [
+				{
+					id: "0A59AFD668283164"
+					type: "item"
+					item: "botania:bifrost_perm"
+				}
+			]
 		}
 		{
 			x: -5.5d
 			y: -0.5d
 			shape: "gear"
-			subtitle: "Generates mana by consuming Cake. Every 4 seconds, the flower attempts to consume one slice of Cake in an 11×11×11 area around itself, producing 1,800 Mana per slice, resulting in 12,600 per Cake"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.35.subtitle}"
 			dependencies: ["0FC87F7225551D24"]
 			id: "1A4E7B574798B488"
-			tasks: [{
-				id: "1D078A2020B7D50F"
-				type: "item"
-				item: "botania:kekimurus"
-			}]
+			tasks: [
+				{
+					id: "1D078A2020B7D50F"
+					type: "item"
+					item: "botania:kekimurus"
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "Generates mana by consuming Wool of specific colors. A Spectrolus consumes blocks of Wool dropped within 1 block of it. It will consume any and all wool dropped, but it will not generate Mana from all of them. It will only generate Mana if the correct color of wool is dropped. The colors of wool it accepts follow the standard metadata order: White, Orange, Magenta, Light Blue, Yellow, Lime, Pink, Grey, Light Grey, Cyan, Purple, Blue, Brown, Green, Red, Black. Each correct block of Wool consumed generates 1200 Mana. The next color in the order can be checked by looking at the Spectrolus while holding a Wand of the Forest"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.36.subtitle}"
 			dependencies: ["0FC87F7225551D24"]
 			id: "721815AC20B4E029"
-			tasks: [{
-				id: "0A1C3A5881295C00"
-				type: "item"
-				item: "botania:spectrolus"
-			}]
+			tasks: [
+				{
+					id: "0A1C3A5881295C00"
+					type: "item"
+					item: "botania:spectrolus"
+				}
+			]
 		}
 		{
 			x: 3.5d
 			y: -1.0d
 			shape: "heart"
-			subtitle: "The Games of Mana. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.37.subtitle}"
 			description: [
-				"The Dandelifeon is a generating flower that produces Mana by simulating Conway's Game of Life in a 25×25 area around it."
+				"{ftbquests.chapter.arcane_3.quests.37.description.0}"
 				""
-				"When a redstone signal is applied to it, it will advance one generation every 10 ticks."
+				"{ftbquests.chapter.arcane_3.quests.37.description.2}"
 				""
-				"Each square in the 25x25 area is referred to as a Cell. Cells can have two possible states - Live: the cell has a Cellular Block above it - Dead: the cell does not have a Cellular Block above it."
+				"{ftbquests.chapter.arcane_3.quests.37.description.4}"
 				""
-				"The state of a cell will change depending on the states of its Neighbours, which are the 8 squares surrounding the cell:"
+				"{ftbquests.chapter.arcane_3.quests.37.description.6}"
 				""
-				"1. Live → Dead: The live cell has fewer than two or more than three live neighbours."
+				"{ftbquests.chapter.arcane_3.quests.37.description.8}"
 				""
-				"2. Live → Live: The live cell has exactly two or three live neighbours."
+				"{ftbquests.chapter.arcane_3.quests.37.description.10}"
 				""
-				"3. Dead → Live: The dead cell has exactly three live neighbours."
+				"{ftbquests.chapter.arcane_3.quests.37.description.12}"
 				""
-				"Botania has some additional rules over the original Game of Life."
+				"{ftbquests.chapter.arcane_3.quests.37.description.14}"
 				""
-				"Age: each live cell will have an age value attached to it. For each generation the cell will have its age increased by 1. When a dead cell becomes a live cell, its new age is Anew cell = NEIGHBOURoldest + 1."
+				"{ftbquests.chapter.arcane_3.quests.37.description.16}"
 				""
-				"Mana conversion: the 3x3 area centered on the Dandelifeon is uninhabitable by cells. Any cells that grow into that area will be converted into Mana, and all other cells in the Dandelifeon's range will die. The age of a cell is directly proportional to the Mana it produces. Age 0 cells will not generate Mana, age 101 and older cells will generate as much Mana as age 100 cells."
+				"{ftbquests.chapter.arcane_3.quests.37.description.18}"
 				""
-				"Multiple Dandelifeons: a cell that is in the functional range of at least 2 Dandelifeons will die and cannot be turned into a live one."
+				"{ftbquests.chapter.arcane_3.quests.37.description.20}"
 				""
-				"Means of transport: Cellular blocks that are moved by other means than the Dandelifeon will break and cannot be recovered."
+				"{ftbquests.chapter.arcane_3.quests.37.description.22}"
 				""
-				"Cell occupation: Cellular blocks will not generate on cells that are already occupied by non-air blocks."
+				"{ftbquests.chapter.arcane_3.quests.37.description.24}"
 				""
-				"Whenever any live cells are absorbed by the 3x3 zone in the center, all other cells in the board die."
+				"{ftbquests.chapter.arcane_3.quests.37.description.26}"
 				""
-				"A Dandelifeon can store 50,000 Mana internally, and can be bound to a Mana Spreader within 6 blocks to output Mana."
+				"{ftbquests.chapter.arcane_3.quests.37.description.28}"
 			]
 			dependencies: ["398B882BA973C054"]
 			id: "6BA510EEFBFCE616"
-			tasks: [{
-				id: "617C00FF33C4031F"
-				type: "item"
-				item: "botania:dandelifeon"
-			}]
+			tasks: [
+				{
+					id: "617C00FF33C4031F"
+					type: "item"
+					item: "botania:dandelifeon"
+				}
+			]
 		}
 		{
 			x: -4.0d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "Generates mana by consuming other Botania flowers. Every two seconds, a Rafflowsia will check the 11×11×11 area around for any craftable Botania flowers. If it finds one, it will attempt to consume it and generate 2100 Mana. However, if it consumes the same flower multiple times in a row, it will produce less and less Mana"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.38.subtitle}"
 			dependencies: ["0FC87F7225551D24"]
 			id: "1F465007D812D8E8"
-			tasks: [{
-				id: "67CB2C1496193AC8"
-				type: "item"
-				item: "botania:rafflowsia"
-			}]
+			tasks: [
+				{
+					id: "67CB2C1496193AC8"
+					type: "item"
+					item: "botania:rafflowsia"
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: -0.5d
 			shape: "gear"
-			subtitle: "Generates mana out of Shulkers fighting other monsters. If a shulker inflicts Levitation on a monster it targets, both the shulker and the hit entity are in the flower's range, and the flower has no mana stored in its buffer, it will kill both entities, suppress their drops, and completely fill its buffer. As shulkers do not spawn naturally and don't attack other monsters on their own, a Cocoon of Caprice can be used to spawn them, and a Heisei Dream to cause them to target monsters"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.39.subtitle}"
 			dependencies: ["0FC87F7225551D24"]
 			id: "7F59D9528B7845B3"
-			tasks: [{
-				id: "4E91D54D4D9A1B73"
-				type: "item"
-				item: "botania:shulk_me_not"
-			}]
+			tasks: [
+				{
+					id: "4E91D54D4D9A1B73"
+					type: "item"
+					item: "botania:shulk_me_not"
+				}
+			]
 		}
 		{
 			x: 4.5d
 			y: 9.5d
 			shape: "gear"
-			subtitle: "This star concentrated alloy will be used to forge a powerful Asgardian Weapon. It can also be used with any item in the Smithing Table, to make it indestructible"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.40.subtitle}"
 			dependencies: ["5959775FC2D7BF58"]
 			id: "4946B5DA53086A8F"
-			tasks: [{
-				id: "663FFAD85A71E6C3"
-				type: "item"
-				item: "decursiomod:uru_ingot"
-			}]
+			tasks: [
+				{
+					id: "663FFAD85A71E6C3"
+					type: "item"
+					item: "decursiomod:uru_ingot"
+				}
+			]
 		}
 		{
 			x: -8.0d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "Source Berries are very useful. They can be used to obtain dye, make food items that will assist you in your journey as a mage, and can also be used to make Source Farms"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.41.subtitle}"
 			dependencies: [
 				"1D1A68C9C73CC5E2"
 				"2EB2C0CB138E095B"
 			]
 			id: "1827E447C5C11B02"
-			tasks: [{
-				id: "07C478690F9D43B3"
-				type: "item"
-				item: "ars_nouveau:mana_berry"
-			}]
+			tasks: [
+				{
+					id: "07C478690F9D43B3"
+					type: "item"
+					item: "ars_nouveau:mana_berry"
+				}
+			]
 		}
 		{
 			x: -3.5d
 			y: 7.0d
 			shape: "square"
-			subtitle: "The Arcane Frame will serve as a base for all magic contraptions you're going to craft next"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.42.subtitle}"
 			dependencies: [
 				"12BEA0308056A4B6"
 				"06F2CBB344BC23EF"
 			]
 			id: "0D4195630819F997"
-			tasks: [{
-				id: "69FA0D388F61D2E2"
-				type: "item"
-				item: "decursiomod:arcane_frame"
-			}]
-			rewards: [{
-				id: "5935A33C68B6EBD6"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "69FA0D388F61D2E2"
+					type: "item"
+					item: "decursiomod:arcane_frame"
+				}
+			]
+			rewards: [
+				{
+					id: "5935A33C68B6EBD6"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
-			title: "{chapters.arcane_3.quests25.tasks17.title}"
+			title: "{ftbquests.chapter.arcane_3.quests.43.title}"
 			x: -5.5d
 			y: 0.5d
 			shape: "heart"
-			subtitle: "A simple block which will allow you to access a Void Dimension. You'll be spawned on a 7x7 platform. From there, you can start building a new base. This can be useful to avoid having a laggy base in Overworld. This block does not need any frame in order to work properly. Just Right-Click it to enter and get back from the Dimension. On multiplayer, there will be just ONE Void dimension for everyone"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.43.subtitle}"
 			dependencies: [
 				"5000BE1C387FA8A3"
 				"028B8D773D1F3FC6"
 				"7ACF36D208556611"
 			]
 			id: "7E6F4A4E629E7F2D"
-			tasks: [{
-				id: "72449592D4F4E163"
-				type: "item"
-				item: "javd:portal_block"
-			}]
-			rewards: [{
-				id: "5C26CC75775234A8"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "72449592D4F4E163"
+					type: "item"
+					item: "javd:portal_block"
+				}
+			]
+			rewards: [
+				{
+					id: "5C26CC75775234A8"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: 8.0d
 			shape: "circle"
-			subtitle: "The Magic Clay will be used as a base for Tier 1 Spell Glyphs"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.44.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["0FC87F7225551D24"]
 			id: "16AA0D0FD3075CB9"
-			tasks: [{
-				id: "30E21A5DA858B03B"
-				type: "item"
-				item: "ars_nouveau:magic_clay"
-			}]
+			tasks: [
+				{
+					id: "30E21A5DA858B03B"
+					type: "item"
+					item: "ars_nouveau:magic_clay"
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: 7.0d
 			shape: "gear"
-			subtitle: "Actually learning spells. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.45.subtitle}"
 			description: [
-				"The Glyph Press will be used to make Glyphs which you can add to a SpellBook where you can use them to make whatever spells you want. "
+				"{ftbquests.chapter.arcane_3.quests.45.description.0}"
 				""
-				"The Glyph Press will require one of 3 types of Magical Clay, a Reagent and some Source. To start the crafting process, press some Clay intro the Press, then the Reagent and finally, some Source near the Press. The crafting process will start, resulting in a Glyph."
+				"{ftbquests.chapter.arcane_3.quests.45.description.2}"
 				""
-				"The Glyph crafting process can be automated. Clay can be pushed in from the sides and the Reagent can be pushed in from the top."
+				"{ftbquests.chapter.arcane_3.quests.45.description.4}"
 			]
 			dependencies: ["47C92313B4A81B87"]
 			id: "005E1D5602B26325"
-			tasks: [{
-				id: "04E2D26E28F602FD"
-				type: "item"
-				item: "ars_nouveau:glyph_press"
-			}]
-			rewards: [{
-				id: "0C292170F2EC1D6C"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			tasks: [
+				{
+					id: "04E2D26E28F602FD"
+					type: "item"
+					item: "ars_nouveau:glyph_press"
+				}
+			]
+			rewards: [
+				{
+					id: "0C292170F2EC1D6C"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: 8.0d
-			subtitle: "The Mythical Clay will be used as a base for Tier 3 Spell Glyphs"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.46.subtitle}"
 			dependencies: [
 				"65EF295F1B0AFF83"
 				"20066A1C19E42D20"
 			]
 			id: "52593F6356D0C223"
-			tasks: [{
-				id: "46858E82E388222F"
-				type: "item"
-				item: "ars_nouveau:mythical_clay"
-			}]
+			tasks: [
+				{
+					id: "46858E82E388222F"
+					type: "item"
+					item: "ars_nouveau:mythical_clay"
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: 9.5d
-			subtitle: "The Marvelous Clay will be used as a base for Tier 2 Spell Glyphs"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.47.subtitle}"
 			dependencies: ["16AA0D0FD3075CB9"]
 			id: "65EF295F1B0AFF83"
-			tasks: [{
-				id: "1D8D85FAB5886F11"
-				type: "item"
-				item: "ars_nouveau:marvelous_clay"
-			}]
+			tasks: [
+				{
+					id: "1D8D85FAB5886F11"
+					type: "item"
+					item: "ars_nouveau:marvelous_clay"
+				}
+			]
 		}
 		{
 			icon: {
@@ -1124,7 +1220,7 @@
 			x: 6.5d
 			y: 6.0d
 			shape: "gear"
-			subtitle: "This Altar will allow you to summon the Wandering Trader (Starmetal Block recipe), or the Red Merchant from Supplementaries (because this thing couldn't have been 100% useless - now it is 90% useless). The Altar needs a multiblock structure in order for it to work properly (same structure for every operation). Use JEI to see the structure in-world"
+			subtitle: "{ftbquests.chapter.arcane_3.quests.48.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2A5B9110468E3F96"]
 			id: "20A0BA3C5DF8205B"

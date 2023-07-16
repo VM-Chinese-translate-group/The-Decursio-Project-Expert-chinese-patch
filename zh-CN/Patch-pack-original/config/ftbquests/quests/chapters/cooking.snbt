@@ -3,7 +3,7 @@
 	group: "70E732380FC79639"
 	order_index: 1
 	filename: "cooking"
-	title: "{chapters.cooking.title}"
+	title: "{ftbquests.chapter.cooking.title}"
 	icon: {
 		id: "rats:chef_toque"
 		Count: 1b
@@ -19,11 +19,13 @@
 			y: 0.0d
 			dependencies: ["1AEE2CCA8621BBE7"]
 			id: "5F48AB085E8CE748"
-			tasks: [{
-				id: "6B055163AC6D4328"
-				type: "item"
-				item: "farmersdelight:hamburger"
-			}]
+			tasks: [
+				{
+					id: "6B055163AC6D4328"
+					type: "item"
+					item: "farmersdelight:hamburger"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -31,11 +33,13 @@
 			shape: "gear"
 			dependencies: ["6AF58B751977F945"]
 			id: "1AEE2CCA8621BBE7"
-			tasks: [{
-				id: "6C5C8D324A25B3BD"
-				type: "item"
-				item: "minecraft:bread"
-			}]
+			tasks: [
+				{
+					id: "6C5C8D324A25B3BD"
+					type: "item"
+					item: "minecraft:bread"
+				}
+			]
 		}
 	]
 }

@@ -3,7 +3,7 @@
 	group: "52BC1523CD35BD71"
 	order_index: 3
 	filename: "protection_1"
-	title: "{chapters.protection_1.title}"
+	title: "{ftbquests.chapter.protection_1.title}"
 	icon: {
 		id: "sanguinearsenal:sanguine_praetor_tunic"
 		Count: 1b
@@ -15,7 +15,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapters.protection_1.quests1.title}"
+			title: "{ftbquests.chapter.protection_1.quests.0.title}"
 			icon: {
 				id: "minecraft:chainmail_chestplate"
 				Count: 1b
@@ -26,7 +26,7 @@
 			x: -2.5d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_1.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_1.quests.0.subtitle}"
 			dependencies: ["0DDA2FB169318B04"]
 			id: "2BA40FC4C6826DA4"
 			tasks: [
@@ -96,7 +96,7 @@
 			]
 		}
 		{
-			title: "{chapters.protection_1.quests2.title}"
+			title: "{ftbquests.chapter.protection_1.quests.1.title}"
 			icon: {
 				id: "eidolon:warlock_cloak"
 				Count: 1b
@@ -107,11 +107,11 @@
 			x: 0.5d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_1.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_1.quests.1.subtitle}"
 			description: [
-				"{chapters.protection_1.quests2.description1}"
+				"{ftbquests.chapter.protection_1.quests.1.description.0}"
 				""
-				"{chapters.protection_1.quests2.description2}"
+				"{ftbquests.chapter.protection_1.quests.1.description.2}"
 			]
 			dependencies: ["5BE9A7D51A671963"]
 			id: "7A720A0079E99E08"
@@ -171,7 +171,7 @@
 			]
 		}
 		{
-			title: "{chapters.protection_1.quests3.title}"
+			title: "{ftbquests.chapter.protection_1.quests.2.title}"
 			icon: {
 				id: "aquaculture:neptunium_chestplate"
 				Count: 1b
@@ -182,7 +182,7 @@
 			x: -1.0d
 			y: 1.0d
 			shape: "heart"
-			subtitle: "{chapters.protection_1.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_1.quests.2.subtitle}"
 			dependencies: ["42AF545672802A08"]
 			id: "4912BEC79270070A"
 			tasks: [
@@ -231,15 +231,17 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "6632484AF5742BC3"
-				type: "item"
-				item: "aquaculture:neptunium_ingot"
-				count: 64
-			}]
+			rewards: [
+				{
+					id: "6632484AF5742BC3"
+					type: "item"
+					item: "aquaculture:neptunium_ingot"
+					count: 64
+				}
+			]
 		}
 		{
-			title: "{chapters.protection_1.quests4.title}"
+			title: "{ftbquests.chapter.protection_1.quests.3.title}"
 			icon: {
 				id: "minecraft:leather_chestplate"
 				Count: 1b
@@ -249,7 +251,7 @@
 			}
 			x: -1.5d
 			y: -3.0d
-			subtitle: "{chapters.protection_1.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_1.quests.3.subtitle}"
 			dependencies: ["0DDA2FB169318B04"]
 			id: "2B1D34891B1C8331"
 			tasks: [
@@ -300,7 +302,7 @@
 			]
 		}
 		{
-			title: "{chapters.protection_1.quests5.title}"
+			title: "{ftbquests.chapter.protection_1.quests.4.title}"
 			icon: {
 				id: "sanguinearsenal:sanguine_praetor_tunic"
 				Count: 1b
@@ -311,33 +313,33 @@
 			x: 1.5d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_1.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_1.quests.4.subtitle}"
 			description: [
-				"{chapters.protection_1.quests5.description1}"
+				"{ftbquests.chapter.protection_1.quests.4.description.0}"
 				""
-				"{chapters.protection_1.quests5.description2}"
+				"{ftbquests.chapter.protection_1.quests.4.description.2}"
 				""
-				"{chapters.protection_1.quests5.description3}"
-				"{chapters.protection_1.quests5.description4}"
-				"{chapters.protection_1.quests5.description5}"
-				"{chapters.protection_1.quests5.description6}"
-				"{chapters.protection_1.quests5.description7}"
+				"{ftbquests.chapter.protection_1.quests.4.description.4}"
+				"{ftbquests.chapter.protection_1.quests.4.description.5}"
+				"{ftbquests.chapter.protection_1.quests.4.description.6}"
+				"{ftbquests.chapter.protection_1.quests.4.description.7}"
+				"{ftbquests.chapter.protection_1.quests.4.description.8}"
 				""
-				"{chapters.protection_1.quests5.description8}"
+				"{ftbquests.chapter.protection_1.quests.4.description.10}"
 				""
-				"{chapters.protection_1.quests5.description9}"
+				"{ftbquests.chapter.protection_1.quests.4.description.12}"
 				""
-				"{chapters.protection_1.quests5.description10}"
+				"{ftbquests.chapter.protection_1.quests.4.description.14}"
 				""
-				"{chapters.arcane_2.quests6.description4}"
+				"{ftbquests.chapter.protection_1.quests.4.description.16}"
 				""
-				"{chapters.protection_1.quests5.description12}"
+				"{image:kubejs:textures/eidolon/praetor_hood_recipe-min.png width:100 height:140 align:1}"
 				""
-				"{chapters.protection_1.quests5.description13}"
+				"{image:kubejs:textures/eidolon/praetor_tunic_recipe.png width:100 height:140 align:1}"
 				""
-				"{chapters.protection_1.quests5.description14}"
+				"{image:kubejs:textures/eidolon/praetor_leggings_recipe-min.png width:100 height:140 align:1}"
 				""
-				"{chapters.protection_1.quests5.description15}"
+				"{image:kubejs:textures/eidolon/praetor_boots_recipe-min.png width:100 height:140 align:1}"
 			]
 			dependencies: ["7DFB99444DF72CF8"]
 			id: "597DB0D9C559A243"
@@ -387,14 +389,16 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "3C23FF8747CB9116"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			rewards: [
+				{
+					id: "3C23FF8747CB9116"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
-			title: "{chapters.protection_1.quests6.title}"
+			title: "{ftbquests.chapter.protection_1.quests.5.title}"
 			icon: {
 				id: "tconstruct:travelers_chestplate"
 				Count: 1b
@@ -418,7 +422,7 @@
 			x: -1.5d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.protection_1.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_1.quests.5.subtitle}"
 			dependencies: ["2BA40FC4C6826DA4"]
 			id: "37449993E23E82FB"
 			tasks: [
@@ -521,7 +525,7 @@
 			]
 		}
 		{
-			title: "{chapters.protection_1.quests7.title}"
+			title: "{ftbquests.chapter.protection_1.quests.6.title}"
 			icon: {
 				id: "minecraft:golden_chestplate"
 				Count: 1b
@@ -531,7 +535,7 @@
 			}
 			x: 0.5d
 			y: -3.0d
-			subtitle: "{chapters.protection_1.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_1.quests.6.subtitle}"
 			dependencies: ["0DDA2FB169318B04"]
 			id: "39B172FFF0FFFD5B"
 			tasks: [
@@ -582,7 +586,7 @@
 			]
 		}
 		{
-			title: "{chapters.protection_1.quests8.title}"
+			title: "{ftbquests.chapter.protection_1.quests.7.title}"
 			icon: {
 				id: "mutantbeasts:mutant_skeleton_chestplate"
 				Count: 1b
@@ -593,7 +597,7 @@
 			x: 0.0d
 			y: 1.0d
 			shape: "heart"
-			subtitle: "{chapters.protection_1.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_1.quests.7.subtitle}"
 			dependencies: ["1B5CD5130C2E5AF3"]
 			id: "45CF499B8206C415"
 			tasks: [
@@ -642,15 +646,17 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "45C36B8EECAA779D"
-				type: "item"
-				item: "minecraft:bone_block"
-				count: 64
-			}]
+			rewards: [
+				{
+					id: "45C36B8EECAA779D"
+					type: "item"
+					item: "minecraft:bone_block"
+					count: 64
+				}
+			]
 		}
 		{
-			title: "{chapters.protection_1.quests9.title}"
+			title: "{ftbquests.chapter.protection_1.quests.8.title}"
 			icon: {
 				id: "swoodarmor:chestplate"
 				Count: 1b
@@ -660,7 +666,7 @@
 			}
 			x: -0.5d
 			y: -3.0d
-			subtitle: "{chapters.protection_1.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.protection_1.quests.8.subtitle}"
 			dependencies: ["76F7CACBB3B85B1F"]
 			id: "4654A7E4009EB979"
 			tasks: [

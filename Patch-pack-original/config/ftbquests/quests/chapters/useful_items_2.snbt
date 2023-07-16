@@ -3,7 +3,7 @@
 	group: "532DAB84AB301350"
 	order_index: 5
 	filename: "useful_items_2"
-	title: "{chapters.useful_items_2.title}"
+	title: "{ftbquests.chapter.useful_items_2.title}"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -11,382 +11,428 @@
 			x: 7.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.0.subtitle}"
 			dependencies: ["663E35409B5EA827"]
 			id: "26E1E4B00A28CFA1"
-			tasks: [{
-				id: "28043F74E619EEDB"
-				type: "item"
-				item: {
-					id: "botania:travel_belt"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "28043F74E619EEDB"
+					type: "item"
+					item: {
+						id: "botania:travel_belt"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 7.5d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.1.subtitle}"
 			dependencies: ["48148EE28276AB64"]
 			id: "39089495BEB4B66A"
-			tasks: [{
-				id: "5DA1C2390D7E0665"
-				type: "item"
-				item: {
-					id: "botania:magnet_ring"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "5DA1C2390D7E0665"
+					type: "item"
+					item: {
+						id: "botania:magnet_ring"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 8.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.2.subtitle}"
 			dependencies: ["26E1E4B00A28CFA1"]
 			id: "79E685CA951E62B4"
-			tasks: [{
-				id: "631695D3CCA21F28"
-				type: "item"
-				item: {
-					id: "botania:speed_up_belt"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "631695D3CCA21F28"
+					type: "item"
+					item: {
+						id: "botania:speed_up_belt"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "56DF71BDB6792921"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			]
+			rewards: [
+				{
+					id: "56DF71BDB6792921"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
 			x: 8.5d
 			y: 1.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_2.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.3.subtitle}"
 			dependencies: ["39089495BEB4B66A"]
 			id: "05C2C42B92CAF714"
-			tasks: [{
-				id: "3EE394C4047D6C90"
-				type: "item"
-				item: {
-					id: "botania:magnet_ring_greater"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "3EE394C4047D6C90"
+					type: "item"
+					item: {
+						id: "botania:magnet_ring_greater"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "3D2B378376D6D129"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			]
+			rewards: [
+				{
+					id: "3D2B378376D6D129"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
 			x: 10.5d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.4.subtitle}"
 			dependencies: [
 				"2914918CED2A5233"
 				"48148EE28276AB64"
 				"6E6272D607C825A5"
 			]
 			id: "06548D3C67022989"
-			tasks: [{
-				id: "55F4CAB682F4B619"
-				type: "item"
-				item: {
-					id: "botania:aura_ring"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "55F4CAB682F4B619"
+					type: "item"
+					item: {
+						id: "botania:aura_ring"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 9.5d
 			y: 1.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_2.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.5.subtitle}"
 			dependencies: ["06548D3C67022989"]
 			id: "385CDCBBD32650C2"
-			tasks: [{
-				id: "7384392798AE88BF"
-				type: "item"
-				item: {
-					id: "botania:aura_ring_greater"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "7384392798AE88BF"
+					type: "item"
+					item: {
+						id: "botania:aura_ring_greater"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 11.5d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.6.subtitle}"
 			dependencies: ["48148EE28276AB64"]
 			id: "70128E5F9526DC6D"
-			tasks: [{
-				id: "47EB52261BA2B85E"
-				type: "item"
-				item: "botania:bauble_box"
-			}]
+			tasks: [
+				{
+					id: "47EB52261BA2B85E"
+					type: "item"
+					item: "botania:bauble_box"
+				}
+			]
 		}
 		{
 			x: 8.5d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.7.subtitle}"
 			dependencies: [
 				"1FAA3F48DAAE770A"
 				"48148EE28276AB64"
 			]
 			id: "5FC259B61815DD89"
-			tasks: [{
-				id: "7CDE24C2D88DFB7A"
-				type: "item"
-				item: {
-					id: "botania:water_ring"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "7CDE24C2D88DFB7A"
+					type: "item"
+					item: {
+						id: "botania:water_ring"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 9.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.8.subtitle}"
 			dependencies: ["48148EE28276AB64"]
 			id: "30B5B6786FF2BFDA"
-			tasks: [{
-				id: "29F29D42DDAEAEA4"
-				type: "item"
-				item: {
-					id: "botania:swap_ring"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "29F29D42DDAEAEA4"
+					type: "item"
+					item: {
+						id: "botania:swap_ring"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 9.5d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.9.subtitle}"
 			dependencies: [
 				"20FAA4078A7CB9A1"
 				"48148EE28276AB64"
 			]
 			id: "7F1A6799BBC236D3"
-			tasks: [{
-				id: "4E9E6AD449636D92"
-				type: "item"
-				item: {
-					id: "botania:dodge_ring"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "4E9E6AD449636D92"
+					type: "item"
+					item: {
+						id: "botania:dodge_ring"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 10.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.10.subtitle}"
 			dependencies: [
 				"0F4E331615DD558C"
 				"48148EE28276AB64"
 			]
 			id: "0742F8109AC7B9EB"
-			tasks: [{
-				id: "0F54990E70ADBA70"
-				type: "item"
-				item: {
-					id: "botania:mining_ring"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "0F54990E70ADBA70"
+					type: "item"
+					item: {
+						id: "botania:mining_ring"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 12.5d
 			y: -4.5d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_2.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.11.subtitle}"
 			dependencies: ["6E6272D607C825A5"]
 			id: "69B21BD23BBD39FF"
-			tasks: [{
-				id: "21E61FE1AAC7D2DF"
-				type: "item"
-				item: {
-					id: "botania:invisibility_cloak"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "21E61FE1AAC7D2DF"
+					type: "item"
+					item: {
+						id: "botania:invisibility_cloak"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 10.5d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.12.subtitle}"
 			dependencies: [
 				"0F4E331615DD558C"
 				"204E4CC598F248A6"
 			]
 			id: "765FA62DA3853819"
-			tasks: [{
-				id: "25621E0656A69823"
-				type: "item"
-				item: {
-					id: "botania:knockback_belt"
-					Count: 1b
-					tag: {
-						baubleUUIDMost: 2167400703727455910L
-						baubleUUIDLeast: -6824381040575601095L
+			tasks: [
+				{
+					id: "25621E0656A69823"
+					type: "item"
+					item: {
+						id: "botania:knockback_belt"
+						Count: 1b
+						tag: {
+							baubleUUIDMost: 2167400703727455910L
+							baubleUUIDLeast: -6824381040575601095L
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 9.0d
 			y: -3.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_2.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.13.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests14.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.13.description.0}"
 				""
-				"{chapters.useful_items_2.quests14.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.13.description.2}"
 				""
-				"{chapters.useful_items_2.quests14.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.13.description.4}"
 			]
 			dependencies: ["111B86AE41B02D70"]
 			id: "6A5222307B2449EA"
-			tasks: [{
-				id: "29F46D5E30709B97"
-				type: "item"
-				item: "botania:thorn_chakram"
-			}]
+			tasks: [
+				{
+					id: "29F46D5E30709B97"
+					type: "item"
+					item: "botania:thorn_chakram"
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.14.subtitle}"
 			dependencies: ["5BC44F27B24D5624"]
 			id: "439C938602D50956"
-			tasks: [{
-				id: "02190078E34CA4F9"
-				type: "item"
-				item: "botania:horn_grass"
-			}]
+			tasks: [
+				{
+					id: "02190078E34CA4F9"
+					type: "item"
+					item: "botania:horn_grass"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.15.subtitle}"
 			dependencies: ["439C938602D50956"]
 			id: "74A5DE2188498DBA"
-			tasks: [{
-				id: "2CC93A56B79A4ACD"
-				type: "item"
-				item: "botania:horn_leaves"
-			}]
+			tasks: [
+				{
+					id: "2CC93A56B79A4ACD"
+					type: "item"
+					item: "botania:horn_leaves"
+				}
+			]
 		}
 		{
 			x: 10.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests17.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.16.subtitle}"
 			dependencies: ["439C938602D50956"]
 			id: "14B25E5235A67BF0"
-			tasks: [{
-				id: "14B17AF30CD2E646"
-				type: "item"
-				item: "botania:horn_snow"
-			}]
+			tasks: [
+				{
+					id: "14B17AF30CD2E646"
+					type: "item"
+					item: "botania:horn_snow"
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: -4.5d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_2.quests18.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.17.subtitle}"
 			dependencies: ["6E6272D607C825A5"]
 			id: "06428DE9E7B3FC83"
-			tasks: [{
-				id: "19AD588EE213A959"
-				type: "item"
-				item: "botania:ender_hand"
-			}]
+			tasks: [
+				{
+					id: "19AD588EE213A959"
+					type: "item"
+					item: "botania:ender_hand"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests19.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.18.subtitle}"
 			dependencies: [
 				"204E4CC598F248A6"
 				"1F81661C224DD904"
 			]
 			id: "5359762ABAD18190"
-			tasks: [{
-				id: "5C41830B6DBB479F"
-				type: "item"
-				item: {
-					id: "botania:lava_pendant"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "5C41830B6DBB479F"
+					type: "item"
+					item: {
+						id: "botania:lava_pendant"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 9.0d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests20.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.19.subtitle}"
 			dependencies: [
 				"6968CEF7894C9EE2"
 				"5A3C93AB3A6C17DA"
 			]
 			id: "7D9EC41CD1F0FD8A"
-			tasks: [{
-				id: "48598E1754BF843F"
-				type: "item"
-				item: {
-					id: "botania:ice_pendant"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "48598E1754BF843F"
+					type: "item"
+					item: {
+						id: "botania:ice_pendant"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 10.0d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests21.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.20.subtitle}"
 			dependencies: [
 				"09882C8C36391E71"
 				"20FAA4078A7CB9A1"
 			]
 			id: "336899A4795EED9B"
-			tasks: [{
-				id: "1F0E1CE7528578C4"
-				type: "item"
-				item: {
-					id: "botania:cloud_pendant"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "1F0E1CE7528578C4"
+					type: "item"
+					item: {
+						id: "botania:cloud_pendant"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
-			title: "{chapters.useful_items_2.quests22.title}"
+			title: "{ftbquests.chapter.useful_items_2.quests.21.title}"
 			icon: {
 				id: "simpleplanes:plane"
 				Count: 1b
@@ -399,15 +445,15 @@
 			x: 3.75d
 			y: -7.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests22.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.21.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests22.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.21.description.0}"
 				""
-				"{chapters.useful_items_2.quests22.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.21.description.2}"
 				""
-				"{chapters.useful_items_2.quests22.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.21.description.4}"
 				""
-				"{chapters.useful_items_2.quests22.description4}"
+				"{ftbquests.chapter.useful_items_2.quests.21.description.6}"
 			]
 			dependencies: [
 				"2E420B464AC031B6"
@@ -427,34 +473,38 @@
 					item: "simpleplanes:furnace_engine"
 				}
 			]
-			rewards: [{
-				id: "1679372BD52895E2"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			rewards: [
+				{
+					id: "1679372BD52895E2"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_2.quests23.title}"
+			title: "{ftbquests.chapter.useful_items_2.quests.22.title}"
 			icon: "transport:steam_locomotive"
 			x: 14.25d
 			y: -7.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests23.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.22.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests23.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.22.description.0}"
 				""
-				"{chapters.useful_items_2.quests23.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.22.description.2}"
 				""
-				"{chapters.useful_items_2.quests23.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.22.description.4}"
 			]
 			dependencies: ["2E420B464AC031B6"]
 			size: 1.5d
 			id: "0AB4943DA5567C46"
-			tasks: [{
-				id: "1DE035E4248ABE56"
-				type: "item"
-				item: "transport:solid_fuel_engine"
-			}]
+			tasks: [
+				{
+					id: "1DE035E4248ABE56"
+					type: "item"
+					item: "transport:solid_fuel_engine"
+				}
+			]
 			rewards: [
 				{
 					id: "5DA11113EAAC4907"
@@ -472,45 +522,49 @@
 			x: 9.0d
 			y: -6.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests24.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.23.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests24.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.23.description.0}"
 				""
-				"{chapters.useful_items_2.quests24.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.23.description.2}"
 				""
-				"{chapters.useful_items_2.quests24.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.23.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["5F68C4D92EF20E09"]
 			id: "4F47DBA8B82E7DFB"
-			tasks: [{
-				id: "6E00E683B47FA760"
-				type: "item"
-				item: {
-					id: "tconstruct:tinkers_anvil"
-					Count: 1b
-					tag: {
-						texture: "emendatusenigmatica:brass_block"
+			tasks: [
+				{
+					id: "6E00E683B47FA760"
+					type: "item"
+					item: {
+						id: "tconstruct:tinkers_anvil"
+						Count: 1b
+						tag: {
+							texture: "emendatusenigmatica:brass_block"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "4AD22AE66C024B39"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			]
+			rewards: [
+				{
+					id: "4AD22AE66C024B39"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
 			x: 11.0d
 			y: -6.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests25.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.24.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests25.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.24.description.0}"
 				""
-				"{chapters.useful_items_2.quests25.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.24.description.2}"
 				""
-				"{chapters.useful_items_2.quests25.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.24.description.4}"
 			]
 			dependencies: [
 				"2BF07F660D1559DE"
@@ -519,79 +573,89 @@
 				"3F2B399F6E3190E4"
 			]
 			id: "291B87F001771AD9"
-			tasks: [{
-				id: "105E9AF012347C46"
-				type: "item"
-				item: "scannable:scanner"
-			}]
+			tasks: [
+				{
+					id: "105E9AF012347C46"
+					type: "item"
+					item: "scannable:scanner"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -7.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests26.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.25.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "1FD98FCCD2E262AF"
-			tasks: [{
-				id: "31A5CFC1AD21BEE6"
-				type: "item"
-				item: "immersivepetroleum:projector"
-			}]
-			rewards: [{
-				id: "52620E1CE124817E"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "31A5CFC1AD21BEE6"
+					type: "item"
+					item: "immersivepetroleum:projector"
+				}
+			]
+			rewards: [
+				{
+					id: "52620E1CE124817E"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: -7.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests27.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.26.subtitle}"
 			dependencies: [
 				"69DA94D714E296AC"
 				"59DF5370DD2EAE51"
 			]
 			id: "682C7EEE2EB51ED4"
-			tasks: [{
-				id: "5625A6579E7CC10D"
-				type: "item"
-				item: "immersiveengineering:razor_wire"
-			}]
+			tasks: [
+				{
+					id: "5625A6579E7CC10D"
+					type: "item"
+					item: "immersiveengineering:razor_wire"
+				}
+			]
 		}
 		{
 			x: 11.0d
 			y: -7.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests28.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.27.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests28.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.27.description.0}"
 				""
-				"{chapters.useful_items_2.quests28.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.27.description.2}"
 				""
-				"{chapters.useful_items_2.quests28.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.27.description.4}"
 				""
-				"{chapters.useful_items_2.quests28.description4}"
+				"{ftbquests.chapter.useful_items_2.quests.27.description.6}"
 				""
-				"{chapters.useful_items_2.quests28.description5}"
+				"{ftbquests.chapter.useful_items_2.quests.27.description.8}"
 			]
 			dependencies: ["10CAC510498E8582"]
 			id: "41EC59E652DB37C8"
-			tasks: [{
-				id: "0FEF4C9C33C7FD92"
-				type: "item"
-				item: "immersiveengineering:tesla_coil"
-			}]
+			tasks: [
+				{
+					id: "0FEF4C9C33C7FD92"
+					type: "item"
+					item: "immersiveengineering:tesla_coil"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests29.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.28.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests29.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.28.description.0}"
 				""
-				"{chapters.useful_items_2.quests29.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.28.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -602,21 +666,23 @@
 				"6B4D6FD11DFC8011"
 			]
 			id: "1A07AD69FDDEBB4B"
-			tasks: [{
-				id: "1F4C122BE67928C7"
-				type: "item"
-				item: "immersiveengineering:turret_gun"
-			}]
+			tasks: [
+				{
+					id: "1F4C122BE67928C7"
+					type: "item"
+					item: "immersiveengineering:turret_gun"
+				}
+			]
 		}
 		{
 			x: 12.0d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests30.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.29.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests30.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.29.description.0}"
 				""
-				"{chapters.useful_items_2.quests30.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.29.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -626,396 +692,428 @@
 				"2BF07F660D1559DE"
 			]
 			id: "2CA078D95F2BB952"
-			tasks: [{
-				id: "0F5113051BAFF04C"
-				type: "item"
-				item: "immersiveengineering:turret_chem"
-			}]
+			tasks: [
+				{
+					id: "0F5113051BAFF04C"
+					type: "item"
+					item: "immersiveengineering:turret_chem"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests31.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.30.subtitle}"
 			dependencies: ["0CA03557153003A7"]
 			id: "06DC22FFF2799F28"
-			tasks: [{
-				id: "1AE201FBE6C23B7D"
-				type: "item"
-				item: {
-					id: "astralsorcery:knowledge_share"
-					Count: 1b
-					tag: {
-						astralsorcery: { }
+			tasks: [
+				{
+					id: "1AE201FBE6C23B7D"
+					type: "item"
+					item: {
+						id: "astralsorcery:knowledge_share"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "{chapters.useful_items_2.quests32.title}"
+			title: "{ftbquests.chapter.useful_items_2.quests.31.title}"
 			x: 11.0d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests32.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.31.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests32.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.31.description.0}"
 				""
-				"{chapters.useful_items_2.quests32.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.31.description.2}"
 				""
-				"{chapters.useful_items_2.quests32.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.31.description.4}"
 			]
 			dependencies: ["0EF94371D99AC9BA"]
 			id: "344DB8844F2FB625"
-			tasks: [{
-				id: "495E0B2C883338DA"
-				type: "item"
-				item: "immersiveengineering:cloche"
-			}]
+			tasks: [
+				{
+					id: "495E0B2C883338DA"
+					type: "item"
+					item: "immersiveengineering:cloche"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests33.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.32.subtitle}"
 			dependencies: ["0CA03557153003A7"]
 			id: "4932852900AF18D8"
-			tasks: [{
-				id: "719BB7F1C979954D"
-				type: "item"
-				item: "astralsorcery:shifting_star"
-			}]
+			tasks: [
+				{
+					id: "719BB7F1C979954D"
+					type: "item"
+					item: "astralsorcery:shifting_star"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -6.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests34.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.33.subtitle}"
 			dependencies: ["4B00B60DE355C08C"]
 			id: "0DFF3CF510C42F99"
-			tasks: [{
-				id: "237ED1C715344E92"
-				type: "item"
-				item: {
-					id: "create:copper_backtank"
-					Count: 1b
-					tag: {
-						Air: 900
+			tasks: [
+				{
+					id: "237ED1C715344E92"
+					type: "item"
+					item: {
+						id: "create:copper_backtank"
+						Count: 1b
+						tag: {
+							Air: 900
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "{chapters.useful_items_2.quests35.title}"
+			title: "{ftbquests.chapter.useful_items_2.quests.34.title}"
 			x: 10.0d
 			y: -6.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests35.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.34.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests35.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.34.description.0}"
 				""
-				"{chapters.useful_items_2.quests35.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.34.description.2}"
 				""
-				"{chapters.useful_items_2.quests35.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.34.description.4}"
 				""
-				"{chapters.useful_items_2.quests35.description4}"
+				"{ftbquests.chapter.useful_items_2.quests.34.description.6}"
 			]
 			dependencies: [
 				"1D296B6D31E20219"
 				"2BA7183800B331E0"
 			]
 			id: "44DFAC284C5DFB86"
-			tasks: [{
-				id: "713DB6CE434EDB1D"
-				type: "item"
-				item: {
-					id: "create_stuff_additions:encased_jet_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "713DB6CE434EDB1D"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:encased_jet_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "{chapters.useful_items_2.quests36.title}"
+			title: "{ftbquests.chapter.useful_items_2.quests.35.title}"
 			icon: "astralsorcery:perk_gem_day"
 			x: 10.0d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests36.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.35.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests36.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.0}"
 				""
-				"{chapters.useful_items_2.quests36.description2}"
-				"{chapters.useful_items_2.quests36.description3}"
-				"{chapters.useful_items_2.quests36.description4}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.2}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.3}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.4}"
 				""
-				"{chapters.useful_items_2.quests36.description5}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.6}"
 				""
-				"{chapters.useful_items_2.quests36.description6}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.8}"
 				""
-				"{chapters.useful_items_2.quests36.description7}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.10}"
 				""
-				"{chapters.useful_items_2.quests36.description8}"
-				"{chapters.useful_items_2.quests36.description9}"
-				"{chapters.useful_items_2.quests36.description10}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.12}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.13}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.14}"
 				""
-				"{chapters.useful_items_2.quests36.description11}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.16}"
 				""
-				"{chapters.useful_items_2.quests36.description12}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.18}"
 				""
-				"{chapters.useful_items_2.quests36.description13}"
+				"{ftbquests.chapter.useful_items_2.quests.35.description.20}"
 			]
 			dependencies: ["4483446C4DA06FCE"]
 			id: "4BBEC6E6649CAF9E"
-			tasks: [{
-				id: "0CD05007C92FA2A9"
-				type: "checkmark"
-				title: "{chapters.arcane_1.quests32.tasks.title}"
-			}]
+			tasks: [
+				{
+					id: "0CD05007C92FA2A9"
+					type: "checkmark"
+					title: "{ftbquests.chapter.useful_items_2.quests.35.tasks.0.title}"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests37.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.36.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests37.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.36.description.0}"
 				""
-				"{chapters.useful_items_2.quests37.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.36.description.2}"
 				""
-				"{chapters.useful_items_2.quests37.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.36.description.4}"
 			]
 			dependencies: ["0CA03557153003A7"]
 			id: "77EFB71BE677B1D3"
-			tasks: [{
-				id: "7DB3897151CB1F92"
-				type: "item"
-				item: "astralsorcery:telescope"
-			}]
+			tasks: [
+				{
+					id: "7DB3897151CB1F92"
+					type: "item"
+					item: "astralsorcery:telescope"
+				}
+			]
 		}
 		{
 			x: 11.0d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests38.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.37.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests38.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.37.description.0}"
 				""
-				"{chapters.useful_items_2.quests38.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.37.description.2}"
 				""
-				"{chapters.useful_items_2.quests38.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.37.description.4}"
 				""
-				"{chapters.useful_items_2.quests38.description4}"
+				"{ftbquests.chapter.useful_items_2.quests.37.description.6}"
 			]
 			dependencies: ["1744D1F736052F09"]
 			id: "7639C9CD352CF21E"
-			tasks: [{
-				id: "293684826D5B419F"
-				type: "item"
-				item: {
-					id: "astralsorcery:lens"
-					Count: 1b
-					tag: {
-						astralsorcery: {
-							crystalProperties: {
-								attributes: [
-									{
-										property: "astralsorcery:purity"
-										pLevel: 2
-										discovered: 1b
-									}
-									{
-										property: "astralsorcery:shape"
-										pLevel: 3
-										discovered: 1b
-									}
-								]
+			tasks: [
+				{
+					id: "293684826D5B419F"
+					type: "item"
+					item: {
+						id: "astralsorcery:lens"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
 							}
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 10.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests39.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.38.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests39.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.38.description.0}"
 				""
-				"{chapters.useful_items_2.quests39.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.38.description.2}"
 				""
-				"{chapters.useful_items_2.quests39.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.38.description.4}"
 			]
 			dependencies: ["05B9DF27F7AD850D"]
 			id: "600A4F2721153A57"
-			tasks: [{
-				id: "1608B7DF75703E0C"
-				type: "item"
-				item: {
-					id: "astralsorcery:enchantment_amulet"
-					Count: 1b
-					tag: {
-						astralsorcery: { }
+			tasks: [
+				{
+					id: "1608B7DF75703E0C"
+					type: "item"
+					item: {
+						id: "astralsorcery:enchantment_amulet"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 7.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests40.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.39.subtitle}"
 			dependencies: ["0CA03557153003A7"]
 			id: "766FB69966B07525"
-			tasks: [{
-				id: "32A5FDCF47804408"
-				type: "item"
-				item: "astralsorcery:perk_seal"
-			}]
+			tasks: [
+				{
+					id: "32A5FDCF47804408"
+					type: "item"
+					item: "astralsorcery:perk_seal"
+				}
+			]
 		}
 		{
 			x: 11.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests41.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.40.subtitle}"
 			dependencies: [
 				"0CA03557153003A7"
 				"4E4B8F0BE0F28D14"
 			]
 			id: "371F468896760F2B"
-			tasks: [{
-				id: "0CACBD0BF2563C55"
-				type: "item"
-				item: {
-					id: "astralsorcery:resonator"
-					Count: 1b
-					tag: {
-						astralsorcery: {
-							upgrades: [
-								0
-								2
-							]
-							selected_upgrade: 2
+			tasks: [
+				{
+					id: "0CACBD0BF2563C55"
+					type: "item"
+					item: {
+						id: "astralsorcery:resonator"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								upgrades: [
+									0
+									2
+								]
+								selected_upgrade: 2
+							}
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 6.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests42.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.41.subtitle}"
 			dependencies: ["05B9DF27F7AD850D"]
 			id: "42C9859BE477A1BD"
-			tasks: [{
-				id: "21775D238F286E19"
-				type: "item"
-				item: "astralsorcery:colored_lens_growth"
-			}]
+			tasks: [
+				{
+					id: "21775D238F286E19"
+					type: "item"
+					item: "astralsorcery:colored_lens_growth"
+				}
+			]
 		}
 		{
 			x: 12.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests43.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.42.subtitle}"
 			dependencies: ["1A99C6281674DE7C"]
 			id: "5A20A208D4A67099"
-			tasks: [{
-				id: "6E9479DDBDC32CFA"
-				type: "item"
-				item: "astralsorcery:colored_lens_spectral"
-			}]
+			tasks: [
+				{
+					id: "6E9479DDBDC32CFA"
+					type: "item"
+					item: "astralsorcery:colored_lens_spectral"
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests44.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.43.subtitle}"
 			dependencies: ["73A248C448C4C47D"]
 			id: "254D1C85B38FBDCC"
-			tasks: [{
-				id: "00C3540449783800"
-				type: "item"
-				item: "astralsorcery:observatory"
-			}]
+			tasks: [
+				{
+					id: "00C3540449783800"
+					type: "item"
+					item: "astralsorcery:observatory"
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests45.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.44.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests45.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.44.description.0}"
 				""
-				"{chapters.useful_items_2.quests45.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.44.description.2}"
 				""
-				"{chapters.useful_items_2.quests45.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.44.description.4}"
 			]
 			dependencies: ["1A99C6281674DE7C"]
 			id: "56C60B44559328CA"
-			tasks: [{
-				id: "601DBF5FB855DBB7"
-				type: "item"
-				item: {
-					id: "astralsorcery:prism"
-					Count: 1b
-					tag: {
-						astralsorcery: {
-							crystalProperties: {
-								attributes: [
-									{
-										property: "astralsorcery:purity"
-										pLevel: 2
-										discovered: 1b
-									}
-									{
-										property: "astralsorcery:shape"
-										pLevel: 3
-										discovered: 1b
-									}
-								]
+			tasks: [
+				{
+					id: "601DBF5FB855DBB7"
+					type: "item"
+					item: {
+						id: "astralsorcery:prism"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
 							}
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			icon: "astralsorcery:ritual_pedestal"
 			x: 9.0d
 			y: 4.5d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_2.quests46.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.45.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests46.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.0}"
 				""
-				"{chapters.useful_items_2.quests46.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.2}"
 				""
-				"{chapters.useful_items_2.quests46.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.4}"
 				""
-				"{chapters.useful_items_2.quests46.description4}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.6}"
 				""
-				"{chapters.useful_items_2.quests46.description5}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.8}"
 				""
-				"{chapters.useful_items_2.quests46.description6}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.10}"
 				""
-				"{chapters.useful_items_2.quests46.description7}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.12}"
 				""
-				"{chapters.useful_items_2.quests46.description8}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.14}"
 				""
-				"{chapters.useful_items_2.quests46.description9}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.16}"
 				""
-				"{chapters.useful_items_2.quests46.description10}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.18}"
 				""
-				"{chapters.useful_items_2.quests46.description11}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.20}"
 				""
-				"{chapters.useful_items_2.quests46.description12}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.22}"
 				""
-				"{chapters.useful_items_2.quests46.description13}"
+				"{ftbquests.chapter.useful_items_2.quests.45.description.24}"
 			]
 			dependencies: ["73A248C448C4C47D"]
 			id: "27BA224D61C9973E"
@@ -1049,532 +1147,590 @@
 					count: 12L
 				}
 			]
-			rewards: [{
-				id: "21F37A387058C2B9"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			rewards: [
+				{
+					id: "21F37A387058C2B9"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -17.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests47.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.46.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests47.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.46.description.0}"
 				""
-				"{chapters.useful_items_2.quests47.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.46.description.2}"
 			]
 			dependencies: [
 				"4D374953FF0E2430"
 				"360B0A95C0A30AF6"
 			]
 			id: "381D90346C07CA3B"
-			tasks: [{
-				id: "567B0AA398CE4275"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_railgun_scope"
-			}]
+			tasks: [
+				{
+					id: "567B0AA398CE4275"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_railgun_scope"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -16.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests48.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.47.subtitle}"
 			dependencies: ["71FE3F57FEB74F76"]
 			id: "3EB0C01A88AEFFE9"
-			tasks: [{
-				id: "36D00B510D3B5473"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_chemthrower_multitank"
-			}]
+			tasks: [
+				{
+					id: "36D00B510D3B5473"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_chemthrower_multitank"
+				}
+			]
 		}
 		{
 			x: 10.0d
 			y: -16.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests49.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.48.subtitle}"
 			dependencies: ["71FE3F57FEB74F76"]
 			id: "59534B53FBA9F4A5"
-			tasks: [{
-				id: "65B54ED885A21E89"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_chemthrower_focus"
-			}]
+			tasks: [
+				{
+					id: "65B54ED885A21E89"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_chemthrower_focus"
+				}
+			]
 		}
 		{
 			x: 10.0d
 			y: -17.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests50.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.49.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests50.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.49.description.0}"
 				""
-				"{chapters.useful_items_2.quests50.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.49.description.2}"
 			]
 			dependencies: [
 				"4D374953FF0E2430"
 				"360B0A95C0A30AF6"
 			]
 			id: "7BB11ECB93DED711"
-			tasks: [{
-				id: "60E066519C7FFD41"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_railgun_capacitors"
-			}]
+			tasks: [
+				{
+					id: "60E066519C7FFD41"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_railgun_capacitors"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -18.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests51.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.50.subtitle}"
 			dependencies: ["360B0A95C0A30AF6"]
 			id: "5C56938B828AD372"
-			tasks: [{
-				id: "4B8C37B7D05E2A72"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_drill_capacity"
-			}]
+			tasks: [
+				{
+					id: "4B8C37B7D05E2A72"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_drill_capacity"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -15.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests52.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.51.subtitle}"
 			dependencies: [
 				"750F3FC54E2BD45A"
 				"360B0A95C0A30AF6"
 			]
 			id: "52F2BFA92251627C"
-			tasks: [{
-				id: "45E29E0C7DC6500D"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_revolver_bayonet"
-			}]
+			tasks: [
+				{
+					id: "45E29E0C7DC6500D"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_revolver_bayonet"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -14.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests53.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.52.subtitle}"
 			dependencies: [
 				"274D93C9A38BC38E"
 				"59DF5370DD2EAE51"
 				"360B0A95C0A30AF6"
 			]
 			id: "557C38D4E3190F41"
-			tasks: [{
-				id: "5BABF9847F1FFF9B"
-				type: "item"
-				item: {
-					id: "immersiveengineering:rockcutter"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "5BABF9847F1FFF9B"
+					type: "item"
+					item: {
+						id: "immersiveengineering:rockcutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 10.0d
 			y: -14.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests54.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.53.subtitle}"
 			dependencies: [
 				"274D93C9A38BC38E"
 				"360B0A95C0A30AF6"
 				"59DF5370DD2EAE51"
 			]
 			id: "4F243AB7FC759DE2"
-			tasks: [{
-				id: "6D67404728441EEA"
-				type: "item"
-				item: {
-					id: "immersiveengineering:sawblade"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "6D67404728441EEA"
+					type: "item"
+					item: {
+						id: "immersiveengineering:sawblade"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 10.0d
 			y: -15.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests55.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.54.subtitle}"
 			dependencies: [
 				"750F3FC54E2BD45A"
 				"69DA94D714E296AC"
 				"360B0A95C0A30AF6"
 			]
 			id: "4C66822085552D52"
-			tasks: [{
-				id: "611B283D372E8C2B"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_revolver_electro"
-			}]
+			tasks: [
+				{
+					id: "611B283D372E8C2B"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_revolver_electro"
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -14.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests56.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.55.subtitle}"
 			dependencies: ["274D93C9A38BC38E"]
 			id: "512CE272BB5C178B"
-			tasks: [{
-				id: "65CC80FCB14979FB"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
-			}]
+			tasks: [
+				{
+					id: "65CC80FCB14979FB"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -15.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests57.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.56.subtitle}"
 			dependencies: [
 				"750F3FC54E2BD45A"
 				"360B0A95C0A30AF6"
 			]
 			id: "22276E89F7907877"
-			tasks: [{
-				id: "67E17946DF20AD3F"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_revolver_magazine"
-			}]
+			tasks: [
+				{
+					id: "67E17946DF20AD3F"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_revolver_magazine"
+				}
+			]
 		}
 		{
 			x: 9.5d
 			y: -13.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests58.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.57.subtitle}"
 			dependencies: ["105C88D5D3F6D2DC"]
 			id: "70BC11100F52F252"
-			tasks: [{
-				id: "44A0033501F7E279"
-				type: "item"
-				item: "immersiveengineering:drillhead_steel"
-			}]
+			tasks: [
+				{
+					id: "44A0033501F7E279"
+					type: "item"
+					item: "immersiveengineering:drillhead_steel"
+				}
+			]
 		}
 		{
 			x: 8.5d
 			y: -13.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests59.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.58.subtitle}"
 			dependencies: ["105C88D5D3F6D2DC"]
 			id: "10B1AA0105E2621E"
-			tasks: [{
-				id: "1EF612D7EAAA8C40"
-				type: "item"
-				item: "immersiveengineering:drillhead_iron"
-			}]
+			tasks: [
+				{
+					id: "1EF612D7EAAA8C40"
+					type: "item"
+					item: "immersiveengineering:drillhead_iron"
+				}
+			]
 		}
 		{
 			x: 7.5d
 			y: -13.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests60.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.59.subtitle}"
 			dependencies: [
 				"105C88D5D3F6D2DC"
 				"360B0A95C0A30AF6"
 			]
 			id: "556136A3ABB8C5E5"
-			tasks: [{
-				id: "4C7A5A172CFA207B"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_drill_waterproof"
-			}]
+			tasks: [
+				{
+					id: "4C7A5A172CFA207B"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_drill_waterproof"
+				}
+			]
 		}
 		{
 			x: 10.5d
 			y: -13.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests61.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.60.subtitle}"
 			dependencies: [
 				"105C88D5D3F6D2DC"
 				"360B0A95C0A30AF6"
 			]
 			id: "1EB152427FBA6ACA"
-			tasks: [{
-				id: "3F8A6E90BEAAB40E"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_drill_damage"
-			}]
+			tasks: [
+				{
+					id: "3F8A6E90BEAAB40E"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_drill_damage"
+				}
+			]
 		}
 		{
 			x: 10.0d
 			y: -18.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests62.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.61.subtitle}"
 			dependencies: ["105C88D5D3F6D2DC"]
 			id: "51099166641C3412"
-			tasks: [{
-				id: "6A07E2062BDC528A"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_drill_lube"
-			}]
+			tasks: [
+				{
+					id: "6A07E2062BDC528A"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_drill_lube"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests63.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.62.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests63.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.62.description.0}"
 				""
-				"{chapters.useful_items_2.quests63.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.62.description.2}"
 				""
-				"{chapters.useful_items_2.quests63.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.62.description.4}"
 				""
-				"{chapters.useful_items_2.quests63.description4}"
+				"{ftbquests.chapter.useful_items_2.quests.62.description.6}"
 				""
-				"{chapters.useful_items_2.quests63.description5}"
+				"{ftbquests.chapter.useful_items_2.quests.62.description.8}"
 				""
-				"{chapters.useful_items_2.quests63.description6}"
+				"{ftbquests.chapter.useful_items_2.quests.62.description.10}"
 				""
-				"{chapters.useful_items_2.quests63.description7}"
+				"{ftbquests.chapter.useful_items_2.quests.62.description.12}"
 			]
 			dependencies: ["3D75721DA9392AA5"]
 			id: "29ACF05F4127FD6D"
-			tasks: [{
-				id: "0E7E1BB480639E3B"
-				type: "item"
-				item: "botania:avatar"
-			}]
+			tasks: [
+				{
+					id: "0E7E1BB480639E3B"
+					type: "item"
+					item: "botania:avatar"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -2.5d
-			subtitle: "{chapters.useful_items_2.quests64.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.63.subtitle}"
 			dependencies: [
 				"6833FFB6AB33C9D6"
 				"48148EE28276AB64"
 			]
 			id: "0AADF62ADF6430C2"
-			tasks: [{
-				id: "1EC130466F070115"
-				type: "item"
-				item: {
-					id: "botania:lens_normal"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "1EC130466F070115"
+					type: "item"
+					item: {
+						id: "botania:lens_normal"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 6.0d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests65.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.64.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"20FAA4078A7CB9A1"
 				"0AADF62ADF6430C2"
 			]
 			id: "602A2D47F620A5C6"
-			tasks: [{
-				id: "43E766B929E68EB7"
-				type: "item"
-				item: {
-					id: "botania:lens_speed"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "43E766B929E68EB7"
+					type: "item"
+					item: {
+						id: "botania:lens_speed"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 6.0d
 			y: -0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests66.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.65.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"204E4CC598F248A6"
 				"0AADF62ADF6430C2"
 			]
 			id: "482E1939CD53A034"
-			tasks: [{
-				id: "5B2A793DFCC3B8FC"
-				type: "item"
-				item: {
-					id: "botania:lens_power"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "5B2A793DFCC3B8FC"
+					type: "item"
+					item: {
+						id: "botania:lens_power"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 6.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests67.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.66.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"0F4E331615DD558C"
 				"0AADF62ADF6430C2"
 			]
 			id: "0F18C00ABC6981CF"
-			tasks: [{
-				id: "648BDAAE2A0E895D"
-				type: "item"
-				item: {
-					id: "botania:lens_time"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "648BDAAE2A0E895D"
+					type: "item"
+					item: {
+						id: "botania:lens_time"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 6.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests68.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.67.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"5A3C93AB3A6C17DA"
 				"0AADF62ADF6430C2"
 			]
 			id: "0877E8865A56D581"
-			tasks: [{
-				id: "78DCE285CE8A3E13"
-				type: "item"
-				item: {
-					id: "botania:lens_efficiency"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "78DCE285CE8A3E13"
+					type: "item"
+					item: {
+						id: "botania:lens_efficiency"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests69.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.68.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"1F81661C224DD904"
 				"0AADF62ADF6430C2"
 			]
 			id: "6A9FB7B8AE5BC85E"
-			tasks: [{
-				id: "25AAF36E766F5986"
-				type: "item"
-				item: {
-					id: "botania:lens_bounce"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "25AAF36E766F5986"
+					type: "item"
+					item: {
+						id: "botania:lens_bounce"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests70.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.69.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"6968CEF7894C9EE2"
 				"0AADF62ADF6430C2"
 			]
 			id: "7F3FB41861185E20"
-			tasks: [{
-				id: "343245ADA6090F6E"
-				type: "item"
-				item: {
-					id: "botania:lens_gravity"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "343245ADA6090F6E"
+					type: "item"
+					item: {
+						id: "botania:lens_gravity"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests71.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.70.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests71.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.70.description.0}"
 				""
-				"{chapters.useful_items_2.quests71.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.70.description.2}"
 				""
-				"{chapters.useful_items_2.quests71.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.70.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0AADF62ADF6430C2"]
 			id: "2492F59FC4C3D1BC"
-			tasks: [{
-				id: "5CE104C8C3610703"
-				type: "item"
-				item: {
-					id: "botania:lens_mine"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "5CE104C8C3610703"
+					type: "item"
+					item: {
+						id: "botania:lens_mine"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests72.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.71.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"2C933A7C6A9DB055"
 				"0AADF62ADF6430C2"
 			]
 			id: "33263EFD53484DAD"
-			tasks: [{
-				id: "2E5A34BF7F9C4A8F"
-				type: "item"
-				item: {
-					id: "botania:lens_damage"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "2E5A34BF7F9C4A8F"
+					type: "item"
+					item: {
+						id: "botania:lens_damage"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 13.0d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests73.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.72.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["0AADF62ADF6430C2"]
 			id: "02FC459EBD226D93"
-			tasks: [{
-				id: "7A07F706FBD50620"
-				type: "item"
-				item: {
-					id: "botania:lens_phantom"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "7A07F706FBD50620"
+					type: "item"
+					item: {
+						id: "botania:lens_phantom"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 12.0d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests74.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.73.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["0AADF62ADF6430C2"]
 			id: "65BB2F0C58B29330"
-			tasks: [{
-				id: "3F87B1B9BE69E0B9"
-				type: "item"
-				item: {
-					id: "botania:lens_magnet"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "3F87B1B9BE69E0B9"
+					type: "item"
+					item: {
+						id: "botania:lens_magnet"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 12.0d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests75.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.74.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"435E7FD40389E555"
@@ -1582,168 +1738,184 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "03898407263F65A9"
-			tasks: [{
-				id: "69B5808D5705466E"
-				type: "item"
-				item: {
-					id: "botania:lens_explosive"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "69B5808D5705466E"
+					type: "item"
+					item: {
+						id: "botania:lens_explosive"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 12.0d
 			y: -0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests76.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.75.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"20FAA4078A7CB9A1"
 				"0AADF62ADF6430C2"
 			]
 			id: "208F042EB0851EC5"
-			tasks: [{
-				id: "72D250427929CF96"
-				type: "item"
-				item: {
-					id: "botania:lens_influence"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "72D250427929CF96"
+					type: "item"
+					item: {
+						id: "botania:lens_influence"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 12.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests77.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.76.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"5A3C93AB3A6C17DA"
 				"0AADF62ADF6430C2"
 			]
 			id: "0C8A2C86B194210D"
-			tasks: [{
-				id: "2038E934A77546FE"
-				type: "item"
-				item: {
-					id: "botania:lens_weight"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "2038E934A77546FE"
+					type: "item"
+					item: {
+						id: "botania:lens_weight"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 13.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests78.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.77.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["0AADF62ADF6430C2"]
 			id: "3A705E1826DC710C"
-			tasks: [{
-				id: "43D0DB6445CAD353"
-				type: "item"
-				item: {
-					id: "botania:lens_fire"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "43D0DB6445CAD353"
+					type: "item"
+					item: {
+						id: "botania:lens_fire"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 13.0d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests79.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.78.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"0AADF62ADF6430C2"
 				"12A0A63582B463D1"
 			]
 			id: "3081812135D4FD05"
-			tasks: [{
-				id: "3BAE350549253CFB"
-				type: "item"
-				item: {
-					id: "botania:lens_piston"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "3BAE350549253CFB"
+					type: "item"
+					item: {
+						id: "botania:lens_piston"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 12.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests80.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.79.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["0AADF62ADF6430C2"]
 			id: "41FF9DAEBBEE1341"
-			tasks: [{
-				id: "12D21ED1721EFB28"
-				type: "item"
-				item: {
-					id: "botania:lens_light"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "12D21ED1721EFB28"
+					type: "item"
+					item: {
+						id: "botania:lens_light"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 13.0d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests81.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.80.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["0AADF62ADF6430C2"]
 			id: "4F2923D4E89FF629"
-			tasks: [{
-				id: "40F100C66E42C0FD"
-				type: "item"
-				item: {
-					id: "botania:lens_messenger"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "40F100C66E42C0FD"
+					type: "item"
+					item: {
+						id: "botania:lens_messenger"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 7.5d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests82.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.81.subtitle}"
 			dependencies: ["655AB81DE00B783B"]
 			id: "12A0A63582B463D1"
-			tasks: [{
-				id: "584FB4CA6FD73A8B"
-				type: "item"
-				item: "botania:piston_relay"
-			}]
+			tasks: [
+				{
+					id: "584FB4CA6FD73A8B"
+					type: "item"
+					item: "botania:piston_relay"
+				}
+			]
 		}
 		{
-			title: "{chapters.useful_items_2.quests83.title}"
+			title: "{ftbquests.chapter.useful_items_2.quests.82.title}"
 			x: 6.0d
 			y: -7.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests83.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.82.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests83.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.82.description.0}"
 				""
-				"{chapters.useful_items_2.quests83.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.82.description.2}"
 				""
-				"{chapters.useful_items_2.quests83.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.82.description.4}"
 				""
-				"{chapters.useful_items_2.quests83.description4}"
+				"{ftbquests.chapter.useful_items_2.quests.82.description.6}"
 				""
-				"{chapters.useful_items_2.quests83.description5}"
+				"{ftbquests.chapter.useful_items_2.quests.82.description.8}"
 				""
-				"{chapters.useful_items_2.quests83.description6}"
+				"{ftbquests.chapter.useful_items_2.quests.82.description.10}"
 				""
-				"{chapters.useful_items_2.quests83.description7}"
+				"{ftbquests.chapter.useful_items_2.quests.82.description.12}"
 				""
-				"{chapters.useful_items_2.quests83.description8}"
+				"{ftbquests.chapter.useful_items_2.quests.82.description.14}"
 			]
 			dependencies: ["360B0A95C0A30AF6"]
 			id: "623B713AACAFEDAC"
@@ -1764,43 +1936,47 @@
 			x: 12.0d
 			y: -7.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests84.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.83.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests84.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.83.description.0}"
 				""
-				"{chapters.useful_items_2.quests84.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.83.description.2}"
 				""
-				"{chapters.useful_items_2.quests84.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.83.description.4}"
 			]
 			dependencies: [
 				"4F614027017B7DD8"
 				"360B0A95C0A30AF6"
 			]
 			id: "0504A28E677763FE"
-			tasks: [{
-				id: "45B7A51DEC45E138"
-				type: "item"
-				item: "immersiveengineering:item_batcher"
-			}]
+			tasks: [
+				{
+					id: "45B7A51DEC45E138"
+					type: "item"
+					item: "immersiveengineering:item_batcher"
+				}
+			]
 		}
 		{
 			x: 16.0d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests85.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.84.subtitle}"
 			dependencies: ["44A732EE455674E8"]
 			id: "7181A431C533BCB3"
-			tasks: [{
-				id: "0E51971D9D98362E"
-				type: "item"
-				item: "botania:solegnolia"
-			}]
+			tasks: [
+				{
+					id: "0E51971D9D98362E"
+					type: "item"
+					item: "botania:solegnolia"
+				}
+			]
 		}
 		{
 			x: 16.0d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests86.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.85.subtitle}"
 			dependencies: [
 				"204E4CC598F248A6"
 				"0F4E331615DD558C"
@@ -1824,23 +2000,25 @@
 			x: 16.0d
 			y: -0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests87.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.86.subtitle}"
 			dependencies: [
 				"0F4E331615DD558C"
 				"44A732EE455674E8"
 			]
 			id: "12C15EF730C29C05"
-			tasks: [{
-				id: "2C4976E0675B3AEE"
-				type: "item"
-				item: "botania:medumone"
-			}]
+			tasks: [
+				{
+					id: "2C4976E0675B3AEE"
+					type: "item"
+					item: "botania:medumone"
+				}
+			]
 		}
 		{
 			x: 16.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests88.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.87.subtitle}"
 			dependencies: [
 				"4C2601C7292D8237"
 				"1FAA3F48DAAE770A"
@@ -1848,610 +2026,690 @@
 				"44A732EE455674E8"
 			]
 			id: "4C9816EBFACA6213"
-			tasks: [{
-				id: "2FAEC8DCAA3EA2D9"
-				type: "item"
-				item: "botania:vinculotus"
-			}]
+			tasks: [
+				{
+					id: "2FAEC8DCAA3EA2D9"
+					type: "item"
+					item: "botania:vinculotus"
+				}
+			]
 		}
 		{
 			x: 16.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests89.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.88.subtitle}"
 			dependencies: [
 				"20FAA4078A7CB9A1"
 				"44A732EE455674E8"
 			]
 			id: "1AA31993054E8A6D"
-			tasks: [{
-				id: "4ED949810CB881EF"
-				type: "item"
-				item: "botania:daffomill"
-			}]
+			tasks: [
+				{
+					id: "4ED949810CB881EF"
+					type: "item"
+					item: "botania:daffomill"
+				}
+			]
 		}
 		{
 			x: 15.0d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests90.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.89.subtitle}"
 			dependencies: [
 				"0F4E331615DD558C"
 				"44A732EE455674E8"
 			]
 			id: "260B8DC7FB879CF9"
-			tasks: [{
-				id: "5912730D3417BB16"
-				type: "item"
-				item: "botania:clayconia"
-			}]
+			tasks: [
+				{
+					id: "5912730D3417BB16"
+					type: "item"
+					item: "botania:clayconia"
+				}
+			]
 		}
 		{
 			x: 15.0d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests91.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.90.subtitle}"
 			dependencies: [
 				"4C2601C7292D8237"
 				"204E4CC598F248A6"
 				"44A732EE455674E8"
 			]
 			id: "1F34DE691EEAD2B5"
-			tasks: [{
-				id: "12FBC23A54785ED6"
-				type: "item"
-				item: "botania:pollidisiac"
-			}]
+			tasks: [
+				{
+					id: "12FBC23A54785ED6"
+					type: "item"
+					item: "botania:pollidisiac"
+				}
+			]
 		}
 		{
 			x: 15.0d
 			y: -0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests92.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.91.subtitle}"
 			dependencies: [
 				"09882C8C36391E71"
 				"204E4CC598F248A6"
 				"44A732EE455674E8"
 			]
 			id: "44DBFFF9349F35DF"
-			tasks: [{
-				id: "3F2DB8120E120C7F"
-				type: "item"
-				item: "botania:hyacidus"
-			}]
+			tasks: [
+				{
+					id: "3F2DB8120E120C7F"
+					type: "item"
+					item: "botania:hyacidus"
+				}
+			]
 		}
 		{
 			x: 15.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests93.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.92.subtitle}"
 			dependencies: [
 				"0F4E331615DD558C"
 				"44A732EE455674E8"
 			]
 			id: "7D075D7958D86CC9"
-			tasks: [{
-				id: "71F53BF08DBBA669"
-				type: "item"
-				item: "botania:rannuncarpus"
-			}]
+			tasks: [
+				{
+					id: "71F53BF08DBBA669"
+					type: "item"
+					item: "botania:rannuncarpus"
+				}
+			]
 		}
 		{
 			x: 15.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests94.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.93.subtitle}"
 			dependencies: [
 				"5A3C93AB3A6C17DA"
 				"20FAA4078A7CB9A1"
 				"44A732EE455674E8"
 			]
 			id: "378419A4BEE1D96F"
-			tasks: [{
-				id: "1BFF2189C5CDD0D2"
-				type: "item"
-				item: "botania:jiyuulia"
-			}]
+			tasks: [
+				{
+					id: "1BFF2189C5CDD0D2"
+					type: "item"
+					item: "botania:jiyuulia"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests95.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.94.subtitle}"
 			dependencies: [
 				"44A732EE455674E8"
 				"20FAA4078A7CB9A1"
 				"0F4E331615DD558C"
 			]
 			id: "568C0559E8D03826"
-			tasks: [{
-				id: "45A2D5683583BA0C"
-				type: "item"
-				item: "botania:tangleberrie"
-			}]
+			tasks: [
+				{
+					id: "45A2D5683583BA0C"
+					type: "item"
+					item: "botania:tangleberrie"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests96.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.95.subtitle}"
 			dependencies: [
 				"44A732EE455674E8"
 				"20FAA4078A7CB9A1"
 			]
 			id: "643E47F18C0EB2B8"
-			tasks: [{
-				id: "394EEA3A1675193D"
-				type: "item"
-				item: "botania:hopperhock"
-			}]
+			tasks: [
+				{
+					id: "394EEA3A1675193D"
+					type: "item"
+					item: "botania:hopperhock"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: -0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests97.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.96.subtitle}"
 			dependencies: [
 				"09D34E577A4AD24B"
 				"44A732EE455674E8"
 			]
 			id: "4E2EDF69BD6C5CD2"
-			tasks: [{
-				id: "47D41736DDB0766B"
-				type: "item"
-				item: "botania:agricarnation"
-			}]
+			tasks: [
+				{
+					id: "47D41736DDB0766B"
+					type: "item"
+					item: "botania:agricarnation"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests98.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.97.subtitle}"
 			dependencies: [
 				"1F81661C224DD904"
 				"204E4CC598F248A6"
 				"44A732EE455674E8"
 			]
 			id: "681CFF361EDC9F1E"
-			tasks: [{
-				id: "52407AD3E355171B"
-				type: "item"
-				item: "botania:exoflame"
-			}]
+			tasks: [
+				{
+					id: "52407AD3E355171B"
+					type: "item"
+					item: "botania:exoflame"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests99.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.98.subtitle}"
 			dependencies: [
 				"09D34E577A4AD24B"
 				"44A732EE455674E8"
 			]
 			id: "51914EB8B3139449"
-			tasks: [{
-				id: "62B15EE1D64E3212"
-				type: "item"
-				item: "botania:fallen_kanade"
-			}]
+			tasks: [
+				{
+					id: "62B15EE1D64E3212"
+					type: "item"
+					item: "botania:fallen_kanade"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests100.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.99.subtitle}"
 			dependencies: [
 				"44A732EE455674E8"
 				"09D34E577A4AD24B"
 			]
 			id: "51661E3A86C8A68D"
-			tasks: [{
-				id: "2445B495BDEDAEE5"
-				type: "item"
-				item: "botania:jaded_amaranthus"
-			}]
+			tasks: [
+				{
+					id: "2445B495BDEDAEE5"
+					type: "item"
+					item: "botania:jaded_amaranthus"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests101.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.100.subtitle}"
 			dependencies: [
 				"44A732EE455674E8"
 				"09882C8C36391E71"
 			]
 			id: "76FD303EB67A50DB"
-			tasks: [{
-				id: "1DEBB2D7C8919794"
-				type: "item"
-				item: "botania:tigerseye"
-			}]
+			tasks: [
+				{
+					id: "1DEBB2D7C8919794"
+					type: "item"
+					item: "botania:tigerseye"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: -0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests102.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.101.subtitle}"
 			dependencies: ["44A732EE455674E8"]
 			id: "145741C1FECC1D40"
-			tasks: [{
-				id: "1357802C80D0A9E4"
-				type: "item"
-				item: "botania:dreadthorn"
-			}]
+			tasks: [
+				{
+					id: "1357802C80D0A9E4"
+					type: "item"
+					item: "botania:dreadthorn"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests103.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.102.subtitle}"
 			dependencies: ["44A732EE455674E8"]
 			id: "7E6FB615EEABCFE8"
-			tasks: [{
-				id: "38DF5BB4FB81D2E7"
-				type: "item"
-				item: "botania:bergamute"
-			}]
+			tasks: [
+				{
+					id: "38DF5BB4FB81D2E7"
+					type: "item"
+					item: "botania:bergamute"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests104.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.103.subtitle}"
 			dependencies: ["44A732EE455674E8"]
 			id: "22890809CB45613B"
-			tasks: [{
-				id: "3A513A23EFE2CE0C"
-				type: "item"
-				item: "botania:bellethorn"
-			}]
+			tasks: [
+				{
+					id: "3A513A23EFE2CE0C"
+					type: "item"
+					item: "botania:bellethorn"
+				}
+			]
 		}
 		{
 			x: 12.0d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests105.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.104.subtitle}"
 			dependencies: ["05B9DF27F7AD850D"]
 			id: "434FE99A917808A1"
-			tasks: [{
-				id: "031298BABF745189"
-				type: "item"
-				item: "astralsorcery:ritual_link"
-			}]
+			tasks: [
+				{
+					id: "031298BABF745189"
+					type: "item"
+					item: "astralsorcery:ritual_link"
+				}
+			]
 		}
 		{
 			x: 10.0d
 			y: -7.0d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests106.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.105.subtitle}"
 			description: [
-				"{chapters.useful_items_2.quests106.description1}"
+				"{ftbquests.chapter.useful_items_2.quests.105.description.0}"
 				""
-				"{chapters.useful_items_2.quests106.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.105.description.2}"
 				""
-				"{chapters.useful_items_2.quests106.description3}"
+				"{ftbquests.chapter.useful_items_2.quests.105.description.4}"
 			]
 			dependencies: [
 				"3F2B399F6E3190E4"
 				"7D4AA3C434A30047"
 			]
 			id: "265C3023D984D6AC"
-			tasks: [{
-				id: "61934C7A96753F4B"
-				type: "item"
-				item: "immersivepetroleum:gas_generator"
-			}]
+			tasks: [
+				{
+					id: "61934C7A96753F4B"
+					type: "item"
+					item: "immersivepetroleum:gas_generator"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -18.5d
-			subtitle: "{chapters.useful_items_2.quests107.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.106.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "333798C80A21F10E"
-			tasks: [{
-				id: "48008B5CD68191F6"
-				type: "item"
-				item: "sophisticatedbackpacks:pickup_upgrade"
-			}]
+			tasks: [
+				{
+					id: "48008B5CD68191F6"
+					type: "item"
+					item: "sophisticatedbackpacks:pickup_upgrade"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -18.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests108.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.107.subtitle}"
 			dependencies: [
 				"2F64EED1F5172A81"
 				"333798C80A21F10E"
 			]
 			id: "69BCDB0A4574AB5B"
-			tasks: [{
-				id: "2AB3AAC4B4B0CDC2"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
-			}]
+			tasks: [
+				{
+					id: "2AB3AAC4B4B0CDC2"
+					type: "item"
+					item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -17.5d
-			subtitle: "{chapters.useful_items_2.quests109.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.108.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "3B754876C7351111"
-			tasks: [{
-				id: "01CCE69F4849E8BE"
-				type: "item"
-				item: "sophisticatedbackpacks:filter_upgrade"
-			}]
+			tasks: [
+				{
+					id: "01CCE69F4849E8BE"
+					type: "item"
+					item: "sophisticatedbackpacks:filter_upgrade"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -17.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests108.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.109.subtitle}"
 			dependencies: [
 				"3B754876C7351111"
 				"2F64EED1F5172A81"
 			]
 			id: "569A67F028959C05"
-			tasks: [{
-				id: "6666ED6D8DE32C6F"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_filter_upgrade"
-			}]
+			tasks: [
+				{
+					id: "6666ED6D8DE32C6F"
+					type: "item"
+					item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -16.5d
-			subtitle: "{chapters.useful_items_2.quests111.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.110.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "6D3E7ACFBF834F7B"
-			tasks: [{
-				id: "2614730F6FFF499D"
-				type: "item"
-				item: "sophisticatedbackpacks:compacting_upgrade"
-			}]
+			tasks: [
+				{
+					id: "2614730F6FFF499D"
+					type: "item"
+					item: "sophisticatedbackpacks:compacting_upgrade"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -16.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests112.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.111.subtitle}"
 			dependencies: [
 				"6D3E7ACFBF834F7B"
 				"2F64EED1F5172A81"
 			]
 			id: "2DC753708BAE3210"
-			tasks: [{
-				id: "17E5DF1E12E3C8EC"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
-			}]
+			tasks: [
+				{
+					id: "17E5DF1E12E3C8EC"
+					type: "item"
+					item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -15.5d
-			subtitle: "{chapters.useful_items_2.quests113.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.112.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "426DE75E053F3D82"
-			tasks: [{
-				id: "7FEAC5825ED6095C"
-				type: "item"
-				item: "sophisticatedbackpacks:void_upgrade"
-			}]
+			tasks: [
+				{
+					id: "7FEAC5825ED6095C"
+					type: "item"
+					item: "sophisticatedbackpacks:void_upgrade"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -15.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests108.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.113.subtitle}"
 			dependencies: [
 				"2F64EED1F5172A81"
 				"426DE75E053F3D82"
 			]
 			id: "4F5B893D6B2E216D"
-			tasks: [{
-				id: "0FD4B79A0962AC58"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_void_upgrade"
-			}]
+			tasks: [
+				{
+					id: "0FD4B79A0962AC58"
+					type: "item"
+					item: "sophisticatedbackpacks:advanced_void_upgrade"
+				}
+			]
 		}
 		{
 			x: 13.0d
 			y: -18.5d
-			subtitle: "{chapters.useful_items_2.quests115.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.114.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "462CCB62A36BFAE8"
-			tasks: [{
-				id: "50F361B4A82D17C4"
-				type: "item"
-				item: "sophisticatedbackpacks:restock_upgrade"
-			}]
+			tasks: [
+				{
+					id: "50F361B4A82D17C4"
+					type: "item"
+					item: "sophisticatedbackpacks:restock_upgrade"
+				}
+			]
 		}
 		{
 			x: 12.0d
 			y: -18.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests108.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.115.subtitle}"
 			dependencies: [
 				"2F64EED1F5172A81"
 				"462CCB62A36BFAE8"
 			]
 			id: "56DEF2CEB355F134"
-			tasks: [{
-				id: "77FB215C1D45FF17"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_restock_upgrade"
-			}]
+			tasks: [
+				{
+					id: "77FB215C1D45FF17"
+					type: "item"
+					item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				}
+			]
 		}
 		{
 			x: 13.0d
 			y: -17.5d
-			subtitle: "{chapters.useful_items_2.quests117.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.116.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "42E4E7D3F0AFF795"
-			tasks: [{
-				id: "369FAFFF9324DDB1"
-				type: "item"
-				item: "sophisticatedbackpacks:deposit_upgrade"
-			}]
+			tasks: [
+				{
+					id: "369FAFFF9324DDB1"
+					type: "item"
+					item: "sophisticatedbackpacks:deposit_upgrade"
+				}
+			]
 		}
 		{
 			x: 12.0d
 			y: -17.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests108.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.117.subtitle}"
 			dependencies: [
 				"2F64EED1F5172A81"
 				"42E4E7D3F0AFF795"
 			]
 			id: "6F7D20CB116B83C3"
-			tasks: [{
-				id: "2236FEB3D18226CF"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
-			}]
+			tasks: [
+				{
+					id: "2236FEB3D18226CF"
+					type: "item"
+					item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -20.5d
 			shape: "gear"
-			subtitle: "{chapters.useful_items_2.quests119.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.118.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "2E34D4672F9293AB"
-			tasks: [{
-				id: "266B0E4AFD592EB5"
-				type: "item"
-				item: "sophisticatedbackpacks:refill_upgrade"
-			}]
+			tasks: [
+				{
+					id: "266B0E4AFD592EB5"
+					type: "item"
+					item: "sophisticatedbackpacks:refill_upgrade"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -14.0d
 			shape: "heart"
-			subtitle: "{chapters.useful_items_2.quests120.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.119.subtitle}"
 			dependencies: ["2F64EED1F5172A81"]
 			id: "4117ECC5D91C851D"
-			tasks: [{
-				id: "1594104650C2AAEB"
-				type: "item"
-				item: "sophisticatedbackpacks:everlasting_upgrade"
-			}]
+			tasks: [
+				{
+					id: "1594104650C2AAEB"
+					type: "item"
+					item: "sophisticatedbackpacks:everlasting_upgrade"
+				}
+			]
 		}
 		{
 			x: 13.0d
 			y: -16.5d
-			subtitle: "{chapters.useful_items_2.quests121.subtitle}"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.120.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "69EC01F16F0AECA9"
-			tasks: [{
-				id: "5E32BC68855E1A44"
-				type: "item"
-				item: {
-					id: "sophisticatedbackpacks:smelting_upgrade"
-					Count: 1b
-					ForgeCaps: {
-						"polymorph:stack_recipe_data": { }
+			tasks: [
+				{
+					id: "5E32BC68855E1A44"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:smelting_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"polymorph:stack_recipe_data": { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 12.0d
 			y: -16.5d
 			shape: "gear"
-			subtitle: "Provides filters for both smeltable items and fuels. With this upgrade, you can configure your backpack, so that it will constantly smelt iron using coal while you're mining. It's recommended that you use this upgrade with the Pickup Upgrade"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.121.subtitle}"
 			dependencies: [
 				"2F64EED1F5172A81"
 				"69EC01F16F0AECA9"
 			]
 			id: "63BFD80B5A87C4E5"
-			tasks: [{
-				id: "00BE14764064D6E5"
-				type: "item"
-				item: {
-					id: "sophisticatedbackpacks:auto_smelting_upgrade"
-					Count: 1b
-					ForgeCaps: {
-						"polymorph:stack_recipe_data": { }
+			tasks: [
+				{
+					id: "00BE14764064D6E5"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:auto_smelting_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"polymorph:stack_recipe_data": { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
 			y: -14.0d
 			shape: "gear"
-			subtitle: "Will add a Crafting Table to your backpack. No more portable crafting tables on sticks or other oddities!"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.122.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["49698B7FBB07F2EC"]
 			id: "6289A678C4D88F4F"
-			tasks: [{
-				id: "32868BAB427E95E0"
-				type: "item"
-				item: {
-					id: "sophisticatedbackpacks:crafting_upgrade"
-					Count: 1b
-					ForgeCaps: {
-						"polymorph:stack_recipe_data": { }
+			tasks: [
+				{
+					id: "32868BAB427E95E0"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:crafting_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"polymorph:stack_recipe_data": { }
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 13.0d
 			y: -14.0d
 			shape: "gear"
-			subtitle: "Will add a Stonecutter to your backpack"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.123.subtitle}"
 			dependencies: ["59DF5370DD2EAE51"]
 			id: "28C0ABBCC917F8CC"
-			tasks: [{
-				id: "591DBEB4ECCDA62E"
-				type: "item"
-				item: "sophisticatedbackpacks:stonecutter_upgrade"
-			}]
+			tasks: [
+				{
+					id: "591DBEB4ECCDA62E"
+					type: "item"
+					item: "sophisticatedbackpacks:stonecutter_upgrade"
+				}
+			]
 		}
 		{
 			x: 13.0d
 			y: -15.5d
-			subtitle: "Has to be used with the Tank Upgrade. Will make the backpack outo-output any liquids to the fluid tanks located bellow the backpack. Remember you can place down backpacks with shift right-click"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.124.subtitle}"
 			dependencies: ["5F68C4D92EF20E09"]
 			id: "64F50E1767348194"
-			tasks: [{
-				id: "3F28FED3C77217BA"
-				type: "item"
-				item: "sophisticatedbackpacks:pump_upgrade"
-			}]
+			tasks: [
+				{
+					id: "3F28FED3C77217BA"
+					type: "item"
+					item: "sophisticatedbackpacks:pump_upgrade"
+				}
+			]
 		}
 		{
 			x: 12.0d
 			y: -15.5d
 			shape: "gear"
-			subtitle: "Will provide 4 filter slots. It will also allow the backpack to act more like a in-world pump and as a bucket"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.125.subtitle}"
 			dependencies: [
 				"2F64EED1F5172A81"
 				"64F50E1767348194"
 			]
 			id: "350031C6B02CB60F"
-			tasks: [{
-				id: "5410D4232EC50066"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_pump_upgrade"
-			}]
+			tasks: [
+				{
+					id: "5410D4232EC50066"
+					type: "item"
+					item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				}
+			]
 		}
 		{
 			x: 12.0d
 			y: -14.0d
 			shape: "heart"
-			subtitle: "Will allow you to transfer your experiance into the backpack's tank. This upgrade has to be used with a Tank Upgrade"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.126.subtitle}"
 			dependencies: ["2F64EED1F5172A81"]
 			id: "26612CE2C471F2C5"
-			tasks: [{
-				id: "4FEF87432116C2F0"
-				type: "item"
-				item: "sophisticatedbackpacks:xp_pump_upgrade"
-			}]
+			tasks: [
+				{
+					id: "4FEF87432116C2F0"
+					type: "item"
+					item: "sophisticatedbackpacks:xp_pump_upgrade"
+				}
+			]
 		}
 		{
-			title: "Handy Turtles"
+			title: "{ftbquests.chapter.useful_items_2.quests.127.title}"
 			icon: {
 				id: "computercraft:turtle_normal"
 				Count: 1b
@@ -2462,54 +2720,58 @@
 			x: 9.0d
 			y: -10.5d
 			shape: "gear"
-			subtitle: "Computers doing everything. Left Click for more info"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.127.subtitle}"
 			description: [
-				"Turtles can be equipped with different tools in order to perform certain tasks and actions. While regular diamond tools will consume their durability, the tools equipped by a Turtle, won't."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.0}"
 				""
-				"All turtles can execute quite the same range of actions, but the tools they're equipped with, will allow them to execute their actions more quicker. For example, a Mining Turtle can chop down trees, but will do it quite slow comparing to a Felling Turtle."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.2}"
 				""
-				"Now, how do you use this things? Unfortunately, if you don't have some programming knowledge, things will be quite hard to handle. But we'll walk you through some of the basic things you can achieve with some turtles."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.4}"
 				""
-				"Mining Turtle - You can set it up to basically be a quarry or to do strip mining for you."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.6}"
 				""
-				"Melee Trutle - You can make a great mob grinder from it. Its kills do count as a player kill, so you'll be able to get xp while you're afk at a mob farm."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.8}"
 				""
-				"Digging Turtle - Will be efficient in ares where you need to break dirt blocks."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.10}"
 				""
-				"Felling Turtle - You can make a pretty great wood farm using this one."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.12}"
 				""
-				"Farming Turtle - Can be used to manage large crop fields."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.14}"
 				""
-				"Now, each turtle can be equipped with two tools/modules. This means that on a Turtle, you cna have a Pickaxe on one side, and a Crafting Table on the other. Such combos can be used in your advantage, to achieve behaviours like - a Mining Turtle can compress the cobblestone obtained while mining, in order to get more space."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.16}"
 				""
-				"To use the features mentioned previously, you'll have to use programs. Turtles come, by default, with some programs, but you can also make your own. While this might be a hard thing to achieve, you can also get pre-made programs from the ComputerCraft forum, through Pastebin."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.18}"
 				""
-				"To add a program to your Turtle, just type: pastebin get <pastebin file name> <whatever name you want the program to have>."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.20}"
 				""
-				"To make things more clear, Turtle/Computer programs are usually posted on Pastebin.com. Each program posted there, has a unique web adress which includes the name of that program. Simply copy that name formed of random characters and things should work."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.22}"
 				""
-				"Make sure to read the forum post of each program you want to use, to get a better understanding of how that program works."
+				"{ftbquests.chapter.useful_items_2.quests.127.description.24}"
 			]
 			dependencies: ["0D3846475EDA5957"]
 			size: 1.5d
 			id: "0181383EFE09E250"
-			tasks: [{
-				id: "3E6BA5BBF8F62533"
-				type: "checkmark"
-				title: "{chapters.atum_2.quests16.tasks.title}"
-			}]
-			rewards: [{
-				id: "5CB11A4B3C0CB369"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "3E6BA5BBF8F62533"
+					type: "checkmark"
+					title: "{ftbquests.chapter.useful_items_2.quests.127.tasks.0.title}"
+				}
+			]
+			rewards: [
+				{
+					id: "5CB11A4B3C0CB369"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
-			title: "Modern Lighting"
+			title: "{ftbquests.chapter.useful_items_2.quests.128.title}"
 			x: 8.0d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "When supplied with power, the Powered Lantern will emita light source similar to Glowstone. However, it will keep mobs from spawning in a 32x32 area around them. The Floodlight, when provided with power will light an area of 32 blocks in front of it. With an Engineer's Hammer, you can rotate the Floodlight around. A redstone signal will be required to turn the Floodlight on. This behavior can be reversed with a Screwdriver"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.128.subtitle}"
 			dependencies: ["360B0A95C0A30AF6"]
 			id: "16CBF83E4F55CAA5"
 			tasks: [
@@ -2529,60 +2791,68 @@
 			x: 8.5d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "Mana Pylons can be used to boost the power of an Enchanting Table. Just two of these placed next to it, will boost the Enchanting Table's power to lvl 30"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.129.subtitle}"
 			dependencies: ["73A248C448C4C47D"]
 			id: "37D8AA4711E24A91"
-			tasks: [{
-				id: "1A8B63F4228B0889"
-				type: "item"
-				item: "botania:mana_pylon"
-			}]
+			tasks: [
+				{
+					id: "1A8B63F4228B0889"
+					type: "item"
+					item: "botania:mana_pylon"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: 6.5d
 			shape: "gear"
-			subtitle: "The Kitchen Floor is not just a decorative block, but also, a functional one. Since the blocks added by Cooking for Blockheads are meant to work with each other, you can use the Kitchen Floor to connect all of the blocks together"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.130.subtitle}"
 			dependencies: ["40205D351BE13B77"]
 			id: "473A56CFF714C950"
-			tasks: [{
-				id: "47692147BAB856CA"
-				type: "item"
-				item: "cookingforblockheads:white_kitchen_floor"
-			}]
+			tasks: [
+				{
+					id: "47692147BAB856CA"
+					type: "item"
+					item: "cookingforblockheads:white_kitchen_floor"
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: 6.5d
 			shape: "gear"
-			subtitle: "The Cooking Table can be used as a crafting station for you Kitchen. When it is part of a Kitchen which has lots of cooking ingredients, this Table will show you and will also allow you to easily craft complex recipes with those ingredients"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.131.subtitle}"
 			dependencies: ["40205D351BE13B77"]
 			id: "180C02CAF73467A2"
-			tasks: [{
-				id: "52FAAFD3D5D03DBC"
-				type: "item"
-				item: "cookingforblockheads:cooking_table"
-			}]
+			tasks: [
+				{
+					id: "52FAAFD3D5D03DBC"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: 6.5d
 			shape: "gear"
-			subtitle: "The Oven is, essencially a large smoker which uses Cooking Oil as fuel. It can hold 3 stacks of food at a time and it can cook 9 items at a time. You'll eventually be able to upgrade it to use RF/FE instead of Cooking Oil, but for now, if you're planning on using this, make sure you've god Cooking Oil"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.132.subtitle}"
 			dependencies: ["40205D351BE13B77"]
 			id: "485557DABCE45FCF"
-			tasks: [{
-				id: "322D785C89A5199A"
-				type: "item"
-				item: "cookingforblockheads:oven"
-			}]
+			tasks: [
+				{
+					id: "322D785C89A5199A"
+					type: "item"
+					item: "cookingforblockheads:oven"
+				}
+			]
 		}
 		{
-			title: "Kitchen Storage"
+			title: "{ftbquests.chapter.useful_items_2.quests.133.title}"
 			x: 9.0d
 			y: 6.5d
 			shape: "gear"
-			subtitle: "The Kitchen Counter and the Kitchen Cabinet can be used to store cooking ingredients to be used in recipes. While the counters are meant to be placed on the ground, the cabinets can be placed above. Use Kitchen Corners and Hanging Kitchen Corners to connect the lower part of the Kitchen, with the higher one. The Fridge can be used exactly like the Cabinets/Counters, but it can be upgraded to provide ice to recipes, but that will come later"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.133.subtitle}"
 			dependencies: ["40205D351BE13B77"]
 			id: "2C47A39D73048037"
 			tasks: [
@@ -2607,59 +2877,67 @@
 			x: 10.0d
 			y: 6.5d
 			shape: "gear"
-			subtitle: "The Toaster will take Bread and turn it into Toast without using any butter"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.134.subtitle}"
 			dependencies: ["40205D351BE13B77"]
 			id: "6B18F4BB6C07C9C4"
-			tasks: [{
-				id: "4D5DC281EF825DD0"
-				type: "item"
-				item: "cookingforblockheads:toaster"
-			}]
+			tasks: [
+				{
+					id: "4D5DC281EF825DD0"
+					type: "item"
+					item: "cookingforblockheads:toaster"
+				}
+			]
 		}
 		{
 			x: 11.0d
 			y: 6.5d
 			shape: "gear"
-			subtitle: "The Cow in a Jar will provide milk to all the required recipes. To make this strange item, you'll have to place a Cow untop of a regular Jar and, then, drop an anvil on the Cow. Breaking the Cow in a Jar will not release the Cow of anything"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.135.subtitle}"
 			dependencies: ["40205D351BE13B77"]
 			id: "01BD6B3F7A0023F4"
-			tasks: [{
-				id: "4B664190C9FE91F0"
-				type: "item"
-				item: "cookingforblockheads:cow_jar"
-			}]
+			tasks: [
+				{
+					id: "4B664190C9FE91F0"
+					type: "item"
+					item: "cookingforblockheads:cow_jar"
+				}
+			]
 		}
 		{
 			x: 12.0d
 			y: 6.5d
 			shape: "gear"
-			subtitle: "The Kitchen Sink can provide water to all the recipes that require it. You'll have to feed water into the Sink, as it will NOT act as an infinite water source"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.136.subtitle}"
 			dependencies: ["40205D351BE13B77"]
 			id: "2E7D59A94FCC9063"
-			tasks: [{
-				id: "5F9F7CC324F46EE2"
-				type: "item"
-				item: "cookingforblockheads:sink"
-			}]
+			tasks: [
+				{
+					id: "5F9F7CC324F46EE2"
+					type: "item"
+					item: "cookingforblockheads:sink"
+				}
+			]
 		}
 		{
 			x: 9.5d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "The Teru Teru Bozu can be used to reduce the amount of time in which Bad Weather will take place. You can also give them a Sunflower to make the Sun return"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.137.subtitle}"
 			dependencies: ["655AB81DE00B783B"]
 			id: "4E3AEBEEF7BBCF09"
-			tasks: [{
-				id: "60DF8D030C8F5068"
-				type: "item"
-				item: "botania:teru_teru_bozu"
-			}]
+			tasks: [
+				{
+					id: "60DF8D030C8F5068"
+					type: "item"
+					item: "botania:teru_teru_bozu"
+				}
+			]
 		}
 		{
 			x: 7.5d
 			y: -10.5d
 			shape: "heart"
-			subtitle: "The Portable Crafting Table: The Handheld Crafting Table will allow you to access a standard 3x3 Crafting Grid from anywhere with ease"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.138.subtitle}"
 			dependencies: [
 				"275FE11C673E522D"
 				"14C60A7B6156F520"
@@ -2667,155 +2945,175 @@
 			]
 			size: 1.5d
 			id: "49698B7FBB07F2EC"
-			tasks: [{
-				id: "7FFA086064AEE0D0"
-				type: "item"
-				item: "extendedcrafting:handheld_table"
-			}]
-			rewards: [{
-				id: "4896F319AAAB3B25"
-				type: "loot"
-				table_id: 8587500481418189075L
-			}]
+			tasks: [
+				{
+					id: "7FFA086064AEE0D0"
+					type: "item"
+					item: "extendedcrafting:handheld_table"
+				}
+			]
+			rewards: [
+				{
+					id: "4896F319AAAB3B25"
+					type: "loot"
+					table_id: 8587500481418189075L
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -12.0d
-			subtitle: "Appears lit even in dark areas"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.139.subtitle}"
 			dependencies: [
 				"5BCDBA72A5350DAA"
 				"20565A3484CED967"
 			]
 			id: "5C20152FAF327541"
-			tasks: [{
-				id: "4D514F9254FA3746"
-				type: "item"
-				item: "tconstruct:manyullyn_item_frame"
-			}]
+			tasks: [
+				{
+					id: "4D514F9254FA3746"
+					type: "item"
+					item: "tconstruct:manyullyn_item_frame"
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -7.0d
 			shape: "gear"
-			subtitle: "The Engineer's Goggles can be worn in the curios slots. Once they're equipped, and you're looking at a block from Create, information about the SU generated/consumed will be shown, along side with other useful information"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.140.subtitle}"
 			dependencies: [
 				"5F68C4D92EF20E09"
 				"59DF5370DD2EAE51"
 				"6833FFB6AB33C9D6"
 			]
 			id: "62FEC918A73AE6A0"
-			tasks: [{
-				id: "12635A29E43027C6"
-				type: "item"
-				item: "create:goggles"
-			}]
+			tasks: [
+				{
+					id: "12635A29E43027C6"
+					type: "item"
+					item: "create:goggles"
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -18.0d
 			shape: "gear"
-			subtitle: "Traveling without any risks. Left Click for more info"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.141.subtitle}"
 			description: [
-				"The Engineer's Skyhook is a mobility tool that gives you the ability to ride along wires, ropes and cables up to great distances."
+				"{ftbquests.chapter.useful_items_2.quests.141.description.0}"
 				""
-				"Using it on a mid-air line, will connect you to it, and from there, you'll ride down the line with gravity unless you'll use your movement keys."
+				"{ftbquests.chapter.useful_items_2.quests.141.description.2}"
 			]
 			dependencies: ["5A40BDBC56A4844F"]
 			id: "00809D198FA90568"
-			tasks: [{
-				id: "06AC64E8A8EDFE9D"
-				type: "item"
-				item: {
-					id: "immersiveengineering:skyhook"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 2
-							Items: [ ]
+			tasks: [
+				{
+					id: "06AC64E8A8EDFE9D"
+					type: "item"
+					item: {
+						id: "immersiveengineering:skyhook"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 2
+								Items: [ ]
+							}
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 10.0d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "The Asphalt Concrete is a block added by Immersive Petroleum. While walking on it, you'll gain a movement speed bonus of 20%"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.142.subtitle}"
 			dependencies: ["0365486E5D53E231"]
 			id: "3A4EFBD806E50E39"
-			tasks: [{
-				id: "147F14A3484B6A5E"
-				type: "item"
-				item: "immersivepetroleum:asphalt"
-			}]
+			tasks: [
+				{
+					id: "147F14A3484B6A5E"
+					type: "item"
+					item: "immersivepetroleum:asphalt"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "The Laboratory Furnace will be slightly faster then the vanilla Furnace. If a Thermal Plate from Powah is placed in one of the two auxiliary slots of the Furnace, and RF is provided, it will start to smelt items faster"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.143.subtitle}"
 			dependencies: ["69DA94D714E296AC"]
 			id: "11BDE71F0ED568AD"
-			tasks: [{
-				id: "463C88292EC77B15"
-				type: "item"
-				item: "engineersdecor:small_lab_furnace"
-			}]
+			tasks: [
+				{
+					id: "463C88292EC77B15"
+					type: "item"
+					item: "engineersdecor:small_lab_furnace"
+				}
+			]
 		}
 		{
 			x: 13.0d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "The Small Electrical Furnace can take tiny amounts of RF to burn items just like a vanilla Furnace would. In its GUI, it has a tiny button with 4 positions. With it, you can choose how fast the Furnace will smelt items. The faster it goes, the more RF wil be used. Also note that, a certain level of RF has to be reached in order for it to work. Finally, this furnace will automatically pull items from the inventory adjacent to its input side (which is marked with a Blue dot)"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.144.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"79BB64427280F8AE"
 				"11BDE71F0ED568AD"
 			]
 			id: "0BC1C7CDEA40838F"
-			tasks: [{
-				id: "3EB5E266524CB246"
-				type: "item"
-				item: "engineersdecor:small_electrical_furnace"
-			}]
+			tasks: [
+				{
+					id: "3EB5E266524CB246"
+					type: "item"
+					item: "engineersdecor:small_electrical_furnace"
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: -6.0d
 			shape: "gear"
-			subtitle: "The Factory Hopper is a smarted version of the vanilla Hopper. First, it has 18 slots and it can transfer a maximum amount of 32 items at a time. It also has options for different transfer delay, redstone control and more"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.145.subtitle}"
 			dependencies: [
 				"79BB64427280F8AE"
 				"2BF07F660D1559DE"
 			]
 			id: "77914ED859B33D5F"
-			tasks: [{
-				id: "37E62ADB539C22D2"
-				type: "item"
-				item: "engineersdecor:factory_hopper"
-			}]
+			tasks: [
+				{
+					id: "37E62ADB539C22D2"
+					type: "item"
+					item: "engineersdecor:factory_hopper"
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -17.0d
 			shape: "gear"
-			subtitle: "The Morph-O-Tool is a gadget which is similar to the Akashic Tome. It can store multiple Wrenches in it. If you're looking at a block of a certain mod, the Morph-O-Tool will turn into the wrench added by that mod (if it has it stored)"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.146.subtitle}"
 			dependencies: ["40205D351BE13B77"]
 			id: "62BF8A4AEDEBB411"
-			tasks: [{
-				id: "7EFBFCFE348127E6"
-				type: "item"
-				item: "morphtool:tool"
-			}]
+			tasks: [
+				{
+					id: "7EFBFCFE348127E6"
+					type: "item"
+					item: "morphtool:tool"
+				}
+			]
 		}
 		{
-			title: "The Primitive Steam Turbine"
+			title: "{ftbquests.chapter.useful_items_2.quests.147.title}"
 			icon: "immersiveindustry:steam_turbine"
 			x: 4.5d
 			y: -10.5d
 			shape: "heart"
-			subtitle: "The Steam Turbine is a revolutionary multiblock structure that will consume a maximum amount of 64mb/t of Liquid Steam to produce 1024 RF/t. This will allow you to turn the Steam you were previously producing directly into power, without any rotational force being involved. The output rate of 1024 RF/t will be split between the Turbine's two outputs. A Projector is adviced for building this Structure"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.147.subtitle}"
 			dependencies: [
 				"7D4AA3C434A30047"
 				"6B4D6FD11DFC8011"
@@ -2868,18 +3166,18 @@
 			]
 		}
 		{
-			title: "Diesel Generator"
+			title: "{ftbquests.chapter.useful_items_2.quests.148.title}"
 			icon: "immersiveengineering:diesel_generator"
 			x: 13.5d
 			y: -10.5d
 			shape: "heart"
-			subtitle: "More structure. More RF. Left Click for more info"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.148.subtitle}"
 			description: [
-				"Construct the Diesel Generator, which can produce 2048 RF/tick using Diesel or Biodiesel as fuel. The generator has three outputs. Keep in mind that the 2048 RF output will be split between the generator's three outputs."
+				"{ftbquests.chapter.useful_items_2.quests.148.description.0}"
 				""
-				"{chapters.Gear_2.quests23.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.148.description.2}"
 				""
-				"You might want to use the extreme sound muffler menu in your inventory to turn down the volume for the sounds produced by this machine. Trust us. This thing is LOUD."
+				"{ftbquests.chapter.useful_items_2.quests.148.description.4}"
 			]
 			dependencies: [
 				"7D4AA3C434A30047"
@@ -2926,27 +3224,29 @@
 					count: 5L
 				}
 			]
-			rewards: [{
-				id: "73EB5E188BD11545"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			rewards: [
+				{
+					id: "73EB5E188BD11545"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
-			title: "Automated Engineer's Workbench"
+			title: "{ftbquests.chapter.useful_items_2.quests.149.title}"
 			icon: "immersiveengineering:auto_workbench"
 			x: 7.5d
 			y: -9.0d
 			shape: "gear"
-			subtitle: "Components can be mass-produced now. Left Click for more info"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.149.subtitle}"
 			description: [
-				"The Automated Workbench is a 3x2x3 multi-block structure which is the automated version of the Engineer's Workbench."
+				"{ftbquests.chapter.useful_items_2.quests.149.description.0}"
 				""
-				"The orientation of the Conveyor Belts is important; they should \"flow\" to the front of the multiblock. After it is fully arranged, right-click the middle Treated Wood Slab with an Engineer's Hammer to complete the multiblock structure."
+				"{ftbquests.chapter.useful_items_2.quests.149.description.2}"
 				""
-				"Redstone Flux (RF) is required for the Automated Workbench to function. It is input through where the Light Engineering Block was in the multiblock structure's creation.In the Automated Workbench's GUI, a Engineer's Blueprint must be added in order for it to function."
+				"{ftbquests.chapter.useful_items_2.quests.149.description.4}"
 				""
-				"General example of the structure:"
+				"{ftbquests.chapter.useful_items_2.quests.149.description.6}"
 				""
 				"{image:kubejs:textures/immersive/automated_engineer_workbench_example.png width:140 height:140 align:1}"
 			]
@@ -2991,23 +3291,23 @@
 			]
 		}
 		{
-			title: "The Excavator"
+			title: "{ftbquests.chapter.useful_items_2.quests.150.title}"
 			icon: "immersiveengineering:excavator"
 			x: 9.0d
 			y: -9.0d
 			shape: "gear"
-			subtitle: "Diggy Diggy HOLE! Left Click for more info"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.150.subtitle}"
 			description: [
-				"The Excavator is capable of generating a massive quantity of ores at the cost of 512 RF/tick. To properly use it, you'll have to search for an ore deposit using a Core Sample Drill. Once you've found an ore deposit, you can buit the Excavator above it, and start extracting it."
+				"{ftbquests.chapter.useful_items_2.quests.150.description.0}"
 				""
-				"This multiblock structure has two pieces:"
+				"{ftbquests.chapter.useful_items_2.quests.150.description.2}"
 				""
-				"- The Engine"
-				"- The Bucket Wheel"
+				"{ftbquests.chapter.useful_items_2.quests.150.description.4}"
+				"{ftbquests.chapter.useful_items_2.quests.150.description.5}"
 				""
-				"{chapters.Gear_2.quests23.description2}"
+				"{ftbquests.chapter.useful_items_2.quests.150.description.7}"
 				""
-				"Example of the Excavator's power input:"
+				"{ftbquests.chapter.useful_items_2.quests.150.description.9}"
 				""
 				"{image:kubejs:textures/immersive/excavator_power_example.png width:100 height:100 align:1 fit:true}"
 			]
@@ -3050,25 +3350,27 @@
 					count: 4L
 				}
 			]
-			rewards: [{
-				id: "6EBBF278AAE26F42"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			rewards: [
+				{
+					id: "6EBBF278AAE26F42"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
-			title: "Immersive Sawmill"
+			title: "{ftbquests.chapter.useful_items_2.quests.151.title}"
 			icon: "immersiveengineering:sawmill"
 			x: 10.5d
 			y: -9.0d
 			shape: "gear"
-			subtitle: "Cutting, now using electricity. Left Click for more info"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.151.subtitle}"
 			description: [
-				"The Sawmill is a machine assembly which cuts wooden logs  neatly stacked planks."
+				"{ftbquests.chapter.useful_items_2.quests.151.description.0}"
 				""
-				"The machine operates in two stages by first stripping the bark off the log and then using a saw blade to cut the striped long apart, everything by consuming RF/FE."
+				"{ftbquests.chapter.useful_items_2.quests.151.description.2}"
 				""
-				"In the cutting process, you can receive sawdust which can be used now to make paper, and other products in the future."
+				"{ftbquests.chapter.useful_items_2.quests.151.description.4}"
 			]
 			dependencies: ["31A4F73AF44D70B1"]
 			id: "3442FB40C42B698A"
@@ -3111,46 +3413,52 @@
 			]
 		}
 		{
-			title: "Lubricant"
+			title: "{ftbquests.chapter.useful_items_2.quests.152.title}"
 			x: 7.0d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "Lubricant can be used to make machines such as the Excavetor, PumpJack, etc. run smoother. This quest is here just for providing some info"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.152.subtitle}"
 			dependencies: ["4261B19707343F3D"]
 			id: "6D461175C8690305"
-			tasks: [{
-				id: "76FA7BBAED02790F"
-				type: "item"
-				item: "immersivepetroleum:oil_can"
-			}]
+			tasks: [
+				{
+					id: "76FA7BBAED02790F"
+					type: "item"
+					item: "immersivepetroleum:oil_can"
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -8.0d
 			shape: "heart"
-			subtitle: "This block is Wither-proof"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.153.subtitle}"
 			dependencies: ["4AADFD307A5BCF37"]
 			id: "04BC8A5DB0D0A04B"
-			tasks: [{
-				id: "01104CB1FE3C3545"
-				type: "item"
-				item: "engineersdecor:rebar_concrete"
-			}]
+			tasks: [
+				{
+					id: "01104CB1FE3C3545"
+					type: "item"
+					item: "engineersdecor:rebar_concrete"
+				}
+			]
 		}
 		{
-			title: "The Advanced Woodcutter"
+			title: "{ftbquests.chapter.useful_items_2.quests.154.title}"
 			x: 10.5d
 			y: -10.5d
 			shape: "heart"
-			subtitle: "The Advanced Woodcutter will allow you to process the logs from BYG; this should make your building tasks easier. Unlike the regular Woodcutter, this one is also portable, so you an open it from your inventory. Just Shift Right Click with it in your hand"
+			subtitle: "{ftbquests.chapter.useful_items_2.quests.154.subtitle}"
 			dependencies: ["2E420B464AC031B6"]
 			size: 1.5d
 			id: "04758C0EF8E5BB6C"
-			tasks: [{
-				id: "673AD1D2FDDA405C"
-				type: "item"
-				item: "corail_woodcutter:oak_woodcutter"
-			}]
+			tasks: [
+				{
+					id: "673AD1D2FDDA405C"
+					type: "item"
+					item: "corail_woodcutter:oak_woodcutter"
+				}
+			]
 		}
 	]
 }

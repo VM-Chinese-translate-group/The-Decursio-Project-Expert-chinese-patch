@@ -3,7 +3,7 @@
 	group: "70E732380FC79639"
 	order_index: 4
 	filename: "my_colony"
-	title: "{chapters.my_colony.title}"
+	title: "{ftbquests.chapter.my_colony.title}"
 	icon: "minecolonies:blockhuttownhall"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,87 +11,95 @@
 		{
 			x: 0.5d
 			y: 0.0d
-			subtitle: "{chapters.my_colony.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.0.subtitle}"
 			description: [
-				"{chapters.my_colony.quests1.description1}"
+				"{ftbquests.chapter.my_colony.quests.0.description.0}"
 				""
-				"{chapters.my_colony.quests1.description2}"
+				"{ftbquests.chapter.my_colony.quests.0.description.2}"
 				""
-				"{chapters.my_colony.quests1.description3}"
+				"{ftbquests.chapter.my_colony.quests.0.description.4}"
 			]
 			dependencies: [
 				"0DDA2FB169318B04"
 				"1BB87B6A89F4C898"
 			]
 			id: "6B2DE7FF62EB9EEE"
-			tasks: [{
-				id: "0631664396D28B56"
-				type: "item"
-				item: "minecolonies:blockhutbuilder"
-			}]
-			rewards: [{
-				id: "477C3822230FA3EC"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "0631664396D28B56"
+					type: "item"
+					item: "minecolonies:blockhutbuilder"
+				}
+			]
+			rewards: [
+				{
+					id: "477C3822230FA3EC"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.1.subtitle}"
 			description: [
-				"{chapters.my_colony.quests2.description1}"
+				"{ftbquests.chapter.my_colony.quests.1.description.0}"
 				""
-				"{chapters.my_colony.quests2.description2}"
+				"{ftbquests.chapter.my_colony.quests.1.description.2}"
 				""
-				"{chapters.my_colony.quests2.description3}"
+				"{ftbquests.chapter.my_colony.quests.1.description.4}"
 				""
-				"{chapters.my_colony.quests2.description4}"
+				"{ftbquests.chapter.my_colony.quests.1.description.6}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "68052282878E9FB8"
-			tasks: [{
-				id: "38639ACF64B0C6D1"
-				type: "item"
-				item: "minecolonies:blockhutguardtower"
-			}]
+			tasks: [
+				{
+					id: "38639ACF64B0C6D1"
+					type: "item"
+					item: "minecolonies:blockhutguardtower"
+				}
+			]
 		}
 		{
 			x: 3.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.2.subtitle}"
 			description: [
-				"{chapters.my_colony.quests3.description1}"
+				"{ftbquests.chapter.my_colony.quests.2.description.0}"
 				""
-				"{chapters.my_colony.quests3.description2}"
+				"{ftbquests.chapter.my_colony.quests.2.description.2}"
 				""
-				"{chapters.my_colony.quests3.description3}"
+				"{ftbquests.chapter.my_colony.quests.2.description.4}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "661054D328C1B1F6"
-			tasks: [{
-				id: "30CBEFA45181B4D8"
-				type: "item"
-				item: "minecolonies:blockhutcitizen"
-			}]
+			tasks: [
+				{
+					id: "30CBEFA45181B4D8"
+					type: "item"
+					item: "minecolonies:blockhutcitizen"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: 6.0d
 			shape: "heart"
-			subtitle: "{chapters.my_colony.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.3.subtitle}"
 			description: [
-				"{chapters.my_colony.quests4.description1}"
+				"{ftbquests.chapter.my_colony.quests.3.description.0}"
 				""
-				"{chapters.my_colony.quests4.description2}"
+				"{ftbquests.chapter.my_colony.quests.3.description.2}"
 				""
-				"{chapters.my_colony.quests4.description3}"
-				"{chapters.my_colony.quests4.description4}"
-				"{chapters.my_colony.quests4.description5}"
-				"{chapters.my_colony.quests4.description6}"
-				"{chapters.my_colony.quests4.description7}"
+				"{ftbquests.chapter.my_colony.quests.3.description.4}"
+				"{ftbquests.chapter.my_colony.quests.3.description.5}"
+				"{ftbquests.chapter.my_colony.quests.3.description.6}"
+				"{ftbquests.chapter.my_colony.quests.3.description.7}"
+				"{ftbquests.chapter.my_colony.quests.3.description.8}"
 			]
 			dependencies: [
 				"046C163C3CA21967"
@@ -99,21 +107,25 @@
 				"031023A8EA6FD4D0"
 			]
 			id: "15BFFE30972FE8E8"
-			tasks: [{
-				id: "1F7FFF9891DDE166"
-				type: "item"
-				item: "minecolonies:blockhutblacksmith"
-			}]
-			rewards: [{
-				id: "6EB5B07D0E08C36B"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "1F7FFF9891DDE166"
+					type: "item"
+					item: "minecolonies:blockhutblacksmith"
+				}
+			]
+			rewards: [
+				{
+					id: "6EB5B07D0E08C36B"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: 6.0d
-			subtitle: "{chapters.my_colony.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.4.subtitle}"
 			dependencies: ["15BFFE30972FE8E8"]
 			id: "7B2A2B01A6293819"
 			tasks: [
@@ -166,393 +178,441 @@
 		{
 			x: 1.5d
 			y: -4.0d
-			subtitle: "{chapters.my_colony.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.5.subtitle}"
 			description: [
-				"{chapters.my_colony.quests6.description1}"
+				"{ftbquests.chapter.my_colony.quests.5.description.0}"
 				""
-				"{chapters.my_colony.quests6.description2}"
-				"{chapters.my_colony.quests6.description3}"
-				"{chapters.my_colony.quests6.description4}"
-				"{chapters.my_colony.quests6.description5}"
-				"{chapters.my_colony.quests6.description6}"
+				"{ftbquests.chapter.my_colony.quests.5.description.2}"
+				"{ftbquests.chapter.my_colony.quests.5.description.3}"
+				"{ftbquests.chapter.my_colony.quests.5.description.4}"
+				"{ftbquests.chapter.my_colony.quests.5.description.5}"
+				"{ftbquests.chapter.my_colony.quests.5.description.6}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "3C2921D1830B16C3"
-			tasks: [{
-				id: "1A5923B9D9649FC0"
-				type: "item"
-				item: "minecolonies:blockhutbaker"
-			}]
+			tasks: [
+				{
+					id: "1A5923B9D9649FC0"
+					type: "item"
+					item: "minecolonies:blockhutbaker"
+				}
+			]
 		}
 		{
 			x: -2.0d
 			y: -2.5d
-			subtitle: "{chapters.my_colony.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.6.subtitle}"
 			description: [
-				"{chapters.my_colony.quests7.description1}"
+				"{ftbquests.chapter.my_colony.quests.6.description.0}"
 				""
-				"{chapters.my_colony.quests7.description2}"
+				"{ftbquests.chapter.my_colony.quests.6.description.2}"
 				""
-				"{chapters.my_colony.quests7.description3}"
+				"{ftbquests.chapter.my_colony.quests.6.description.4}"
 				""
-				"{chapters.my_colony.quests7.description4}"
+				"{ftbquests.chapter.my_colony.quests.6.description.6}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "30C86228C2ED31FF"
-			tasks: [{
-				id: "7642EAAFB1FF3482"
-				type: "item"
-				item: "minecolonies:blockhutfarmer"
-			}]
-			rewards: [{
-				id: "2BB8C431BA7A29C3"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "7642EAAFB1FF3482"
+					type: "item"
+					item: "minecolonies:blockhutfarmer"
+				}
+			]
+			rewards: [
+				{
+					id: "2BB8C431BA7A29C3"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: -1.0d
-			subtitle: "{chapters.my_colony.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.7.subtitle}"
 			description: [
-				"{chapters.my_colony.quests8.description1}"
+				"{ftbquests.chapter.my_colony.quests.7.description.0}"
 				""
-				"{chapters.my_colony.quests8.description2}"
+				"{ftbquests.chapter.my_colony.quests.7.description.2}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "75ADB71F73F5DBE8"
-			tasks: [{
-				id: "4372B2F590F527AD"
-				type: "item"
-				item: "minecolonies:blockhutshepherd"
-			}]
+			tasks: [
+				{
+					id: "4372B2F590F527AD"
+					type: "item"
+					item: "minecolonies:blockhutshepherd"
+				}
+			]
 		}
 		{
 			x: 2.5d
 			y: -1.0d
-			subtitle: "{chapters.my_colony.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.8.subtitle}"
 			description: [
-				"{chapters.my_colony.quests9.description1}"
+				"{ftbquests.chapter.my_colony.quests.8.description.0}"
 				""
-				"{chapters.my_colony.quests9.description2}"
+				"{ftbquests.chapter.my_colony.quests.8.description.2}"
 				""
-				"{chapters.my_colony.quests9.description3}"
+				"{ftbquests.chapter.my_colony.quests.8.description.4}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "5F60F35FF77F981F"
-			tasks: [{
-				id: "0476CA702A9CBE1B"
-				type: "item"
-				item: "minecolonies:blockhutfisherman"
-			}]
+			tasks: [
+				{
+					id: "0476CA702A9CBE1B"
+					type: "item"
+					item: "minecolonies:blockhutfisherman"
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: -3.5d
-			subtitle: "{chapters.my_colony.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.9.subtitle}"
 			description: [
-				"{chapters.my_colony.quests10.description1}"
+				"{ftbquests.chapter.my_colony.quests.9.description.0}"
 				""
-				"{chapters.my_colony.quests10.description2}"
+				"{ftbquests.chapter.my_colony.quests.9.description.2}"
 				""
-				"{chapters.my_colony.quests10.description3}"
+				"{ftbquests.chapter.my_colony.quests.9.description.4}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "165E6CE2E209F415"
-			tasks: [{
-				id: "25E72DE03D133E99"
-				type: "item"
-				item: "minecolonies:blockhutchickenherder"
-			}]
+			tasks: [
+				{
+					id: "25E72DE03D133E99"
+					type: "item"
+					item: "minecolonies:blockhutchickenherder"
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: -4.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.10.subtitle}"
 			description: [
-				"{chapters.my_colony.quests11.description1}"
+				"{ftbquests.chapter.my_colony.quests.10.description.0}"
 				""
-				"{chapters.my_colony.quests11.description2}"
+				"{ftbquests.chapter.my_colony.quests.10.description.2}"
 				""
-				"{chapters.my_colony.quests11.description3}"
+				"{ftbquests.chapter.my_colony.quests.10.description.4}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "3748BD13ED9058D6"
-			tasks: [{
-				id: "1FFCCA66F302F0DF"
-				type: "item"
-				item: "minecolonies:blockhutcook"
-			}]
+			tasks: [
+				{
+					id: "1FFCCA66F302F0DF"
+					type: "item"
+					item: "minecolonies:blockhutcook"
+				}
+			]
 		}
 		{
-			title: "{chapters.my_colony.quests12.title}"
+			title: "{ftbquests.chapter.my_colony.quests.11.title}"
 			x: 5.0d
 			y: 0.0d
-			subtitle: "{chapters.my_colony.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.11.subtitle}"
 			description: [
-				"{chapters.my_colony.quests12.description1}"
+				"{ftbquests.chapter.my_colony.quests.11.description.0}"
 				""
-				"{chapters.my_colony.quests12.description2}"
+				"{ftbquests.chapter.my_colony.quests.11.description.2}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "700CB8B84A83BDE3"
-			tasks: [{
-				id: "2EC933882B1C8ED8"
-				type: "item"
-				item: "minecolonies:blockhutminer"
-			}]
+			tasks: [
+				{
+					id: "2EC933882B1C8ED8"
+					type: "item"
+					item: "minecolonies:blockhutminer"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.12.subtitle}"
 			description: [
-				"{chapters.my_colony.quests13.description1}"
+				"{ftbquests.chapter.my_colony.quests.12.description.0}"
 				""
-				"{chapters.my_colony.quests13.description2}"
+				"{ftbquests.chapter.my_colony.quests.12.description.2}"
 				""
-				"{chapters.my_colony.quests13.description3}"
+				"{ftbquests.chapter.my_colony.quests.12.description.4}"
 			]
 			dependencies: ["046C163C3CA21967"]
 			id: "327DA96079EEBA5A"
-			tasks: [{
-				id: "5BB37790CE0090AE"
-				type: "item"
-				item: "minecolonies:blockhutstonesmeltery"
-			}]
+			tasks: [
+				{
+					id: "5BB37790CE0090AE"
+					type: "item"
+					item: "minecolonies:blockhutstonesmeltery"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests14.subtitle}"
-			description: ["{chapters.my_colony.quests14.description}"]
+			subtitle: "{ftbquests.chapter.my_colony.quests.13.subtitle}"
+			description: ["{ftbquests.chapter.my_colony.quests.13.description.0}"]
 			dependencies: ["700CB8B84A83BDE3"]
 			id: "407C74B62878A450"
-			tasks: [{
-				id: "40C7C90C515CE9E4"
-				type: "item"
-				item: "minecolonies:blockhutsifter"
-			}]
-			rewards: [{
-				id: "68D72FE44A7BFD3E"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "40C7C90C515CE9E4"
+					type: "item"
+					item: "minecolonies:blockhutsifter"
+				}
+			]
+			rewards: [
+				{
+					id: "68D72FE44A7BFD3E"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: 2.5d
 			y: -3.5d
-			subtitle: "{chapters.my_colony.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.14.subtitle}"
 			description: [
-				"{chapters.my_colony.quests15.description1}"
+				"{ftbquests.chapter.my_colony.quests.14.description.0}"
 				""
-				"{chapters.my_colony.quests15.description2}"
+				"{ftbquests.chapter.my_colony.quests.14.description.2}"
 				""
-				"{chapters.my_colony.quests15.description3}"
+				"{ftbquests.chapter.my_colony.quests.14.description.4}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "27A2BB27A8840A2C"
-			tasks: [{
-				id: "2FC68F55C2D626B5"
-				type: "item"
-				item: "minecolonies:blockhutswineherder"
-			}]
+			tasks: [
+				{
+					id: "2FC68F55C2D626B5"
+					type: "item"
+					item: "minecolonies:blockhutswineherder"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.15.subtitle}"
 			description: [
-				"{chapters.my_colony.quests16.description1}"
+				"{ftbquests.chapter.my_colony.quests.15.description.0}"
 				""
-				"{chapters.my_colony.quests16.description2}"
+				"{ftbquests.chapter.my_colony.quests.15.description.2}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "3645314825C90159"
-			tasks: [{
-				id: "38FB61FE77E878D7"
-				type: "item"
-				item: "minecolonies:blockhutwarehouse"
-			}]
-			rewards: [{
-				id: "324E6C926C66E001"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "38FB61FE77E878D7"
+					type: "item"
+					item: "minecolonies:blockhutwarehouse"
+				}
+			]
+			rewards: [
+				{
+					id: "324E6C926C66E001"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: 4.0d
 			shape: "heart"
-			subtitle: "{chapters.my_colony.quests17.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.16.subtitle}"
 			description: [
-				"{chapters.my_colony.quests17.description1}"
+				"{ftbquests.chapter.my_colony.quests.16.description.0}"
 				""
-				"{chapters.my_colony.quests17.description2}"
+				"{ftbquests.chapter.my_colony.quests.16.description.2}"
 				""
-				"{chapters.my_colony.quests17.description3}"
+				"{ftbquests.chapter.my_colony.quests.16.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "4C3509092330928E"
-			tasks: [{
-				id: "1CAD0ABFBC6B5CE0"
-				type: "item"
-				item: "minecolonies:blockhutbarracks"
-			}]
+			tasks: [
+				{
+					id: "1CAD0ABFBC6B5CE0"
+					type: "item"
+					item: "minecolonies:blockhutbarracks"
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: 4.0d
-			subtitle: "{chapters.my_colony.quests18.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.17.subtitle}"
 			description: [
-				"{chapters.my_colony.quests18.description1}"
+				"{ftbquests.chapter.my_colony.quests.17.description.0}"
 				""
-				"{chapters.my_colony.quests18.description2}"
+				"{ftbquests.chapter.my_colony.quests.17.description.2}"
 				""
-				"{chapters.my_colony.quests18.description3}"
+				"{ftbquests.chapter.my_colony.quests.17.description.4}"
 				""
-				"{chapters.my_colony.quests18.description4}"
+				"{ftbquests.chapter.my_colony.quests.17.description.6}"
 				""
-				"{chapters.my_colony.quests18.description5}"
+				"{ftbquests.chapter.my_colony.quests.17.description.8}"
 			]
 			dependencies: ["4C3509092330928E"]
 			id: "0BED99E08B5205D5"
-			tasks: [{
-				id: "02FA9F2177B30BBB"
-				type: "item"
-				item: "minecolonies:blockhutbarrackstower"
-			}]
+			tasks: [
+				{
+					id: "02FA9F2177B30BBB"
+					type: "item"
+					item: "minecolonies:blockhutbarrackstower"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests19.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.18.subtitle}"
 			description: [
-				"{chapters.my_colony.quests19.description1}"
+				"{ftbquests.chapter.my_colony.quests.18.description.0}"
 				""
-				"{chapters.my_colony.quests19.description2}"
+				"{ftbquests.chapter.my_colony.quests.18.description.2}"
 				""
-				"{chapters.my_colony.quests19.description3}"
+				"{ftbquests.chapter.my_colony.quests.18.description.4}"
 			]
 			dependencies: ["700CB8B84A83BDE3"]
 			id: "046C163C3CA21967"
-			tasks: [{
-				id: "7E98C6667F9857E5"
-				type: "item"
-				item: "minecolonies:blockhutsmeltery"
-			}]
-			rewards: [{
-				id: "4DC333C15DEBCEB3"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "7E98C6667F9857E5"
+					type: "item"
+					item: "minecolonies:blockhutsmeltery"
+				}
+			]
+			rewards: [
+				{
+					id: "4DC333C15DEBCEB3"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
-			title: "{chapters.my_colony.quests20.title}"
+			title: "{ftbquests.chapter.my_colony.quests.19.title}"
 			x: 0.5d
 			y: -4.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests20.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.19.subtitle}"
 			description: [
-				"{chapters.my_colony.quests20.description1}"
+				"{ftbquests.chapter.my_colony.quests.19.description.0}"
 				""
-				"{chapters.my_colony.quests20.description2}"
+				"{ftbquests.chapter.my_colony.quests.19.description.2}"
 				""
-				"{chapters.my_colony.quests20.description3}"
+				"{ftbquests.chapter.my_colony.quests.19.description.4}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "1AE8C8FBC12AAAD9"
-			tasks: [{
-				id: "1C3BA695DEFE8814"
-				type: "item"
-				item: "minecolonies:blockhuttavern"
-			}]
-			rewards: [{
-				id: "546F68503BE58951"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "1C3BA695DEFE8814"
+					type: "item"
+					item: "minecolonies:blockhuttavern"
+				}
+			]
+			rewards: [
+				{
+					id: "546F68503BE58951"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: 3.0d
-			subtitle: "{chapters.my_colony.quests21.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.20.subtitle}"
 			description: [
-				"{chapters.my_colony.quests21.description1}"
+				"{ftbquests.chapter.my_colony.quests.20.description.0}"
 				""
-				"{chapters.my_colony.quests21.description2}"
+				"{ftbquests.chapter.my_colony.quests.20.description.2}"
 				""
-				"{chapters.my_colony.quests21.description3}"
+				"{ftbquests.chapter.my_colony.quests.20.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "74455E24FC6AAD71"
-			tasks: [{
-				id: "052EF00DDEA414E0"
-				type: "item"
-				item: "minecolonies:blockhutschool"
-			}]
+			tasks: [
+				{
+					id: "052EF00DDEA414E0"
+					type: "item"
+					item: "minecolonies:blockhutschool"
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests22.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.21.subtitle}"
 			description: [
-				"{chapters.my_colony.quests22.description1}"
+				"{ftbquests.chapter.my_colony.quests.21.description.0}"
 				""
-				"{chapters.my_colony.quests22.description2}"
+				"{ftbquests.chapter.my_colony.quests.21.description.2}"
 				""
-				"{chapters.my_colony.quests22.description3}"
+				"{ftbquests.chapter.my_colony.quests.21.description.4}"
 			]
 			dependencies: [
 				"6B2DE7FF62EB9EEE"
 				"0616D9457ECE328A"
 			]
 			id: "4D0CABD02105F554"
-			tasks: [{
-				id: "345398A03257EAB9"
-				type: "item"
-				item: "minecolonies:blockhutuniversity"
-			}]
+			tasks: [
+				{
+					id: "345398A03257EAB9"
+					type: "item"
+					item: "minecolonies:blockhutuniversity"
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests23.subtitle}"
-			description: ["{chapters.my_colony.quests23.description}"]
+			subtitle: "{ftbquests.chapter.my_colony.quests.22.subtitle}"
+			description: ["{ftbquests.chapter.my_colony.quests.22.description.0}"]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "35511B07E4ECEC03"
-			tasks: [{
-				id: "065502F004BABDDD"
-				type: "item"
-				item: "minecolonies:blockhuthospital"
-			}]
-			rewards: [{
-				id: "56FE191A7F3C9322"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "065502F004BABDDD"
+					type: "item"
+					item: "minecolonies:blockhuthospital"
+				}
+			]
+			rewards: [
+				{
+					id: "56FE191A7F3C9322"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: -1.0d
 			y: 1.5d
 			shape: "heart"
-			subtitle: "{chapters.my_colony.quests24.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.23.subtitle}"
 			description: [
-				"{chapters.my_colony.quests24.description1}"
+				"{ftbquests.chapter.my_colony.quests.23.description.0}"
 				""
-				"{chapters.my_colony.quests24.description2}"
+				"{ftbquests.chapter.my_colony.quests.23.description.2}"
 				""
-				"{chapters.my_colony.quests24.description3}"
+				"{ftbquests.chapter.my_colony.quests.23.description.4}"
 			]
 			dependencies: [
 				"6B2DE7FF62EB9EEE"
@@ -560,295 +620,323 @@
 				"1F6E34D4E5B184B5"
 			]
 			id: "0BCE4F114FF673A4"
-			tasks: [{
-				id: "17015E2E0FB5BF7B"
-				type: "item"
-				item: "minecolonies:blockhutenchanter"
-			}]
+			tasks: [
+				{
+					id: "17015E2E0FB5BF7B"
+					type: "item"
+					item: "minecolonies:blockhutenchanter"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests25.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.24.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "3C15DF94AECE339D"
-			tasks: [{
-				id: "60A50A9E8A35F02F"
-				type: "item"
-				item: "minecolonies:blockhutmysticalsite"
-			}]
+			tasks: [
+				{
+					id: "60A50A9E8A35F02F"
+					type: "item"
+					item: "minecolonies:blockhutmysticalsite"
+				}
+			]
 		}
 		{
-			title: "{chapters.my_colony.quests26.title}"
+			title: "{ftbquests.chapter.my_colony.quests.25.title}"
 			x: -1.5d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests26.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.25.subtitle}"
 			description: [
-				"{chapters.my_colony.quests26.description1}"
+				"{ftbquests.chapter.my_colony.quests.25.description.0}"
 				""
-				"{chapters.my_colony.quests26.description2}"
+				"{ftbquests.chapter.my_colony.quests.25.description.2}"
 				""
-				"{chapters.my_colony.quests26.description3}"
+				"{ftbquests.chapter.my_colony.quests.25.description.4}"
 				""
-				"{chapters.my_colony.quests26.description4}"
+				"{ftbquests.chapter.my_colony.quests.25.description.6}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "58E5958969A83B0D"
-			tasks: [{
-				id: "33804220CA48FC8C"
-				type: "item"
-				item: "minecolonies:blockhutgraveyard"
-			}]
+			tasks: [
+				{
+					id: "33804220CA48FC8C"
+					type: "item"
+					item: "minecolonies:blockhutgraveyard"
+				}
+			]
 		}
 		{
 			x: 2.5d
 			y: 3.0d
-			subtitle: "{chapters.my_colony.quests27.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.26.subtitle}"
 			description: [
-				"{chapters.my_colony.quests27.description1}"
+				"{ftbquests.chapter.my_colony.quests.26.description.0}"
 				""
-				"{chapters.my_colony.quests27.description2}"
+				"{ftbquests.chapter.my_colony.quests.26.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "108E3F9967D66A50"
-			tasks: [{
-				id: "0C32FFAFCEEFB3E1"
-				type: "item"
-				item: "minecolonies:blockhutlibrary"
-			}]
+			tasks: [
+				{
+					id: "0C32FFAFCEEFB3E1"
+					type: "item"
+					item: "minecolonies:blockhutlibrary"
+				}
+			]
 		}
 		{
 			x: 2.5d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests28.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.27.subtitle}"
 			description: [
-				"{chapters.my_colony.quests28.description1}"
+				"{ftbquests.chapter.my_colony.quests.27.description.0}"
 				""
-				"{chapters.my_colony.quests28.description2}"
+				"{ftbquests.chapter.my_colony.quests.27.description.2}"
 				""
-				"{chapters.my_colony.quests28.description3}"
+				"{ftbquests.chapter.my_colony.quests.27.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "72A6ED3EE2A3557F"
-			tasks: [{
-				id: "2EA238D5278C8CAE"
-				type: "item"
-				item: "minecolonies:blockhutcombatacademy"
-			}]
+			tasks: [
+				{
+					id: "2EA238D5278C8CAE"
+					type: "item"
+					item: "minecolonies:blockhutcombatacademy"
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests29.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.28.subtitle}"
 			description: [
-				"{chapters.my_colony.quests29.description1}"
+				"{ftbquests.chapter.my_colony.quests.28.description.0}"
 				""
-				"{chapters.my_colony.quests29.description2}"
+				"{ftbquests.chapter.my_colony.quests.28.description.2}"
 				""
-				"{chapters.my_colony.quests29.description3}"
+				"{ftbquests.chapter.my_colony.quests.28.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "292EBC21E0F8A079"
-			tasks: [{
-				id: "19192936AAF825EB"
-				type: "item"
-				item: "minecolonies:blockhutarchery"
-			}]
+			tasks: [
+				{
+					id: "19192936AAF825EB"
+					type: "item"
+					item: "minecolonies:blockhutarchery"
+				}
+			]
 		}
 		{
 			x: -1.0d
 			y: 0.0d
-			subtitle: "{chapters.my_colony.quests30.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.29.subtitle}"
 			description: [
-				"{chapters.my_colony.quests30.description1}"
+				"{ftbquests.chapter.my_colony.quests.29.description.0}"
 				""
-				"{chapters.my_colony.quests30.description2}"
+				"{ftbquests.chapter.my_colony.quests.29.description.2}"
 				""
-				"{chapters.my_colony.quests30.description3}"
+				"{ftbquests.chapter.my_colony.quests.29.description.4}"
 				""
-				"{chapters.my_colony.quests30.description4}"
+				"{ftbquests.chapter.my_colony.quests.29.description.6}"
 				""
-				"{chapters.my_colony.quests30.description5}"
+				"{image:kubejs:textures/minecolonies/mine_colonies_example.png width:130 height:100 align:1 fit:true}"
 				""
-				"{chapters.my_colony.quests30.description6}"
+				"{ftbquests.chapter.my_colony.quests.29.description.10}"
 				""
-				"{chapters.my_colony.quests30.description7}"
+				"{ftbquests.chapter.my_colony.quests.29.description.12}"
 				""
-				"{chapters.my_colony.quests30.description8}"
+				"{ftbquests.chapter.my_colony.quests.29.description.14}"
 				""
-				"{chapters.my_colony.quests30.description9}"
+				"{ftbquests.chapter.my_colony.quests.29.description.16}"
 				""
-				"{chapters.my_colony.quests30.description10}"
+				"{ftbquests.chapter.my_colony.quests.29.description.18}"
 			]
 			dependencies: ["01682CFD588AA952"]
 			id: "1BB87B6A89F4C898"
-			tasks: [{
-				id: "50A1761D750C2FCC"
-				type: "item"
-				item: "minecolonies:blockhuttownhall"
-			}]
+			tasks: [
+				{
+					id: "50A1761D750C2FCC"
+					type: "item"
+					item: "minecolonies:blockhuttownhall"
+				}
+			]
 		}
 		{
 			x: 3.5d
 			y: 1.5d
-			subtitle: "{chapters.my_colony.quests31.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.30.subtitle}"
 			description: [
-				"{chapters.my_colony.quests31.description1}"
+				"{ftbquests.chapter.my_colony.quests.30.description.0}"
 				""
-				"{chapters.my_colony.quests31.description2}"
+				"{ftbquests.chapter.my_colony.quests.30.description.2}"
 				""
-				"{chapters.my_colony.quests31.description3}"
+				"{ftbquests.chapter.my_colony.quests.30.description.4}"
 				""
-				"{chapters.my_colony.quests31.description4}"
+				"{ftbquests.chapter.my_colony.quests.30.description.6}"
 				""
-				"{chapters.my_colony.quests31.description5}"
+				"{ftbquests.chapter.my_colony.quests.30.description.8}"
 			]
 			dependencies: ["3645314825C90159"]
 			id: "226454CAF0201406"
-			tasks: [{
-				id: "1BB44620B12F881D"
-				type: "item"
-				item: "minecolonies:blockhutdeliveryman"
-			}]
+			tasks: [
+				{
+					id: "1BB44620B12F881D"
+					type: "item"
+					item: "minecolonies:blockhutdeliveryman"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests32.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.31.subtitle}"
 			description: [
-				"{chapters.my_colony.quests32.description1}"
+				"{ftbquests.chapter.my_colony.quests.31.description.0}"
 				""
-				"{chapters.my_colony.quests32.description2}"
+				"{ftbquests.chapter.my_colony.quests.31.description.2}"
 				""
-				"{chapters.my_colony.quests32.description3}"
+				"{ftbquests.chapter.my_colony.quests.31.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "5D6F1AAA4C2E8B04"
-			tasks: [{
-				id: "2CDADEA805B19317"
-				type: "item"
-				item: "minecolonies:blockhutlumberjack"
-			}]
+			tasks: [
+				{
+					id: "2CDADEA805B19317"
+					type: "item"
+					item: "minecolonies:blockhutlumberjack"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: -2.5d
-			subtitle: "{chapters.my_colony.quests33.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.32.subtitle}"
 			description: [
-				"{chapters.my_colony.quests33.description1}"
+				"{ftbquests.chapter.my_colony.quests.32.description.0}"
 				""
-				"{chapters.my_colony.quests33.description2}"
+				"{ftbquests.chapter.my_colony.quests.32.description.2}"
 				""
-				"{chapters.my_colony.quests33.description3}"
+				"{ftbquests.chapter.my_colony.quests.32.description.4}"
 			]
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "758200D2AEEBBDEF"
-			tasks: [{
-				id: "0DE6E7C5CC4B899B"
-				type: "item"
-				item: "minecolonies:blockhutrabbithutch"
-			}]
+			tasks: [
+				{
+					id: "0DE6E7C5CC4B899B"
+					type: "item"
+					item: "minecolonies:blockhutrabbithutch"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests34.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.33.subtitle}"
 			description: [
-				"{chapters.my_colony.quests34.description1}"
+				"{ftbquests.chapter.my_colony.quests.33.description.0}"
 				""
-				"{chapters.my_colony.quests34.description2}"
+				"{ftbquests.chapter.my_colony.quests.33.description.2}"
 				""
-				"{chapters.my_colony.quests34.description3}"
+				"{ftbquests.chapter.my_colony.quests.33.description.4}"
 				""
-				"{chapters.my_colony.quests34.description4}"
+				"{ftbquests.chapter.my_colony.quests.33.description.6}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6B2DE7FF62EB9EEE"]
 			id: "3ADD989446F0B39E"
-			tasks: [{
-				id: "7DCC9F4A4E788C41"
-				type: "item"
-				item: "minecolonies:blockhutbeekeeper"
-			}]
+			tasks: [
+				{
+					id: "7DCC9F4A4E788C41"
+					type: "item"
+					item: "minecolonies:blockhutbeekeeper"
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests35.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.34.subtitle}"
 			description: [
-				"{chapters.my_colony.quests35.description1}"
+				"{ftbquests.chapter.my_colony.quests.34.description.0}"
 				""
-				"{chapters.my_colony.quests35.description2}"
+				"{ftbquests.chapter.my_colony.quests.34.description.2}"
 				""
-				"{chapters.my_colony.quests35.description3}"
+				"{ftbquests.chapter.my_colony.quests.34.description.4}"
 				""
-				"{chapters.my_colony.quests35.description4}"
+				"{ftbquests.chapter.my_colony.quests.34.description.6}"
 				""
-				"{chapters.my_colony.quests4.description3}"
-				"{chapters.my_colony.quests4.description4}"
-				"{chapters.my_colony.quests4.description5}"
-				"{chapters.my_colony.quests4.description6}"
-				"{chapters.my_colony.quests4.description7}"
+				"{ftbquests.chapter.my_colony.quests.34.description.8}"
+				"{ftbquests.chapter.my_colony.quests.34.description.9}"
+				"{ftbquests.chapter.my_colony.quests.34.description.10}"
+				"{ftbquests.chapter.my_colony.quests.34.description.11}"
+				"{ftbquests.chapter.my_colony.quests.34.description.12}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "3CC5AB6138CA7B9B"
-			tasks: [{
-				id: "0DC044455E60A936"
-				type: "item"
-				item: "minecolonies:blockhutstonemason"
-			}]
+			tasks: [
+				{
+					id: "0DC044455E60A936"
+					type: "item"
+					item: "minecolonies:blockhutstonemason"
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests36.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.35.subtitle}"
 			description: [
-				"{chapters.my_colony.quests36.description1}"
+				"{ftbquests.chapter.my_colony.quests.35.description.0}"
 				""
-				"{chapters.my_colony.quests36.description2}"
+				"{ftbquests.chapter.my_colony.quests.35.description.2}"
 				""
-				"{chapters.my_colony.quests36.description3}"
+				"{ftbquests.chapter.my_colony.quests.35.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "7DA864A6C85DC60E"
-			tasks: [{
-				id: "201945D9C203E409"
-				type: "item"
-				item: "minecolonies:blockhutplantation"
-			}]
-			rewards: [{
-				id: "35DC27A26E002803"
-				type: "loot"
-				table_id: 5206766833681472091L
-			}]
+			tasks: [
+				{
+					id: "201945D9C203E409"
+					type: "item"
+					item: "minecolonies:blockhutplantation"
+				}
+			]
+			rewards: [
+				{
+					id: "35DC27A26E002803"
+					type: "loot"
+					table_id: 5206766833681472091L
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests37.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.36.subtitle}"
 			description: [
-				"{chapters.my_colony.quests37.description1}"
+				"{ftbquests.chapter.my_colony.quests.36.description.0}"
 				""
-				"{chapters.my_colony.quests37.description2}"
+				"{ftbquests.chapter.my_colony.quests.36.description.2}"
 				""
-				"{chapters.my_colony.quests37.description3}"
+				"{ftbquests.chapter.my_colony.quests.36.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -856,125 +944,139 @@
 				"4B00B60DE355C08C"
 			]
 			id: "2E957DC41E46EE74"
-			tasks: [{
-				id: "1983254ADE8EB579"
-				type: "item"
-				item: "minecolonies:blockhutmechanic"
-			}]
+			tasks: [
+				{
+					id: "1983254ADE8EB579"
+					type: "item"
+					item: "minecolonies:blockhutmechanic"
+				}
+			]
 		}
 		{
 			x: 2.5d
 			y: 5.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests38.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.37.subtitle}"
 			description: [
-				"{chapters.my_colony.quests38.description1}"
+				"{ftbquests.chapter.my_colony.quests.37.description.0}"
 				""
-				"{chapters.my_colony.quests38.description2}"
+				"{ftbquests.chapter.my_colony.quests.37.description.2}"
 				""
-				"{chapters.my_colony.quests38.description3}"
+				"{ftbquests.chapter.my_colony.quests.37.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "282FD54BD5221228"
-			tasks: [{
-				id: "0F6BEC849B1F5B86"
-				type: "item"
-				item: "minecolonies:blockhutfletcher"
-			}]
+			tasks: [
+				{
+					id: "0F6BEC849B1F5B86"
+					type: "item"
+					item: "minecolonies:blockhutfletcher"
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: 6.0d
-			subtitle: "{chapters.my_colony.quests39.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.38.subtitle}"
 			description: [
-				"{chapters.my_colony.quests39.description1}"
+				"{ftbquests.chapter.my_colony.quests.38.description.0}"
 				""
-				"{chapters.my_colony.quests39.description2}"
+				"{ftbquests.chapter.my_colony.quests.38.description.2}"
 				""
-				"{chapters.my_colony.quests39.description3}"
+				"{ftbquests.chapter.my_colony.quests.38.description.4}"
 				""
-				"{chapters.my_colony.quests39.description4}"
+				"{ftbquests.chapter.my_colony.quests.38.description.6}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "06C74DFB62799013"
-			tasks: [{
-				id: "191009F0BC172F9B"
-				type: "item"
-				item: "minecolonies:blockhutdyer"
-			}]
+			tasks: [
+				{
+					id: "191009F0BC172F9B"
+					type: "item"
+					item: "minecolonies:blockhutdyer"
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: 6.0d
-			subtitle: "{chapters.my_colony.quests40.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.39.subtitle}"
 			description: [
-				"{chapters.my_colony.quests40.description1}"
+				"{ftbquests.chapter.my_colony.quests.39.description.0}"
 				""
-				"{chapters.my_colony.quests40.description2}"
+				"{ftbquests.chapter.my_colony.quests.39.description.2}"
 				""
-				"{chapters.my_colony.quests40.description3}"
+				"{ftbquests.chapter.my_colony.quests.39.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "4579BDC61C84E4BF"
-			tasks: [{
-				id: "5D89E707D1E1C746"
-				type: "item"
-				item: "minecolonies:blockhutcomposter"
-			}]
+			tasks: [
+				{
+					id: "5D89E707D1E1C746"
+					type: "item"
+					item: "minecolonies:blockhutcomposter"
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: 6.0d
-			subtitle: "{chapters.my_colony.quests41.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.40.subtitle}"
 			description: [
-				"{chapters.my_colony.quests41.description1}"
+				"{ftbquests.chapter.my_colony.quests.40.description.0}"
 				""
-				"{chapters.my_colony.quests41.description2}"
+				"{ftbquests.chapter.my_colony.quests.40.description.2}"
 				""
-				"{chapters.my_colony.quests41.description3}"
+				"{ftbquests.chapter.my_colony.quests.40.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4D0CABD02105F554"]
 			id: "7BC41A4658EB03E9"
-			tasks: [{
-				id: "3B4EC5190ADD5371"
-				type: "item"
-				item: "minecolonies:blockhutglassblower"
-			}]
+			tasks: [
+				{
+					id: "3B4EC5190ADD5371"
+					type: "item"
+					item: "minecolonies:blockhutglassblower"
+				}
+			]
 		}
 		{
-			title: "{chapters.my_colony.quests42.title}"
+			title: "{ftbquests.chapter.my_colony.quests.41.title}"
 			icon: "minecolonies:supplychestdeployer"
 			x: -2.5d
 			y: 0.0d
-			subtitle: "{chapters.my_colony.quests42.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.41.subtitle}"
 			dependencies: ["755209504228B453"]
 			id: "01682CFD588AA952"
-			tasks: [{
-				id: "11EDCF4E3D126A1F"
-				type: "item"
-				item: "structurize:sceptergold"
-			}]
+			tasks: [
+				{
+					id: "11EDCF4E3D126A1F"
+					type: "item"
+					item: "structurize:sceptergold"
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "{chapters.my_colony.quests43.subtitle}"
+			subtitle: "{ftbquests.chapter.my_colony.quests.42.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"13389BB26EC98AFD"
 				"4D0CABD02105F554"
 			]
 			id: "10B068D2C6885E43"
-			tasks: [{
-				id: "21452C2488B4DB13"
-				type: "item"
-				item: "minecolonies:blockhutnetherworker"
-			}]
+			tasks: [
+				{
+					id: "21452C2488B4DB13"
+					type: "item"
+					item: "minecolonies:blockhutnetherworker"
+				}
+			]
 		}
 	]
 }

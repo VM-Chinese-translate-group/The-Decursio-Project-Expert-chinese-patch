@@ -3,7 +3,7 @@
 	group: "08EB5BB8DBF33B74"
 	order_index: 4
 	filename: "tools_4"
-	title: "{chapters.tools_4.title}"
+	title: "{ftbquests.chapter.tools_4.title}"
 	icon: {
 		id: "draconicevolution:draconic_staff"
 		Count: 1b
@@ -34,11 +34,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Dark Matter Tools"
+			title: "{ftbquests.chapter.tools_4.quests.0.title}"
 			x: -0.5d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "The Dark Matter Tools have no Durability. They can be charged with the 'Charge' key (bind it in the Controls menu) to increase their performance/area of effect. Finishing this Quest will give you a Dark Matter Hoe, a set of Dark Matter Shears and a Dark Matter Hammer. The Shears and the Hammer CANNOT be crafted, so think of them as Legendary Items"
+			subtitle: "{ftbquests.chapter.tools_4.quests.0.subtitle}"
 			dependencies: [
 				"200CAD7C99709A33"
 				"34BE86324E6A2D9E"
@@ -134,11 +134,11 @@
 			]
 		}
 		{
-			title: "Red Matter Tools"
+			title: "{ftbquests.chapter.tools_4.quests.1.title}"
 			x: 1.0d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "The Red Matter Tools are they older brothers of the Dark Matter ones. They share most of the abilities of the Dark Matter Tools, but they're definitely more powerful/potent. Finishing this quest will give you a Red Matter Hoe, a set of Red Matter Shears and a Red Matter Hammer. The Shears and the Hammer CANNOT be crafter, so think of them as Legendary Items"
+			subtitle: "{ftbquests.chapter.tools_4.quests.1.subtitle}"
 			dependencies: [
 				"012BA0505E1EEA5D"
 				"4B18F242944116CF"
@@ -234,17 +234,17 @@
 			]
 		}
 		{
-			title: "Wyvern Tier Equipment"
+			title: "{ftbquests.chapter.tools_4.quests.2.title}"
 			x: -2.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "Draconic Modular Tools I. Left Click for more info"
+			subtitle: "{ftbquests.chapter.tools_4.quests.2.subtitle}"
 			description: [
-				"Unlike previous incarnations of Draconic Evolution, in 1.16, the Tools are not as useful as they used to be. Not on their own. By default they'll be just like regular Diamond tools, maybe a little better. Don't worry, all of them can be upgraded with modules."
+				"{ftbquests.chapter.tools_4.quests.2.description.0}"
 				""
-				"Using the 'Tool Modules' key on your keyboard (bind it in the Controls menu), you can access a tool's Modules Menu. Here' multiple Modules can be installed to increase their mining speed, attack damage and AOE."
+				"{ftbquests.chapter.tools_4.quests.2.description.2}"
 				""
-				"This is the Wyvern set and it will provide 16 Module Slots. Be aware that some modules may take more then 1 Slot."
+				"{ftbquests.chapter.tools_4.quests.2.description.4}"
 			]
 			dependencies: ["2EDEE17460BCCE94"]
 			id: "6B3EE9C2E281753B"
@@ -395,41 +395,43 @@
 			x: -2.5d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "The Bows added by Draconic Evolution can be equipped with lots of Modules to alter their Projectile Velocity, Accuracy, Penetration, and more. These might be very useful in your battle with the Chaos Guardian. The Wyvern Tier Bow will provide 16 Module Slots"
+			subtitle: "{ftbquests.chapter.tools_4.quests.3.subtitle}"
 			dependencies: ["2EDEE17460BCCE94"]
 			id: "62018D2AE7F7C0EC"
-			tasks: [{
-				id: "69589D4967FBB01E"
-				type: "item"
-				item: {
-					id: "draconicevolution:wyvern_bow"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									338400762
-									1430930349
-									-1982614621
-									694126867
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "69589D4967FBB01E"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_bow"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										338400762
+										1430930349
+										-1982614621
+										694126867
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "Draconic Tier Equipment"
+			title: "{ftbquests.chapter.tools_4.quests.4.title}"
 			x: -0.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "Draconic Modular Tools II: The Draconic Tools set will provide 30 Module Slots"
+			subtitle: "{ftbquests.chapter.tools_4.quests.4.subtitle}"
 			dependencies: ["6B3EE9C2E281753B"]
 			id: "182C46C2096F2B4F"
 			tasks: [
@@ -579,177 +581,193 @@
 			x: -0.5d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "The Draconic Bow will provide 30 Module Slots. It will also allow you to use Draconic Tier Modules"
+			subtitle: "{ftbquests.chapter.tools_4.quests.5.subtitle}"
 			dependencies: ["62018D2AE7F7C0EC"]
 			id: "33F4103512279744"
-			tasks: [{
-				id: "1A0DC7D4A8BABBBE"
-				type: "item"
-				item: {
-					id: "draconicevolution:draconic_bow"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									1791183934
-									1055473799
-									-1733605260
-									-596172371
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "1A0DC7D4A8BABBBE"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_bow"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1791183934
+										1055473799
+										-1733605260
+										-596172371
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -1.0d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "Think of the Draconic Staff of Power as a multi-tool. It combines the main Draconic Tier Tools to create a nice Moduler Item which can be used in pretty much any situation. It will provide 48 Module Slots"
+			subtitle: "{ftbquests.chapter.tools_4.quests.6.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"4AEC0BCC1BA262AA"
 				"182C46C2096F2B4F"
 			]
 			id: "7206D5D48F7A927E"
-			tasks: [{
-				id: "2F855520F8A177B0"
-				type: "item"
-				item: {
-					id: "draconicevolution:draconic_staff"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-1450815820
-									892879089
-									-1141785459
-									1003642211
-								]
-								modules: [ ]
-								properties: {
-									mining_speed: {
-										hud: 1b
-										value: 1.0d
+			tasks: [
+				{
+					id: "2F855520F8A177B0"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_staff"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1450815820
+										892879089
+										-1141785459
+										1003642211
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -1.5d
 			y: -3.0d
 			shape: "heart"
-			subtitle: "The Infinity Drill is part of the Infinity Tools added by Industrial Foregoing. This is a Tier Based item. It gets upgraded to higher tiers as more and more energy is put into it. Use an Infinity Charger to put power into this things as fast as possible (given that you have enough power). Left Click with the drill in hand to drill blocks, consuming power. The Infinity Drill can use Biofuel much more efficiently than power so you can fill it with Biofuel to try and reserve power while using it. Shift Right Click with the Infinity Drill in hand to change the drill area. The Infinity Drill can be enchanted. Lastly, due to how much power the Drill can take in, you can also diable its charge capabilities, to lock it to a certain tier"
+			subtitle: "{ftbquests.chapter.tools_4.quests.7.subtitle}"
 			dependencies: ["519B422ADF77AB8E"]
 			id: "3210876DEF0D5B65"
-			tasks: [{
-				id: "7FA99B527FDA62D3"
-				type: "item"
-				item: {
-					id: "industrialforegoing:infinity_drill"
-					Count: 1b
-					tag: {
-						CanCharge: 1b
-						Special: 0b
-						Selected: "POOR"
-						Energy: 0L
-						Fluid: {
-							FluidName: "biofuel"
-							Amount: 0
+			tasks: [
+				{
+					id: "7FA99B527FDA62D3"
+					type: "item"
+					item: {
+						id: "industrialforegoing:infinity_drill"
+						Count: 1b
+						tag: {
+							CanCharge: 1b
+							Special: 0b
+							Selected: "POOR"
+							Energy: 0L
+							Fluid: {
+								FluidName: "biofuel"
+								Amount: 0
+							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "0D5044B2978CD898"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "0D5044B2978CD898"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: -3.0d
 			shape: "heart"
-			subtitle: "The Infinity Saw is part of the Infinity Tools added by Industrial Foregoing. This is a Tier Based item. It gets upgraded to higher tiers as more and more energy is put into it. Use an Infinity Charger to put power into this things as fast as possible (given that you have enough power). Left Click with the Saw in hand to Saw blocks, consuming power. The Infinity Saw can use Biofuel much more efficiently than power so you can fill it with Biofuel to try and reserve power while using it. Shift Right Click with the Infinity Saw in hand to change the Saw area. The Infinity Saw can be enchanted. Lastly, due to how much power the Saw can take in, you can also diable its charge capabilities, to lock it to a certain tier"
+			subtitle: "{ftbquests.chapter.tools_4.quests.8.subtitle}"
 			dependencies: ["519B422ADF77AB8E"]
 			id: "26CD653B1BD2104B"
-			tasks: [{
-				id: "067B3BE20BCE0108"
-				type: "item"
-				item: {
-					id: "industrialforegoing:infinity_saw"
-					Count: 1b
-					tag: {
-						CanCharge: 1b
-						Special: 0b
-						Selected: "POOR"
-						Energy: 0L
-						Fluid: {
-							FluidName: "biofuel"
-							Amount: 0
+			tasks: [
+				{
+					id: "067B3BE20BCE0108"
+					type: "item"
+					item: {
+						id: "industrialforegoing:infinity_saw"
+						Count: 1b
+						tag: {
+							CanCharge: 1b
+							Special: 0b
+							Selected: "POOR"
+							Energy: 0L
+							Fluid: {
+								FluidName: "biofuel"
+								Amount: 0
+							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "2E001DA34B959177"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "2E001DA34B959177"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: -3.0d
 			shape: "heart"
-			subtitle: "The Infinity Hammer is part of the Infinity Tools added by Industrial Foregoing. Like the Infinity Drill, the Hammer also has multiple Tiers indicated by the amount of Power stored in it. When Right Clicking with the hammer, a set of Vindicator Claws will merge from the ground dealing lots of damage. Biofuel Can also be inserted into the Hammer to consume it more efficiently then energy itself. Shift Right Click will allow you to change the Hammer's AOE, wheather its charging abilities are on/of and its ability to Decapitate mobs"
+			subtitle: "{ftbquests.chapter.tools_4.quests.9.subtitle}"
 			dependencies: ["519B422ADF77AB8E"]
 			id: "64699C6C534A70B7"
-			tasks: [{
-				id: "7AB2FB8C9024140C"
-				type: "item"
-				item: {
-					id: "industrialforegoing:infinity_hammer"
-					Count: 1b
-					tag: {
-						CanCharge: 1b
-						Energy: 0L
-						Fluid: {
-							FluidName: "biofuel"
-							Amount: 0
+			tasks: [
+				{
+					id: "7AB2FB8C9024140C"
+					type: "item"
+					item: {
+						id: "industrialforegoing:infinity_hammer"
+						Count: 1b
+						tag: {
+							CanCharge: 1b
+							Energy: 0L
+							Fluid: {
+								FluidName: "biofuel"
+								Amount: 0
+							}
+							Special: 0b
+							Selected: "POOR"
+							Beheading: 0
 						}
-						Special: 0b
-						Selected: "POOR"
-						Beheading: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "08CB045B635AF046"
-				type: "loot"
-				table_id: 3966812906621148304L
-			}]
+			]
+			rewards: [
+				{
+					id: "08CB045B635AF046"
+					type: "loot"
+					table_id: 3966812906621148304L
+				}
+			]
 		}
 		{
-			title: "Supremium Tools"
+			title: "{ftbquests.chapter.tools_4.quests.10.title}"
 			x: -2.0d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "The Supremium Tools are modular tools added by Mystical Agriculture. While they don't have as many possibilities as other modular items, they have infinity durability, and besides they possibility of receiving one module at a time, they can also be Enchanted! Finishing this quest, will give you a Supremium Paxel, which is a Legendary Multi-Tool which cannot be crafted, or obtained in other ways"
+			subtitle: "{ftbquests.chapter.tools_4.quests.10.subtitle}"
 			dependencies: [
 				"77CEF9AA1C8EC6FD"
 				"5AE4F9E81E692C43"
@@ -782,18 +800,20 @@
 					item: "mysticalagriculture:supremium_hoe"
 				}
 			]
-			rewards: [{
-				id: "63440A76AEAA9F6F"
-				type: "item"
-				item: "mysticalagradditions:supremium_paxel"
-			}]
+			rewards: [
+				{
+					id: "63440A76AEAA9F6F"
+					type: "item"
+					item: "mysticalagradditions:supremium_paxel"
+				}
+			]
 		}
 		{
-			title: "Chaotic Tier Equipment"
+			title: "{ftbquests.chapter.tools_4.quests.11.title}"
 			x: 1.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "Draconic Modular Tools III: The Chaotic Tools Tier will provide 48 Module Slots"
+			subtitle: "{ftbquests.chapter.tools_4.quests.11.subtitle}"
 			dependencies: [
 				"6A02A2A1D71BC7BD"
 				"3CF914BD3213A5B4"
@@ -923,83 +943,87 @@
 			x: 0.0d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "The Chaotic Staff of Power may be Draconic Evolution's most powerful tool yet. It will provide 80 Module Slots. Do your worst with it!"
+			subtitle: "{ftbquests.chapter.tools_4.quests.12.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"4AEC0BCC1BA262AA"
 				"23BA871D9158C6EB"
 			]
 			id: "4D6ABFBABD9C9ADD"
-			tasks: [{
-				id: "4C0B05AA89C52C47"
-				type: "item"
-				item: {
-					id: "draconicevolution:chaotic_staff"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									835051973
-									-1950400448
-									-1794626042
-									1360258241
-								]
-								modules: [ ]
-								properties: {
-									mining_speed: {
-										hud: 1b
-										value: 1.0d
+			tasks: [
+				{
+					id: "4C0B05AA89C52C47"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_staff"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										835051973
+										-1950400448
+										-1794626042
+										1360258241
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 1.5d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "Finally, the Chaotic Bow wil provide 48 Module Slots. It will also give you access to Chaotic Tier Modules"
+			subtitle: "{ftbquests.chapter.tools_4.quests.13.subtitle}"
 			dependencies: ["33F4103512279744"]
 			id: "5434AC712EE7CC8D"
-			tasks: [{
-				id: "196EAAA863074E36"
-				type: "item"
-				item: {
-					id: "draconicevolution:chaotic_bow"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-2124251976
-									1310933540
-									-1270048640
-									1348704924
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "196EAAA863074E36"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_bow"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-2124251976
+										1310933540
+										-1270048640
+										1348704924
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "World Shapers"
+			title: "{ftbquests.chapter.tools_4.quests.14.title}"
 			x: -0.5d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "The Katar and The Morningstar are part of the most powerful tools known to men, thus giving them the 'World Shapers' nickname"
+			subtitle: "{ftbquests.chapter.tools_4.quests.14.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["3F79E71E4DE6C021"]
 			id: "464F5C1CE848CB34"
@@ -1019,7 +1043,7 @@
 				{
 					id: "64156508E8B88A1A"
 					type: "item"
-					title: "Red Morningstar - Red Lucifer"
+					title: "{ftbquests.chapter.tools_4.quests.14.tasks.1.title}"
 					item: {
 						id: "projecte:rm_morning_star"
 						Count: 1b
@@ -1030,11 +1054,13 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "0CC556810336A732"
-				type: "loot"
-				table_id: 7176426831663151036L
-			}]
+			rewards: [
+				{
+					id: "0CC556810336A732"
+					type: "loot"
+					table_id: 7176426831663151036L
+				}
+			]
 		}
 	]
 }
