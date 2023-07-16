@@ -2622,11 +2622,11 @@
 			x: 9.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Starlight + Mana + Hard Materials = <3. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_2.quests.86.subtitle}"
 			description: [
-				"The Heart of Diamond is the main ingredient in the process of obtaining Mana Diamonds. In the 2nd Age you'll have to craft it."
+				"{ftbquests.chapter.arcane_2.quests.86.description.0}"
 				""
-				"In the 3rd Age, you'll be able to farm the Heart of Diamond using a Drygmy farm from Ars Nouveau. You'll need the Stoneling mob. The only way to obtain a Stoneling is by Right Clicking with the Heart of Diamond on a Stone block."
+				"{ftbquests.chapter.arcane_2.quests.86.description.2}"
 			]
 			dependencies: ["05B9DF27F7AD850D"]
 			id: "0CC58FDE0B5D0373"
@@ -2639,7 +2639,7 @@
 			]
 		}
 		{
-			title: "Enhanced Celestial Collector"
+			title: "{ftbquests.chapter.arcane_2.quests.87.title}"
 			icon: {
 				id: "astralsorcery:celestial_collector_crystal"
 				Count: 1b
@@ -2681,15 +2681,15 @@
 			x: 13.5d
 			y: 2.0d
 			shape: "heart"
-			subtitle: "All the Starlight you'll go. Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_2.quests.87.subtitle}"
 			description: [
-				"Using a Celestial Collector Crystal which is attuned to a Constellation, you can build a structure which can be used to boost the amount of Starlight that an altar has access to."
+				"{ftbquests.chapter.arcane_2.quests.87.description.0}"
 				""
-				"When placed in the world, the Celestial Collector Crystal generates Starlight which can be used to power other blocks from the mod through the use of the Linking Tool. It can be crafted from a Celestial Crystal that is attuned to any of the twelve bright or dim Constellations."
+				"{ftbquests.chapter.arcane_2.quests.87.description.2}"
 				""
-				"If it is placed within 16 blocks of another Celestial Collector Crystal or Collector Crystal, the amount of Starlight generated will be significantly reduced."
+				"{ftbquests.chapter.arcane_2.quests.87.description.4}"
 				""
-				"If the proper multiblock structure is built for it, the Crystal will give more Starlight to an Altar when the Crystal's Constellation is NOT in the Sky, rather then the ususal behaviour, where the Crystal will give a maximum amount of Starlight when its Constellation IS in the Sky."
+				"{ftbquests.chapter.arcane_2.quests.87.description.6}"
 			]
 			dependencies: ["1A99C6281674DE7C"]
 			tasks: [
@@ -2748,7 +2748,7 @@
 			x: -0.5d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "Thaumcraft is not here yet. However, if you're a veteran you'll remember The Everfull Urn. The Urn of Endless Waters is similar to it. It will provide water only to Cauldrons and Petal Apothecaries. Try it out!"
+			subtitle: "{ftbquests.chapter.arcane_2.quests.88.subtitle}"
 			dependencies: ["40205D351BE13B77"]
 			tasks: [
 				{
@@ -2759,7 +2759,7 @@
 			]
 		}
 		{
-			title: "{ftbquests.chapter.arcane_2.quests.85.tasks.1.title}"
+			title: "{ftbquests.chapter.arcane_2.quests.89.title}"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -2768,28 +2768,28 @@
 			x: 2.5d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "Wanna boost your Altar? Left Click for more info"
+			subtitle: "{ftbquests.chapter.arcane_2.quests.89.subtitle}"
 			description: [
-				"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.0}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.0}"
 				""
-				"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.2}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.2}"
 				""
-				"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.4}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.4}"
 				""
-				"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.6}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.6}"
 				""
-				"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.8}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.8}"
 				""
-				"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.10}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.10}"
 				""
-				"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.12}"
-				"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.13}"
-				"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.14}"
-				"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.15}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.12}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.13}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.14}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.15}"
 				""
 				"{image:kubejs:textures/astralsorcery/astral_relay_structure_example.png width:100 height:100 align:1}"
 				""
-				"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.19}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.19}"
 			]
 			dependencies: ["6833FFB6AB33C9D6"]
 			size: 1.5d
