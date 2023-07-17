@@ -2607,214 +2607,220 @@
 					id: "319CFF3F247EEBF8"
 					type: "item"
 					item: {
-						id: "6B45553D9532A11F"
+						id: "astralsorcery:resonator"
 						Count: 1b
 						tag: {
 							astralsorcery: {
-								upgrades: [0]]
-							}
-							x: 9.5d
-							y: 0.5d
-							shape: "square"
-							subtitle: "Starlight + Mana + Hard Materials = <3. Left Click for more info"
-							description: [
-								"The Heart of Diamond is the main ingredient in the process of obtaining Mana Diamonds. In the 2nd Age you'll have to craft it."
-								""
-								"In the 3rd Age, you'll be able to farm the Heart of Diamond using a Drygmy farm from Ars Nouveau. You'll need the Stoneling mob. The only way to obtain a Stoneling is by Right Clicking with the Heart of Diamond on a Stone block."
-							]
-							dependencies: ["05B9DF27F7AD850D"]
-							id: "0CC58FDE0B5D0373"
-							tasks: [
-								{
-									id: "1B29144519DAB0A3"
-									type: "item"
-									item: "quark:diamond_heart"
-								}
-							]
-						}
-						title: "Enhanced Celestial Collector"
-						icon: {
-							id: "astralsorcery:celestial_collector_crystal"
-							Count: 1b
-							tag: {
-								astralsorcery: {
-									constellation: "astralsorcery:discidia"
-									crystalProperties: {
-										attributes: [
-											{
-												property: "astralsorcery:size"
-												pLevel: 3
-												discovered: 1b
-											}
-											{
-												property: "astralsorcery:purity"
-												pLevel: 2
-												discovered: 1b
-											}
-											{
-												property: "astralsorcery:shape"
-												pLevel: 3
-												discovered: 1b
-											}
-											{
-												property: "astralsorcery:collector.rate"
-												pLevel: 3
-												discovered: 1b
-											}
-											{
-												property: "astralsorcery:constellation.discidia"
-												pLevel: 2
-												discovered: 1b
-											}
-										]
-									}
-								}
+								upgrades: [0]
 							}
 						}
-						x: 13.5d
-						y: 2.0d
-						shape: "heart"
-						subtitle: "All the Starlight you'll go. Left Click for more info"
-						description: [
-							"Using a Celestial Collector Crystal which is attuned to a Constellation, you can build a structure which can be used to boost the amount of Starlight that an altar has access to."
-							""
-							"When placed in the world, the Celestial Collector Crystal generates Starlight which can be used to power other blocks from the mod through the use of the Linking Tool. It can be crafted from a Celestial Crystal that is attuned to any of the twelve bright or dim Constellations."
-							""
-							"If it is placed within 16 blocks of another Celestial Collector Crystal or Collector Crystal, the amount of Starlight generated will be significantly reduced."
-							""
-							"If the proper multiblock structure is built for it, the Crystal will give more Starlight to an Altar when the Crystal's Constellation is NOT in the Sky, rather then the ususal behaviour, where the Crystal will give a maximum amount of Starlight when its Constellation IS in the Sky."
-						]
-						dependencies: ["1A99C6281674DE7C"]
-						tasks: [
-							{
-								id: "71B509A994272A6A"
-								type: "item"
-								item: "astralsorcery:marble_chiseled"
-								count: 5L
-							}
-							{
-								id: "68FE79E68DB2DF12"
-								type: "item"
-								item: "astralsorcery:marble_runed"
-								count: 12L
-							}
-							{
-								id: "5E35FF9812D5EE59"
-								type: "item"
-								item: "astralsorcery:marble_raw"
-								count: 9L
-							}
-							{
-								id: "5F4E7F5AE5736B48"
-								type: "item"
-								item: "astralsorcery:marble_engraved"
-								count: 5L
-							}
-							{
-								id: "4D3C0521F45DC231"
-								type: "item"
-								item: {
-									id: "astralsorcery:liquid_starlight_bucket"
-									Count: 1b
-									tag: { }
-								}
-							}
-							{
-								id: "4774EABCEA2AB7BF"
-								type: "item"
-								item: "astralsorcery:marble_pillar"
-							}
-							{
-								id: "75A3A75025D5885E"
-								type: "item"
-								item: {
-									id: "astralsorcery:celestial_collector_crystal"
-									Count: 1b
-									tag: {
-										astralsorcery: { }
-									}
-								}
-							}
-						]
 					}
-					x: -0.5d
-					y: 0.5d
-					shape: "gear"
-					subtitle: "Thaumcraft is not here yet. However, if you're a veteran you'll remember The Everfull Urn. The Urn of Endless Waters is similar to it. It will provide water only to Cauldrons and Petal Apothecaries. Try it out!"
-					dependencies: ["40205D351BE13B77"]
-					tasks: [
-						{
-							id: "1B1776949BB2D097"
-							type: "item"
-							item: "hexblades:everfull_urn"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "{ftbquests.chapter.arcane_2.quests.86.subtitle}"
+			description: [
+				"{ftbquests.chapter.arcane_2.quests.86.description.0}"
+				""
+				"{ftbquests.chapter.arcane_2.quests.86.description.2}"
+			]
+			dependencies: ["05B9DF27F7AD850D"]
+			id: "0CC58FDE0B5D0373"
+			tasks: [
+				{
+					id: "1B29144519DAB0A3"
+					type: "item"
+					item: "quark:diamond_heart"
+				}
+			]
+		}
+		{
+			title: "{ftbquests.chapter.arcane_2.quests.87.title}"
+			icon: {
+				id: "astralsorcery:celestial_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:discidia"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.discidia"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
 						}
-					]
+					}
+				}
+			}
+			x: 13.5d
+			y: 2.0d
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.arcane_2.quests.87.subtitle}"
+			description: [
+				"{ftbquests.chapter.arcane_2.quests.87.description.0}"
+				""
+				"{ftbquests.chapter.arcane_2.quests.87.description.2}"
+				""
+				"{ftbquests.chapter.arcane_2.quests.87.description.4}"
+				""
+				"{ftbquests.chapter.arcane_2.quests.87.description.6}"
+			]
+			dependencies: ["1A99C6281674DE7C"]
+			tasks: [
+				{
+					id: "71B509A994272A6A"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 5L
 				}
 				{
-					title: "{ftbquests.chapter.arcane_2.quests.85.tasks.1.title}"
-					icon: {
-						id: "botania:cosmetic_questgiver_mark"
+					id: "68FE79E68DB2DF12"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 12L
+				}
+				{
+					id: "5E35FF9812D5EE59"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 9L
+				}
+				{
+					id: "5F4E7F5AE5736B48"
+					type: "item"
+					item: "astralsorcery:marble_engraved"
+					count: 5L
+				}
+				{
+					id: "4D3C0521F45DC231"
+					type: "item"
+					item: {
+						id: "astralsorcery:liquid_starlight_bucket"
 						Count: 1b
 						tag: { }
 					}
-					x: 2.5d
-					y: 2.0d
-					shape: "gear"
-					subtitle: "Wanna boost your Altar? Left Click for more info"
-					description: [
-						"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.0}"
-						""
-						"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.2}"
-						""
-						"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.4}"
-						""
-						"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.6}"
-						""
-						"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.8}"
-						""
-						"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.10}"
-						""
-						"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.12}"
-						"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.13}"
-						"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.14}"
-						"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.15}"
-						""
-						"{image:kubejs:textures/astralsorcery/astral_relay_structure_example.png width:100 height:100 align:1}"
-						""
-						"{ftbquests.chapter.arcane_2.quests.85.tasks.1.description.19}"
-					]
-					dependencies: ["6833FFB6AB33C9D6"]
-					size: 1.5d
-					id: "07605DD4AD505CFC"
-					tasks: [
-						{
-							id: "02753445C91A23D8"
-							type: "item"
-							item: "astralsorcery:spectral_relay"
+				}
+				{
+					id: "4774EABCEA2AB7BF"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+				}
+				{
+					id: "75A3A75025D5885E"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_collector_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
 						}
-						{
-							id: "5CB8820D20186FB5"
-							type: "item"
-							item: "astralsorcery:black_marble_raw"
-						}
-						{
-							id: "62E2B6599190F754"
-							type: "item"
-							item: "astralsorcery:marble_arch"
-							count: 4L
-						}
-						{
-							id: "61B7FC7A884AAF6D"
-							type: "item"
-							item: "astralsorcery:marble_chiseled"
-							count: 4L
-						}
-						{
-							id: "746564EF537EC351"
-							type: "item"
-							item: "astralsorcery:glass_lens"
-						}
-					]
+					}
+				}
+			]
+		}
+		{			
+			x: -0.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.arcane_2.quests.88.subtitle}"
+			dependencies: ["40205D351BE13B77"]
+			tasks: [
+				{
+					id: "1B1776949BB2D097"
+					type: "item"
+					item: "hexblades:everfull_urn"
+				}
+			]
+		}
+		{
+			title: "{ftbquests.chapter.arcane_2.quests.89.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 2.5d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.arcane_2.quests.89.subtitle}"
+			description: [
+				"{ftbquests.chapter.arcane_2.quests.89.description.0}"
+				""
+				"{ftbquests.chapter.arcane_2.quests.89.description.2}"
+				""
+				"{ftbquests.chapter.arcane_2.quests.89.description.4}"
+				""
+				"{ftbquests.chapter.arcane_2.quests.89.description.6}"
+				""
+				"{ftbquests.chapter.arcane_2.quests.89.description.8}"
+				""
+				"{ftbquests.chapter.arcane_2.quests.89.description.10}"
+				""
+				"{ftbquests.chapter.arcane_2.quests.89.description.12}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.13}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.14}"
+				"{ftbquests.chapter.arcane_2.quests.89.description.15}"
+				""
+				"{image:kubejs:textures/astralsorcery/astral_relay_structure_example.png width:100 height:100 align:1}"
+				""
+				"{ftbquests.chapter.arcane_2.quests.89.description.19}"
+			]
+			dependencies: ["6833FFB6AB33C9D6"]
+			size: 1.5d
+			id: "07605DD4AD505CFC"
+			tasks: [
+				{
+					id: "02753445C91A23D8"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+				}
+				{
+					id: "5CB8820D20186FB5"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+				}
+				{
+					id: "62E2B6599190F754"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 4L
+				}
+				{
+					id: "61B7FC7A884AAF6D"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
+				}
+				{
+					id: "746564EF537EC351"
+					type: "item"
+					item: "astralsorcery:glass_lens"
 				}
 			]
 		}
