@@ -1602,7 +1602,7 @@
  "ftbquests.chapter.Gear_3.quests.11.description.4": "说完这些，我们看看这东西长什么样：",
  "ftbquests.chapter.Gear_3.quests.11.description.8": "聚变堆控制器必须放置于结构的顶部。结构的面可以换成强化玻璃，以尽量减少所需的聚变堆框架数。",
  "ftbquests.chapter.Gear_3.quests.11.description.10": "现在，这东西怎么用？首先，同裂变反应堆一样，它也有两个版本，空气冷却和水冷却。水冷堆只是普通的空气冷却堆的升级版本。",
- "ftbquests.chapter.Gear_3.quests.11.description.12": "Before starting the Reactor, let's learn about what it will use as fuel. Through one of the Reactor Ports, you'll pump in Deuterium, and through the other Port, you'll pump in Tritium. To start the Reactor, you'll have to place inside of its inventory, an Antimatter Filled Hohlraum. After that, you'll have to start a reaction to allow for heat to built up, and ultimately, to allow the Reactor to use its fuel and sustain itself.",
+ "ftbquests.chapter.Gear_3.quests.11.description.12": "在启动反应堆之前，让我们了解下它可用的燃料。通过反应堆的一个端口输入氘，另一个输入氚。要启动反应堆，你必须把一个反物质充满黑体辐射腔放入它的物品栏。然后你需要开始一个反应，提供热能以点燃反应堆，最终使反应堆能够用它的燃料自我维持运转。",
  "ftbquests.chapter.Gear_3.quests.11.description.14": "要开始这个反应，你必须使用至少一台激光和一台激光增幅器。将激光射入增幅器。增幅器要设置为不允许激光束穿过的模式，这样，增幅器将存储激光的能量。当存储的能量到达大约1.5G RF时，你就可以用增幅器通过激光聚焦矩阵向反应堆射出激光。这将使反应堆达到点火温度，从而引发内部的核反应。反应堆在反应开始后就会开始产生更多的热能和电能，基于你在反应堆菜单中设置的燃料注入率。",
  "ftbquests.chapter.Gear_3.quests.11.description.16": "我们建议你让这个反应堆慢点儿，尤其是燃料注入率。如果提供的燃料不足以维持燃料注入率，燃料就会被用尽，导致反应堆关停。你会不想让聚变反应堆关停的，因为启动它需要很多时间和能量。即使你用最多的激光（5台）也需要很长时间才能达到启动所需的1.5G RF。",
  "ftbquests.chapter.Gear_3.quests.11.description.18": "电能可从反应堆的第三个端口输出。如果你想获得更多电能，你可以将它升级成水冷反应堆。只需要在反应堆上再添加两个聚变反应堆端口，一个向反应堆输入水，另一个输出蒸汽并将其输送到蒸汽涡轮中以增大发电量。输出蒸汽的端口必须用配置器设置为“输出蒸汽”模式。我们建议你使用大型蒸汽涡轮，因为聚变堆可以轻松达到约30w mB/tick的蒸汽生产速率。",
