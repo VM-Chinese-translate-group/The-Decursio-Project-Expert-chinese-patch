@@ -56,6 +56,7 @@
  "ftbquests.chapter.arcane_1.quests.11.subtitle": "你可以用这个仪式进入夜晚。很有用",
  "ftbquests.chapter.arcane_1.quests.11.tasks.0.title": "夜幕降临",
  "ftbquests.chapter.arcane_1.quests.12.title": "净化仪式",
+
  "ftbquests.chapter.arcane_1.quests.12.subtitle": "这仪式将治愈附近所有的僵尸村民。也能把僵尸疣猪兽和僵尸猪灵变回他们原来的样子",
  "ftbquests.chapter.arcane_1.quests.12.tasks.0.title": "治愈， 现在更便宜了？",
  "ftbquests.chapter.arcane_1.quests.13.subtitle": "在你的坩埚中混合出小型灵魂宝石",
@@ -85,6 +86,7 @@
  "ftbquests.chapter.arcane_1.quests.19.description.0": "随着更进一步，你发现有时你的祈祷似乎会被黑暗领主忽视。",
  "ftbquests.chapter.arcane_1.quests.19.description.2": "也许增强你的祭坛会使祂对你有更深的印象。",
  "ftbquests.chapter.arcane_1.quests.19.description.4": "以下几种头颅可以增加祭坛的威能。",
+
  "ftbquests.chapter.arcane_1.quests.19.description.6": "僵尸头颅：1容量，1威能",
  "ftbquests.chapter.arcane_1.quests.19.description.7": "骷髅头颅：2容量",
  "ftbquests.chapter.arcane_1.quests.19.description.8": "凋灵骷髅头颅：3容量，1威能",
@@ -126,6 +128,7 @@
  "ftbquests.chapter.arcane_1.quests.24.subtitle": "光影交织，这种宝石似乎可以用于幻梦模组中的很多配方",
  "ftbquests.chapter.arcane_1.quests.25.subtitle": "这种紫色布料可以用来制作一套精良的护甲",
  "ftbquests.chapter.arcane_1.quests.26.title": "血之起源",
+
  "ftbquests.chapter.arcane_1.quests.26.subtitle": "第一纪元的奥秘蜕变将始于幻梦。进游戏时，你收到的阿卡什宝典中包含秘仪教典，它是幻梦发展中必不可少的一部分。如果丢失了阿卡什宝典，可以用一本书和一个腐肉来合成秘仪教典",
  "ftbquests.chapter.arcane_1.quests.26.tasks.0.title": "我们开始吧！",
  "ftbquests.chapter.arcane_1.quests.27.subtitle": "进阶仪式：暗蚀焦点可以用于举行进阶仪式，这种仪式能获得更强大的物品。暗蚀焦点必须与火盆以及石之手处于同一高度。合成所需的骷髅头颅可以在地牢中找到。祝你好运！左键点击查看示例",
@@ -178,6 +181,7 @@
  "ftbquests.chapter.arcane_1.quests.39.title": "召唤元素-咏唱",
  "ftbquests.chapter.arcane_1.quests.39.subtitle": "需要困难难度——小心火焰神庙。左键点击以获取更多信息",
  "ftbquests.chapter.arcane_1.quests.39.description.0": "在下界，你也许会看到一些奇怪的神庙，这些神庙的墙上刻有象形文字，类似于你之前获得的熔核。",
+
  "ftbquests.chapter.arcane_1.quests.39.description.2": "在神庙的主厅，你将找到一个基座，将熔核放在基座上并咏唱激活元素精灵基座的符文，即可召唤火元素精灵。",
  "ftbquests.chapter.arcane_1.quests.39.description.4": "小心。这将是一场小型Boss战。你也许需要在开战前做好准备。",
  "ftbquests.chapter.arcane_1.quests.39.description.6": "注意：这个任务是为了标记你需要做的事情。完成任务实际上并不意味着你完成了这件事。",
@@ -203,6 +207,7 @@
  "ftbquests.chapter.arcane_1.quests.45.description.0": "终于，你得到了黑暗领主的信任。",
  "ftbquests.chapter.arcane_1.quests.45.description.2": "这个象征符代表着黑暗领主对你虔诚信仰的信任。但与此同时，这个象征符的力量对你来说过于强大。但我们想这无法使你止步不前，你会吗？我们相信你会找到方法来让它发挥作用的。不过，你要怎么获得它？",
  "ftbquests.chapter.arcane_1.quests.45.description.4": "对暗影宝石咏唱“暗咒恩赐”来获得黑暗领主象征符。",
+
  "ftbquests.chapter.arcane_1.quests.45.description.6": "咏唱：",
  "ftbquests.chapter.arcane_1.quests.46.title": "黑暗的代行",
  "ftbquests.chapter.arcane_1.quests.46.subtitle": "迄今为止使用的所有鲜血。左键点击以获取更多信息",
@@ -244,12 +249,14 @@
  "ftbquests.chapter.arcane_2.quests.0.description.8": "好吧，崭新的花，但怎么使用花药台呢？很简单，把花药台放下来，往里倒水，将配方要求的物品丢进去。如果配方有效，则确定合成所需的物品（通常是一个种子）会显示出来。",
  "ftbquests.chapter.arcane_2.quests.1.title": "魔力池",
  "ftbquests.chapter.arcane_2.quests.1.subtitle": "魔力电池。左键点击以获取更多信息",
+
  "ftbquests.chapter.arcane_2.quests.1.description.0": "魔力池可以大量存储魔力。其内的魔力可于为其他需要魔力的方块供魔，例如使功能花工作。",
  "ftbquests.chapter.arcane_2.quests.1.description.2": "魔力可以通过魔力发射器存入魔力池。任何魔力发射器都会从相邻方块中抽取魔力来填充其缓存区。魔力池中的魔力储量可以手持森林法杖右键点击查看，并通过连续点击更新。",
  "ftbquests.chapter.arcane_2.quests.1.description.4": "许多资源可以扔入魔力池中转化为另一种物品。 例如可以向魔力池中扔钢锭，将其转化为魔力钢。",
  "ftbquests.chapter.arcane_2.quests.2.title": "火红莲",
  "ftbquests.chapter.arcane_2.quests.2.subtitle": "燃烧固体燃料生产魔力",
  "ftbquests.chapter.arcane_2.quests.3.title": "白雏菊",
+
  "ftbquests.chapter.arcane_2.quests.3.subtitle": "制作白雏菊，植物魔法中最美丽的花之一。左键点击以获取更多信息",
  "ftbquests.chapter.arcane_2.quests.3.description.0": "白雏菊不仅像名字一样美丽纯洁，而且十分有用。",
  "ftbquests.chapter.arcane_2.quests.3.description.2": "某些方块放置于白雏菊旁边时将慢慢转化为其他方块。进行一次转化需要60秒。",
@@ -257,7 +264,9 @@
  "ftbquests.chapter.arcane_2.quests.3.description.6": "将白雏菊种在地面上，用注星木环绕一圈，就可以获得活木，这是植物魔法合成中的关键材料。",
  "ftbquests.chapter.arcane_2.quests.3.description.8": "将白雏菊种在地面上，用平滑石砖环绕一圈，就可以获得活石，这是植物魔法合成中的关键材料。",
  "ftbquests.chapter.arcane_2.quests.4.title": "魔力钢锭",
+
  "ftbquests.chapter.arcane_2.quests.4.subtitle": "将钢锭扔进盛有魔力的魔力池来制作魔力钢锭",
+
  "ftbquests.chapter.arcane_2.quests.5.subtitle": "如此明亮，却又如此沉闷。左键点击以获取更多信息",
  "ftbquests.chapter.arcane_2.quests.5.description.0": "共振星杖对星辉魔法师来说是一个非常有用的工具。它有许多用处：",
  "ftbquests.chapter.arcane_2.quests.5.description.2": "夜晚来临时，拿着它将会显示哪里能找到水晶石矿石。",
@@ -291,11 +300,14 @@
  "ftbquests.chapter.arcane_2.quests.10.description.2": "右键点击将打开GUI界面，其左侧有一个栏位，在那里你可以放置某些特定的配方需要的星座共鸣水晶石或天辉水晶石。",
  "ftbquests.chapter.arcane_2.quests.10.description.4": "很多五彩祭坛的配方需要在周围的星辉转继器中放置一些额外的物品。制作时会有半透明的物品占位符出现在星辉转继器上，只需用显示的物品右击星辉转继器即可。",
  "ftbquests.chapter.arcane_2.quests.10.description.6": "最后，这座祭坛的结构是天辉祭坛结构的升级版。翻阅星芒宝典以查看最后几个砖块的放置方式。",
+
  "ftbquests.chapter.arcane_2.quests.11.subtitle": "符文祭坛可以消耗魔力制作各种符文。",
+
  "ftbquests.chapter.arcane_2.quests.12.subtitle": "作为巨量魔力的结晶，泰拉钢可以制作强大的工具、盔甲和魔法道具。制作一个泰拉钢锭需要一池的魔力。它也是解锁第三纪元的必要前置",
  "ftbquests.chapter.arcane_2.quests.13.subtitle": "共振宝石，通过星能注入制作，是强力魔法物品的一种重要原料",
  "ftbquests.chapter.arcane_2.quests.14.subtitle": "魔力钻石蕴含大量魔力，这使得它们成为一种强力的制作材料",
  "ftbquests.chapter.arcane_2.quests.15.subtitle": "铁，但与星辰相关。左键点击以获取更多信息",
+
  "ftbquests.chapter.arcane_2.quests.15.description.0": "从聚能水晶或者其他星光来源连接星光到铁矿石，将获得星辉矿石，烧制后得到星辉锭。",
  "ftbquests.chapter.arcane_2.quests.15.description.2": "请忽略JEI中显示的配方。星辉矿石可以用任意铁矿石获得。",
  "ftbquests.chapter.arcane_2.quests.16.subtitle": "泰拉凝聚板用于制作泰拉钢锭。左键点击以获取更多信息",
@@ -344,6 +356,7 @@
  "ftbquests.chapter.arcane_2.quests.24.title": "基础法杖",
  "ftbquests.chapter.arcane_2.quests.24.subtitle": "能量必须足够才能施法。左键点击以获取更多信息。",
  "ftbquests.chapter.arcane_2.quests.24.description.0": "很好，你现在有了Psi粉末，可以升级你的法杖以释放更多厉害的术式。你只需要做以下几件事。",
+
  "ftbquests.chapter.arcane_2.quests.24.description.2": "首先，将你之前制作的CAD机体放入合成栏以回收铁CAD机体，再在CAD装配器放置完成任务所需的配件以装配你的新法杖。",
  "ftbquests.chapter.arcane_2.quests.24.description.4": "下图展示了如何构建新法杖：",
  "ftbquests.chapter.arcane_2.quests.25.title": "获得Psi粉末",
@@ -373,7 +386,9 @@
  "ftbquests.chapter.arcane_2.quests.34.description.2": "有很多种产能花供你选择，总有一种适合你",
  "ftbquests.chapter.arcane_2.quests.34.description.4": "不仅如此，通过生产魔力，你也许能很快发现魔力与RF十分相似。也许今后会有一种将魔力转化为电能的方法。",
  "ftbquests.chapter.arcane_2.quests.34.tasks.0.title": "我已知情！",
+
  "ftbquests.chapter.arcane_2.quests.35.subtitle": "与普通的魔力发射器一样用于传输魔力，但仅在有红石信号时发射魔力。每接受一次红石信号，它就会发射一道魔力脉冲，可用于向鼓等物体发射魔力",
+
  "ftbquests.chapter.arcane_2.quests.36.title": "基础元素符文",
  "ftbquests.chapter.arcane_2.quests.36.subtitle": "Decursio：降世神通 <3",
  "ftbquests.chapter.arcane_2.quests.37.title": "进阶季节符文",
@@ -394,6 +409,7 @@
  "ftbquests.chapter.arcane_2.quests.42.description.7": "在这个世界上，你可能会看到一种特殊的神殿，比其他神殿更大、更雄伟。在这里就能找到一个聚能水晶。",
  "ftbquests.chapter.arcane_2.quests.42.description.9": "有聚能水晶的神殿长这样：",
  "ftbquests.chapter.arcane_2.quests.42.description.13": "要获得星辉合成台，只需要在露天的聚能水晶下方放置一个原版工作台。",
+
  "ftbquests.chapter.arcane_2.quests.42.description.15": "星辉合成台的合成界面下方有一个显示存储星能的量表。部分配方需要大量星能。请确保你已阅读任务“&a祭坛基础提升！&r”，以足够了解星能。",
  "ftbquests.chapter.arcane_2.quests.42.description.17": "请记住，星辉合成台不会在白天收集星能。其星能储量通常在午夜达到峰值。",
  "ftbquests.chapter.arcane_2.quests.42.description.19": "星能量表长这样：",
@@ -456,7 +472,9 @@
  "ftbquests.chapter.arcane_2.quests.65.description.6": "上图展示的是遁甲座（摩羯座）。",
  "ftbquests.chapter.arcane_2.quests.65.description.8": "当你发现一个星座时，按住潜行键，使你的鼠标出现于屏幕上，并用其勾勒出星座的形状。完成后即可解锁对应星座。在原本的星辉魔法中，你可以在天空中看到每一个已发现的星座，但在这个整合包中并非如此。想改变可看到星座的维度，需要关闭游戏并找到[整合包文件夹]/config中的astralsorcery-client.toml文件，填写“skyRenderingEnabled”条目，填写时需要为维度名称加上引号：\"minecraft:overworld\"，随后保存修改并启动游戏。（译者注：可能出现无法启动的情况，请做好备份，谨慎修改）",
  "ftbquests.chapter.arcane_2.quests.65.description.10": "最后一件事，即使你正确地勾勒了星座，但如果没有对应的星图，你将无法解锁这一星座。",
+
  "ftbquests.chapter.arcane_2.quests.66.subtitle": "制作圣甲虫来打开通往阿图姆世界的传送门。当你拥有圣甲虫后，请移步“维度探索”中的“阿图姆”",
+
  "ftbquests.chapter.arcane_2.quests.67.subtitle": "在后续的植物魔法中将用到魔力珍珠。不过你无法仅仅将魔力注入一颗常见的末影珍珠之中，你需要一些其他的东西……一些独特的东西。事情是这样的，制作一颗强大、但又不稳定的末影珍珠，我们确信这将让你的生活好过一些。提示：在辉光粉上按“U”查看其火盆配方",
  "ftbquests.chapter.arcane_2.quests.68.subtitle": "终极附魔装置。左键点击以获取更多信息",
  "ftbquests.chapter.arcane_2.quests.68.description.0": "群星映射台用于蚀刻玻璃以制作药水、给物品和书附魔。",
@@ -705,6 +723,7 @@
  "ftbquests.chapter.arcane_3.quests.46.subtitle": "神话黏土将被用于制作3级魔符",
  "ftbquests.chapter.arcane_3.quests.47.subtitle": "非凡黏土将被用于制作2级魔符",
  "ftbquests.chapter.arcane_3.quests.48.subtitle": "这个祭坛允许你召唤流浪商人（使用有星辉块的配方），或召唤锦致装饰中的红商人（不能说一点用都没有，只能说在90%的情况下都没用）。这个祭坛需要一个多方块结构才能正常工作（所有仪式的结构都相同）。使用JEI查看所需的结构",
+
  "ftbquests.chapter.arcane_4.title": "奥秘蜕变 - 4",
  "ftbquests.chapter.arcane_4.quests.0.subtitle": "传说是真的。左键点击以获取更多信息",
  "ftbquests.chapter.arcane_4.quests.0.description.0": "贤者之石，正如传说所言，是一个神秘的炼金术物质，能够将一些基础的金属，例如水银，转化为金或者银。",
@@ -717,7 +736,9 @@
  "ftbquests.chapter.arcane_4.quests.1.description.2": "凝聚器也可以使用相邻的反物质继电器或能量收集器中产生的EMC值。如果目标栏位中没有物品，能量凝聚器将停止转换。",
  "ftbquests.chapter.arcane_4.quests.1.description.4": "如果有足够的EMC储量，能量凝聚器可以瞬间将其它物品转化为目标物品。它也可将物品20个/秒，或者1个/tick的速度转化为EMC值。",
  "ftbquests.chapter.arcane_4.quests.1.description.6": "能量凝聚器的EMC存储上限是10,000,000EMC，所以你无法复制EMC值大于此的任何物品。",
+
  "ftbquests.chapter.arcane_4.quests.2.subtitle": "能量凝聚器2型是一种升级版的能量凝聚器，除了能更快地转化外，2型还拥有一个单独的物品栏用于输出，这个单独的物品栏可以用漏斗将产物从凝聚器中导出",
+
  "ftbquests.chapter.arcane_4.quests.3.subtitle": "初步EMC存储。左键点击以获取更多信息",
  "ftbquests.chapter.arcane_4.quests.3.description.0": "二级卡莱恩能量之星是等价交换中的一种EMC存储物品。它有200,000EMC容量，并能用于合成三级卡莱恩能量之星。",
  "ftbquests.chapter.arcane_4.quests.3.description.2": "可以将它放置于转化桌中，使用物品给其充能，或者放置于能量收集器、反物质继电器的输出栏位中。当放置于反物质继电器的输入栏位时，卡莱恩能量之星中的EMC将会转移至反物质继电器中。如果一个存有EMC的卡莱恩能量之星被放置于转化桌的“火焰”栏位中，卡莱恩能量之星将会被销毁并转化为EMC值，存储的EMC将消失。",
@@ -738,6 +759,7 @@
  "ftbquests.chapter.arcane_4.quests.11.description.0": "反物质继电器1型是等价交换中的EMC转移装置。",
  "ftbquests.chapter.arcane_4.quests.11.description.2": "这台机器有两种功能：第一，放入物品栏的任何物品都会被转化为EMC；第二，它能将EMC从能量收集器转移至能量凝聚器，转移速度最高可达64EMC/秒，并拥有100,000EMC的缓存。在转移过程中，相邻于能量收集器的一面会拥有1EMC的额外奖励。它也可以用EMC充能卡莱恩能量之星。",
  "ftbquests.chapter.arcane_4.quests.12.title": "暗物质",
+
  "ftbquests.chapter.arcane_4.quests.12.subtitle": "暗物质是整个宇宙中最致密的几种物质之一，唯一比它更加致密的物质是红物质。它是一种合成材料，可以用于制作强大的物品，包括工具和护甲",
  "ftbquests.chapter.arcane_4.quests.13.title": "红物质",
  "ftbquests.chapter.arcane_4.quests.13.subtitle": "实话说，我不知道为什么你拿着这个却没死。但无论怎么说，红物质都是整个宇宙中最致密的物质。就像它的弟弟，暗物质，红物质也可以制作极其强大的物品，比如工具和盔甲。它也是解锁游戏终局的必要前置",
@@ -759,6 +781,7 @@
  "ftbquests.chapter.arcane_4.quests.16.description.24": "第3步：第二层——在能量凝聚器的顶部放置一个物流管道（或者任何能运输物品的管道），然后将另外的能量收集器放置在反物质继电器暴露出的顶部。使用管道配置工具确保物流管道不与任何一个反物质继电器或能量收集器连接。",
  "ftbquests.chapter.arcane_4.quests.16.description.28": "第4步：第三层——要完成这个力量之花的模块，你只需要把物流管道接入一个外部容器，比如箱子。你也可以将荧石放在能量收集器上来最大化其效率。然后只需要增加更多反物质继电器重复这个模块即可。",
  "ftbquests.chapter.arcane_4.quests.16.description.32": "进一步，你可以通过增加模块来尽可能最大化提高物品复制效率。你也可以使用能量收集器和反物质继电器的任意组合方式。除了工作的效率，装置的等级不会产生任何影响。",
+
  "ftbquests.chapter.arcane_4.quests.16.description.34": "球形力量之花：相比于更大的花瓣形，球形力量之花是一种更小的力量之花放置方式，适用于一个“工作”的环境，这意味着你需要快速搭建一个力量之花，但不需要大量的EMC。",
  "ftbquests.chapter.arcane_4.quests.16.description.36": "例如：",
  "ftbquests.chapter.arcane_4.quests.16.description.40": "球形力量之花是一种更容易达到的放置方式，使EMC的生产更加容易，生产相同数量的EMC需要的空间更少。这通常作为一种最初的力量之花，因为相对于进阶的花瓣形力量之花，它足够便宜，且易于使用。",
@@ -859,6 +882,7 @@
  "ftbquests.chapter.atum_2.quests.17.subtitle": "大约为每件盔甲增加20点耐久度",
  "ftbquests.chapter.atum_2.quests.18.subtitle": "大约为每件盔甲增加17点耐久度",
  "ftbquests.chapter.atum_2.quests.19.subtitle": "大约为每件盔甲增加50点耐久度",
+
  "ftbquests.chapter.cooking.title": "烹饪！",
  "ftbquests.chapter.doggy_talents.title": "小狗天才",
  "ftbquests.chapter.doggy_talents.quests.0.title": "每次训练都有个开始",
@@ -902,7 +926,9 @@
  "ftbquests.chapter.doggy_talents.quests.7.description.34": "* 巡逻: 狗巡逻你用口哨划定的区域并攻击其中的任何实体。",
  "ftbquests.chapter.doggy_talents.quests.7.description.36": "最后，让我们谈谈在您给您的狗命名后出现在它的头上方的信息。下面是一个例子：",
  "ftbquests.chapter.doggy_talents.quests.7.description.40": "第一个括号（红色）将显示你的狗目前所处的模式。 第二个括号（橙色），将显示狗的饥饿度，狗像玩家一样需要食物，但是当狗死亡后，饥饿值不会减少。最后的括号显示狗的性别。",
+
  "ftbquests.chapter.doggy_talents.quests.7.description.42": "你应该牢记的一件事是，当狗没有任何食物并且它的饥饿值很低时。第一个括号(红色)将表示为“伤”，它来自于“无精打采”。 在这种模式下，你的狗无法帮助你任何东西，你必须照顾它，直到它恢复为止。只要给它们大量的食物，当然，还要有爱，它们就会毫无问题地回到正轨。",
+
  "ftbquests.chapter.doggy_talents.quests.8.title": "纪律源于命令",
  "ftbquests.chapter.doggy_talents.quests.8.subtitle": "让我们学习有关命令的内容。左击以获取更多信息",
  "ftbquests.chapter.doggy_talents.quests.8.description.0": "口哨可以远距离给你的狗传达命令。命令如下：",
@@ -911,7 +937,9 @@
  "ftbquests.chapter.doggy_talents.quests.8.description.6": "坐下 - 让你的狗坐下。",
  "ftbquests.chapter.doggy_talents.quests.8.description.8": "OK - 将使您的狗保持在当前模式。",
  "ftbquests.chapter.doggy_talents.quests.8.description.10": "牧羊人 - 这个模式只适用于牧羊狗技能点被加点。这个模式会使你的狗狗处于温顺模式，赶附近的牲畜，这样就能让你更好的远距运输他们。",
+
  "ftbquests.chapter.doggy_talents.quests.8.description.12": "待命 - 该模式将发射一个雪球，其像一束光引导你的狗。 当雪球击中一个生物，你的狗就会攻击它。",
+
  "ftbquests.chapter.doggy_talents.quests.8.description.14": "狂风怒吼 - 该模式仅会在用技能点激活了狂风怒吼后才能使用。你的狗将怒吼并使附近的敌人眩晕几秒。",
  "ftbquests.chapter.doggy_talents.quests.8.tasks.0.title": "知道了！",
  "ftbquests.chapter.doggy_talents.quests.9.title": "我们来玩接球游戏吧！",
@@ -1893,14 +1921,17 @@
  "ftbquests.chapter.Gear_3.quests.92.description.0": "你未来要制造的东西的原子需要融合在一起，字面意思上的。要实现这点，你需要用到合成核心。",
  "ftbquests.chapter.Gear_3.quests.92.description.2": "在这个机器上的每次合成都需要消耗一定量的RF/FE，核心周围也需要有不同数量的基座（多余的基座没有影响）。",
  "ftbquests.chapter.Gear_3.quests.92.description.4": "要合成一个配方，需要给核心和附近的基座提供所需的材料。例如，制作破碎的奇点需要将一个量子缠绕奇点放在核心上，其它的材料放在基座上。",
+
  "ftbquests.chapter.Gear_3.quests.92.description.6": "如果材料和能量已经就位，配方将开始合成。产物会掉落在核心附近。",
  "ftbquests.chapter.Gear_3.quests.92.description.8": "请记住，每个配方消耗的能量是不同的。此外，有些配方会有不同的耗电率，这不能被改变。",
+
  "ftbquests.chapter.Gear_3.quests.93.subtitle": "量子纠缠采矿机。左键点击以获取更多信息",
  "ftbquests.chapter.Gear_3.quests.93.description.0": "挖矿有时候真的很累人，即使你有扫描器。不过，我们给那些厌倦了总是为那点铁什么的资源而探洞的人准备了好东西，数字型采矿机。",
  "ftbquests.chapter.Gear_3.quests.93.description.2": "这个机器可以自动过滤并采集矿石方块。有了它，你就可以指定你想从地里过滤并采集什么矿物/方块，你想在Y坐标多少的地方采矿，你是否使用精准采集采矿物/方块，等等等等。",
  "ftbquests.chapter.Gear_3.quests.93.description.4": "数字型采矿机有四个端口。位于下面和侧面的两个绿色端口用于给它供电。上面的黄色端口用于将物品抽取进采矿机。“等等，进？”没错，采完矿物/方块后，采矿机可以用你选择的方块填充矿物/方块挖掘后的空洞。最后，机器背面的黄色端口用于输出采集的矿物/方块。",
  "ftbquests.chapter.Gear_3.quests.93.description.6": "让我们看看这个机器的界面长啥样：",
  "ftbquests.chapter.Gear_3.quests.93.description.10": "这里的一些按钮我们已经在冶金灌注机那里讲过了，如果你对它们有什么疑问，请查阅冶金灌注机的任务，因为我在这里只会介绍那些“新”按钮。",
+
  "ftbquests.chapter.Gear_3.quests.93.description.12": "让我们从左上角的按钮开始。这是显示采矿机工作区域全息图的按钮。",
  "ftbquests.chapter.Gear_3.quests.93.description.14": "黑色区域的三个按钮分别用于开关自动弹出功能（采矿机采集的所有材料都会被自动弹出到与背面端口相连接的容器中——如果容器满了，采矿机就会把物品全部存在它的物品栏里），自动拉取功能（采矿机会从与顶部端口相连接的容器中自动拉取物品），精准采集功能（这需要更多电量）。",
  "ftbquests.chapter.Gear_3.quests.93.description.16": "启动按钮将启动采矿机。",
@@ -1949,6 +1980,7 @@
  "ftbquests.chapter.Gear_3.quests.100.description.8": "现在让我们看看如何搭建这个结构。热力蒸馏塔是一个底面积4x4、高度3～18格的结构。高度越高，其内部储罐越大。这是最小的热力蒸馏塔的样子：",
  "ftbquests.chapter.Gear_3.quests.100.description.12": "它的其中一面必须有一个热力蒸馏控制器，其余结构由热力蒸馏方块建成。你可以按需安装一些热力蒸馏阀门，用于液体的输入/输出。阀门数量不限，但不能安装在结构的边缘上，只能装在面上。",
  "ftbquests.chapter.Gear_3.quests.100.description.14": "好，现在你如何使用这个东西？水必须通过其一个阀门输入蒸馏塔。然后，通过一个阀门或与它的一个侧面直接接触来给蒸馏塔提供热能。“等等……热能？”对。 ",
+
  "ftbquests.chapter.Gear_3.quests.100.description.16": "通用机械有一个热量系统。某些多方块结构/机器会产生一定的热能。这种热能可以通过热导线缆传输。把这种热能想象为与RF/FE相同的东西。你可以用电阻加热装置产热(使用RF/FE产热)。然后，热能被用来驱动蒸馏塔。热能还有其它的来源，但我们要尽量简化介绍。如果你想知道更多关于通用机械热能系统的信息，你可以自己研究研究它。",
  "ftbquests.chapter.Gear_3.quests.100.description.18": "PS：你所处的生物群系也会影响通用机械中的温度。",
  "ftbquests.chapter.Gear_3.quests.101.title": "好丑的东西！我爱他！！！<3",
@@ -2377,6 +2409,7 @@
  "ftbquests.chapter.introduction.quests.30.description.9": "它们中的一些会提供正面效果，另一些则会给予负面效果，这取决于它们在你物品栏的饮食菜单中显示的营养价值。",
  "ftbquests.chapter.introduction.quests.30.description.11": "我们建议你访问我们的Wiki来获取更多具体信息。",
  "ftbquests.chapter.introduction.quests.30.tasks.0.title": "点我！",
+
  "ftbquests.chapter.music.title": "音乐！",
  "ftbquests.chapter.music.quests.0.subtitle": "”但人无完人，我已竭力做到完美。“——《I'm Not A Saint》",
  "ftbquests.chapter.music.quests.1.subtitle": "天使拨动琴弦",
@@ -2594,6 +2627,7 @@
  "ftbquests.chapter.my_colony.quests.41.title": "模拟殖民地",
  "ftbquests.chapter.my_colony.quests.41.subtitle": "放置一个补给营地可以在其中找到建筑之杖，也可以制作一个。无论如何获取，建筑之杖经常在Minecolonies中使用，通过这个模组，你可以在我的世界中创造一个充满生机的小镇。",
  "ftbquests.chapter.my_colony.quests.42.subtitle": "下界矿场是下界矿工工作的地方。下界矿工前往下界，开采下界的资源。 下界矿场的等级决定了下界矿工带回的物品",
+
  "ftbquests.chapter.optional_challenges.title": "选择性挑战",
  "ftbquests.chapter.optional_challenges.quests.0.title": "本章的作用",
  "ftbquests.chapter.optional_challenges.quests.0.subtitle": "左键点击查看本章的更多信息",
@@ -2629,6 +2663,7 @@
  "ftbquests.chapter.optional_challenges.quests.10.title": "混沌的和平",
  "ftbquests.chapter.optional_challenges.quests.10.subtitle": "创建一个电脑装置，能够自行控制和调节神龙反应堆。",
  "ftbquests.chapter.optional_challenges.quests.10.tasks.0.title": "完成",
+
  "ftbquests.chapter.oregen.title": "矿石生成信息",
  "ftbquests.chapter.oregen.quests.0.title": "铜矿石",
  "ftbquests.chapter.oregen.quests.0.subtitle": "生成在主世界，Y坐标44到60之间",
@@ -3426,6 +3461,7 @@
  "ftbquests.chapter.storage_2.quests.22.description.4": "- 你可以将管道和方块分离。默认情况下，管道能连接任意可连接的方块。",
  "ftbquests.chapter.storage_2.quests.22.description.6": "- Shift+右键点击管道，可以非常轻松的破坏它们。",
  "ftbquests.chapter.storage_2.quests.22.description.8": "- 当你右手持有扳手，左手持有一个方块时，你可以将这个方块作为管道的覆盖板放置。可以通过手持扳手Shift+右键移除这些覆盖板。",
+
  "ftbquests.chapter.storage_2.quests.22.tasks.0.title": "Oki!",
  "ftbquests.chapter.storage_2.quests.23.subtitle": "这是更好的管道系统所有模块的基底。左键点击以查看更多信息",
  "ftbquests.chapter.storage_2.quests.23.description.0": "模块能让你的管道，以及整个系统变得更好。",
@@ -3677,6 +3713,7 @@
  "ftbquests.chapter.storage_3.quests.57.description.10": "长方体的内部可以用输导元件、输导供应器或空气填充。然而你至少需要一个输导元件和输导供应器。如果没有输导供应器的话，矩阵会无法输入或输出能量。",
  "ftbquests.chapter.storage_3.quests.57.description.12": "长方体内部的模块可以是不同级别的。",
  "ftbquests.chapter.storage_3.quests.58.title": "i9",
+
  "ftbquests.chapter.storage_3.quests.58.subtitle": "请不要弯曲引脚。左键点击以获取更多信息",
  "ftbquests.chapter.storage_3.quests.58.description.0": "与你目前为止所使用的其他处理器不同，这个处理器非常独特。",
  "ftbquests.chapter.storage_3.quests.58.description.2": "它的主要作用是稳定ME核心，ME核心会注入你的ME控制器，完全激发你的ME系统的潜力。",
@@ -4495,6 +4532,7 @@
  "ftbquests.chapter.useful_items_1.quests.45.subtitle": "拥有这个升级的鼠鼠，会捡起列在这个升级的列表中列出的物品",
  "ftbquests.chapter.useful_items_1.quests.46.title": "鼠露谷物语",
  "ftbquests.chapter.useful_items_1.quests.46.subtitle": "这个升级可以让你的鼠鼠收获作物而不破坏它们。然而，这样有点超模了，它只能收获原版作物",
+
  "ftbquests.chapter.useful_items_1.quests.47.title": "看！是一只鸟！是一架飞机！是一个……鸽子？",
  "ftbquests.chapter.useful_items_1.quests.47.subtitle": "在冒险过程中照顾鼠鼠，是一件很麻烦的事情。这个升级允许你的鼠鼠飞行，让你的生活更轻松",
  "ftbquests.chapter.useful_items_1.quests.48.title": "鼠鼠长出了鱼鳃",
