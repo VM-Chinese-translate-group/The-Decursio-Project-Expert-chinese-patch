@@ -83,7 +83,7 @@
   "item.decursiomod.printed_master_circuit": "主板",
   "item.decursiomod.master_processor": "主控制处理器",
   "item.decursiomod.inscriber_master_press": "ME控制器框架压印模板",
-  "block.decursiomod.dielectric_block": "绝缘块",
+  "block.decursiomod.dielectric_block": "电解质块",
   "item.decursiomod.dielectric_compound": "绝缘混合物",
   "item.decursiomod.energized_iron": "充能铁锭",
   "item.decursiomod.electrolysed_alloy": "电解合金锭",
